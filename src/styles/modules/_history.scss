@@ -1,0 +1,54 @@
+// ==========================================================================
+// History Module styles
+// ==========================================================================
+
+.history {
+  .history-second-row {
+    position: relative;
+  }
+
+  .chip {
+    border-left: 4px solid;
+    border-color: transparent;
+
+    &.bestahlung {
+      border-color: forestgreen;
+    }
+
+    &.bildgebung {
+      border-color: chartreuse;
+    }
+
+    &.biopsie {
+      border-color: blueviolet;
+    }
+
+    &.fokale-therapie {
+      border-color: deepskyblue;
+    }
+
+    &.medikamente {
+      border-color: turquoise;
+    }
+
+    &.molekulare-diagnostik {
+      border-color: orangered;
+    }
+
+    &.op {
+      border-color: crimson;
+    }
+
+    &.psa-werte {
+      border-color: hotpink;
+    }
+
+    &.studien {
+      border-color: darkorange;
+    }
+
+    &.testosteron-werte {
+      border-color: gold;
+    }
+  }
+}

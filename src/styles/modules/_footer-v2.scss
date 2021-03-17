@@ -1,0 +1,63 @@
+// ==========================================================================
+// Footer v2 Section
+// ==========================================================================
+
+.footer-v2 {
+  a {
+    color: $lettering-black;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  ul {
+    @extend .font-xs;
+  }
+
+  .colophon {
+    border-top: 1px solid;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .footer-v2 {
+    .content .group {
+      & > div {
+        flex: 1 1 auto;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .footer-v2 {
+    .content {
+      flex-direction: row;
+      justify-content: space-between;
+
+      h6 {
+        margin-top: 0;
+      }
+
+      .group-description {
+        flex-basis: 50%;
+      }
+
+      .group-links {
+        flex-basis: 50%;
+        justify-content: space-around;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .footer-v2 {
+    .content {
+      .group-description {
+        flex-basis: 33%;
+      }
+    }
+  }
+}

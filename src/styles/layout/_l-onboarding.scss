@@ -1,0 +1,28 @@
+// ==========================================================================
+// Custom styles of Onboarding Pages.
+// ==========================================================================
+
+.l-onboarding {
+  .content {
+    box-sizing: border-box;
+    min-height: 100vh;
+
+    .slide {
+      display: none;
+
+      &.active {
+        display: block;
+        flex-grow: 1;
+      }
+    }
+  }
+}
+
+.l-onboarding,
+.l-login,
+.l-password,
+.l-email,
+.l-privacy {
+  max-width: 620px;
+  margin: 0 auto;
+}

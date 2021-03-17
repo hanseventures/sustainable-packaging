@@ -1,0 +1,98 @@
+// ==========================================================================
+// Forms > Select field, e.g. used in product-template.
+// Based on http://wtfforms.com
+// ==========================================================================
+
+.radio-image-selector {
+  fieldset {
+    display: inline-block;
+    padding: 0;
+  }
+
+  input {
+    -moz-appearance: radio;
+    -webkit-appearance: radio;
+    appearance: radio;
+    border: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 60;
+  }
+
+  input:checked + label {
+    -webkit-filter: none;
+    -moz-filter: none;
+    filter: none;
+  }
+
+  label {
+    display: inline-table;
+    text-align: left;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70px;
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    // -webkit-filter: brightness(1) grayscale(0.5) opacity(1);
+    // -moz-filter: brightness(1) grayscale(0.5) opacity(1);
+    // filter: brightness(1) grayscale(0.5) opacity(1);
+    background-color: $grey-lightest;
+    border: $border-thickness solid $grey-light;
+    border-radius: $border-radius-md;
+    position: relative; // ie11 fix
+    line-height: 1rem;
+    padding: 1rem 0 1rem 3rem;
+    box-sizing: border-box;
+
+    strong {
+      line-height: 2rem;
+      display: block;
+    }
+
+    span {
+      display: inline-block;
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+
+    img {
+      box-shadow: 0 1px 2px 0 rgba($black, 0.6);
+      margin: 0.25em auto;
+      pointer-events: none; // ie11 fix
+      width: 90%;
+    }
+
+    &:hover {
+      // -webkit-filter: brightness(1.2) grayscale(0) opacity(1);
+      // -moz-filter: brightness(1.2) grayscale(0) opacity(1);
+      // filter: brightness(1.2) grayscale(0) opacity(1);
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .radio-image-selector {
+    label img {
+      float: none;
+      margin: 0 1.5em 1em;
+      width: calc(100% - 4.25em);
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .radio-image-selector {
+    label {
+      padding: 1rem;
+      text-align: center;
+
+      strong {
+        display: block;
+        font-size: 1.25rem;
+      }
+    }
+  }
+}

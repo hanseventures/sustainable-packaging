@@ -1,0 +1,25 @@
+// ==========================================================================
+// Custom styles of findings subpages.
+// ==========================================================================
+
+.l-findings-questions {
+  .container {
+    .findings--heading {
+      svg {
+        width: 20px;
+        flex: 0 0 auto;
+        margin-top: 5px;
+
+        path {
+          fill: $grey-dark;
+        }
+      }
+    }
+
+    .findings--cta {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 600px;
+    }
+  }
+}

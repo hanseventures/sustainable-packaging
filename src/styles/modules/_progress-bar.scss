@@ -1,0 +1,72 @@
+// ==========================================================================
+// Progress Bars
+// ==========================================================================
+
+.progress-bar-group {
+  border: $border-thickness solid $black;
+  border-radius: $border-radius-md;
+  position: relative;
+  margin-bottom: 1rem;
+  padding: 2rem 1.5rem 1.5rem;
+  flex-basis: 100%;
+  box-sizing: border-box;
+  top: 1rem;
+
+  h5 {
+    margin: 0;
+    position: absolute;
+    top: -1rem;
+    left: 0.5rem;
+    background-color: $white;
+    display: inline;
+    box-sizing: border-box;
+    padding: 0 0.5rem;
+  }
+}
+
+.progress-bar-wrapper {
+  margin-bottom: 1rem;
+  flex-basis: 100%;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  h6 {
+    font-size: 1rem;
+    margin: 0 0 0.5rem;
+  }
+
+  div {
+    border-radius: $border-radius-md;
+  }
+
+  .progress-bar {
+    background-color: $grey-light;
+
+    .progress-bar-inner {
+      background-color: $secondary;
+      width: auto;
+      height: 20px;
+      font-size: 1rem;
+      color: $white;
+      text-align: right;
+      padding: 0.25rem 0.75rem;
+      line-height: 1.25rem;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  // .progress-bar-group {
+  //   flex-basis: 49%;
+  // }
+
+  // .progress-bar-wrapper {
+  //   flex-basis: 49%;
+  //
+  //   &.flex-basis-full {
+  //     flex-basis: 100%;
+  //   }
+  // }
+}

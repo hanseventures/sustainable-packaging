@@ -1,0 +1,48 @@
+// ==========================================================================
+// All styles for message compose page.
+// ==========================================================================
+
+.l-messages-compose {
+  .message--inputs {
+    // padding: 10px 20px;
+    // display: flex;
+    // flex-direction: column;
+    // background-color: ;
+    border-radius: $border-radius-md;
+    overflow: hidden;
+    position: relative;
+
+    input,
+    textarea {
+      background-color: transparent;
+      border-width: 0;
+      border-radius: 0;
+    }
+
+    input {
+      border-bottom: 1px solid $white;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    small {
+      background-color: rgba($grey-lighter, 0.8);
+      bottom: 0;
+      position: absolute;
+      right: 0;
+      z-index: 100;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .l-messages-compose {
+    .message--cta {
+      .btn {
+        flex: 0 1 200px;
+      }
+    }
+  }
+}

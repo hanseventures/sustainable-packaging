@@ -1,0 +1,21 @@
+// ==========================================================================
+// Custom contact page styles
+// ==========================================================================
+
+.contact {
+  .hero {
+    .hero-image.full-layout {
+      background-position: 60% center !important;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .contact {
+    .hero {
+      .hero-image.full-layout {
+        background-position: right center !important;
+      }
+    }
+  }
+}

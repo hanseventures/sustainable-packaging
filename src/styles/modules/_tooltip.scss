@@ -1,0 +1,54 @@
+// ==========================================================================
+// Tooltip Classes
+// ==========================================================================
+
+.tooltip {
+  font-size: 0.7em;
+  color: $grey-dark;
+  left: -4px;
+  position: relative;
+  width: 33px;
+  top: -8px;
+
+  .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: $grey-darker;
+    font-family: $font-family-base;
+    font-size: 1rem;
+    font-style: normal;
+    color: $white;
+    border-radius: $border-radius-md;
+    padding: 0.75em;
+    box-sizing: border-box;
+    position: absolute;
+    top: 1.75em;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 110;
+    right: 0;
+    // margin-right: -12px;
+    // max-width: 55vw;
+    line-height: 1.4em;
+    font-weight: 400;
+    white-space: normal;
+    left: -100px;
+    text-align: left;
+  }
+
+  .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 104px;
+    margin-top: -14px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent $grey-darker;
+  }
+
+  &:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+}

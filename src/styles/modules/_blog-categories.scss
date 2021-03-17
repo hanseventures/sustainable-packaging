@@ -1,0 +1,17 @@
+// ==========================================================================
+// News post section with modal
+// ==========================================================================
+
+.blog-categories {
+  .blog-entries {
+    overflow: hidden;
+  }
+
+  .filter-element {
+    display: none; /* Hidden by default */
+
+    &.show {
+      display: block;
+    }
+  }
+}

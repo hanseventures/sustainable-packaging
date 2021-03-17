@@ -1,0 +1,69 @@
+// ==========================================================================
+// Custom styles Patient Dashboard.
+// ==========================================================================
+
+.l-dashboard-patient {
+  .content.d-grid {
+    grid-template-columns: auto;
+  }
+}
+@include media-breakpoint-up(md) {
+  .l-dashboard-patient {
+    .content.d-grid {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "invitation invitation" "profile profile" "profile-progress missing-data" "history history";
+
+      .invitation {
+        grid-area: invitation;
+      }
+
+      .profile.card {
+        grid-area: profile;
+      }
+
+      .profile-progress {
+        grid-area: profile-progress;
+      }
+
+      .missing-data {
+        grid-area: missing-data;
+      }
+
+      .history {
+        grid-area: history;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .l-dashboard-patient {
+    .profile {
+      .profile--user {
+        max-width: 50%;
+      }
+    }
+  }
+}
+
+// @include media-breakpoint-up(xxl) {
+//   .l-dashboard-patient {
+//     .content.d-grid {
+//       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+//       grid-template-areas: "invitation invitation invitation invitation invitation invitation" "profile profile profile-progress profile-progress missing-data missing-data" "history history history . . .";
+//     }
+//
+//     .profile {
+//       &.card {
+//         background-color: $white;
+//         border-right: 1px solid lightgrey;
+//         padding: 0 1rem 0 0;
+//         border-radius: 0;
+//       }
+//
+//       .profile--preview {
+//         grid-template-columns: auto;
+//       }
+//     }
+//   }
+// }

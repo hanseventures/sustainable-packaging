@@ -1,0 +1,46 @@
+// ==========================================================================
+// Custom competencies page styles
+// ==========================================================================
+
+.competencies {
+  .hero {
+    .hero-image {
+      background-position: 80% center !important;
+    }
+  }
+
+  section.text-image {
+    .content {
+      @extend .pt-5;
+    }
+  }
+
+  section#klientel {
+    .content {
+      @extend .pb-0;
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .competencies {
+    .hero {
+      .hero-image.full-layout {
+        .cta-wrapper .btn {
+          padding: 20px;
+          width: 45%;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .competencies {
+    .hero {
+      .hero-image.full-layout {
+        background-position: center 30% !important;
+      }
+    }
+  }
+}

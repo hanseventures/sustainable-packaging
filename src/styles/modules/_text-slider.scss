@@ -1,0 +1,66 @@
+// ==========================================================================
+// Text + slider section
+// ==========================================================================
+
+.text-slider {
+  .content {
+    grid-template-areas:
+      "group-description"
+      "carousel-main";
+  }
+
+  .group-description {
+    grid-area: group-description;
+  }
+
+  .carousel-main {
+    background-color: white;
+    border-radius: $border-radius-lg;
+    // padding: 1em;
+    grid-area: carousel-main;
+
+    .carousel-cell {
+      width: 100%;
+    }
+
+    .flickity-prev-next-button {
+      display: none;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .text-slider {
+    .content {
+      grid-template-areas: "group-description carousel-main";
+      grid-template-columns: 2fr 3fr;
+    }
+
+    .carousel-main {
+      .carousel-cell {
+        // width: 84%;
+      }
+
+      .flickity-prev-next-button {
+        display: block;
+        // top: auto;
+        // bottom: -70px
+
+        &.previous {
+          left: 4px;
+        }
+
+        &.next {
+          right: 4px;
+        }
+      }
+    }
+
+    .flickity-page-dots {
+      // top: 0;
+      // left: 0;
+      // width: auto;
+      // bottom: inherit;
+    }
+  }
+}

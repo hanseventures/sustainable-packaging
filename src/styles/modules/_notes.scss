@@ -1,0 +1,36 @@
+// ==========================================================================
+// Notes Module styles
+// ==========================================================================
+.notes {
+  .notes-header {
+    height: 41px;
+
+    input {
+      border: none;
+      border-bottom: 1px solid $grey-dark;
+      border-radius: 0;
+      max-width: 200px;
+    }
+  }
+
+  .notes-content {
+    .tabs {
+      button {
+        background: $grey-light;
+        padding: 1em;
+        outline: none;
+
+        &.active {
+          background: $grey-lighter;
+        }
+      }
+    }
+
+    form {
+      background: $grey-lighter;
+      border-top-right-radius: $border-radius-md;
+      border-bottom-left-radius: $border-radius-md;
+      border-bottom-right-radius: $border-radius-md;
+    }
+  }
+}

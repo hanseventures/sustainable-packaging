@@ -1,0 +1,29 @@
+// ==========================================================================
+// Custom transparency-report styles
+// ==========================================================================
+
+.transparency-report {
+  .hero {
+    .hero-image.minimal-layout {
+      background-position: center center !important;
+    }
+  }
+
+  section.text-content .content {
+    @extend .pb-3;
+  }
+
+  section.btn-download .content {
+    @extend .pt-3;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .transparency-report {
+    .hero {
+      .hero-image.minimal-layout {
+        background-position: center right !important;
+      }
+    }
+  }
+}

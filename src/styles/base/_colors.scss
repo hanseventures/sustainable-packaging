@@ -1,0 +1,74 @@
+// ==========================================================================
+// Colors
+// ==========================================================================
+
+// Non-Colors
+// -------------------------
+$white:               #FFF;
+$grey-lightest:       #F2F2F2;
+$grey-lighter:        #E2E2E2; // DNAmed Brand Color ~ Grey 5
+$grey-light:          #C9C9C9; // Black - Focus Overlay
+$grey-medium:         #878787;
+$grey-dark:           #828282;
+$grey-darker:         #5C5C5C; // Black - Medium Empbasis
+$black:               #20242c; // High Emphasis
+
+// Template Colors
+// -------------------------
+$primary:             #0092CF;
+$primary-lighter:     lighten($primary, 8%);
+$primary-darker:      darken($primary, 8%);
+$secondary:           #004562;
+$secondary-lighter:   lighten($secondary, 8%);
+$tertiary:            #79BCCD;
+$accept:              #27AE60;
+$deny:                #EB5757;
+// $background-1:        #E2E2E2;
+// $background-2:        #F2EFEC;
+// $form-borders:        #CCC;
+// $highlight:           #CF007E;
+// $lettering-black:     #191919;
+
+// Notification Colors
+// -------------------------
+$success:             #6FCF97;
+$danger:              #D22940;
+$attention:           #F2C94C;
+$info:                #56CCF2;
+
+// Social Networks
+// -------------------------
+// $xing:                #018084;
+// $linkedin:            #2867B2;
+
+// Background Colors
+// -------------------------
+.bg-wht {
+  background-color:   $white;
+}
+
+.bg-gry {
+  background-color:   $grey-lighter;
+}
+
+.bg-wht-80 {
+  // background-color:   rgba($white, 0.8);
+}
+
+.bg-brwn-lght {
+  // background-color:   $background-1;
+}
+
+.bg-brwn-lghtst {
+  // background-color:   $background-2;
+}
+
+.bg-brwn-radial {
+  // background-image:   radial-gradient($grey-lightest, $background-1, $background-1);
+}
+
+// Background Colors
+// -------------------------
+.font-wht {
+  color:   $white;
+}

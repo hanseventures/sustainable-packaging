@@ -1,0 +1,17 @@
+// ==========================================================================
+// Compatibility fixes
+// ==========================================================================
+
+// Add Momentum Scrolling on iOS
+// -------------------------
+.smooth-ios-scroll-y {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.smooth-ios-scroll-x {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}

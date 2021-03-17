@@ -1,0 +1,32 @@
+// ==========================================================================
+// Patient Profile Styles
+// ==========================================================================
+
+.l-profile {
+  section {
+    border-bottom: 1px solid $grey-lighter;
+    border-top: 1px solid $grey-lighter;
+    padding: 1em 1em 1.5em;
+    margin-top: -1px;
+
+    &:hover {
+      background-color: $grey-lightest;
+    }
+
+    .group {
+      margin-bottom: 1em;
+
+      span {
+        display: block;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .l-profile {
+    .d-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

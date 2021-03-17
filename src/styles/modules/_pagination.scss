@@ -1,0 +1,61 @@
+// ==========================================================================
+// Pagination styles
+// ==========================================================================
+
+.pagination {
+  .pagination-nav {
+    span,
+    button {
+      border-radius: $border-radius-xxl;
+      font-weight: $font-weight-medium;
+      width: 2.5em;
+      height: 2.5em;
+      line-height: 2.5em;
+      text-align: center;
+
+      &.is-active {
+        background-color: $primary;
+        color: $white;
+      }
+
+      svg {
+        height: 16px;
+      }
+
+      &.prev svg {
+        transform: translateX(-2px);
+      }
+
+      &.next svg {
+        transform: rotate(180deg) translateX(-2px);
+      }
+    }
+
+    button {
+      &:hover {
+        background-color: $primary-lighter;
+        color: $white;
+
+        svg {
+          path {
+            fill: $white;
+          }
+        }
+      }
+    }
+
+    span {
+      svg {
+        path {
+          fill: $grey-dark;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .pagination {
+    //
+  }
+}

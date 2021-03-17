@@ -1,0 +1,41 @@
+// ==========================================================================
+// Text Human Ressources section
+// ==========================================================================
+
+.text-human-ressources {
+  .content {
+    grid-template-areas:
+      "group-description"
+      "group-contact";
+  }
+
+  .group-description {
+    grid-area: group-description;
+
+    p.d-grid {
+      grid-template-columns: auto 1fr;
+    }
+  }
+
+  .group-contact {
+    grid-area: group-contact;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .text-human-ressources {
+    .content {
+      grid-template-areas: "group-description group-contact";
+      grid-template-columns: 3fr 2fr;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .text-human-ressources {
+    .content {
+      grid-template-areas: "group-description group-contact";
+      grid-template-columns: 3fr 4fr;
+    }
+  }
+}

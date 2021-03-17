@@ -1,0 +1,132 @@
+// ==========================================================================
+// Datepicker Styles
+// ==========================================================================
+
+.mx-datepicker-content {
+  input[type=text] {
+    height: 3rem;
+  }
+}
+
+.mb-2 .mx-datepicker {
+  width: 100%;
+}
+
+.mx-datepicker-popup {
+  width: 100%;
+  max-width: 355px;
+  border-radius: $border-radius-md;
+
+  th {
+    color: $grey-darker;
+    font-weight: normal;
+    font-size: 0.8rem;
+  }
+
+  .mx-datepicker-content {
+    .mx-btn {
+      color: $grey-darker;
+      font-weight: normal;
+    }
+
+    .mx-calendar {
+      width: 100%;
+    }
+
+    .mx-calendar-content {
+      width: 100%;
+      height: 280px;
+
+      .cell.active {
+        color: $white;
+      }
+    }
+
+    .mx-btn-icon-double-left,
+    .mx-btn-icon-double-right {
+      display: none;
+    }
+
+    .mx-icon-double-left::after,
+    .mx-icon-double-left::before,
+    .mx-icon-double-right::after,
+    .mx-icon-double-right::before,
+    .mx-icon-left::before,
+    .mx-icon-right::before {
+      width: 14px;
+      height: 14px;
+    }
+
+    .mx-calendar-week-mode .mx-date-row.mx-active-week {
+      td {
+        border: solid $border-thickness $secondary;
+      }
+
+      td:first-child {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-color: $highlight;
+      }
+
+      td:last-child {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+      }
+
+      .mx-week-number {
+        background-color: $highlight;
+        color: $white;
+      }
+
+      .cell.disabled {
+        background-color: $secondary;
+        color: $white;
+      }
+    }
+
+    .mx-week-number-header {
+      display: none;
+    }
+
+    .mx-table-date td,
+    .mx-table-date th {
+      font-size: 1rem;
+      height: 2.5rem;
+    }
+
+    .cell {
+      color: $grey-darker;
+    }
+
+    .mx-date-row {
+      .disabled {
+        background-color: $white;
+        color: $grey-light;
+      }
+
+      td.mx-week-number {
+        display: none;
+      }
+    }
+
+    .mx-week-number {
+      font-weight: bold;
+      color: $primary;
+      opacity: 1;
+    }
+
+    .mx-table-date .cell.not-current-month {
+      color: $grey-darker;
+
+      &.disabled {
+        color: $grey-light;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .mb-2 .mx-datepicker {
+    width: 70%;
+  }
+}

@@ -1,0 +1,195 @@
+// ==========================================================================
+// Image with List
+// ==========================================================================
+
+.image-list {
+  background-color: $grey-lightest;
+  padding: 2em 0;
+
+  .content.d-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 0 1em;
+    grid-template-areas: "headline_first" "img_first" "text_first" "list_first" "target_group_first" "headline_second" "img_second"  "text_second" "list_second" "target_group_second" "vorteile";
+    margin: 2rem auto;
+  }
+
+  .content {
+    h4 {
+      margin: 1rem 0;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    .text-wrapper {
+      &.headline_first {
+        grid-area: headline_first;
+      }
+
+      &.headline_second {
+        grid-area: headline_second;
+      }
+
+      &.text_first {
+        grid-area: text_first;
+      }
+
+      &.text_second {
+        grid-area: text_second;
+      }
+
+      &.list_first {
+        grid-area: list_first;
+      }
+
+      &.list_second {
+        grid-area: list_second;
+      }
+
+      &.vorteile {
+        grid-area: vorteile;
+      }
+    }
+
+    img {
+      grid-area: image;
+
+      &.img_first {
+        grid-area: img_first;
+      }
+
+      &.img_second {
+        grid-area: img_second;
+      }
+    }
+
+    .img_wrapper,
+    .text-wrapper,
+    .progress-bar-group {
+      background: $white;
+      padding: 0 1rem;
+      border-radius: $border-radius-md;
+    }
+
+    .headline_first,
+    .headline_second,
+    .text_first,
+    .text_second {
+      padding: 0 1rem;
+    }
+
+    .progress-bar-group {
+      padding-bottom: 1rem;
+    }
+  }
+
+  .intro {
+    margin: 1em 0;
+  }
+
+  img {
+    margin: 0 auto;
+    mix-blend-mode: darken;
+  }
+
+  p,
+  ul {
+    font-size: 1.25rem;
+  }
+
+  ul.list-vertical.bullets {
+    list-style-type: none;
+    margin-left: 2em;
+
+    li {
+      text-indent: -1.4em;
+      hyphens: auto;
+      margin: 0;
+
+      i {
+        color: $secondary;
+      }
+    }
+  }
+
+  .progress-bar-group {
+    border: none;
+    top: 0;
+    padding: 0;
+
+    &.target_group_first {
+      grid-area: target_group_first;
+    }
+
+    &.target_group_second {
+      grid-area: target_group_second;
+    }
+  }
+
+  .progress-bar-group .h-5,
+  .progress-bar-group h5 {
+    margin: 0 0 1rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    padding: 0;
+    flex-basis: 100%;
+    background: none;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .image-list {
+    .content {
+      max-width: 1024px;
+    }
+
+    .content.d-grid {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "headline_first headline_second"
+        "img_first img_second"
+        "text_first text_second"
+        "list_first list_second"
+        "target_group_first target_group_second"
+        "vorteile vorteile";
+    }
+
+    .overview.d-grid {
+      grid-template-columns: 1fr;
+      grid-auto-rows: 1fr;
+      grid-gap: 1em;
+      grid-area: overview;
+      align-self: start;
+      margin: 2rem auto;
+
+      .intro {
+        grid-column: 1 / 4;
+
+        &.text-xs-center {
+          text-align: left;
+          margin: 0 0 1em;
+
+          h2 {
+            margin: 0 0 0.5em;
+          }
+        }
+      }
+
+      a {
+        grid-column: 1 / 4;
+      }
+      // p,
+      // ul {
+      //   font-size: 1.25rem;
+      // }
+    }
+
+    img {
+      max-width: 500px;
+      width: 100%;
+    }
+  }
+}

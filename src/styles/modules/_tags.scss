@@ -1,0 +1,31 @@
+// ==========================================================================
+// Tags
+// ==========================================================================
+
+.tag {
+  box-sizing: border-box;
+  border-radius: $border-radius-xxl;
+  font-weight: $font-weight-regular;
+  padding: 0.6667em 1em;
+  font-size: 0.6667em;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+
+  &.tag--approved {
+    background-color: $success;
+    color: rgba($white, 0.9);
+  }
+
+  &.tag--sequencing-active,
+  &.tag--study-active {
+    background-color: $info;
+    color: rgba($black, 0.75);
+  }
+
+  &.tag--study-invitation {
+    background-color: $attention;
+    color: rgba($black, 0.75);
+  }
+}

@@ -1,0 +1,20 @@
+// ==========================================================================
+// Custom styles of findings-overview layout.
+// ==========================================================================
+
+.l-findings-overview {
+  section {
+    & ~ section {
+      @extend .mt-4;
+    }
+  }
+
+  .chip {
+    &.is-filled {
+      background-color: #25c48a;
+    }
+    svg {
+      transform: scale(0.8) rotate(180deg);
+    }
+  }
+}

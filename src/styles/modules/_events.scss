@@ -1,0 +1,101 @@
+// ==========================================================================
+// Events section
+// ==========================================================================
+
+.events {
+  .content {
+    text-align: center;
+  }
+
+  .box-events-feature {
+    background-color: $white;
+    color: $lettering-black;
+    display: flex;
+    flex-direction: column; // necessary for card w img
+
+    img {
+      display: none;
+    }
+
+    &:nth-child(1) {
+      background-color: $black;
+
+      img {
+        display: -webkit-box;
+        width: 100%;
+      }
+
+      small {
+        font-weight: $font-weight-extralight;
+      }
+
+      p,
+      h4,
+      small {
+        color: $white;
+      }
+
+      .btn.btn-primary-inverted {
+        border-color: $white;
+        color: $white;
+
+        &:hover {
+          background-color: $primary-lighter;
+          border-color: $primary-lighter;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .events {
+    .box-events-feature:nth-child(1) {
+      img {
+        object-fit: cover;
+        max-height: 400px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .events {
+    .box-wrapper {
+      grid-template-areas:
+        "event-01 event-01"
+        "event-02 event-03";
+    }
+
+    .box-events-feature {
+      & > div {
+        align-items: flex-start;
+        display: flex;
+        flex: 1 1 100%;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      &:nth-child(1) {
+        display: flex;
+        flex-direction: row;
+        grid-area: event-01;
+
+        img {
+          height: auto;
+          max-height: inherit;
+          width: 400px;
+        }
+      }
+
+      &:nth-child(2) {
+        grid-area: event-02;
+      }
+
+      &:nth-child(3) {
+        grid-area: event-03;
+      }
+    }
+  }
+}

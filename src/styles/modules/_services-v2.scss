@@ -1,0 +1,43 @@
+// ==========================================================================
+// Services section
+// ==========================================================================
+
+.services-v2 {
+  .content {
+    text-align: center;
+  }
+
+  .box-img-feature {
+    text-align: left;
+
+    img {
+      border-radius: 100%;
+      width: 140px;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .services-v2 {
+    .box-wrapper {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 2.5em;
+      margin-left: auto;
+      margin-right: auto;
+
+      .box-img-feature {
+        align-items: baseline;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .services-v2 {
+    .box-wrapper {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+}

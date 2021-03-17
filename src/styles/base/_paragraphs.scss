@@ -1,0 +1,28 @@
+// ==========================================================================
+// Text-Blocks & Paragraphs
+// ==========================================================================
+
+p {
+  @extend .font-sm;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+
+  &.subtitle {
+    // @extend .font-md;
+  }
+
+  &.intro {
+    // font-weight: bold;
+  }
+
+  & > a {
+    // text-decoration: underline;
+  }
+
+  // same for lists!
+  & ~ h4,
+  & ~ h5,
+  & ~ h6 {
+    // @extend .mt-5;
+  }
+}

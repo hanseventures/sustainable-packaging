@@ -1,0 +1,53 @@
+// ==========================================================================
+// Grid
+// ==========================================================================
+
+.d-grid {
+  display: grid !important;
+}
+
+// works for grid and flex!
+.column-gap {
+  &-1 {
+    column-gap: 0.25rem;
+  }
+
+  &-2 {
+    column-gap: 0.5rem;
+  }
+
+  &-3 {
+    column-gap: 1rem;
+  }
+
+  &-4 {
+    column-gap: 2rem;
+  }
+
+  &-5 {
+    column-gap: 4rem;
+  }
+}
+
+// works for grid and flex!
+.row-gap {
+  &-1 {
+    row-gap: 0.25rem;
+  }
+
+  &-2 {
+    row-gap: 0.5rem;
+  }
+
+  &-3 {
+    row-gap: 1rem;
+  }
+
+  &-4 {
+    row-gap: 2rem;
+  }
+
+  &-5 {
+    row-gap: 4rem;
+  }
+}

@@ -1,0 +1,55 @@
+// ==========================================================================
+// Burger Menu Icon Animation
+// Taken from: https://codepen.io/designcouch/pen/Atyop Thanks Jesse Couch!
+// ==========================================================================
+
+#nav-icon {
+  width: 18px;
+  height: 13px;
+  transform: rotate(0deg);
+
+  span {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: $black;
+    border-radius: $border-radius-lg;
+    left: 0;
+    transition: .25s ease-in-out;
+
+    &:nth-child(1) {
+      top: 0px;
+    }
+
+    &:nth-child(2),
+    &:nth-child(3) {
+      top: 5px;
+    }
+
+    &:nth-child(4) {
+      top: 10px;
+    }
+  }
+}
+
+.is-open #nav-icon span{
+  &:nth-child(1) {
+    top: 6px;
+    width: 0%;
+    left: 50%;
+  }
+
+  &:nth-child(2) {
+    transform: rotate(45deg);
+  }
+
+  &:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+
+  &:nth-child(4) {
+    top: 6px;
+    width: 0%;
+    left: 50%;
+  }
+}

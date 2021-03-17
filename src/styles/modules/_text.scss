@@ -1,0 +1,33 @@
+// ==========================================================================
+// Text Only section
+// ==========================================================================
+
+.text {
+  .d-grid {
+    grid-template-areas:
+      "txt"
+      "img";
+  }
+
+  .txt {
+    grid-area: txt;
+  }
+
+  .img {
+    grid-area: img;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .text {
+    .img-md-left {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "img txt";
+    }
+
+    .img-md-right {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "txt img";
+    }
+  }
+}

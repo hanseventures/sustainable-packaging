@@ -1,0 +1,24 @@
+// ==========================================================================
+// Footer Section
+// ==========================================================================
+
+.footer {
+  .content,
+  .content .group {
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+  }
+
+  .social i {
+    font-size: 2em;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .footer {
+    .content,
+    .content .group {
+      flex-wrap: nowrap;
+    }
+  }
+}

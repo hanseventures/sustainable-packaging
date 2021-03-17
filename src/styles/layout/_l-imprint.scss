@@ -1,0 +1,45 @@
+// ==========================================================================
+// Custom styles of Imprint page.
+// ==========================================================================
+
+.imprint {
+  .hero {
+    .hero-image.minimal-layout {
+      background-position: center center !important;
+    }
+  }
+
+  .hero + .text-content .content {
+    padding-bottom: 0;
+  }
+
+  .text-content:last-of-type .content {
+    padding-top: 0;
+  }
+
+  .collapsable-box {
+    .collapsable-content {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .imprint {
+    .collapsable-box {
+      .collapsable-content {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .imprint {
+    .hero {
+      .hero-image.minimal-layout {
+        background-position: center right !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "homepage": {
+    },
+    "logo": {
+        "mobile": "/images/logo/logo-mobile.svg",
+        "desktop": "/images/logo/logo.svg",
+        "desktop_height": "36px",
+        "alt": ""
+    },
+    "homepage_meta_tags": {
+        "meta_description": "",
+        "meta_og_title": "Suburban Co-Working",
+        "meta_og_type": "website",
+        "meta_og_url": "",
+        "meta_og_image": "",
+        "meta_og_description": "",
+        "meta_twitter_card": "summary",
+        "meta_twitter_site": "",
+        "meta_twitter_creator": ""
+    },
+    "footer": {
+        "copyright_text": "Suburban Co-Working",
+        "copyright_link": "https://www.suburban-co-working.com"
+    }
+}

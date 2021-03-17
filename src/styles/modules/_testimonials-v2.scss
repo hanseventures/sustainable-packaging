@@ -1,0 +1,72 @@
+// ==========================================================================
+// Testimonial v2 section
+// ==========================================================================
+
+.testimonials-v2 {
+  /* dots as lines */
+  .flickity-page-dots {
+    bottom: inherit;
+    top: 0;
+    margin: -3em 0 0;
+
+    .dot {
+      height: 4px;
+      width: 100vw;
+      border-radius: 0;
+      background-color: rgba($white, 0.3);
+      margin: 0;
+      opacity: 1;
+      position: relative;
+      display: none;
+
+      &::before {
+        content: '';
+        height: 4px;
+        left: 0;
+        position: absolute;
+        top: 0;
+      }
+
+      &.is-selected {
+        display: block;
+
+        &::before {
+          animation-name: slider;
+          animation-duration: 12s;
+          background-color: darken($background-2, 16%);
+        }
+      }
+    }
+  }
+
+  .content {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  article.carousel-cell {
+    max-width: 767px; // @extend .trimmed-width-2
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+
+    .profile {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 70%;
+
+      img {
+        width: 100px;
+        max-width: none;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .testimonials {
+    //
+  }
+}

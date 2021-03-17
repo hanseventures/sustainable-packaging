@@ -1,0 +1,40 @@
+// ==========================================================================
+// Collapsable Box, triggered by a Button.
+// ==========================================================================
+
+.collapsable-box {
+  [type="checkbox"] {
+    position: absolute;
+    left: -9999px;
+
+    & ~ .collapsable-content {
+      max-height: 0;
+      transition: all 200ms linear;
+      overflow: hidden;
+      opacity: 0;
+      background-color: $background-2;
+
+      p {
+        white-space: pre-wrap;
+      }
+    }
+
+    &:checked ~ .collapsable-content {
+      margin-bottom: 2em;
+      margin-top: 2px;
+      max-height: inherit;
+      opacity: 1;
+    }
+
+    & ~ label i::before {
+      content: '\e80b';
+      transition: all 400ms ease;
+      transform: rotate(0deg);
+    }
+
+    &:checked ~ label i::before {
+      content: '\e80a';
+      transform: rotate(360deg);
+    }
+  }
+}

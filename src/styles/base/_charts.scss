@@ -1,0 +1,27 @@
+// ==========================================================================
+// Charts
+// ==========================================================================
+
+.zeitstrahl-chart {
+  .xAxis .recharts-layer.recharts-cartesian-axis-tick text {
+    transform: translate(4%, -6%);
+    font-size: 80%;
+    font-family: inherit;
+  }
+
+  .recharts-wrapper .recharts-cartesian-grid-horizontal line:not(:first-child) {
+    stroke-opacity: 0;
+  }
+}
+
+.linear-chart {
+  .xAxis .recharts-layer.recharts-cartesian-axis-tick text {
+    transform: translate(4%, -7%);
+    font-size: 80%;
+    font-family: inherit;
+  }
+
+  .recharts-wrapper .recharts-cartesian-grid-horizontal line:not(:last-child) {
+    stroke-opacity: 0;
+  }
+}

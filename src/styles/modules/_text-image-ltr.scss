@@ -1,0 +1,55 @@
+// ==========================================================================
+// Text + image left-to-right section
+// ==========================================================================
+
+.text-image-ltr {
+  .content {
+    grid-template-areas:
+      "group-description"
+      "group-images"
+      "group-cta";
+  }
+
+  .group-description {
+    grid-area: group-description;
+  }
+
+  .group-images {
+    grid-area: group-images;
+
+    img {
+      display: block;
+      height: 29px;
+      width: auto;
+    }
+  }
+
+  .group-cta {
+    grid-area: group-cta;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .text-image-ltr {
+    .content {
+      grid-template-columns: 3fr 2fr;
+      grid-template-areas:
+        "group-description group-images"
+        "group-cta group-images";
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .text-image-ltr {
+    .content {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .group-images {
+      img {
+        height: auto;
+      }
+    }
+  }
+}

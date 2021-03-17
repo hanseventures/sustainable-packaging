@@ -1,0 +1,52 @@
+// ==========================================================================
+// Custom homepage styles
+// ==========================================================================
+
+.home {
+  .container .trimmed-width-1 {
+    max-width: 520px;
+  }
+
+  section.cta .content:nth-child(1) {
+    @extend .pb-4;
+  }
+
+  section.services #serviceCard .content:nth-child(1) {
+    @extend .pb-0;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .home {
+    .hero {
+      .carousel-cell:nth-child(1) {
+        .hero-image.full-layout {
+          background-position: center top;
+
+          .cta-wrapper .btn {
+            padding: 20px;
+            width: 45%;
+          }
+        }
+      }
+
+      .carousel-cell:nth-child(2) {
+        .hero-image.full-layout {
+          background-position: right center;
+        }
+      }
+
+      .carousel-cell:nth-child(3) {
+        .hero-image.full-layout {
+          background-position: center 60%;
+        }
+      }
+
+      .carousel-cell:nth-child(4) {
+        .hero-image.full-layout {
+          background-position: center top;
+        }
+      }
+    }
+  }
+}

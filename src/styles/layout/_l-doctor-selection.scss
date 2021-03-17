@@ -1,0 +1,39 @@
+// ==========================================================================
+// Custom styles of Doctor-Selection.
+// ==========================================================================
+
+.l-doctor-selection {
+  .doctor-selection {
+    background: $white;
+    border: 1px solid $grey-light;
+    border-radius: $border-radius-md;
+
+    & > div {
+      padding: 0.5em 1em;
+      height: 70px;
+      border-bottom: 1px solid $grey-light;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+      &.selected {
+        background-color: #6202EE44;
+      }
+
+      &:last-of-type {
+        border-bottom: none;
+      }
+    }
+
+    p,
+    small {
+      margin: 0;
+      padding: 0;
+      line-height: 1em;
+    }
+    small {
+      color: $grey-dark;
+    }
+  }
+
+}

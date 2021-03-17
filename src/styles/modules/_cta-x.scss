@@ -1,0 +1,27 @@
+// ==========================================================================
+// CTA X (horizontal) section
+// ==========================================================================
+
+.cta-x {
+  .content {
+    grid-template-areas:
+      "group-description"
+      "group-cta";
+  }
+
+  .group-description {
+    grid-area: group-description;
+  }
+
+  .group-cta {
+    grid-area: group-cta;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .cta-x {
+    .content {
+      grid-template-areas: "group-description group-cta";
+    }
+  }
+}

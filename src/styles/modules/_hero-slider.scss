@@ -1,0 +1,95 @@
+// ==========================================================================
+// Hero Slider section
+// ==========================================================================
+.hero-slider--no-longer-used {
+  .carousel-cell {
+    width: 100%; // defines width of slide.
+  }
+
+  /* position dots up a bit */
+  .flickity-page-dots {
+    // bottom: -22px;
+  }
+
+  /* dots are lines */
+  .flickity-page-dots .dot {
+    // height: 4px;
+    // width: 40px;
+    // margin: 0;
+    // border-radius: 0;
+  }
+
+  .slide-image {
+    align-items: center;
+    display: flex;
+    background-color: $background-2;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; // expand image size to full screen.
+
+    .content {
+      margin-top: $size-header;
+      text-align: center;
+    }
+  }
+
+  .flickity-page-dots { // move to home.scss
+    bottom: 8px;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .hero-slider--no-longer-used {
+    .slide-image {
+      height: 80vh;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .hero-slider--no-longer-used {
+    .slide-image {
+      background-position: top center;
+
+      .content {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+
+        & > div {
+          max-width: 500px;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .hero-slider--no-longer-used {
+    .slide-image {
+      height: 60vh;
+      min-height: 560px;
+
+      .content-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+      }
+
+      .content > div {
+        max-width: inherit;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+  .hero-slider--no-longer-used {
+    .slide-image {
+      .content-wrapper {
+        width: 1440px;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+// ==========================================================================
+// Missing Data Module, Patient DB
+// ==========================================================================
+
+.missing-data {
+    .item {
+      display: block !important;
+    }
+}
+
+
+@include media-breakpoint-up(md) {
+  .missing-data {
+    border-left: 1px solid lightgrey;
+    padding: 0 0 0 1rem;
+    border-radius: 0;
+  }
+}

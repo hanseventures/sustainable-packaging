@@ -1,0 +1,37 @@
+// ==========================================================================
+// Contact section
+// ==========================================================================
+
+.contact {
+  .contact-content {
+    margin: 0 auto;
+
+    svg {
+      width: 36px;
+
+      g {
+        stroke: $secondary;
+      }
+    }
+
+    a {
+      color: $primary;
+
+      &:hover {
+        color: $secondary;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .contact .contact-content {
+    img {
+      width: 48px;
+    }
+
+    a {
+      font-size: 2em;
+    }
+  }
+}

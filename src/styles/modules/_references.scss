@@ -1,0 +1,32 @@
+// ==========================================================================
+// references section
+// ==========================================================================
+
+.references {
+  background: $grey-lightest;
+  margin: 2em 0;
+  padding: 2em 0;
+
+  .d-flex {
+    flex-wrap: wrap;
+  }
+
+  .intro {
+    flex-basis: 100%;
+  }
+
+  img {
+    width: 30%;
+    height: auto;
+    flex-grow: 1;
+    margin: 2em;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .references {
+    img {
+      width: 15%;
+    }
+  }
+}

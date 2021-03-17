@@ -1,0 +1,115 @@
+// ==========================================================================
+// Flex Sheit
+// ==========================================================================
+
+.d-flex {
+  display: flex !important;
+}
+
+.d-inline-flex {
+  display: inline-flex !important;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-auto {
+  flex: auto;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-item-baseline {
+  align-items: baseline;
+}
+
+.align-item-start {
+  align-items: flex-start;
+}
+
+.align-item-center {
+  align-self: center;
+}
+
+.align-item-end {
+  align-items: flex-end;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.justify-self-center {
+  justify-self: center;
+}
+
+.justify-self-end {
+  justify-self: end;
+}
+
+.flex-basis-full {
+  flex-basis: 100%;
+}
+
+.flex-shrink-none {
+  flex-shrink: 0;
+}
+
+@include media-breakpoint-up(sm) {
+  .flex-sm-row {
+    flex-direction: row;
+  }
+
+  .align-item-sm-baseline {
+    align-sm-items: baseline;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .d-flex-md {
+    display: flex;
+  }
+
+  .flex-md-row {
+    flex-direction: row;
+  }
+
+  .flex-md-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .flex-md-column {
+    flex-direction: column !important;
+  }
+
+  .flex-align-md-center {
+    align-items: center;
+  }
+
+  .flex-basis-md-half {
+    flex-basis: 49%;
+  }
+}

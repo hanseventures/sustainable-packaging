@@ -1,0 +1,225 @@
+// ==========================================================================
+// Helper classes and tags
+// ==========================================================================
+
+// Small
+// -------------------------
+
+small,
+small p {
+  font-size: 80%;
+  // line-height: inherit;
+  line-height: 1.5em;
+}
+
+// Horizontal Line
+// -------------------------
+
+hr {
+  border-bottom: 0;
+  border-top: 1px solid $grey-light;
+  margin: 0;
+}
+
+// Mute
+// -------------------------
+
+.text-muted {
+  color: $grey-dark;
+}
+
+// Highlight
+// -------------------------
+.highlight {
+  // color: $highlight;
+}
+
+// Accessibility
+// -------------------------
+
+.sr-only {
+  display: none;
+}
+
+.do-not-wrap {
+  white-space: nowrap;
+}
+
+// Text-Align
+// -------------------------
+
+.text-xs-left {
+  text-align: left;
+}
+
+.text-xs-center {
+  text-align: center;
+}
+
+.text-xs-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+@include media-breakpoint-up(sm) {
+  .text-sm-left {
+    text-align: left;
+  }
+
+  .text-sm-right {
+    text-align: right;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .text-md-center {
+    text-align: center;
+  }
+
+  .text-md-left {
+    text-align: left;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .text-lg-center {
+    text-align: center;
+  }
+
+  .text-lg-left {
+    text-align: left;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .text-xl-left {
+    text-align: left;
+  }
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+// Visible + Hidden Reference Cases
+// -------------------------
+
+// Hidden only on xs
+//.d-none .d-sm-block
+
+// Hidden only on sm
+//.d-sm-none .d-md-block
+
+// Hidden only on md
+//.d-md-none .d-lg-block
+
+// Hidden only on lg
+//.d-lg-none .d-xl-block
+
+// Hidden only on xl
+//.d-xl-none
+
+// Visible on all
+//.d-block
+
+// Visible only on xs
+//.d-block .d-sm-none
+
+// Visible only on sm
+//.d-none .d-sm-block .d-md-none
+
+// Visible only on md
+//.d-none .d-md-block .d-lg-none
+
+// Visible only on lg
+//.d-none .d-lg-block .d-xl-none
+
+// Visible only on xl
+//.d-none .d-xl-block
+
+.d-none {
+  display: none !important;
+}
+
+.d-inline {
+  display: inline-block !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+@include media-breakpoint-up(xs) {
+  .d-xs-block {
+    display: block !important;
+  }
+
+  .d-xs-none {
+    display: none !important;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .d-sm-block {
+    display: block !important;
+  }
+
+  .d-sm-none {
+    display: none !important;
+  }
+
+  .d-sm-inline {
+    display: inline !important;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .d-md-block {
+    display: block !important;
+  }
+
+  .d-md-none {
+    display: none !important;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .d-lg-block {
+    display: block !important;
+  }
+
+  .d-lg-none {
+    display: none !important;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .d-xl-block {
+    display: block !important;
+  }
+
+  .d-xl-none {
+    display: none !important;
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+  .d-xxl-block {
+    display: block !important;
+  }
+
+  .d-xxl-none {
+    display: none !important;
+  }
+}

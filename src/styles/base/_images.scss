@@ -1,0 +1,30 @@
+// ==========================================================================
+// Images
+// ==========================================================================
+
+img {
+  max-width: 100%;
+
+  &.img--radius-sm {
+    // border-radius: 4px;
+  }
+
+  &.img--radius-md {
+    // border-radius: 8px;
+  }
+
+  &.img--radius-lg {
+    border-radius: 12px;
+  }
+}
+
+img,
+svg {
+  &.zoom-on-hover {
+    // transition: 200ms ease-in-out;
+
+    &:hover {
+      // transform: scale(1.2);
+    }
+  }
+}

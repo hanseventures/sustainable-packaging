@@ -1,0 +1,136 @@
+// ==========================================================================
+// Headings Styles
+// ==========================================================================
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $black;
+  font-family: $font-family-heading;
+}
+
+h1 {
+  // // @extend .font-xxl;
+  // font-size: 2em;
+  // font-weight: $font-weight-regular;
+  // line-height: 1.333;
+  // // color: $lettering-black;
+  // // letter-spacing: 0.02px;
+  // margin-bottom: 1em;
+  // margin-top: 0;
+}
+
+h2 {
+  // // @extend .font-xl;
+  // font-size: 3.125em;
+  // line-height: 1.1;
+  // // color: $lettering-black;
+  // // font-size: 2em;
+  // // line-height: 1.1em;
+  // font-weight: $font-weight-light;
+  // // letter-spacing: 0.02px;
+  // margin-bottom: 0.6667em;
+  // margin-top: 0;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: $font-weight-light;
+  letter-spacing: 0.03px;
+  line-height: 1.1;
+  margin-bottom: 0.6667em;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 1.666666em;
+  font-weight: $font-weight-medium;
+  letter-spacing: -0.4px;
+  line-height: 1.2;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+
+h5 {
+  font-size: 1.25em;
+  font-weight: $font-weight-medium;
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+
+h6 {
+  font-size: 1.1em;
+  font-weight: $font-weight-medium;
+  line-height: 1.4;
+  margin-bottom: 0.6667em;
+  margin-top: 0;
+}
+
+// Fake headings
+// -------------------------
+.h-1 {
+  @extend h1;
+
+  font-family: $font-family-heading;
+}
+
+.h-2 {
+  @extend h2;
+
+  font-family: $font-family-heading;
+}
+
+.h-3 {
+  @extend h3;
+
+  font-family: $font-family-heading;
+}
+
+.h-4 {
+  @extend h4;
+
+  font-family: $font-family-heading;
+}
+
+.h-5 {
+  @extend h5;
+
+  font-family: $font-family-heading;
+}
+
+.h-6 {
+  @extend h6;
+
+  font-family: $font-family-heading;
+}
+
+@include media-breakpoint-up(md) {
+  h1 {
+    // font-size: 3.2em;
+    // line-height: 1.2;
+  }
+
+  // h2 {
+  //   font-size: 1.625rem;
+  //   line-height: 2.188rem;
+  // }
+
+  h3 {
+    // font-size: 2.4em;
+  }
+
+  h4 {
+    // font-size: 1.8rem;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  // h3 {
+  //   font-size: 1.625rem;
+  //   line-height: 2.063rem;
+  // }
+}

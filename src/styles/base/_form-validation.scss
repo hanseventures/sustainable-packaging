@@ -1,0 +1,39 @@
+// ==========================================================================
+// Validations for forms.
+// Based on https://getbootstrap.com/docs/4.0/components/forms/?
+// ==========================================================================
+
+// text inputs fields
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  &.is-valid {
+    border-color: $success;
+  }
+
+  &.is-invalid {
+    border-color: $danger;
+  }
+}
+
+// checkboxes
+.is-invalid .control-indicator {
+  background-color: $danger;
+}
+
+// feedback messages
+.valid-feedback {
+  @extend small;
+  // @extend .mt-1;
+
+  color: $success;
+}
+
+.invalid-feedback {
+  // @extend small;
+  // @extend .mt-1;
+  // @extend .animated;
+  // @extend .shake;
+
+  color: $danger;
+}

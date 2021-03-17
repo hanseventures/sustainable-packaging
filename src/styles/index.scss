@@ -1,0 +1,142 @@
+@charset 'utf-8';
+
+// ==========================================================================
+// Import Vendor Files
+// ==========================================================================
+
+// @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Inter:wght@200;300;400;500&display=swap');
+// @import '../../node_modules/animate.css/animate';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+@import 'vendor/normalize';
+
+
+// @import 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css';
+// @import 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css';
+// @import 'https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css';
+// @import 'https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css';
+
+// ==========================================================================
+// Base - Define default CSS styles.
+// ==========================================================================
+@import 'base/compatibility';
+@import 'base/colors';
+// @import 'base/collapsable-box';
+@import 'base/variables';
+@import 'base/breakpoints';
+@import 'base/animations';
+@import 'base/container';
+// @import 'base/columns';
+@import 'base/typography';
+@import 'base/buttons-links';
+@import 'base/form-checkboxes-radios';
+@import 'base/form-input-textarea';
+@import 'base/form-progress';
+@import 'base/form-select';
+// @import 'base/form-validation';
+// @import 'base/form--radio-as-image';
+// @import 'base/form-datepicker';
+@import 'base/flex';
+@import 'base/grid';
+@import 'base/headings';
+@import 'base/helper';
+@import 'base/images';
+@import 'base/lists';
+@import 'base/paragraphs';
+@import 'base/spacings';
+@import 'base/toggle';
+@import 'base/charts';
+// @import 'base/read-more';
+
+// ==========================================================================
+// Modules - Modular, reusable components.
+// ==========================================================================
+@import 'modules/alert';
+@import 'modules/badge';
+// @import 'modules/benefits';
+// @import 'modules/blog-categories';
+@import 'modules/card';
+@import 'modules/chips';
+// @import 'modules/contact';
+// @import 'modules/cta';
+// @import 'modules/cta-socials';
+// @import 'modules/cta-x';
+// @import 'modules/customers';
+@import 'modules/search-doctor';
+// @import 'modules/events';
+@import 'modules/dropdown';
+@import 'modules/faq';
+// @import 'modules/footer';
+// @import 'modules/footer-v2';
+// @import 'modules/form-callback';
+@import 'modules/header';
+@import 'modules/hero';
+@import 'modules/history';
+// @import 'modules/image-list';
+// @import 'modules/locations';
+// @import 'modules/locations-w-contact';
+// @import 'modules/management';
+@import 'modules/messages';
+@import 'modules/menu-icon';
+@import 'modules/missing-data';
+@import 'modules/modal';
+// @import 'modules/module--profile';
+@import 'modules/notes';
+@import 'modules/pagination';
+@import 'modules/profile';
+// @import 'modules/progress-bar';
+// @import 'modules/references';
+@import 'modules/sidebar';
+// @import 'modules/services';
+// @import 'modules/services-v2';
+// @import 'modules/our-clients';
+@import 'modules/tags';
+@import 'modules/progress';
+// @import 'modules/testimonials';
+// @import 'modules/testimonials-v2';
+// @import 'modules/text';
+// @import 'modules/text-image-ltr';
+// @import 'modules/text-image';
+// @import 'modules/text-human-ressources';
+// @import 'modules/text-slider';
+// @import 'modules/tooltip';
+// @import 'modules/usp';
+// @import 'modules/video';
+
+// ==========================================================================
+// Layout - Styles that are related to the structural layout of individual
+//          pages. They are prefixed with l-.
+// ==========================================================================
+// @import 'layout/l-home';
+// @import 'layout/l-competencies';
+// @import 'layout/l-about-us';
+// @import 'layout/l-news';
+// @import 'layout/l-career';
+// @import 'layout/l-contact';
+@import 'layout/l-dashboard-doctor';
+@import 'layout/l-dashboard-patient';
+@import 'layout/l-findings-overview';
+@import 'layout/l-findings-questions';
+// @import 'layout/l-imprint';
+@import 'layout/l-messages-compose';
+@import 'layout/l-profile';
+@import 'layout/l-onboarding';
+@import 'layout/l-login';
+@import 'layout/l-result-screen';
+@import 'layout/l-privacy';
+@import 'layout/l-doctor-selection';
+
+// @import 'layout/l-transparency-report';
+
+// ==========================================================================
+// State - Styles that specify the current state of something in the
+//         interface.
+// ==========================================================================
+// @import 'state/burger-nav';
+// @import 'state/outline';
+
+// ==========================================================================
+// Themes - Are styles that affect layout and modules individually.
+// ==========================================================================
+
+// Remove later
+@import 'legacy_scss/scss/style.scss';

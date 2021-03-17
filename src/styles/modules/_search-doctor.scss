@@ -1,0 +1,25 @@
+// ==========================================================================
+// Doctor Search
+// ==========================================================================
+
+.search-doctor {
+  position: relative;
+
+  .search {
+    background-color: $grey-lighter;
+    border-radius: $border-radius-xxl;
+    border-width: 0;
+    cursor: pointer;
+    font-weight: $font-weight-light;
+    line-height: 41px;
+    padding: 0 1em;
+  }
+
+  .form-group svg {
+    position: absolute;
+    right: 16px;
+    opacity: 0.5;
+    pointer-events: none;
+    top: 8px;
+  }
+}

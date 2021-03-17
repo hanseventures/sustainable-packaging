@@ -1,0 +1,116 @@
+// ==========================================================================
+// Custom news styles
+// ==========================================================================
+
+.news {
+  .hero {
+    .hero-image.minimal-layout {
+      background-position: center center !important;
+    }
+  }
+
+  .press {
+    .btn-download {
+      .content {
+        @extend .p-0;
+      }
+    }
+  }
+
+  .modal .modal-content {
+    .modal--two-columns {
+      height: 100%;
+      grid-template-columns: 1fr;
+
+      .modal--sidebar {
+        display: none;
+      }
+
+      form {
+        grid-template-columns: 1fr;
+        line-height: 1.25em;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .news {
+    .hero {
+      .hero-image.minimal-layout {
+        background-position: center 60% !important;
+      }
+    }
+
+    .modal .modal-content {
+      .modal--two-columns {
+        grid-template-columns: 1fr 2fr;
+
+        .modal--sidebar {
+          display: block;
+
+          .modal--sidebar-title {
+            display: block;
+
+            span {
+              display: block;
+            }
+          }
+        }
+
+        .id-title {
+          grid-area: idTitle;
+        }
+
+        .id-blickpunkt {
+          grid-area: idBlickpunkt;
+        }
+
+        .id-newsletter {
+          grid-area: idNewsletter;
+        }
+
+        .id-salutation {
+          grid-area: idSalutation;
+        }
+
+        .id-name {
+          grid-area: idName;
+        }
+
+        .id-company {
+          grid-area: idCompany;
+        }
+
+        .id-position {
+          grid-area: idPosition;
+        }
+
+        .id-email {
+          grid-area: idEmail;
+        }
+
+        .id-privacy {
+          grid-area: idPrivacy;
+        }
+
+        .id-submit {
+          grid-area: idSubmit;
+        }
+
+        form {
+          grid-template-columns: 1fr 1fr;
+          grid-template-areas:
+            "idTitle idTitle"
+            "idBlickpunkt idBlickpunkt"
+            "idNewsletter idNewsletter"
+            "idSalutation idName"
+            "idCompany idPosition"
+            "idEmail idEmail"
+            "idPrivacy idPrivacy"
+            "idSubmit idSubmit";
+        }
+      }
+    }
+  }
+}

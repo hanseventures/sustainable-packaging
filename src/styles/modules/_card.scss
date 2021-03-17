@@ -1,0 +1,21 @@
+// ==========================================================================
+// Cards
+// ==========================================================================
+
+.card {
+  border-radius: $border-radius-md;
+  box-sizing: border-box;
+  display: block;
+  padding: 1em;
+  width: 100%;
+
+  &.card--default {
+    @extend .bg-gry;
+    color: $black;
+  }
+
+  &.card--invitation {
+    background-color: $attention;
+    color: $black;
+  }
+}

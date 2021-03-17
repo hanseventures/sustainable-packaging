@@ -1,0 +1,32 @@
+// ==========================================================================
+// Management section
+// ==========================================================================
+
+.management {
+  .content {
+    ul {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 2em;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .management {
+    .content {
+      ul {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .management {
+    .content {
+      ul {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+    }
+  }
+}

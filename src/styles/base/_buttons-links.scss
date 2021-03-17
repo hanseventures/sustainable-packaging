@@ -1,0 +1,204 @@
+
+// ==========================================================================
+// Buttons & Links
+// ==========================================================================
+
+button {
+  appearance: none;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn {
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: $border-radius-md;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.9em;
+  font-family: $font-family-buttons;
+  font-weight: $font-weight-medium;
+  letter-spacing: 1px;
+  line-height: 0.875em;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.25s all linear;
+  width: 100%;
+
+  & + .btn {
+    // @extend .mt-2;
+  }
+
+  &.btn-primary,
+  &.btn-primary-inverted,
+  &.btn-secondary,
+  &.btn-accept,
+  &.btn-deny,
+  &.btn-max,
+  &.btn-tag {
+    outline: none;
+    padding: 16px;
+
+    &.btn-shrink {
+      padding: 16px 32px;
+      width: auto;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+
+  &.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+    box-shadow: $global-box-shadow-y;
+    color: $white;
+
+    &:hover {
+      background-color: $primary-lighter;
+      border-color: $primary-lighter;
+    }
+  }
+
+  &.btn-primary-inverted {
+    // background-color: transparent;
+    // border-color: $primary;
+    // color: $primary;
+
+    &:hover {
+      // background-color: $primary-lighter;
+      // border-color: $primary-darker;
+      // box-shadow: $global-text-shadow;
+      // color: $white;
+    }
+  }
+
+  &.btn-accept {
+    background-color: $accept;
+    border-color: $accept;
+    box-shadow: $global-box-shadow-y;
+    color: $white;
+
+    &:hover {
+      background-color: lighten($accept, 4%);
+      border-color: lighten($accept, 4%);
+    }
+  }
+
+  &.btn-deny {
+    background-color: $deny;
+    border-color: $deny;
+    box-shadow: $global-box-shadow-y;
+    color: $white;
+
+    &:hover {
+      background-color: lighten($deny, 4%);
+      border-color: lighten($deny, 4%);
+    }
+  }
+
+  &.btn-max {
+    // background-color: $background-2;
+    // border-color: transparent;
+    // color: $black;
+    // font-size: 1.1em;
+    // padding-left: 20px;
+    // padding-right: 20px;
+    // text-align: left;
+    // width: 100%;
+
+    &:hover {
+      // background-color: darken($background-2, 8%);
+      // text-decoration: none;
+    }
+  }
+
+  &.btn-secondary {
+    background-color: $secondary;
+    border-color: $secondary;
+    box-shadow: $global-box-shadow-y;
+    color: $white;
+
+    &:hover {
+      background-color: $secondary-lighter;
+      border-color: $secondary-lighter;
+    }
+  }
+
+  &.btn-text {
+    color: $secondary;
+    letter-spacing: normal;
+    line-height: inherit;
+    text-decoration: underline;
+    text-transform: none;
+
+    &:hover {
+      // color: $primary-lighter;
+    }
+  }
+
+  &.btn-tag {
+    // background-color: $grey-light;
+    // border-radius: 24px;
+    // padding: 12px 24px;
+
+    &.active {
+      // background-color: $primary;
+      // color: $white;
+    }
+
+    &:hover {
+      // background-color: $primary-lighter;
+      // color: $white;
+    }
+  }
+
+  &[disabled] {
+    background-color: $grey-lighter;
+    border-color: $grey-lighter;
+    box-shadow: none;
+    color: $grey-dark;
+    cursor: not-allowed;
+    // font-size: 0.9em;
+    font-weight: $font-weight-medium;
+
+    &:hover {
+      background-color: $grey-lighter;
+      border-color: $grey-lighter;
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .btn {
+    max-width: 300px;
+
+    &.btn-primary,
+    &.btn-secondary {
+      // width: auto;
+    }
+
+    &.wdth-80 {
+      // max-width: 80%;
+      // width: auto;
+    }
+  }
+}

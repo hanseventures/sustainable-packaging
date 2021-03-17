@@ -1,0 +1,16 @@
+// ==========================================================================
+// Outline
+// ==========================================================================
+
+div.mx-input-wrapper,
+div.wunschpreis-field,
+fieldset.contact {
+  input {
+    &:active,
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 2px 0 $highlight;
+      border-color: $highlight;
+    }
+  }
+}

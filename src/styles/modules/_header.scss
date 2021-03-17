@@ -1,0 +1,114 @@
+// ==========================================================================
+// Header styles
+// ==========================================================================
+
+
+header.container { // priority wise call it: header.container
+  box-shadow: 0 0 5px 0 rgba($black, 0.5);
+  height: $size-header; // Keep unit as px and add to top of hero.
+  position: fixed;
+  top: 0;
+  transition: top 0.4s ease; /* Transition effect when sliding down (and up) */
+  width: 100%;
+  z-index: 1000;
+
+  .content {
+    height: $size-header;
+    padding-bottom: 0;
+    padding-top: 0;
+    transition: all 0.4s ease;
+    overflow: hidden;
+
+    .back {
+      width: auto;
+
+      svg {
+        transform: scale(0.8);
+      }
+    }
+
+    .navigation {
+      // display: flex;
+      // flex-basis: 100%;
+      // flex-direction: column;
+
+      .nav-header {
+        // display: flex;
+        // flex-grow: 1;
+        // height: $size-header;
+        // margin-bottom: 2em;
+
+        .nav-brand {
+          // display: flex; // to optimize vertical align.
+        }
+      }
+    }
+
+    img.logo {
+      // max-height: 33px;
+      // max-width: 250px;
+    }
+
+    .navigation {
+      .nav-item {
+        cursor: pointer;
+        font-size: 1.25em;
+        margin: 0.5em;
+        text-align: center;
+
+        &:hover a,
+        &.active a {
+          // text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .header {
+    img.logo {
+      // max-height: 40px;
+      // max-width: 321px;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  header {
+    .content {
+      // display: flex;
+
+      .navigation {
+        // align-items: center;
+        // flex-direction: row;
+
+        .nav-header {
+          // margin-bottom: 0;
+        }
+
+        .nav-item {
+          // display: block;
+          // font-size: inherit;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  header.container {
+    width: calc(100% - 280px); // width of mobile nav
+
+    .content {
+      .user-info {
+        line-height: 1em;
+
+        svg {
+          height: 18px;
+          width: 18px;
+        }
+      }
+    }
+  }
+}

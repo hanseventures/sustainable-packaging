@@ -1,0 +1,33 @@
+// ==========================================================================
+// Custom career page styles
+// ==========================================================================
+
+.career {
+  .hero .hero-image.full-layout {
+    background-position: center top !important;
+  }
+
+  section.text-image {
+    & ~ section.text-image { // styles apply to all following .text-images except 1st.
+      .content {
+        @extend .pt-0;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .career {
+    .hero .hero-image.full-layout {
+      background-position: center center !important;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .career {
+    .hero .hero-image.full-layout {
+      background-position: center 33% !important;
+    }
+  }
+}

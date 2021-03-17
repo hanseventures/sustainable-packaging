@@ -1,0 +1,35 @@
+// ==========================================================================
+// Form-Callback section
+// ==========================================================================
+
+.form-callback {
+  .select select,
+  .form-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    border-radius: 0;
+  }
+
+  .content {
+    grid-template-areas:
+      "group-description"
+      "group-form";
+  }
+
+  .group-description {
+    grid-area: group-description;
+  }
+
+  .group-form {
+    grid-area: group-form;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .form-callback {
+    .content {
+      grid-template-areas: "group-description group-form";
+    }
+  }
+}

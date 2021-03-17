@@ -1,0 +1,98 @@
+// ==========================================================================
+// Locations section
+// ==========================================================================
+
+.locations-w-contact {
+  .carousel-custom-nav {
+    .carousel-cell {
+      width: 100%;
+    }
+  }
+
+  .carousel-main {
+    .carousel-cell {
+      text-align: center;
+      transition: opacity 0.01s linear; // removes fade transition
+      width: 100%;
+
+      img {
+        display: block;
+        height: 280px;
+        width: 244px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .group-description {
+        p {
+          white-space: pre;
+
+          a {
+            text-decoration: underline;
+            font-style: italic;
+          }
+        }
+
+        p.d-grid {
+          grid-template-columns: auto auto;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .locations-w-contact {
+    .carousel-custom-nav {
+      .carousel-cell {
+        margin-right: 1%;
+        width: auto;
+        border-bottom: 4px solid $primary-lighter;
+
+        &.is-selected {
+          border-color: $secondary;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .carousel-main {
+      .carousel-cell {
+        grid-template-areas: "map-wrapper group-description";
+        grid-template-columns: 1fr 1fr;
+
+        img {
+          height: 400px;
+          width: auto;
+        }
+
+        .map-wrapper {
+          grid-area: map-wrapper;
+        }
+
+        .group-description {
+          grid-area: group-description;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .locations-w-contact {
+    .carousel-custom-nav {
+      .flickity-button {
+        display: none;
+      }
+    }
+
+    .carousel-main {
+      .carousel-cell {
+        max-width: 1200px;
+      }
+    }
+  }
+}

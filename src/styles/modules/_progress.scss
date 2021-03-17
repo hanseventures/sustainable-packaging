@@ -1,0 +1,72 @@
+// ==========================================================================
+// Profile Progress
+// ==========================================================================
+
+.profile-progress {
+  .profile-progress--wrapper {
+    position: relative;
+  }
+
+  .item {
+    display: grid;
+    grid-template-columns: 44px auto;
+
+    &.completed,
+    &:hover {
+      .item-icon {
+        svg {
+          path {
+            fill: $black;
+          }
+        }
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      .item-title {
+        background-color: $grey-lightest;
+      }
+    }
+
+    .item-icon {
+      align-self: center;
+      background: $grey-lighter;
+      border-radius: $border-radius-xxl;
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 20;
+
+      svg {
+        width: 17px;
+
+        path {
+          fill: $grey-dark;
+        }
+      }
+    }
+
+    .item-title {
+      border-top: 1px solid $grey-lighter;
+      padding: 0.75em 0.5rem;
+    }
+
+    &:last-of-type div:not(.icon-wrapper) {
+      border-bottom: 1px solid $grey-lighter;
+    }
+  }
+
+  .line {
+    background: $grey-lighter;
+    width: 2px;
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    left: 16px;
+    z-index: 10;
+  }
+}

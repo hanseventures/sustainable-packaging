@@ -1,0 +1,80 @@
+// ==========================================================================
+// Services section
+// ==========================================================================
+
+.services {
+  .services-carousel::after {
+    content: 'flickity'; /* enable Flickity */
+    display: none;
+  }
+
+  .carousel-cell {
+    box-sizing: border-box;
+    border-radius: $border-radius-lg;
+    width: 80%;
+    margin-right: 10px;
+    background: $background-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.25em 1em;
+    min-height: 100%;
+    transition: background-color 200ms ease;
+
+    .excerpt {
+      text-align: left;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background-color: darken($background-2, 4%);
+    }
+  }
+
+  .flickity-page-dots {
+    bottom: -1.5em;
+
+    .dot {
+      background: $primary;
+      border: 2px solid $primary;
+      height: 8px;
+      margin: 0 6px;
+      opacity: 1;
+      width: 8px;
+
+      &.is-selected {
+        opacity: 1;
+        background: transparent;
+        border: 2px solid $primary;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .services {
+    .services-carousel {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1em;
+
+      // @extend .content;
+      padding: 0 0.75em 3em;
+      margin-left: auto;
+      margin-right: auto;
+
+      &::after {
+        content: ''; /* disable Flickity for large devices */
+      }
+
+      .carousel-cell {
+        align-items: baseline;
+        width: 100%;
+      }
+    }
+  }
+}

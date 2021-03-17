@@ -1,0 +1,98 @@
+// ==========================================================================
+// FAQ section
+// ==========================================================================
+
+.faq {
+  .faq-element {
+    .icon {
+      transition: all 300ms;
+
+      &.open {
+        transform: rotate(180deg);
+      }
+    }
+
+    h5,
+    h6 {
+      // margin-right: 1.7rem;
+    }
+
+    h5 {
+      // margin-bottom: 0;
+      // margin-top: 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    .faq-element-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 300ms linear;
+
+      &.open {
+        max-height: 500px;
+      }
+
+      .faq-first-level {
+        border-bottom: 1px solid $grey-lighter;
+        // padding: 0.5rem 1rem;
+        // position: relative;
+
+        &:last-child {
+          border: none;
+        }
+
+        &:first-of-type {
+          // border-top: 1px solid $grey-lighter;
+        }
+
+        h6 {
+          // margin-bottom: 1rem;
+          // margin-top: 1rem;
+          // line-height: 1.5rem;
+        }
+
+        i {
+          // top: 1.7rem;
+          // font-size: 13px;
+        }
+      }
+    }
+  }
+
+  &.border {
+    // border: solid 1px $grey-lighter;
+    // border-radius: 5px;
+  }
+
+  .show-first-level {
+    .first-level-arrow {
+      // transform: rotate(-180deg);
+      // transition: all 0.3s;
+    }
+
+    .faq-first-level {
+      // display: block;
+      // z-index: 3;
+      // background: $grey-lightest;
+
+      &:hover {
+        // background: $white;
+      }
+    }
+
+    .show .answer {
+      // display: block;
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .faq div.faq-element .icon {
+    // position: static;
+    // top:0;
+    // right: 0;
+  }
+}

@@ -1,0 +1,35 @@
+// ==========================================================================
+// Custom About Us styles
+// ==========================================================================
+
+.about-us {
+  .hero {
+    .hero-image.minimal-layout {
+      background-position: center center !important;
+    }
+
+    & ~ .cta {
+      h2 {
+        @extend .h-3;
+      }
+    }
+  }
+
+  .meilensteine .content {
+    @extend .pb-4;
+  }
+
+  .btn-download .content {
+    @extend .pt-0;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .about-us {
+    .hero {
+      .hero-image.minimal-layout {
+        background-position: center right !important;
+      }
+    }
+  }
+}
