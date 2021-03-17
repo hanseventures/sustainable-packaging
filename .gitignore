@@ -3,7 +3,6 @@ logs
 *.log
 npm-debug.log*
 
-
 # Runtime data
 pids
 *.pid
@@ -50,8 +49,8 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# dotenv environment variable files
-.env*
+# dotenv environment variables file
+.env
 
 # gatsby files
 .cache/
@@ -59,3 +58,13 @@ public
 
 # Mac files
 .DS_Store
+
+# Yarn
+yarn-error.log
+.pnp/
+.pnp.js
+# Yarn Integrity file
+.yarn-integrity
+
+# IDE
+.vscode/
