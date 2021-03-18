@@ -8,9 +8,9 @@ npm start
 open http://localhost:8000
 ```
 
-
-
 ## Deployment
+
+The deployment is going automatically and push to the Gatsby cloud
 
 ## Further Reading
 
