@@ -1,4 +1,4 @@
-# Suburban Co-Working
+# Suburban Coworking
 
 ## Get started
 
