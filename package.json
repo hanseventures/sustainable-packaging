@@ -1,7 +1,7 @@
 {
-  "name": "suburban-co-working",
+  "name": "suburban-coworking",
   "private": true,
-  "description": "Suburban Co-Working",
+  "description": "Suburban CoWorking",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -37,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hanseventures/suburban-co-working.git"
+    "url": "https://github.com/hanseventures/suburban-coworking.git"
   }
 }
