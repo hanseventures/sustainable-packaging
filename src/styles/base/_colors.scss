@@ -15,10 +15,10 @@ $black:               #20242c; // High Emphasis
 
 // Template Colors
 // -------------------------
-$primary:             #0092CF;
+$primary:             #104848;
 $primary-lighter:     lighten($primary, 8%);
 $primary-darker:      darken($primary, 8%);
-$secondary:           #004562;
+$secondary:           #00C5C5;
 $secondary-lighter:   lighten($secondary, 8%);
 $tertiary:            #79BCCD;
 $accept:              #27AE60;
@@ -53,6 +53,10 @@ $info:                #56CCF2;
 
 .bg-wht-80 {
   // background-color:   rgba($white, 0.8);
+}
+
+.bg-primary {
+  background-color: $primary;
 }
 
 .bg-brwn-lght {
