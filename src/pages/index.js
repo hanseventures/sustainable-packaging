@@ -1,66 +1,79 @@
-import { graphql } from 'gatsby';
+import { graphql, Link, StaticQuery } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import Call from '../components/Call';
 import Layout from '../components/Layout';
-import SEO from '../components/SEO';
+import Slides from '../components/Slides';
 
-const Home = props => {
-  const intro = props.data.intro;
-  const site = props.data.site.siteMetadata;
-  const introImageClasses = `intro-image ${intro.frontmatter.intro_image_absolute && 'intro-image-absolute'} ${intro.frontmatter.intro_image_hide_on_mobile && 'intro-image-hide-mobile'}`;
+class Onboarding extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      step: 1,
+      slides: props.data.allSlidersJson.edges
+    }
+  }
 
-  return (
-    <Layout bodyClass="page-home">
-      <SEO title={site.title} />
-      <Helmet>
+  nextStep = () => {
+    let step = this.state.step
+    step++
+
+    this.setState({ step: step })
+  }
+
+  render () {
+    const isLastStep = this.state.slides.length === this.state.step
+    return (
+      <Layout bodyClass="onboarding">
+       <Helmet>
         <meta
           name="description"
           content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
         />
       </Helmet>
-
-      <div className="intro">
-        <div className="container">
-          <div className="row justify-content-start">
-            <div className="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-              <div dangerouslySetInnerHTML={{ __html: intro.html }} />
-              <Call showButton />
-            </div>
-            {intro.frontmatter.intro_image && (
-              <div className="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-                <img alt={intro.frontmatter.title} className={introImageClasses} src={intro.frontmatter.intro_image} />
-              </div>
-            )}
+      <div className="Onboarding" >
+        <div className='Background' data-step={this.state.step}></div>
+        <Slides step={this.state.step} slides={this.state.slides} />
+        <div className='Footer' data-step={this.state.step} >
+          <div className='Dots' data-step={this.state.step}>
+            {this.state.slides.map((_,index) => (
+              <div className='Dot' key={index} />
+            ))}
           </div>
+          { isLastStep ?
+          (
+            <Link to='/home' className='Button signup'>Direkt anmelden</Link>
+           ) : (
+          <div
+          className='Button Button--next'
+          onClick={this.nextStep}
+          >
+            Weiter
+          </div>)
+          }
         </div>
       </div>
-
-
-    </Layout>
-  );
-};
-
-export const query = graphql`
-  query {
-    intro: markdownRemark(
-      fileAbsolutePath: {regex: "/content/index.md/"}
-    ) {
-        html
-        frontmatter {
-          intro_image
-          intro_image_absolute
-          intro_image_hide_on_mobile
-          title
-        }
-    }
-    site {
-      siteMetadata {
-        title
-      }
-    }
+      </Layout>)
   }
-`;
+}
 
-export default Home;
+const props = () => (
+  <StaticQuery
+    query={graphql`
+      query OnboardingQuery {
+        allSlidersJson {
+          edges {
+            node {
+              logo
+              title
+              text
+            }
+          }
+        }
+      }
+    `}
+    render={data => <Onboarding data={data} />}
+  />
+)
+
+export default props

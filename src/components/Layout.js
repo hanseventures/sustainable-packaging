@@ -11,14 +11,20 @@ const Layout = props => (
   <>
     <SEO />
     <div className={`page${props.bodyClass ? ` ${props.bodyClass}` : ''}`}>
-      <div id="wrapper" className="wrapper">
-        <Header />
-        {props.children}
-      </div>
-      <Footer />
-      <SubFooter />
+      <div id='Wrapper' className='Wrapper'>
+      {props.bodyClass === 'onboarding' ?
+          props.children
+       : (
+         <>
+          <Header />
+          {props.children}
+          <Footer />
+          <SubFooter />
+          </>
+        )}
+        </div>
     </div>
   </>
-);
+)
 
-export default Layout;
+export default Layout

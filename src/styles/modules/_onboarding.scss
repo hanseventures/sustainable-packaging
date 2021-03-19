@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+#Wrapper .Onboarding {
+	display: flex;
+	font-family: 'Montserrat', sans-serif;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+.Wrapper .Onboarding {
+	display: flex;
+	flex-direction: column;
+	max-height: 640px;
+	max-width: 380px;
+	width: 380px;
+	height: 640px;
+	overflow: hidden;
+	position: relative;
+
+	.Background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 600%;
+		opacity: .9;
+		pointer-events: none;
+		background: linear-gradient(to bottom, rgba(10,27,53,1) 0%,rgba(214,40,92,1) 11%,rgba(214,40,92,1) 11%,rgba(224,153,11,1) 28%,rgba(206,226,234,1) 38%,rgba(118,205,242,1) 53%,rgba(255,181,91,1) 66%,rgba(128,74,137,1) 76%,rgba(128,74,137,1) 76%,rgba(21,25,43,1) 100%);
+		transition: top 3s ease .125s;
+
+		&[data-step="1"] {
+			top: 0%;
+		}
+
+		&[data-step="2"] {
+			top: -100%;
+		}
+
+		&[data-step="3"] {
+			top: -200%;
+		}
+
+    &[data-step="4"] {
+			top: -300%;
+		}
+
+		&[data-step="5"] {
+			top: -400%;
+		}
+
+	}
+
+	.Slides {
+		height: 90%;
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+
+		&[data-step="1"] {
+			.Wrapper {
+				left: 0%;
+			}
+
+		}
+
+		&[data-step="2"] {
+			.Wrapper {
+				left: -100%;
+			}
+
+		}
+
+		&[data-step="3"] {
+			.Wrapper {
+				left: -200%;
+			}
+		}
+		&[data-step="4"] {
+			.Wrapper {
+				left: -300%;
+			}
+		}
+		&[data-step="5"] {
+			.Wrapper {
+				left: -400%;
+			}
+		}
+
+		.Wrapper {
+			display: flex;
+			position: relative;
+			left: 0%;
+			width: 500%;
+			height: 100%;
+			transition: left .25s ease-in-out .125s;
+		}
+
+		.Slide {
+			align-items: center;
+			color: white;
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			justify-content: center;
+			width: 33.33%;
+
+			.fa {
+				font-size: 128px;
+				margin-bottom: 30px;
+			}
+
+			.Text {
+				font-size: 18px;
+				padding: 0 20%;
+				line-height: 1.4;
+				text-align: center;
+			}
+		}
+	}
+
+	.Footer {
+		display: block;
+		justify-content: space-between;
+		flex: 1 0 auto;
+		position: relative;
+    margin: 30px auto;
+
+		&[data-step="1"] {
+			.Button--prev {
+				pointer-events: none;
+				opacity: .5;
+			}
+		}
+
+		.Button {
+			align-items: center;
+			color: black;
+			display: flex;
+			justify-content: center;
+			padding: 10px;
+			transition: opacity .125s ease-in-out;
+      height: 55px;
+      width: 321px;
+      left: 0px;
+      top: 0px;
+      background: #FFFFFF;
+      border-radius: 4px;
+
+      &.signup {
+        background: #00C5C5;
+        color: white;
+      }
+		}
+
+		.Dots {
+			align-items: center;
+			flex: 1 0 auto;
+			display: flex;
+			justify-content: center;
+
+			@for $i from 1 through 5 {
+				&[data-step="#{$i}"] {
+					.Dot:nth-child(#{$i}) {
+						opacity: 1;
+					}
+				}
+			}
+
+			.Dot {
+				background: white;
+				opacity: .5;
+				margin: 15px 5px;
+				width: 8px;
+				height: 8px;
+				border-radius: 8px;
+				transition: opacity .125s ease-in-out;
+			}
+		}
+	}
+}

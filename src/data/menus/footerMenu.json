@@ -8,5 +8,9 @@
         "name": "Contact",
         "url": "/contact/",
         "weight": 2
+    },{
+        "name": "Imprint",
+        "url": "/imprint/",
+        "weight": 3
     }
 ]
