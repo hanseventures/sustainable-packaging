@@ -2,13 +2,11 @@
 // CTA section
 // ==========================================================================
 
-.cta {
-  .content {
-    height: 100%;
-    text-align: center;
-  }
-
-  .d-grid {
-    grid-column: 1;
+@include media-breakpoint-up(md) {
+  .l-cta {
+    img,
+    div {
+      width: 50%;
+    }
   }
 }
