@@ -78,6 +78,10 @@
   flex-shrink: 0;
 }
 
+.min-width-0 {
+  min-width: 0;
+}
+
 @include media-breakpoint-up(sm) {
   .flex-sm-row {
     flex-direction: row;
@@ -104,6 +108,11 @@
   .flex-md-column {
     flex-direction: column !important;
   }
+
+  .flex-md-column-reverse {
+    flex-direction: column-reverse !important;
+  }
+
 
   .flex-align-md-center {
     align-items: center;
