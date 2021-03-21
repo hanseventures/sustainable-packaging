@@ -160,6 +160,22 @@ hr {
   transform: rotateY(180deg);
 }
 
+.position-relative {
+  position: relative;
+}
+
+.pos-abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.width-100 {
+  width: 100%;
+}
+
 @include media-breakpoint-up(xs) {
   .d-xs-block {
     display: block !important;
