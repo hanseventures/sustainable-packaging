@@ -16,3 +16,15 @@
     }
   }
 }
+
+@include media-breakpoint-up(md) {
+  .icon-wrapper {
+    .icon-item {
+      width: 33%;
+
+      img {
+        width: 33%;
+      }
+    }
+  }
+}
