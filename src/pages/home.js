@@ -34,26 +34,33 @@ const Home = props => {
           </div>
         </div>
       </div>
-      <section className="l-cta content content--low  bg-primary font-wht mt-1 mx-n2 px-4">
-        <h2 className="mt-0 font-wht">Unser Ziel</h2>
-        <p>
-          Wir wollen Co-Working Spaces dahin bringen, wo sie wirklich benötigt werden - und zwar in deine Nähe!
-          <br></br>
-          <br></br>
-          <b>Um dieses Ziel zu erreichen brauchen wir deine Hilfe.</b>
-        </p>
-        <button className="btn btn-outline"><a href="#">Direkt anmelden</a></button>
+
+      <section className="l-cta d-flex-md flex-md-row-reverse font-wht m-md-3 mt-1">
+      <img alt={intro.frontmatter.first_section} className="d-none d-md-block min-width-0 " src={intro.frontmatter.intro_image} />
+
+        <div className=" bg-primary p-3">
+          <h2 className="mt-0 font-wht">Unser Ziel</h2>
+          <p>
+            Wir wollen Co-Working Spaces dahin bringen, wo sie wirklich benötigt werden - und zwar in deine Nähe!
+            <br></br>
+            <br></br>
+            <b>Um dieses Ziel zu erreichen brauchen wir deine Hilfe.</b>
+          </p>
+          <button className="btn btn-outline"><a href="#">Direkt anmelden</a></button>
+        </div>
       </section>
 
       <section className="l-first-section content d-flex-md">
-        <img alt={intro.frontmatter.first_section} className="" src={intro.frontmatter.intro_image} />
-        <h2>Du bist Freelancer, Angestellter oder Teil eines Teams?</h2>
-        <p>
-          Du brauchst <b>keinen festen Arbeitsplatz</b> oder du willst lieber doch ein <b>Einzelbüro</b>, z. B. weil du viel telefonierst? Gib deinen Wunsch mit an, dass hilft uns bei der Planung.
-          <br></br>
-          <br></br>
-          Für <b>Unternehmen</b> bieten wir auch die Möglichkeit komplette Räume zu buchen, um ganze Teams unterbringen zu können.
-        </p>
+        <img alt={intro.frontmatter.first_section} className="min-width-0 " src={intro.frontmatter.intro_image} />
+        <div>
+          <h2>Du bist Freelancer, Angestellter oder Teil eines Teams?</h2>
+          <p>
+            Du brauchst <b>keinen festen Arbeitsplatz</b> oder du willst lieber doch ein <b>Einzelbüro</b>, z. B. weil du viel telefonierst? Gib deinen Wunsch mit an, dass hilft uns bei der Planung.
+            <br></br>
+            <br></br>
+            Für <b>Unternehmen</b> bieten wir auch die Möglichkeit komplette Räume zu buchen, um ganze Teams unterbringen zu können.
+          </p>
+        </div>
       </section>
 
       <section className="l-intermission font-wht position-relative">
@@ -61,115 +68,130 @@ const Home = props => {
         <img alt={intro.frontmatter.first_section} className="" src={intro.frontmatter.intro_image} />
       </section>
 
-      <section className="l-products content d-flex-md">
+      <section className="l-products content d-flex-md flex-md-column">
+
         <h2>So lässt es sich gut arbeiten!</h2>
         <p>
           Bei uns soll es nicht nur gute Atmosphäre geben, sondern du sollst auch gesund sitzen.
         </p>
-        <div className="">
-          <img alt={intro.frontmatter.first_section} className="" src={intro.frontmatter.intro_image} />
-          <h3>Unsere Stühle</h3>
+
+        <div className="d-flex-md flex-md-row-reverse mb-5">
+          <img alt={intro.frontmatter.first_section} className="chair-image min-width-0" src={intro.frontmatter.intro_image} />
+          <div className="chair-text">
+            <h3>Unsere Stühle</h3>
+            <p>
+              Alle Arbeitsplätze werden mit ergonomischen, flexiblen, adjustierbaren Stühlen besetzt. Natürlich ist der Stuhl auch frei von Schadstoffen.
+            </p>
+          </div>
+        </div>
+
+
+        <div className="d-flex-md mb-5">
+          <img alt={intro.frontmatter.first_section} className="table-image min-width-0" src={intro.frontmatter.intro_image} />
+          <div className="table-text">
+            <h3>Unsere Tische</h3>
+            <p>
+              Hochwertige Tische mit schwarzer Tischplatte aus HPL Fenix Beschichtung und einem hochwertigem Gestell aus Echtholz-Esche. Hier wackelt nichts und es gibt ausreichend Platz zu arbeiten.
+              <br></br>
+              <br></br>
+              <b>H: 74 cm - B: 160 cm - T: 80 cm</b>
+            </p>
+          </div>
+        </div>
+
+        <div className="d-flex-md flex-md-row-reverse mb-5">
+          <img alt={intro.frontmatter.first_section} className="phonebox-image min-width-0" src={intro.frontmatter.intro_image} />
+          <div className="phonebox-text">
+            <h3>Meeting? Kein Problem!</h3>
+            <p>
+              Unsere Telefon- und Meetingboxen aus Echtholz haben eine Schallreduktion von 35 dB. So kannst du ganz ungstört an Meetings teilnehmen.
+              <br></br>
+              <br></br>
+              <b>H: 225 cm - B: 100 cm - T: 100 cm</b>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="l-locations content d-flex-md flex-md-row-reverse">
+        <img alt={intro.frontmatter.first_section} className="min-width-0" src={intro.frontmatter.intro_image} />
+        <div>
+          <h2>Zu den Locations</h2>
           <p>
-            Alle Arbeitsplätze werden mit ergonomischen, flexiblen, adjustierbaren Stühlen besetzt. Natürlich ist der Stuhl auch frei von Schadstoffen.
+            Wir wollen nicht 100 Leute in einer Location haben. Deshalb sind wir auf der Suche nach <b>kleinen leerstehenden Gewerbeflächen</b>.
+            <br></br>
+            <br></br>
+            Sobald eine Location gefunden wurde, wird diese von unseren Innenarchitekten ausgestattet.
           </p>
         </div>
-        <div className="">
-          <img alt={intro.frontmatter.first_section} className="" src={intro.frontmatter.intro_image} />
-          <h3>Unsere Tische</h3>
+      </section>
+
+      <div className="content d-flex-md">
+        <section className="l-prices width-md-50 mb-5 mb-md-0">
+          <h2>Unsere Preise</h2>
           <p>
-            Hochwertige Tische mit schwarzer Tischplatte aus HPL Fenix Beschichtung und einem hochwertigem Gestell aus Echtholz-Esche. Hier wackelt nichts und es gibt ausreichend Platz zu arbeiten.
-            <br></br>
-            <br></br>
-            <b>H: 74 cm - B: 160 cm - T: 80 cm</b>
+            Let's keep it simple.
           </p>
-        </div>
-        <div className="">
-          <img alt={intro.frontmatter.first_section} className="" src={intro.frontmatter.intro_image} />
-          <h3>Meeting? Kein Problem!</h3>
-          <p>
-            Unsere Telefon- und Meetingboxen aus Echtholz haben eine Schallreduktion von 35 dB. So kannst du ganz ungstört an Meetings teilnehmen.
-            <br></br>
-            <br></br>
-            <b>H: 225 cm - B: 100 cm - T: 100 cm</b>
-          </p>
-        </div>
-      </section>
+          <table className="text-xs-left width-100">
+            <tr>
+              <th>Einzelarbeitsplatz</th>
+              <td>150 € / Monat</td>
+            </tr>
+            <tr>
+              <th>Fester Arbeitsplatz</th>
+              <td>250 € / Monat</td>
+            </tr>
+            <tr>
+              <th>Einzelbüro</th>
+              <td>500 € / Monat</td>
+            </tr>
+            <tr>
+              <th>Doppelbüro</th>
+              <td>800 € / Monat</td>
+            </tr>
+            <tr>
+              <th>Teams</th>
+              <td>auf Anfrage</td>
+            </tr>
+          </table>
+        </section>
 
-      <section className="l-locations content d-flex-md">
-        <h2>Zu den Locations</h2>
-        <p>
-          Wir wollen nicht 100 Leute in einer Location haben. Deshalb sind wir auf der Suche nach <b>kleinen leerstehenden Gewerbeflächen</b>.
-          <br></br>
-          <br></br>
-          Sobald eine Location gefunden wurde, wird diese von unseren Innenarchitekten ausgestattet.
-        </p>
-      </section>
+        <section className="l-icons width-md-50 mt-5 mt-md-0">
+          <h2>Diese Services sind inklusive</h2>
+          <div className="icon-wrapper d-flex flex-wrap flex-row flex-justify-center">
+            <div className="icon-item d-flex flex-column align-item-center">
+              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
+              <span>Wifi</span>
+            </div>
+            <div className="icon-item d-flex flex-column align-item-center">
+              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_3d modeling_1885342.svg" />
+              <span>Kaffeevollautomat</span>
+            </div>
+            <div className="icon-item d-flex flex-column align-item-center">
+              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
+              <span>Wasserspender</span>
+            </div>
+            <div className="icon-item d-flex flex-column align-item-center">
+              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_3d modeling_1885342.svg" />
+              <span>Kühlschrank</span>
+            </div>
+            <div className="icon-item d-flex flex-column align-item-center">
+              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
+              <span>Mikrowelle</span>
+            </div>
+            <div className="icon-item d-flex flex-column align-item-center">
+              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_3d modeling_1885342.svg" />
+              <span>Reinigung</span>
+            </div>
+            <div className="icon-item d-flex flex-column align-item-center">
+              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
+              <span>Schlüssel für die Immobilie</span>
+            </div>
+          </div>
+        </section>
+      </div>
 
-      <section className="l-prices content d-flex-md">
-        <h2>Unsere Preise</h2>
-        <p>
-          Let's keep it simple.
-        </p>
-        <table className="text-xs-left width-100">
-          <tr>
-            <th>Einzelarbeitsplatz</th>
-            <td>150 € / Monat</td>
-          </tr>
-          <tr>
-            <th>Fester Arbeitsplatz</th>
-            <td>250 € / Monat</td>
-          </tr>
-          <tr>
-            <th>Einzelbüro</th>
-            <td>500 € / Monat</td>
-          </tr>
-          <tr>
-            <th>Doppelbüro</th>
-            <td>800 € / Monat</td>
-          </tr>
-          <tr>
-            <th>Teams</th>
-            <td>auf Anfrage</td>
-          </tr>
-        </table>
-      </section>
-
-      <section className="l-icons content d-flex-md">
-        <h2>Diese Services sind inklusive</h2>
-        <div className="icon-wrapper d-flex flex-wrap flex-row flex-justify-center">
-          <div className="icon-item d-flex flex-column align-item-center">
-            <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
-            <span>Wifi</span>
-          </div>
-          <div className="icon-item d-flex flex-column align-item-center">
-            <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_3d modeling_1885342.svg" />
-            <span>Kaffeevollautomat</span>
-          </div>
-          <div className="icon-item d-flex flex-column align-item-center">
-            <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
-            <span>Wasserspender</span>
-          </div>
-          <div className="icon-item d-flex flex-column align-item-center">
-            <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_3d modeling_1885342.svg" />
-            <span>Kühlschrank</span>
-          </div>
-          <div className="icon-item d-flex flex-column align-item-center">
-            <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
-            <span>Mikrowelle</span>
-          </div>
-          <div className="icon-item d-flex flex-column align-item-center">
-            <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_3d modeling_1885342.svg" />
-            <span>Reinigung</span>
-          </div>
-          <div className="icon-item d-flex flex-column align-item-center">
-            <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
-            <span>Schlüssel für die Immobilie</span>
-          </div>
-        </div>
-      </section>
-
-
-      <section className="l-contact content pt-2 bg-gry">
+      <section className="l-contact contact content pt-2 bg-gry">
         <h2 className="h-2">Haben wir Dein Interesse wecken können?</h2>
         <p>
           Melde dich hier unverbindlich an. <br></br>
@@ -183,8 +205,9 @@ const Home = props => {
           <input type="text" id="fname" name="fname" ></input><br></br>
         </div>
           <label for="plz">PLZ</label><br></br>
-          <input type="text" id="plz" name="plz"></input>
-
+          <input type="text" id="plz" name="plz"></input><br></br>
+          <label for="email">E-Mail</label><br></br>
+          <input type="text" id="email" name="email"></input>
           <div class="select">
             <select aria-label="Select menu example" id="arbeitsplatz" name="arbeitsplatz">
               <option selected>Flexibler Einzelplatz</option>
@@ -208,6 +231,15 @@ const Home = props => {
         </form>
       </section>
 
+      <section className="l-social-icons content pt-2 bg-gry">
+        <p>Empfehle uns gerne Deinen Freunden und Kollegen weiter!</p>
+        <div className="social-icons d-flex">
+          <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
+          <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
+          <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
+          <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
+        </div>
+      </section>
 
     </Layout>
   );
