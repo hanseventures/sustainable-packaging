@@ -1,0 +1,42 @@
+// ==========================================================================
+// Custom product styles
+// ==========================================================================
+
+
+
+@include media-breakpoint-up(md) {
+  .l-products {
+    .chair-image {
+      position: relative;
+      right: 17%;
+    }
+
+    .chair-text {
+      background: $grey-lightest;
+      padding: 1.5rem 13rem 1.5rem 1.5rem;
+      width: 230%;
+    }
+
+    .table-image {
+      position: relative;
+      left: 17%;
+    }
+
+    .table-text {
+      background: $grey-lightest;
+      padding: 1.5rem 1.5rem 1.5rem 13rem;
+      width: 230%;
+    }
+
+    .phonebox-image {
+      position: relative;
+      right: 17%;
+    }
+
+    .phonebox-text {
+      background: $grey-lightest;
+      padding: 1.5rem 13rem 1.5rem 1.5rem;
+      width: 230%;
+    }
+  }
+}
