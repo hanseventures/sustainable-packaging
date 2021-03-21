@@ -176,6 +176,10 @@ hr {
   width: 100%;
 }
 
+.width-50 {
+  width: 50%;
+}
+
 @include media-breakpoint-up(xs) {
   .d-xs-block {
     display: block !important;
@@ -208,6 +212,15 @@ hr {
   .d-md-none {
     display: none !important;
   }
+
+  .width-md-100 {
+    width: 100%;
+  }
+
+  .width-md-50 {
+    width: 50%;
+  }
+
 }
 
 @include media-breakpoint-up(lg) {
