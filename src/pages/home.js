@@ -34,15 +34,15 @@ const Home = props => {
           </div>
         </div>
       </div>
-      <section className="l-cta content bg-primary font-wht mt-1 mx-n2">
-        <h2>Unser Ziel</h2>
+      <section className="l-cta content content--low  bg-primary font-wht mt-1 mx-n2 px-4">
+        <h2 className="mt-0 font-wht">Unser Ziel</h2>
         <p>
           Wir wollen Co-Working Spaces dahin bringen, wo sie wirklich benötigt werden - und zwar in deine Nähe!
           <br></br>
           <br></br>
           <b>Um dieses Ziel zu erreichen brauchen wir deine Hilfe.</b>
         </p>
-        <button className="btn btn-secondary"><a href="#">Direkt anmelden</a></button>
+        <button className="btn btn-outline"><a href="#">Direkt anmelden</a></button>
       </section>
 
       <section className="l-first-section content d-flex-md">
@@ -56,8 +56,8 @@ const Home = props => {
         </p>
       </section>
 
-      <section className="l-intermission  content font-wht">
-        <h2>Ein Ort der Ruhe, zum Arbeiten und Denken.</h2>
+      <section className="l-intermission font-wht position-relative">
+        <h2 className="pos-abs-center text-xs-center">Ein Ort der Ruhe, zum Arbeiten und Denken.</h2>
         <img alt={intro.frontmatter.first_section} className="" src={intro.frontmatter.intro_image} />
       </section>
 
@@ -108,11 +108,30 @@ const Home = props => {
       <section className="l-prices content d-flex-md">
         <h2>Unsere Preise</h2>
         <p>
-          Wir wollen nicht 100 Leute in einer Location haben. Deshalb sind wir auf der Suche nach <b>kleinen leerstehenden Gewerbeflächen</b>.
-          <br></br>
-          <br></br>
-          Sobald eine Location gefunden wurde, wird diese von unseren Innenarchitekten ausgestattet.
+          Let's keep it simple.
         </p>
+        <table className="text-xs-left width-100">
+          <tr>
+            <th>Einzelarbeitsplatz</th>
+            <td>150 € / Monat</td>
+          </tr>
+          <tr>
+            <th>Fester Arbeitsplatz</th>
+            <td>250 € / Monat</td>
+          </tr>
+          <tr>
+            <th>Einzelbüro</th>
+            <td>500 € / Monat</td>
+          </tr>
+          <tr>
+            <th>Doppelbüro</th>
+            <td>800 € / Monat</td>
+          </tr>
+          <tr>
+            <th>Teams</th>
+            <td>auf Anfrage</td>
+          </tr>
+        </table>
       </section>
 
       <section className="l-icons content d-flex-md">
@@ -148,6 +167,47 @@ const Home = props => {
           </div>
         </div>
       </section>
+
+
+      <section className="l-contact content pt-2 bg-gry">
+        <h2 className="h-2">Haben wir Dein Interesse wecken können?</h2>
+        <p>
+          Melde dich hier unverbindlich an. <br></br>
+          Wir melden uns bei Dir zurück sobald es los geht!
+        </p>
+
+        <form>
+
+        <div className="form-group">
+          <label className="form-control" for="fname">Vorname:</label>
+          <input type="text" id="fname" name="fname" ></input><br></br>
+        </div>
+          <label for="plz">PLZ</label><br></br>
+          <input type="text" id="plz" name="plz"></input>
+
+          <div class="select">
+            <select aria-label="Select menu example" id="arbeitsplatz" name="arbeitsplatz">
+              <option selected>Flexibler Einzelplatz</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+
+          <label className="control checkbox" for="location-yes">
+            <input type="checkbox" id="location-yes" name="location-yes" value="Ich möchte eine Location empfehlen"></input>
+            <span className="control-indicator"></span>
+            Ich möchte eine Location empfehlen
+          </label>
+
+          <textarea name="message" rows="10" cols="30" placeholder="Z.B. Adresse, Gebäudenamen, Kontakt etc.">
+
+          </textarea>
+
+          <input type="submit" value="Anmeldung abschicken" className="btn btn-secondary"></input>
+        </form>
+      </section>
+
 
     </Layout>
   );
