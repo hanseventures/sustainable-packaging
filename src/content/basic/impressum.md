@@ -1,6 +1,6 @@
 ---
-path: '/impressum'
-title: 'Impressum'
+path: "/impressum"
+title: "Impressum"
 date: 2018-02-22T17:01:34+07:00
 ---
 

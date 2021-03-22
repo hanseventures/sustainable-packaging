@@ -1,4 +1,4 @@
-const config = require('./src/data/config/config.json')
+const config = require("./src/data/config/config.json")
 
 /**
  * Configure your Gatsby site with this file.
@@ -9,48 +9,48 @@ const config = require('./src/data/config/config.json')
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    siteUrl: process.env.SITEURL || 'https://suburbancoworking.gatsbyjs.io'
+    siteUrl: process.env.SITEURL || "https://suburbancoworking.gatsbyjs.io",
   },
   plugins: [
-    'gatsby-plugin-sass',
-    'gatsby-transformer-json',
-    'gatsby-transformer-remark',
-    'gatsby-plugin-image',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sharp',
+    "gatsby-plugin-sass",
+    "gatsby-transformer-json",
+    "gatsby-transformer-remark",
+    "gatsby-plugin-image",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sharp",
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/content`,
-        name: 'content'
-      }
+        name: "content",
+      },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages'
-      }
+        name: "pages",
+      },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/data`,
-        name: 'data'
-      }
+        name: "data",
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/static/images`
-      }
+        path: `${__dirname}/static/images`,
+      },
     },
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: config.googleTagmanagerId || 'GTM-5BJ3MWP',
+        id: config.googleTagmanagerId || "GTM-5BJ3MWP",
 
         // Include GTM in development.
         //
@@ -78,12 +78,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          'roboto:400,700',
-          'poly'
-        ],
-        display: 'swap'
-      }
-    }
-  ]
+        fonts: ["roboto:400,700", "poly"],
+        display: "swap",
+      },
+    },
+  ],
 }

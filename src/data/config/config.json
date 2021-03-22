@@ -1,27 +1,26 @@
 {
-    "homepage": {
-    },
-    "logo": {
-        "mobile": "/images/logo/logo.png",
-        "desktop": "/images/logo/logo.png",
-        "desktop_height": "36px",
-        "alt": ""
-    },
-    "homepage_meta_tags": {
-        "meta_description": "",
-        "meta_og_title": "Suburban Coworking",
-        "meta_og_type": "website",
-        "meta_og_url": "",
-        "meta_og_image": "",
-        "meta_og_description": "",
-        "meta_twitter_card": "summary",
-        "meta_twitter_site": "",
-        "meta_twitter_creator": ""
-    },
-    "footer": {
-        "copyright_text": "Suburban Coworking",
-        "copyright_link": "https://suburban-coworking.de"
-    },
-    "googleTrackingId": "",
-    "googleTagmanagerId": ""
+  "homepage": {},
+  "logo": {
+    "mobile": "/images/logo/logo.png",
+    "desktop": "/images/logo/logo.png",
+    "desktop_height": "36px",
+    "alt": ""
+  },
+  "homepage_meta_tags": {
+    "meta_description": "",
+    "meta_og_title": "Suburban Coworking",
+    "meta_og_type": "website",
+    "meta_og_url": "",
+    "meta_og_image": "",
+    "meta_og_description": "",
+    "meta_twitter_card": "summary",
+    "meta_twitter_site": "",
+    "meta_twitter_creator": ""
+  },
+  "footer": {
+    "copyright_text": "Suburban Coworking",
+    "copyright_link": "https://suburban-coworking.de"
+  },
+  "googleTrackingId": "",
+  "googleTagmanagerId": ""
 }

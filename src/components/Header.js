@@ -1,37 +1,45 @@
-import { graphql, Link, StaticQuery } from 'gatsby';
-import React from 'react';
+import { graphql, Link, StaticQuery } from "gatsby"
+import React from "react"
 
-import Hamburger from './Hamburger';
-import Menu from './Menu';
-import MenuMobile from './MenuMobile';
+import Hamburger from "./Hamburger"
+import Menu from "./Menu"
+import MenuMobile from "./MenuMobile"
 
 class Header extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
-      menuActive: false
-    };
+      menuActive: false,
+    }
   }
 
   toggleMenu = menuActive => {
     this.setState(prevState => ({
-      menuActive: !prevState.menuActive
-    }));
-  };
+      menuActive: !prevState.menuActive,
+    }))
+  }
 
   render() {
-    const config = this.props.data.configJson;
+    const config = this.props.data.configJson
     return (
       <div className="header">
         <div className="container">
           <div className="logo">
             <Link to="/">
-              <img height={config.logo.desktop_height} alt={config.logo.alt} src={config.logo.desktop} />
+              <img
+                height={config.logo.desktop_height}
+                alt={config.logo.alt}
+                src={config.logo.desktop}
+              />
             </Link>
           </div>
           <div className="logo-mobile">
             <Link to="/">
-              <img height={config.logo.desktop_height} alt={config.logo.alt} src={config.logo.mobile} />
+              <img
+                height={config.logo.desktop_height}
+                alt={config.logo.alt}
+                src={config.logo.mobile}
+              />
             </Link>
           </div>
           <MenuMobile active={this.state.menuActive} />
@@ -39,7 +47,7 @@ class Header extends React.Component {
           <Hamburger toggleMenu={this.toggleMenu} />
         </div>
       </div>
-    );
+    )
   }
 }
 
@@ -59,6 +67,6 @@ const props = () => (
     `}
     render={data => <Header data={data} />}
   />
-);
+)
 
-export default props;
+export default props

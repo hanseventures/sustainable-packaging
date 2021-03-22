@@ -1,14 +1,14 @@
-import { graphql, Link, StaticQuery } from 'gatsby';
-import React from 'react';
+import { graphql, Link, StaticQuery } from "gatsby"
+import React from "react"
 
-import Slides from '../components/Slides';
+import Slides from "../components/Slides"
 
 class Onboarding extends React.Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       step: 1,
-      slides: props.data.allSlidersJson.edges
+      slides: props.data.allSlidersJson.edges,
     }
   }
 
@@ -19,31 +19,30 @@ class Onboarding extends React.Component {
     this.setState({ step: step })
   }
 
-  render () {
+  render() {
     const isLastStep = this.state.slides.length === this.state.step
     return (
-      <div className="Onboarding" >
-        <div className='Background' data-step={this.state.step}></div>
+      <div className="Onboarding">
+        <div className="Background" data-step={this.state.step}></div>
         <Slides step={this.state.step} slides={this.state.slides} />
-        <div className='Footer' data-step={this.state.step} >
-          <div className='Dots' data-step={this.state.step}>
-            {this.state.slides.map((_,index) => (
-              <div className='Dot' key={index} />
+        <div className="Footer" data-step={this.state.step}>
+          <div className="Dots" data-step={this.state.step}>
+            {this.state.slides.map((_, index) => (
+              <div className="Dot" key={index} />
             ))}
           </div>
-          { isLastStep ?
-          (
-            <Link to='#contact-form' className='Button signup'>Direkt anmelden</Link>
-           ) : (
-          <div
-          className='Button Button--next'
-          onClick={this.nextStep}
-          >
-            Weiter
-          </div>)
-          }
+          {isLastStep ? (
+            <Link to="#contact-form" className="Button signup">
+              Direkt anmelden
+            </Link>
+          ) : (
+            <div className="Button Button--next" onClick={this.nextStep}>
+              Weiter
+            </div>
+          )}
         </div>
-      </div>)
+      </div>
+    )
   }
 }
 

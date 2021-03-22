@@ -1,25 +1,22 @@
-import { graphql, useStaticQuery } from 'gatsby';
-import React from 'react';
+import { graphql, useStaticQuery } from "gatsby"
+import React from "react"
 
 const Call = props => {
   const data = useStaticQuery(graphql`
     query ContactQuery {
-        contactJson {
-          phone
-          email
-          contact_button_link
-        }
+      contactJson {
+        phone
+        email
+        contact_button_link
+      }
     }
-   `);
+  `)
   return (
     <div className="call">
       <div className="call-box-top">
         {data.contactJson.phone && (
           <div className="call-phone">
-            <strong>Phone: </strong>
-            {' '}
-            { data.contactJson.phone }
-            {' '}
+            <strong>Phone: </strong> {data.contactJson.phone}{" "}
           </div>
         )}
         {data.contactJson.email && (
@@ -33,11 +30,13 @@ const Call = props => {
       </div>
       {props.showButton && (
         <div className="call-box-bottom">
-          <a href={data.contactJson.contact_button_link} className="button">Contact</a>
+          <a href={data.contactJson.contact_button_link} className="button">
+            Contact
+          </a>
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default Call;
+export default Call
