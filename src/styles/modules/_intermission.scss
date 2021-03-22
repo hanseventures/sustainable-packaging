@@ -1,0 +1,15 @@
+// ==========================================================================
+// Intermission styles
+// ==========================================================================
+
+@include media-breakpoint-up(md) {
+  .l-intermission {
+    max-height: 300px;
+    overflow: hidden;
+
+    img {
+      margin-top: -25%;
+    }
+  }
+
+}

@@ -36,7 +36,7 @@ const Home = props => {
       </div>
 
       <section className="l-cta d-flex-md flex-md-row-reverse font-wht m-md-3 mt-1">
-      <img alt={intro.frontmatter.first_section} className="d-none d-md-block min-width-0 " src={intro.frontmatter.intro_image} />
+      <img alt={intro.frontmatter.first_section} className="d-none d-md-block min-width-0 " src="/images/suburban-coworking-cta.jpg" />
 
         <div className=" bg-primary p-3">
           <h2 className="mt-0 font-wht">Unser Ziel</h2>
@@ -63,9 +63,9 @@ const Home = props => {
         </div>
       </section>
 
-      <section className="l-intermission font-wht position-relative">
-        <h2 className="pos-abs-center text-xs-center">Ein Ort der Ruhe, zum Arbeiten und Denken.</h2>
-        <img alt={intro.frontmatter.first_section} className="" src={intro.frontmatter.intro_image} />
+      <section className="l-intermission font-wht position-relative black-overlay">
+        <h3 className="h-2 pos-abs-center text-xs-center font-wht z-index-100">Ein Ort der Ruhe, zum Arbeiten und Denken.</h3>
+        <img alt={intro.frontmatter.first_section} className="" src="/images/suburban-coworking-intermission.jpg" />
       </section>
 
       <section className="l-products content d-flex-md flex-md-column">
@@ -160,31 +160,31 @@ const Home = props => {
           <h2>Diese Services sind inklusive</h2>
           <div className="icon-wrapper d-flex flex-wrap flex-row flex-justify-center">
             <div className="icon-item d-flex flex-column align-item-center">
-              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
+              <img alt={intro.frontmatter.first_section} className="" src="images\icons\wifi.svg" />
               <span>Wifi</span>
             </div>
             <div className="icon-item d-flex flex-column align-item-center">
-              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_3d modeling_1885342.svg" />
+              <img alt={intro.frontmatter.first_section} className="" src="images\icons\coffee.svg" />
               <span>Kaffeevollautomat</span>
             </div>
             <div className="icon-item d-flex flex-column align-item-center">
-              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
+              <img alt={intro.frontmatter.first_section} className="" src="images\icons\water.svg" />
               <span>Wasserspender</span>
             </div>
             <div className="icon-item d-flex flex-column align-item-center">
-              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_3d modeling_1885342.svg" />
+              <img alt={intro.frontmatter.first_section} className="" src="images\icons\fridge.svg" />
               <span>Kühlschrank</span>
             </div>
             <div className="icon-item d-flex flex-column align-item-center">
-              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
+              <img alt={intro.frontmatter.first_section} className="" src="images\icons\microwave.svg" />
               <span>Mikrowelle</span>
             </div>
             <div className="icon-item d-flex flex-column align-item-center">
-              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_3d modeling_1885342.svg" />
+              <img alt={intro.frontmatter.first_section} className="" src="images\icons\cleaning.svg" />
               <span>Reinigung</span>
             </div>
             <div className="icon-item d-flex flex-column align-item-center">
-              <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
+              <img alt={intro.frontmatter.first_section} className="" src="images\icons\keys.svg" />
               <span>Schlüssel für die Immobilie</span>
             </div>
           </div>
@@ -234,10 +234,10 @@ const Home = props => {
       <section className="l-social-icons content pt-2 bg-gry">
         <p>Empfehle uns gerne Deinen Freunden und Kollegen weiter!</p>
         <div className="social-icons d-flex">
-          <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
-          <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
-          <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
-          <img alt={intro.frontmatter.first_section} className="" src="images\features\noun_branding_1885335.svg" />
+          <img alt={intro.frontmatter.first_section} className="min-width-0" src="images\features\noun_branding_1885335.svg" />
+          <img alt={intro.frontmatter.first_section} className="min-width-0" src="images\features\noun_branding_1885335.svg" />
+          <img alt={intro.frontmatter.first_section} className="min-width-0" src="images\features\noun_branding_1885335.svg" />
+          <img alt={intro.frontmatter.first_section} className="min-width-0" src="images\features\noun_branding_1885335.svg" />
         </div>
       </section>
 

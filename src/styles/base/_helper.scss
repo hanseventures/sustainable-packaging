@@ -167,8 +167,8 @@ hr {
 .pos-abs-center {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  // left: 50%;
+  transform: translate( 0, -50%);
   margin: 0;
 }
 
@@ -178,6 +178,25 @@ hr {
 
 .width-50 {
   width: 50%;
+}
+
+.black-overlay {
+  &::after {
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.4);
+  }
+
+  img {
+    width: 100%;
+    vertical-align: top;
+  }
+}
+
+.z-index-100 {
+  z-index: 100;
 }
 
 @include media-breakpoint-up(xs) {
@@ -219,6 +238,14 @@ hr {
 
   .width-md-50 {
     width: 50%;
+  }
+
+  .pos-abs-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    margin: 0;
   }
 
 }
