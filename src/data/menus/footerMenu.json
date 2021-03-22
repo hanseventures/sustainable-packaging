@@ -9,8 +9,12 @@
         "url": "/contact/",
         "weight": 2
     },{
-        "name": "Imprint",
-        "url": "/imprint/",
+        "name": "Impressum",
+        "url": "/impressum/",
         "weight": 3
+    },{
+        "name": "Datenschutz",
+        "url": "/datenschutz/",
+        "weight": 4
     }
 ]
