@@ -35,8 +35,8 @@ const Home = props => {
         </div>
       </div>
 
-      <section className="l-cta d-flex-md flex-md-row-reverse font-wht m-md-3 mt-1">
-      <img alt={intro.frontmatter.first_section} className="d-none d-md-block min-width-0 " src="/images/suburban-coworking-cta.jpg" />
+      <section className="l-cta d-flex-md flex-md-row-reverse font-wht m-md-3 mt-1 mx-md-auto max-width-1024">
+        <img alt={intro.frontmatter.first_section} className="d-none d-md-block min-width-0 " src="/images/suburban-coworking-cta.jpg" />
 
         <div className=" bg-primary p-3">
           <h2 className="mt-0 font-wht">Unser Ziel</h2>
@@ -191,44 +191,57 @@ const Home = props => {
         </section>
       </div>
 
-      <section className="l-contact contact content pt-2 bg-gry">
-        <h2 className="h-2">Haben wir Dein Interesse wecken können?</h2>
-        <p>
-          Melde dich hier unverbindlich an. <br></br>
-          Wir melden uns bei Dir zurück sobald es los geht!
-        </p>
+      <section className="l-contact pt-2 d-flex-md m-md-3 mt-1 mx-md-auto max-width-1024">
 
-        <form>
+        <div className="form-wrapper bg-gry p-3">
+          <h2 className="mt-0 h-2">Haben wir Dein Interesse wecken können?</h2>
+          <p>
+            Melde dich hier unverbindlich an. <br></br>
+            Wir melden uns bei Dir zurück sobald es los geht!
+          </p>
 
-        <div className="form-group">
-          <label className="form-control" for="fname">Vorname:</label>
-          <input type="text" id="fname" name="fname" ></input><br></br>
+          <form>
+            <div className="form-group form-entry-01">
+              <label className="form-control" for="fname">Vorname</label>
+              <input type="text" id="fname" name="fname" ></input><br></br>
+            </div>
+
+            <div className="form-group form-entry-02">
+              <label className="form-control" for="plz">PLZ</label>
+              <input type="text" id="plz" name="plz" ></input><br></br>
+            </div>
+
+            <div className="form-group form-entry-03">
+              <label className="form-control" for="email">E-Mail</label>
+              <input type="text" id="email" name="email" ></input><br></br>
+            </div>
+
+            <div class="select form-group form-entry-04">
+              <select aria-label="Select menu example" id="arbeitsplatz" name="arbeitsplatz">
+                <option selected>Flexibler Einzelplatz</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+            <div class="form-group form-entry-05 form-entry-full-width">
+              <label className="control checkbox" for="location-yes">
+                <input type="checkbox" id="location-yes" name="location-yes" value="Ich möchte eine Location empfehlen"></input>
+                <span className="control-indicator"></span>
+                Ich möchte eine Location empfehlen
+              </label>
+              <textarea name="message" rows="5" cols="10" placeholder="Z.B. Adresse, Gebäudenamen, Kontakt etc.">
+              </textarea>
+            </div>
+
+            <input type="submit" value="Anmeldung abschicken" className="btn btn-secondary"></input>
+          </form>
         </div>
-          <label for="plz">PLZ</label><br></br>
-          <input type="text" id="plz" name="plz"></input><br></br>
-          <label for="email">E-Mail</label><br></br>
-          <input type="text" id="email" name="email"></input>
-          <div class="select">
-            <select aria-label="Select menu example" id="arbeitsplatz" name="arbeitsplatz">
-              <option selected>Flexibler Einzelplatz</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-          </div>
 
-          <label className="control checkbox" for="location-yes">
-            <input type="checkbox" id="location-yes" name="location-yes" value="Ich möchte eine Location empfehlen"></input>
-            <span className="control-indicator"></span>
-            Ich möchte eine Location empfehlen
-          </label>
-
-          <textarea name="message" rows="10" cols="30" placeholder="Z.B. Adresse, Gebäudenamen, Kontakt etc.">
-
-          </textarea>
-
-          <input type="submit" value="Anmeldung abschicken" className="btn btn-secondary"></input>
-        </form>
+        <div className="image-wrapper">
+          <img alt={intro.frontmatter.first_section} className="d-none d-md-block min-width-0 " src="/images/suburban-coworking-contact.jpg" />
+        </div>
       </section>
 
       <section className="l-social-icons content pt-2 bg-gry">

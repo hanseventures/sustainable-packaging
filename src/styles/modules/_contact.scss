@@ -2,36 +2,66 @@
 // Contact section
 // ==========================================================================
 
-.contact {
-  .contact-content {
-    margin: 0 auto;
+.l-contact {
 
-    svg {
-      width: 36px;
+  form {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+      "form-entry-01"
+      "form-entry-02"
+      "form-entry-03"
+      "form-entry-04"
+      "form-entry-05"
+      "form-submit";
+    grid-gap: 0 1rem;
+    max-width: 600px;
 
-      g {
-        stroke: $secondary;
-      }
+    .form-entry-01 {
+      grid-area: form-entry-01;
+    }
+    .form-entry-02 {
+      grid-area: form-entry-02;
+    }
+    .form-entry-03 {
+      grid-area: form-entry-03;
+    }
+    .form-entry-04 {
+      grid-area: form-entry-04;
     }
 
-    a {
-      color: $primary;
+    .form-entry-05 {
+      grid-area: form-entry-05;
+    }
 
-      &:hover {
-        color: $secondary;
-      }
+    .btn {
+      grid-area: form-submit;
     }
   }
 }
 
-@include media-breakpoint-up(sm) {
-  .contact .contact-content {
-    img {
-      width: 48px;
+@include media-breakpoint-up(md) {
+  .l-contact {
+    justify-content: center;
+
+    .form-wrapper {
+      // width: 50%;
+      box-sizing: border-box;
     }
 
-    a {
-      font-size: 2em;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    form {
+      grid-auto-columns: 1fr 1fr;
+      grid-template-areas:
+        "form-entry-01 form-entry-02"
+        "form-entry-03 form-entry-04"
+        "form-entry-05 form-entry-05"
+        "form-submit form-submit";
     }
   }
 }
