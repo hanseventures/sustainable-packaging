@@ -70,7 +70,7 @@ a {
   &.btn-primary {
     background-color: $primary;
     border-color: $primary;
-    box-shadow: $global-box-shadow-y;
+    //box-shadow: $global-box-shadow-y;
     color: $white;
 
     &:hover {
@@ -95,7 +95,7 @@ a {
   &.btn-accept {
     background-color: $accept;
     border-color: $accept;
-    box-shadow: $global-box-shadow-y;
+    //box-shadow: $global-box-shadow-y;
     color: $white;
 
     &:hover {
@@ -135,7 +135,7 @@ a {
   &.btn-secondary {
     background-color: $secondary;
     border-color: $secondary;
-    box-shadow: $global-box-shadow-y;
+    //box-shadow: $global-box-shadow-y;
     color: $white;
 
     &:hover {
