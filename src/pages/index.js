@@ -83,7 +83,7 @@ const Home = props => {
           <h2>Du bist Freelancer, Angestellter oder Teil eines Teams?</h2>
           <p>
             Du brauchst <b>keinen festen Arbeitsplatz</b> oder du willst lieber
-            doch ein <b>Einzelbüro</b>, z. B. weil du viel telefonierst?Gib
+            doch ein <b>Einzelbüro</b>, z. B. weil du viel telefonierst? Gib
             deinen Wunsch mit an, dass hilft uns bei der Planung.
             <br></br>
             <br></br>
@@ -336,16 +336,7 @@ const Home = props => {
             </div>
 
             <div className="form-group form-entry-05 form-entry-full-width">
-              <label className="control checkbox" htmlFor="location-yes">
-                <input
-                  type="checkbox"
-                  id="location-yes"
-                  name="location-yes"
-                  value="Ich möchte eine Location empfehlen"
-                ></input>
-                <span className="control-indicator"></span>
-                Ich möchte eine Location empfehlen
-              </label>
+              Möchtest Du noch eine Location empfehlen?
               <textarea
                 name="message"
                 rows="5"
