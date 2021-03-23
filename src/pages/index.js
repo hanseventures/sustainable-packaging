@@ -290,12 +290,12 @@ const Home = props => {
             Wir melden uns bei Dir zurück sobald es los geht!
           </p>
 
-          <form id="contact-form">
+          <form id="contact-form"  action="https://docs.google.com/forms/d/e/1FAIpQLSc-OV1zn7ycfcu7JJaC6ZNVuDBF1qhaty7tdJFySsVRU_KGFA/formResponse">
             <div className="form-group form-entry-01">
               <label className="form-control" htmlFor="fname">
                 Vorname
               </label>
-              <input type="text" id="fname" name="fname"></input>
+              <input type="text" id="fname" name="fname"  name="entry.1805432203"></input>
               <br></br>
             </div>
 
@@ -303,7 +303,7 @@ const Home = props => {
               <label className="form-control" htmlFor="plz">
                 PLZ
               </label>
-              <input type="text" id="plz" name="plz"></input>
+              <input type="text" id="plz" name="plz"  name="entry.1262603567"></input>
               <br></br>
             </div>
 
@@ -311,7 +311,7 @@ const Home = props => {
               <label className="form-control" htmlFor="email">
                 E-Mail
               </label>
-              <input type="text" id="email" name="email"></input>
+              <input type="email" id="email" name="emailAddress" ></input>
               <br></br>
             </div>
 
@@ -319,20 +319,19 @@ const Home = props => {
               <select
                 aria-label="Select menu example"
                 id="arbeitsplatz"
-                name="arbeitsplatz"
-                defaultValue="0"
+                name="entry.1403452405"
+                defaultValue="Flexibler Einzelplatz"
               >
-                <option value="0">Flexibler Einzelplatz</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option value="Flexibler Einzelplatz">Flexibler Einzelplatz</option>
+                <option value="Fester Einzelplatz">Fester Einzelplatz</option>
+                <option value="Einzelbüro">Einzelbüro</option>
               </select>
             </div>
 
             <div className="form-group form-entry-05 form-entry-full-width">
               Möchtest Du noch eine Location empfehlen?
               <textarea
-                name="message"
+                name="entry.505546823"
                 rows="5"
                 cols="10"
                 placeholder="Z.B. Adresse, Gebäudenamen, Kontakt etc."
