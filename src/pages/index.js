@@ -279,8 +279,6 @@ const Home = props => {
         </section>
       </div>
 
-      <form action="https://docs.google.com/forms/d/e/safdalfjaISv65R6J11H0o_7FadflUm/formResponse"
-      method="post" target="hidden_iframe" onsubmit="submitted=true;">
 
       <section className="l-contact content pt-2 d-flex-md mt-md-3 mt-1 mx-md-auto mb-0 pb-0">
         <div className="form-wrapper bg-gry p-3">
@@ -289,8 +287,8 @@ const Home = props => {
             Melde dich hier unverbindlich an. <br></br>
             Wir melden uns bei Dir zurück sobald es los geht!
           </p>
-
-          <form id="contact-form"  action="https://docs.google.com/forms/d/e/1FAIpQLSc-OV1zn7ycfcu7JJaC6ZNVuDBF1qhaty7tdJFySsVRU_KGFA/formResponse">
+          
+          <form id="contact-form"  action="https://docs.google.com/forms/d/e/1FAIpQLSc-OV1zn7ycfcu7JJaC6ZNVuDBF1qhaty7tdJFySsVRU_KGFA/formResponse"  method="post" target="hidden_iframe" onsubmit="submitted=true;">
             <div className="form-group form-entry-01">
               <label className="form-control" htmlFor="fname">
                 Vorname
