@@ -19,7 +19,6 @@ const Layout = props => (
             <Header />
             {props.children}
             <Footer />
-            <SubFooter />
           </>
         )}
       </div>

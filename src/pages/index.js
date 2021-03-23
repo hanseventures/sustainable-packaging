@@ -27,8 +27,6 @@ const Home = props => {
           name="description"
           content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
         />
-
-
       </Helmet>
       <Onboarding />
       <div className="intro">
@@ -287,8 +285,8 @@ const Home = props => {
             Melde dich hier unverbindlich an. <br></br>
             Wir melden uns bei Dir zurück sobald es los geht!
           </p>
-          
-          <form id="contact-form"  action="https://docs.google.com/forms/d/e/1FAIpQLSc-OV1zn7ycfcu7JJaC6ZNVuDBF1qhaty7tdJFySsVRU_KGFA/formResponse"  method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
+          <form id="contact-form"  action="https://docs.google.com/forms/d/e/1FAIpQLSc-OV1zn7ycfcu7JJaC6ZNVuDBF1qhaty7tdJFySsVRU_KGFA/formResponse"  method="post" target="hidden_iframe" onSubmit={() => {document.getElementById('submit').disabled=true;}} >
             <div className="form-group form-entry-01">
               <label className="form-control" htmlFor="fname">
                 Vorname
@@ -337,6 +335,7 @@ const Home = props => {
             </div>
 
             <input
+              id="submit"
               type="submit"
               value="Anmeldung abschicken"
               className="btn btn-secondary"
