@@ -29,26 +29,7 @@ const Home = props => {
         />
       </Helmet>
       <Onboarding />
-      <div className="intro">
-        <div className="container">
-          <div className="row justify-content-start">
-            <div className="">
-              <div dangerouslySetInnerHTML={{ __html: intro.html }} />
-            </div>
-            {intro.frontmatter.intro_image && (
-              <div className="position-relative">
-                <img
-                  alt={intro.frontmatter.title}
-                  className={"introImageClasses"}
-                  src={intro.frontmatter.intro_image}
-                />
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-
-      <section className="l-cta content d-flex-md flex-md-row-reverse font-wht m-md-3 mt-1 mx-md-auto">
+      <section className="l-cta content d-flex-md flex-md-row-reverse font-wht m-md-3 mt-0 mx-md-auto pt-0 px-0 px-md-3">
         <div className="image-wrapper">
           <img
             alt={intro.frontmatter.first_section}
