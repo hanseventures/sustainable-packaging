@@ -48,14 +48,15 @@ const Home = props => {
         </div>
       </div>
 
-      <section className="l-cta d-flex-md flex-md-row-reverse font-wht m-md-3 mt-1 mx-md-auto max-width-1024">
-        <img
-          alt={intro.frontmatter.first_section}
-          className="d-none d-md-block min-width-0 "
-          src="/images/suburban-coworking-cta.jpg"
-        />
-
-        <div className=" bg-primary p-3">
+      <section className="l-cta content d-flex-md flex-md-row-reverse font-wht m-md-3 mt-1 mx-md-auto">
+        <div className="image-wrapper">
+          <img
+            alt={intro.frontmatter.first_section}
+            className="d-none d-md-block min-width-0 "
+            src="/images/suburban-coworking-cta.jpg"
+          />
+        </div>
+        <div className="content-wrapper bg-primary p-4">
           <h2 className="mt-0 font-wht">Unser Ziel</h2>
           <p>
             Wir wollen Co-Working Spaces dahin bringen, wo sie wirklich benötigt
@@ -273,7 +274,7 @@ const Home = props => {
         </section>
       </div>
 
-      <section className="l-contact pt-2 d-flex-md m-md-3 mt-1 mx-md-auto max-width-1024">
+      <section className="l-contact content pt-2 d-flex-md mt-md-3 mt-1 mx-md-auto mb-0 pb-0">
         <div className="form-wrapper bg-gry p-3">
           <h2 className="mt-0 h-2">Haben wir Dein Interesse wecken können?</h2>
           <p>
@@ -356,23 +357,25 @@ const Home = props => {
         </div>
       </section>
 
-      <section className="l-social-icons content pt-2 bg-gry">
-        <p>Empfehle uns gerne Deinen Freunden und Kollegen weiter!</p>
-        <div className="social-icons d-flex">
-          <WhatsappShareButton
-            url={shareUrl}
-            title={site.title}
-            separator=":: "
-          >
-            <WhatsappIcon size={32} round />
-          </WhatsappShareButton>
-          <TwitterShareButton url={shareUrl} title={site.title}>
-            <TwitterIcon size={32} round />
-          </TwitterShareButton>
+      <section className="l-social-icons content pt-0 ">
+        <div className="social-wrapper bg-primary font-wht px-4 py-2">
+          <p>Empfehle uns gerne Deinen Freunden und Kollegen weiter!</p>
+          <div className="social-icons d-flex">
+            <WhatsappShareButton
+              url={shareUrl}
+              title={site.title}
+              separator=":: "
+            >
+              <WhatsappIcon size={32} round />
+            </WhatsappShareButton>
+            <TwitterShareButton url={shareUrl} title={site.title}>
+              <TwitterIcon size={32} round />
+            </TwitterShareButton>
 
-          <FacebookShareButton url={shareUrl} quote={site.title}>
-            <FacebookIcon size={32} round />
-          </FacebookShareButton>
+            <FacebookShareButton url={shareUrl} quote={site.title}>
+              <FacebookIcon size={32} round />
+            </FacebookShareButton>
+          </div>
         </div>
       </section>
     </Layout>

@@ -4,7 +4,24 @@
 
 @include media-breakpoint-up(md) {
   .l-cta {
-    img,
+    .image-wrapper {
+      flex: 1;
+      background-image: url("/images/suburban-coworking-cta.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      img {
+        display: none !important;
+      }
+    }
+
+    .content-wrapper {
+      flex-basis: 500px;
+      box-sizing: border-box;
+    }
+
+
     div {
       width: 50%;
     }

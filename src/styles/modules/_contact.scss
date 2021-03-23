@@ -3,7 +3,6 @@
 // ==========================================================================
 
 .l-contact {
-
   form {
     display: grid;
     grid-auto-columns: 1fr;
@@ -20,12 +19,15 @@
     .form-entry-01 {
       grid-area: form-entry-01;
     }
+
     .form-entry-02 {
       grid-area: form-entry-02;
     }
+
     .form-entry-03 {
       grid-area: form-entry-03;
     }
+
     .form-entry-04 {
       grid-area: form-entry-04;
     }
@@ -46,10 +48,20 @@
 
     .form-wrapper {
       // width: 50%;
+      flex-basis: 500px;
       box-sizing: border-box;
     }
 
+    .image-wrapper {
+      flex: 1;
+      background-image: url("/images/suburban-coworking-contact.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
     img {
+      display: none !important;
       height: 100%;
       width: 100%;
       object-fit: cover;
@@ -62,6 +74,22 @@
         "form-entry-03 form-entry-04"
         "form-entry-05 form-entry-05"
         "form-submit form-submit";
+    }
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+  .l-contact {
+    justify-content: center;
+
+    .form-wrapper {
+      // width: 50%;
+      flex-basis: 850px;
+      box-sizing: border-box;
+    }
+
+    form {
+      max-width: none;
     }
   }
 }
