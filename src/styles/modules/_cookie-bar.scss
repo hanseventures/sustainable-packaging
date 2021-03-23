@@ -1,0 +1,58 @@
+/* ------------------------ Overrites cookie-bar.eu styles ------------------------ */
+div#cookie-bar {
+  background-color: yellow;
+  border-radius: 2px;
+  box-shadow: none;
+
+  p {
+    color: black;
+    font-size: 14px !important;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  a {
+    color: blue;
+  }
+
+  #cookie-bar-button {
+    background-color: #3398DB;
+    border: 0;
+    border-radius: 0;
+    color: white !important;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+
+  #cookie-bar-prompt-button {
+    font-weight: 400;
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 768px) {
+  div#cookie-bar {
+    p {
+      width: calc(100% - 200px);
+    }
+
+    #cookie-bar-button {
+      font-size: 16px;
+      padding: 14px 15px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  div#cookie-bar {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+
+    p {
+      font-size: 16px !important;
+    }
+  }
+}

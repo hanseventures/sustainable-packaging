@@ -27,6 +27,8 @@ const Home = props => {
           name="description"
           content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
         />
+
+
       </Helmet>
       <Onboarding />
       <div className="intro">
@@ -187,7 +189,9 @@ const Home = props => {
         <section className="l-prices width-md-50 mb-5 mb-md-0">
           <h2>Unsere Preise</h2>
           <p>Let's keep it simple.</p>
+
           <table className="text-xs-left width-100">
+          <tbody>
             <tr>
               <th>Einzelarbeitsplatz</th>
               <td>150 € / Monat</td>
@@ -208,6 +212,7 @@ const Home = props => {
               <th>Teams</th>
               <td>auf Anfrage</td>
             </tr>
+            </tbody>
           </table>
         </section>
 
@@ -284,7 +289,7 @@ const Home = props => {
 
           <form id="contact-form">
             <div className="form-group form-entry-01">
-              <label className="form-control" for="fname">
+              <label className="form-control" htmlFor="fname">
                 Vorname
               </label>
               <input type="text" id="fname" name="fname"></input>
@@ -292,7 +297,7 @@ const Home = props => {
             </div>
 
             <div className="form-group form-entry-02">
-              <label className="form-control" for="plz">
+              <label className="form-control" htmlFor="plz">
                 PLZ
               </label>
               <input type="text" id="plz" name="plz"></input>
@@ -300,7 +305,7 @@ const Home = props => {
             </div>
 
             <div className="form-group form-entry-03">
-              <label className="form-control" for="email">
+              <label className="form-control" htmlFor="email">
                 E-Mail
               </label>
               <input type="text" id="email" name="email"></input>
@@ -322,7 +327,16 @@ const Home = props => {
             </div>
 
             <div className="form-group form-entry-05 form-entry-full-width">
-             Möchtest Du noch eine Location empfehlen?
+              <label className="control checkbox" htmlFor="location-yes">
+                <input
+                  type="checkbox"
+                  id="location-yes"
+                  name="location-yes"
+                  value="Ich möchte eine Location empfehlen"
+                ></input>
+                <span className="control-indicator"></span>
+                Ich möchte eine Location empfehlen
+              </label>
               <textarea
                 name="message"
                 rows="5"
