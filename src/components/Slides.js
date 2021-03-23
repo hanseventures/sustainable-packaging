@@ -16,7 +16,7 @@ const Slides = props => {
                 />
               </Link>
             </div>
-            <h1 className="font-wht mt-5">{slide.node.title}</h1>
+            <h1 className="text-xs-left font-wht mt-5">{slide.node.title}</h1>
             <h4 className="text-xs-left font-wht">{slide.node.text}</h4>
           </div>
         ))}

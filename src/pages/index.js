@@ -29,7 +29,7 @@ const Home = props => {
         />
       </Helmet>
       <Onboarding />
-      <section className="l-cta content d-flex-md flex-md-row-reverse font-wht m-md-3 mt-0 mx-md-auto pt-0 px-0 px-md-3">
+      <section className="l-cta content d-flex-md flex-md-row-reverse font-wht mt-md-3 m-0 mx-md-auto p-0 px-md-3">
         <div className="image-wrapper">
           <img
             alt={intro.frontmatter.first_section}
@@ -341,14 +341,22 @@ const Home = props => {
               url={shareUrl}
               title={site.title}
               separator=":: "
+              className="mr-1"
             >
               <WhatsappIcon size={32} round />
             </WhatsappShareButton>
-            <TwitterShareButton url={shareUrl} title={site.title}>
+            <TwitterShareButton
+              url={shareUrl}
+              title={site.title}
+              className="mr-1"
+            >
               <TwitterIcon size={32} round />
             </TwitterShareButton>
 
-            <FacebookShareButton url={shareUrl} quote={site.title}>
+            <FacebookShareButton
+              url={shareUrl}
+              quote={site.title}
+              >
               <FacebookIcon size={32} round />
             </FacebookShareButton>
           </div>
