@@ -161,3 +161,9 @@ input[type=number] {
     max-width: 300px;
   }
 }
+
+@include media-breakpoint-up(xxl) {
+  input {
+    max-width: none;
+  }
+}

@@ -8,7 +8,7 @@
 // .content as sibling.
 
 #wrapper {
-  max-width: 1366px;
+  //max-width: 1366px;
   margin: 0 auto;
 }
 
@@ -24,6 +24,8 @@
   .content {
     padding: 3em 0.75em;
     overflow: hidden;
+    max-width: 1366px;
+    margin: 0 auto;
 
     &.content--centered {
       margin-left: auto;
@@ -115,3 +117,11 @@
     }
   }
 }
+
+// @include media-breakpoint-up(xxl) {
+//   .container {
+//     .content {
+//       max-width: none;
+//     }
+//   }
+// }
