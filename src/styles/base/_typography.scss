@@ -158,3 +158,15 @@ body {
   //   font-size: em;
   // }
 }
+
+@include media-breakpoint-up(xl) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+  :root {
+    font-size: 23px;
+  }
+}
