@@ -3,26 +3,142 @@
 // ==========================================================================
 
 .l-onboarding {
-  .content {
-    box-sizing: border-box;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  max-height: 640px;
+  max-width: 380px;
+  overflow: hidden;
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600%;
+    opacity: 0.9;
+    pointer-events: none;
+    background-image: url("/images/blake-wisz-GFrBMipOd_E-unsplash.jpg");
+  }
+
+  .slide {
+    position: relative;
+  }
+
+  .slides {
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    &[data-step="1"] {
+      .slide-wrapper {
+        left: 0;
+      }
+    }
+
+    &[data-step="2"] {
+      .slide-wrapper {
+        left: -100%;
+      }
+    }
+
+    &[data-step="3"] {
+      .slide-wrapper {
+        left: -200%;
+      }
+    }
+
+    &[data-step="4"] {
+      .slide-wrapper {
+        left: -300%;
+      }
+    }
+
+    &[data-step="5"] {
+      .slide-wrapper {
+        left: -400%;
+      }
+    }
+
+    .slide-wrapper {
+      display: flex;
+      position: relative;
+      left: 0;
+      width: 500%;
+      height: 100%;
+      transition: left 0.25s ease-in-out 0.125s;
+    }
 
     .slide {
-      display: none;
+      align-items: center;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: center;
+      width: 33.33%;
 
-      &.active {
-        display: block;
-        flex-grow: 1;
+      .fa {
+        font-size: 128px;
+        margin-bottom: 30px;
+      }
+
+      h4 {
+        font-family: $font-family-base;
+        font-weight: normal;
       }
     }
   }
-}
 
-.l-onboarding,
-.l-login,
-.l-password,
-.l-email,
-.l-privacy {
-  max-width: 620px;
-  margin: 0 auto;
+  .logo {
+    position: absolute;
+    right: -15px;
+    top: 10px;
+  }
+
+  .footer {
+    position: relative;
+    width: 100%;
+
+    &[data-step="1"] {
+      .Button--prev {
+        pointer-events: none;
+        opacity: 0.5;
+      }
+    }
+
+    .dot-wrapper {
+      align-items: center;
+      flex: 1 0 auto;
+      display: flex;
+      justify-content: center;
+      @for $i from 1 through 5 {
+        &[data-step="#{$i}"] {
+          .Dot:nth-child(#{$i}) {
+            opacity: 1;
+          }
+        }
+      }
+
+      .dot-item {
+        background: white;
+        opacity: 0.5;
+        margin: 15px 5px;
+        width: 8px;
+        height: 8px;
+        border-radius: 8px;
+        transition: opacity 0.125s ease-in-out;
+      }
+    }
+
+    .btn {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
 }

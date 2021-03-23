@@ -22,21 +22,21 @@ class Onboarding extends React.Component {
   render() {
     const isLastStep = this.state.slides.length === this.state.step
     return (
-      <div className="Onboarding">
-        <div className="Background" data-step={this.state.step}></div>
+      <div className="l-onboarding">
+        <div className="background position-relative black-overlay" data-step={this.state.step}></div>
         <Slides step={this.state.step} slides={this.state.slides} />
-        <div className="Footer" data-step={this.state.step}>
-          <div className="Dots" data-step={this.state.step}>
+        <div className="footer d-flex flex-wrap mx-auto my-3" data-step={this.state.step}>
+          <div className="dot-wrapper" data-step={this.state.step}>
             {this.state.slides.map((_, index) => (
-              <div className="Dot" key={index} />
+              <div className="dot-item" key={index} />
             ))}
           </div>
           {isLastStep ? (
-            <Link to="#contact-form" className="Button signup">
+            <Link to="#contact-form" className="btn btn-secondary signup">
               Direkt anmelden
             </Link>
           ) : (
-            <div className="Button Button--next" onClick={this.nextStep}>
+            <div className="btn btn-secondary" onClick={this.nextStep}>
               Weiter
             </div>
           )}
