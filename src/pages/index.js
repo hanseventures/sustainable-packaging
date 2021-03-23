@@ -322,16 +322,7 @@ const Home = props => {
             </div>
 
             <div className="form-group form-entry-05 form-entry-full-width">
-              <label className="control checkbox" for="location-yes">
-                <input
-                  type="checkbox"
-                  id="location-yes"
-                  name="location-yes"
-                  value="Ich möchte eine Location empfehlen"
-                ></input>
-                <span className="control-indicator"></span>
-                Ich möchte eine Location empfehlen
-              </label>
+             Möchtest Du noch eine Location empfehlen?
               <textarea
                 name="message"
                 rows="5"
