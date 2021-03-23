@@ -75,7 +75,7 @@ const Home = props => {
         <img
           alt={intro.frontmatter.first_section}
           className="min-width-0 "
-          src={intro.frontmatter.intro_image}
+          src="/images/illustrations/suburban-illustration-01b.svg"
         />
         <div>
           <h2>Du bist Freelancer, Angestellter oder Teil eines Teams?</h2>
@@ -167,8 +167,8 @@ const Home = props => {
       <section className="l-locations content d-flex-md flex-md-row-reverse">
         <img
           alt={intro.frontmatter.first_section}
-          className="min-width-0"
-          src={intro.frontmatter.intro_image}
+          className="min-width-0 "
+          src="/images/illustrations/suburban-illustration-03.svg"
         />
         <div>
           <h2>Zu den Locations</h2>
