@@ -279,15 +279,6 @@ const Home = props => {
         </section>
       </div>
 
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc-OV1zn7ycfcu7JJaC6ZNVuDBF1qhaty7tdJFySsVRU_KGFA/viewform?embedded=true" width="640" height="1173" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…</iframe>
-
-      <script type="text/javascript">var submitted=false;</script>
-      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
-      onload="if(submitted) {window.location='thankyou.html';}"></iframe>
-
-      <form action="https://docs.google.com/forms/d/e/safdalfjaISv65R6J11H0o_7FadflUm/formResponse"
-      method="post" target="hidden_iframe" onsubmit="submitted=true;">
-
       <section className="l-contact content pt-2 d-flex-md mt-md-3 mt-1 mx-md-auto mb-0 pb-0">
         <div className="form-wrapper bg-gry p-3">
           <h2 className="mt-0 h-2">Haben wir Dein Interesse wecken können?</h2>
