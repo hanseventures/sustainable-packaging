@@ -101,6 +101,10 @@ body {
   // font-weight: $font-weight-extralight;
 }
 
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
 @include media-breakpoint-up(sm) {
   :root {
     // font-size: 18px;
