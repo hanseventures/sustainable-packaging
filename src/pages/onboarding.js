@@ -23,6 +23,15 @@ class Onboarding extends React.Component {
     const isLastStep = this.state.slides.length === this.state.step
     return (
       <div className="l-onboarding">
+      <div className="logo">
+        <Link to="/">
+          <img
+            height="60px"
+            alt="Suburban Coworking Logo"
+            src="/images/logo/suburban-coworking-logo-white.svg"
+          />
+        </Link>
+      </div>
         <div className="background position-relative black-overlay" data-step={this.state.step}></div>
         <Slides step={this.state.step} slides={this.state.slides} />
         <div className="footer d-flex flex-wrap mx-auto my-3" data-step={this.state.step}>
