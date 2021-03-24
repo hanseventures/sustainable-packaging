@@ -129,7 +129,7 @@ const Home = props => {
           </div>
         </div>
 
-        <div className='d-flex-md flex-md-row-reverse mb-5'>
+        <div className='d-flex-md flex-md-row-reverse mb-0'>
           <img
             alt={intro.frontmatter.first_section}
             className='phonebox-image min-width-0 d-none'
