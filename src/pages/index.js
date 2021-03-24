@@ -15,30 +15,33 @@ import SEO from '../components/SEO';
 import Onboarding from './onboarding';
 
 const Home = props => {
+  // Initiate forms
+
   const intro = props.data.intro
   const site = props.data.site.siteMetadata
   const shareUrl = typeof window !== `undefined` ? window.location.origin : ''
 
+
   return (
-    <Layout bodyClass="page-home container">
+    <Layout bodyClass='page-home container'>
       <SEO title={site.title} />
       <Helmet>
         <meta
-          name="description"
-          content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
+          name='description'
+          content='Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme.'
         />
       </Helmet>
       <Onboarding />
-      <section className="l-cta content d-flex-md flex-md-row-reverse font-wht mt-md-3 m-0 mx-md-auto p-0 px-md-3">
-        <div className="image-wrapper">
+      <section className='l-cta content d-flex-md flex-md-row-reverse font-wht mt-md-3 m-0 mx-md-auto p-0 px-md-3'>
+        <div className='image-wrapper'>
           <img
             alt={intro.frontmatter.first_section}
-            className="d-none d-md-block min-width-0 "
-            src="/images/suburban-coworking-cta.jpg"
+            className='d-none d-md-block min-width-0 '
+            src='/images/suburban-coworking-cta.jpg'
           />
         </div>
-        <div className="content-wrapper bg-primary p-4">
-          <h2 className="mt-0 font-wht">Unser Ziel</h2>
+        <div className='content-wrapper bg-primary p-4'>
+          <h2 className='mt-0 font-wht'>Unser Ziel</h2>
           <p>
             Wir wollen Co-Working Spaces dahin bringen, wo sie wirklich benötigt
             werden - und zwar in deine Nähe!
@@ -46,17 +49,17 @@ const Home = props => {
             <br></br>
             <b>Um dieses Ziel zu erreichen brauchen wir deine Hilfe.</b>
           </p>
-          <button className="btn btn-outline">
-            <a href="#">Direkt anmelden</a>
+          <button className='btn btn-outline'>
+            <a href='#'>Direkt anmelden</a>
           </button>
         </div>
       </section>
 
-      <section className="l-first-section content d-flex-md">
+      <section className='l-first-section content d-flex-md'>
         <img
           alt={intro.frontmatter.first_section}
-          className="min-width-0 "
-          src="/images/illustrations/suburban-illustration-01b.svg"
+          className='min-width-0 '
+          src='/images/illustrations/suburban-illustration-01b.svg'
         />
         <div>
           <h2>Du bist Freelancer, Angestellter oder Teil eines Teams?</h2>
@@ -72,31 +75,31 @@ const Home = props => {
         </div>
       </section>
 
-      <section className="l-intermission font-wht position-relative black-overlay">
-        <h3 className="h-2 pos-abs-center text-xs-center font-wht z-index-100">
+      <section className='l-intermission font-wht position-relative black-overlay'>
+        <h3 className='h-2 pos-abs-center text-xs-center font-wht z-index-100'>
           Ein Ort der Ruhe, zum Arbeiten und Denken.
         </h3>
         <img
           alt={intro.frontmatter.first_section}
-          className=""
-          src="/images/suburban-coworking-intermission.jpg"
+          className=''
+          src='/images/suburban-coworking-intermission.jpg'
         />
       </section>
 
-      <section className="l-products content d-flex-md flex-md-column">
+      <section className='l-products content d-flex-md flex-md-column'>
         <h2>So lässt es sich gut arbeiten!</h2>
         <p>
           Bei uns soll es nicht nur gute Atmosphäre geben, sondern du sollst
           auch gesund sitzen.
         </p>
 
-        <div className="d-flex-md flex-md-row-reverse mb-5">
+        <div className='d-flex-md flex-md-row-reverse mb-5'>
           <img
             alt={intro.frontmatter.first_section}
-            className="chair-image min-width-0"
+            className='chair-image min-width-0'
             src={intro.frontmatter.intro_image}
           />
-          <div className="chair-text">
+          <div className='chair-text'>
             <h3>Unsere Stühle</h3>
             <p>
               Alle Arbeitsplätze werden mit ergonomischen, flexiblen,
@@ -106,13 +109,13 @@ const Home = props => {
           </div>
         </div>
 
-        <div className="d-flex-md mb-5">
+        <div className='d-flex-md mb-5'>
           <img
             alt={intro.frontmatter.first_section}
-            className="table-image min-width-0"
+            className='table-image min-width-0'
             src={intro.frontmatter.intro_image}
           />
-          <div className="table-text">
+          <div className='table-text'>
             <h3>Unsere Tische</h3>
             <p>
               Hochwertige Tische mit schwarzer Tischplatte aus HPL Fenix
@@ -125,13 +128,13 @@ const Home = props => {
           </div>
         </div>
 
-        <div className="d-flex-md flex-md-row-reverse mb-5">
+        <div className='d-flex-md flex-md-row-reverse mb-5'>
           <img
             alt={intro.frontmatter.first_section}
-            className="phonebox-image min-width-0"
+            className='phonebox-image min-width-0'
             src={intro.frontmatter.intro_image}
           />
-          <div className="phonebox-text">
+          <div className='phonebox-text'>
             <h3>Meeting? Kein Problem!</h3>
             <p>
               Unsere Telefon- und Meetingboxen aus Echtholz haben eine
@@ -145,11 +148,11 @@ const Home = props => {
         </div>
       </section>
 
-      <section className="l-locations content d-flex-md flex-md-row-reverse">
+      <section className='l-locations content d-flex-md flex-md-row-reverse'>
         <img
           alt={intro.frontmatter.first_section}
-          className="min-width-0 "
-          src="/images/illustrations/suburban-illustration-03.svg"
+          className='min-width-0 '
+          src='/images/illustrations/suburban-illustration-03.svg'
         />
         <div>
           <h2>Zu den Locations</h2>
@@ -164,93 +167,93 @@ const Home = props => {
         </div>
       </section>
 
-      <div className="content d-flex-md">
-        <section className="l-prices width-md-50 mb-5 mb-md-0">
+      <div className='content d-flex-md'>
+        <section className='l-prices width-md-50 mb-5 mb-md-0'>
           <h2>Unsere Preise</h2>
           <p>Let's keep it simple.</p>
 
-          <table className="text-xs-left width-100">
-          <tbody>
-            <tr>
-              <th>Einzelarbeitsplatz</th>
-              <td>150 € / Monat</td>
-            </tr>
-            <tr>
-              <th>Fester Arbeitsplatz</th>
-              <td>250 € / Monat</td>
-            </tr>
-            <tr>
-              <th>Einzelbüro</th>
-              <td>500 € / Monat</td>
-            </tr>
-            <tr>
-              <th>Doppelbüro</th>
-              <td>800 € / Monat</td>
-            </tr>
-            <tr>
-              <th>Teams</th>
-              <td>auf Anfrage</td>
-            </tr>
+          <table className='text-xs-left width-100'>
+            <tbody>
+              <tr>
+                <th>Einzelarbeitsplatz</th>
+                <td>150 € / Monat</td>
+              </tr>
+              <tr>
+                <th>Fester Arbeitsplatz</th>
+                <td>250 € / Monat</td>
+              </tr>
+              <tr>
+                <th>Einzelbüro</th>
+                <td>500 € / Monat</td>
+              </tr>
+              <tr>
+                <th>Doppelbüro</th>
+                <td>800 € / Monat</td>
+              </tr>
+              <tr>
+                <th>Teams</th>
+                <td>auf Anfrage</td>
+              </tr>
             </tbody>
           </table>
         </section>
 
-        <section className="l-icons width-md-50 mt-5 mt-md-0">
+        <section className='l-icons width-md-50 mt-5 mt-md-0'>
           <h2>Diese Services sind inklusive</h2>
-          <div className="icon-wrapper d-flex flex-wrap flex-row flex-justify-center">
-            <div className="icon-item d-flex flex-column align-item-center">
+          <div className='icon-wrapper d-flex flex-wrap flex-row flex-justify-center'>
+            <div className='icon-item d-flex flex-column align-item-center'>
               <img
                 alt={intro.frontmatter.first_section}
-                className=""
-                src="images\icons\wifi.svg"
+                className=''
+                src='images\icons\wifi.svg'
               />
               <span>Wifi</span>
             </div>
-            <div className="icon-item d-flex flex-column align-item-center">
+            <div className='icon-item d-flex flex-column align-item-center'>
               <img
                 alt={intro.frontmatter.first_section}
-                className=""
-                src="images\icons\coffee.svg"
+                className=''
+                src='images\icons\coffee.svg'
               />
               <span>Kaffeevollautomat</span>
             </div>
-            <div className="icon-item d-flex flex-column align-item-center">
+            <div className='icon-item d-flex flex-column align-item-center'>
               <img
                 alt={intro.frontmatter.first_section}
-                className=""
-                src="images\icons\water.svg"
+                className=''
+                src='images\icons\water.svg'
               />
               <span>Wasserspender</span>
             </div>
-            <div className="icon-item d-flex flex-column align-item-center">
+            <div className='icon-item d-flex flex-column align-item-center'>
               <img
                 alt={intro.frontmatter.first_section}
-                className=""
-                src="images\icons\fridge.svg"
+                className=''
+                src='images\icons\fridge.svg'
               />
               <span>Kühlschrank</span>
             </div>
-            <div className="icon-item d-flex flex-column align-item-center">
+            <div className='icon-item d-flex flex-column align-item-center'>
               <img
                 alt={intro.frontmatter.first_section}
-                className=""
-                src="images\icons\microwave.svg"
+                className=''
+                src='images\icons\microwave.svg'
               />
               <span>Mikrowelle</span>
             </div>
-            <div className="icon-item d-flex flex-column align-item-center">
+            <div className='icon-item d-flex flex-column align-item-center'>
               <img
                 alt={intro.frontmatter.first_section}
-                className=""
-                src="images\icons\cleaning.svg"
+                className=''
+                src='images\icons\cleaning.svg'
               />
               <span>Reinigung</span>
             </div>
-            <div className="icon-item d-flex flex-column align-item-center">
+            <div className='icon-item d-flex flex-column align-item-center'>
               <img
                 alt={intro.frontmatter.first_section}
-                className=""
-                src="images\icons\keys.svg"
+                className=''
+                src='images\icons\keys.svg'
               />
               <span>Schlüssel für die Immobilie</span>
             </div>
@@ -258,105 +261,125 @@ const Home = props => {
         </section>
       </div>
 
-
-      <section className="l-contact content pt-2 d-flex-md mt-md-3 mt-1 mx-md-auto mb-0 pb-0">
-        <div className="form-wrapper bg-gry p-3">
-          <h2 className="mt-0 h-2">Haben wir Dein Interesse wecken können?</h2>
+      <section id='contact-form' className='l-contact content pt-2 d-flex-md mt-md-3 mt-1 mx-md-auto mb-0 pb-0'>
+        <div className='form-wrapper bg-gry p-3'>
+          <h2 className='mt-0 h-2'>Haben wir Dein Interesse wecken können?</h2>
           <p>
             Melde dich hier unverbindlich an. <br></br>
             Wir melden uns bei Dir zurück sobald es los geht!
           </p>
 
-          <form id="contact-form"  action="https://docs.google.com/forms/d/e/1FAIpQLSc-OV1zn7ycfcu7JJaC6ZNVuDBF1qhaty7tdJFySsVRU_KGFA/formResponse"  method="post" target="hidden_iframe" onSubmit={() => {document.getElementById('submit').disabled=true;}} >
-            <div className="form-group form-entry-01">
-              <label className="form-control" htmlFor="fname">
+          <form
+            action='https://docs.google.com/forms/d/e/1FAIpQLSc-OV1zn7ycfcu7JJaC6ZNVuDBF1qhaty7tdJFySsVRU_KGFA/formResponse'
+            method='post'
+            target='hidden_iframe'
+            onSubmit={()=> {document.getElementById('submit').disabled=true;}}
+          >
+            <div className='form-group form-entry-01'>
+              <label className='form-control' htmlFor='fname'>
                 Vorname
               </label>
-              <input type="text" id="fname" name="fname"  name="entry.1805432203"></input>
+              <input
+                type='text'
+                id='fname'
+                name='fname'
+                name='entry.1805432203'
+                required
+              />
               <br></br>
             </div>
 
-            <div className="form-group form-entry-02">
-              <label className="form-control" htmlFor="plz">
+            <div className='form-group form-entry-02'>
+              <label className='form-control' htmlFor='plz'>
                 PLZ
               </label>
-              <input type="text" id="plz" name="plz"  name="entry.1262603567"></input>
+              <input
+                required
+                type='text'
+                id='plz'
+                name='plz'
+                name='entry.1262603567'
+              />
               <br></br>
             </div>
 
-            <div className="form-group form-entry-03">
-              <label className="form-control" htmlFor="email">
+            <div className='form-group form-entry-03'>
+              <label className='form-control' htmlFor='email'>
                 E-Mail
               </label>
-              <input type="email" id="email" name="emailAddress" ></input>
+              <input
+                required
+                type='email'
+                id='email'
+                name='emailAddress'
+              />
               <br></br>
             </div>
 
-            <div className="select form-group form-entry-04">
+            <div className='select form-group form-entry-04'>
               <select
-                aria-label="Select menu example"
-                id="arbeitsplatz"
-                name="entry.1403452405"
-                defaultValue="Flexibler Einzelplatz"
+                aria-label='Select menu example'
+                id='arbeitsplatz'
+                name='entry.1403452405'
+                defaultValue='Flexibler Einzelplatz'
               >
-                <option value="Flexibler Einzelplatz">Flexibler Einzelplatz</option>
-                <option value="Fester Einzelplatz">Fester Einzelplatz</option>
-                <option value="Einzelbüro">Einzelbüro</option>
+                <option value='Flexibler Einzelplatz'>
+                  Flexibler Einzelplatz
+                </option>
+                <option value='Fester Einzelplatz'>Fester Einzelplatz</option>
+                <option value='Einzelbüro'>Einzelbüro</option>
               </select>
             </div>
 
-            <div className="form-group form-entry-05 form-entry-full-width">
+            <div className='form-group form-entry-05 form-entry-full-width'>
               Möchtest Du noch eine Location empfehlen?
               <textarea
-                name="entry.505546823"
-                rows="5"
-                cols="10"
-                placeholder="Z.B. Adresse, Gebäudenamen, Kontakt etc."
+                name='entry.505546823'
+                rows='5'
+                cols='10'
+                placeholder='Z.B. Adresse, Gebäudenamen, Kontakt etc.'
               ></textarea>
             </div>
 
             <input
-              id="submit"
-              type="submit"
-              value="Anmeldung abschicken"
-              className="btn btn-secondary"
+              id='submit'
+              type='submit'
+              value='Anmeldung abschicken'
+              className='btn btn-secondary'
             ></input>
           </form>
         </div>
 
-        <div className="image-wrapper">
+        <div className='image-wrapper'>
           <img
             alt={intro.frontmatter.first_section}
-            className="d-none d-md-block min-width-0 "
-            src="/images/suburban-coworking-contact.jpg"
+            className='d-none d-md-block min-width-0 '
+            src='/images/suburban-coworking-contact.jpg'
           />
         </div>
       </section>
 
-      <section className="l-social-icons content pt-0 ">
-        <div className="social-wrapper bg-primary font-wht px-4 py-2">
+      <section className='l-social-icons content pt-0 '>
+        <div className='social-wrapper bg-primary font-wht px-4 py-2'>
           <p>Empfehle uns gerne Deinen Freunden und Kollegen weiter!</p>
-          <div className="social-icons d-flex">
+          <div className='social-icons d-flex'>
             <WhatsappShareButton
               url={shareUrl}
               title={site.title}
-              separator=":: "
-              className="mr-1"
+              separator=':: '
+              className='mr-1'
             >
               <WhatsappIcon size={32} round />
             </WhatsappShareButton>
             <TwitterShareButton
               url={shareUrl}
               title={site.title}
-              className="mr-1"
+              className='mr-1'
             >
               <TwitterIcon size={32} round />
             </TwitterShareButton>
 
-            <FacebookShareButton
-              url={shareUrl}
-              quote={site.title}
-              >
+            <FacebookShareButton url={shareUrl} quote={site.title}>
               <FacebookIcon size={32} round />
             </FacebookShareButton>
           </div>
