@@ -1,4 +1,4 @@
-import { graphql } from 'gatsby';
+import { graphql, navigate } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
 import {
@@ -15,12 +15,13 @@ import SEO from '../components/SEO';
 import Onboarding from './onboarding';
 
 const Home = props => {
-  // Initiate forms
-
   const intro = props.data.intro
   const site = props.data.site.siteMetadata
   const shareUrl = typeof window !== `undefined` ? window.location.origin : ''
 
+  const handleSubmit = () => {
+    navigate('/thankyou');
+  };
 
   return (
     <Layout bodyClass='page-home container'>
@@ -273,7 +274,7 @@ const Home = props => {
             action='https://docs.google.com/forms/d/e/1FAIpQLSc-OV1zn7ycfcu7JJaC6ZNVuDBF1qhaty7tdJFySsVRU_KGFA/formResponse'
             method='post'
             target='hidden_iframe'
-            onSubmit={()=> {document.getElementById('submit').disabled=true;}}
+            onSubmit={handleSubmit}
           >
             <div className='form-group form-entry-01'>
               <label className='form-control' htmlFor='fname'>
