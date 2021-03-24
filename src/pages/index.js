@@ -32,7 +32,7 @@ const Home = props => {
         />
       </Helmet>
       <Onboarding />
-      <section className='l-cta content d-flex-md flex-md-row-reverse font-wht mt-md-3 m-0 mx-md-auto p-0 px-md-3'>
+      <section className='l-cta content d-flex-md flex-md-row-reverse font-wht mt-md-3 m-0 mx-md-auto pt-0 px-md-3'>
         <div className='image-wrapper'>
           <img
             alt={intro.frontmatter.first_section}
@@ -75,7 +75,7 @@ const Home = props => {
         </div>
       </section>
 
-      <section className='l-intermission font-wht position-relative black-overlay'>
+      <section className='l-intermission font-wht position-relative black-overlay my-5'>
         <h3 className='h-2 pos-abs-center text-xs-center font-wht z-index-100'>
           Ein Ort der Ruhe, zum Arbeiten und Denken.
         </h3>
