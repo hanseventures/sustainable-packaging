@@ -124,7 +124,7 @@
       justify-content: center;
       @for $i from 1 through 5 {
         &[data-step="#{$i}"] {
-          .Dot:nth-child(#{$i}) {
+          .dot-item:nth-child(#{$i}) {
             opacity: 1;
           }
         }
