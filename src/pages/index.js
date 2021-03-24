@@ -96,7 +96,7 @@ const Home = props => {
         <div className='d-flex-md flex-md-row-reverse mb-5'>
           <img
             alt={intro.frontmatter.first_section}
-            className='chair-image min-width-0'
+            className='chair-image min-width-0 d-none'
             src={intro.frontmatter.intro_image}
           />
           <div className='chair-text'>
@@ -112,7 +112,7 @@ const Home = props => {
         <div className='d-flex-md mb-5'>
           <img
             alt={intro.frontmatter.first_section}
-            className='table-image min-width-0'
+            className='table-image min-width-0 d-none'
             src={intro.frontmatter.intro_image}
           />
           <div className='table-text'>
@@ -131,7 +131,7 @@ const Home = props => {
         <div className='d-flex-md flex-md-row-reverse mb-5'>
           <img
             alt={intro.frontmatter.first_section}
-            className='phonebox-image min-width-0'
+            className='phonebox-image min-width-0 d-none'
             src={intro.frontmatter.intro_image}
           />
           <div className='phonebox-text'>
