@@ -17,8 +17,13 @@ const ThankYou = (props) => {
           content='Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme.'
         />
       </Helmet>
-      <section className='l-cta content d-flex-md font-wht mt-md-3 m-0 mx-md-auto p-0 px-md-3'>
+      <section className='l-thank-you content'>
         <h1>Vielen Dank!</h1>
+        <img
+          alt="thank you illustrations"
+          className='min-width-0 '
+          src='/images/illustrations/suburban-illustration-03.svg'
+        />
       </section>
     </Layout>
   )

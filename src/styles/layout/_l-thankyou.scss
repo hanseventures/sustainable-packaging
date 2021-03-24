@@ -1,0 +1,17 @@
+// ==========================================================================
+// Custom styles of Thank You Page.
+// ==========================================================================
+
+.l-thank-you {
+  h1 {
+    //font-size: 4rem;
+    text-align: center;
+  }
+}
+
+@include media-breakpoint-up(md) {
+
+  h1 {
+    font-size: 4rem;
+  }
+}
