@@ -37,8 +37,8 @@ const Footer = props => {
         </ul>
         <h3 className="font-wht">Kontakt</h3>
         <p>
-          <b>Tel.:</b> 040/ 12345678 <br></br>
-          <b>Mail:</b> <a href="mailto:info@suburban-coworking.de">info@suburban-coworking.de</a>
+          <b>Tel.:</b> +49 (0)40 303 88 66 12 <br></br>
+          <b>Mail:</b> <a href="mailto:info@suburbancoworking.de">info@suburbancoworking.de</a>
         </p>
 
         <small>2021 Copyright - a Hanse Ventures BSJ GmbH Company</small>
