@@ -32,7 +32,7 @@ const Home = props => {
         />
       </Helmet>
       <Onboarding />
-      <section className='l-cta content d-flex-md flex-md-row-reverse font-wht mt-md-3 m-0 mx-md-auto pt-0 px-md-3'>
+      <section className='l-cta content d-flex-md flex-md-row-reverse font-wht mt-md-3 m-0 mx-md-auto px-0 pt-0 px-md-3'>
         <div className='image-wrapper'>
           <img
             alt={intro.frontmatter.first_section}
