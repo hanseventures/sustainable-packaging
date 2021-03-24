@@ -25,7 +25,7 @@ const Footer = props => {
       <div className="content content--low">
         <img
           className="logo"
-          src="/images/logo/suburban-coworking-logo-white@2x.png"
+          src="/images/logo/suburban-coworking-logo-white.svg"
         />
         <p>Wir richten Co-Working Spaces in deiner Region ein!</p>
         <ul className="list-style-type-none">
