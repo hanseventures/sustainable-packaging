@@ -23,6 +23,7 @@
     opacity: 0.9;
     pointer-events: none;
     background-image: url("/images/suburban-coworking-hero.jpg");
+    background-position: center center;
   }
 
   .slide {
@@ -161,7 +162,7 @@
       // height: 50%;
       height: auto;
       //margin-top: 10%;
-    
+
       margin: 10% auto 0;
 
       .slide-wrapper {
