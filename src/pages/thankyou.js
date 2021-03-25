@@ -13,8 +13,8 @@ const ThankYou = (props) => {
       <SEO title={site.title} />
       <Helmet>
         <meta
-          name='description'
-          content='Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme.'
+          name='robots'
+          content='noindex'
         />
       </Helmet>
       <section className='l-thank-you content'>

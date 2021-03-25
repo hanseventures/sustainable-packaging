@@ -29,7 +29,7 @@ const Home = props => {
       <Helmet>
         <meta
           name='description'
-          content='Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme.'
+          content='Wir richten Co-Working Spaces für dich in deiner Region ein! Trage dich mit deiner PLZ jetzt ein...'
         />
       </Helmet>
       <Onboarding />
