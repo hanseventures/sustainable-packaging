@@ -9,7 +9,7 @@ const ThankYou = (props) => {
   const site = props.data.site.siteMetadata
 
   return (
-    <Layout bodyClass='page-home container'>
+    <Layout bodyClass='page-thankyou'>
       <SEO title={site.title} />
       <Helmet>
         <meta
@@ -17,14 +17,16 @@ const ThankYou = (props) => {
           content='noindex'
         />
       </Helmet>
-      <section className='l-thank-you content'>
-        <h1>Vielen Dank!</h1>
-        <img
-          alt="thank you illustrations"
-          className='min-width-0 '
-          src='/images/illustrations/suburban-illustration-03.svg'
-        />
-      </section>
+      <div className="container">
+        <section className='l-thank-you content'>
+          <h1>Vielen Dank!</h1>
+          <img
+            alt="thank you illustrations"
+            className='min-width-0 '
+            src='/images/illustrations/suburban-illustration-03.svg'
+          />
+        </section>
+      </div>
     </Layout>
   )
 }

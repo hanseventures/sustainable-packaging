@@ -2,6 +2,10 @@
 // CSS animations
 // ==========================================================================
 
+html {
+  scroll-behavior: smooth;
+}
+
 // Spinner for buttons
 @keyframes spin {
   0% { transform: rotate(0deg); }

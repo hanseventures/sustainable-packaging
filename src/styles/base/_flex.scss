@@ -113,12 +113,17 @@
     flex-direction: column-reverse !important;
   }
 
-
   .flex-align-md-center {
     align-items: center;
   }
 
   .flex-basis-md-half {
     flex-basis: 49%;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .flex-lg-row {
+    flex-direction: row;
   }
 }

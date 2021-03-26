@@ -5,9 +5,8 @@
 .l-onboarding {
   display: flex;
   flex-direction: column;
-  position: relative;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 100vh;
   width: 100%;
   // max-height: 640px;
@@ -19,19 +18,19 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 600%;
+    height: 100%;
     opacity: 0.9;
     pointer-events: none;
     background-image: url("/images/suburban-coworking-hero.jpg");
     background-position: center center;
-  }
-
-  .slide {
-    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100vh;
+    max-width: 100vw;
   }
 
   .slides {
-    height: 90%;
+    // height: 90%;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -71,17 +70,18 @@
       position: relative;
       left: 0;
       width: 500%;
-      height: 100%;
+      // height: 100%;
       transition: left 0.25s ease-in-out 0.125s;
     }
 
     .slide {
-      align-items: center;
+      // align-items: center;
       color: white;
       display: flex;
       flex-direction: column;
-      height: 100%;
-      justify-content: center;
+      position: relative;
+      // height: 100%;
+      // justify-content: center;
       width: 33.33%;
 
       .fa {
@@ -91,15 +91,15 @@
 
       h4 {
         font-family: $font-family-base;
-        font-weight: normal;
+        font-weight: $font-weight-light;
       }
     }
   }
 
   .logo {
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 0;
+    top: 0;
     z-index: 1;
 
     img {
@@ -118,41 +118,44 @@
       }
     }
 
-    .dot-wrapper {
-      align-items: center;
-      flex: 1 0 auto;
-      display: flex;
-      justify-content: center;
-      @for $i from 1 through 5 {
-        &[data-step="#{$i}"] {
-          .dot-item:nth-child(#{$i}) {
-            opacity: 1;
-          }
-        }
-      }
+    .btn {
+      // width: 90%;
+      // margin: 0 auto;
+    }
+  }
 
-      .dot-item {
-        background: white;
-        opacity: 0.5;
-        margin: 15px 5px;
-        width: 8px;
-        height: 8px;
-        border-radius: 8px;
-        transition: opacity 0.125s ease-in-out;
+  .dot-wrapper {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    @for $i from 1 through 5 {
+      &[data-step="#{$i}"] {
+        .dot-item:nth-child(#{$i}) {
+          opacity: 1;
+        }
       }
     }
 
-    .btn {
-      width: 90%;
-      margin: 0 auto;
+    .dot-item {
+      background: white;
+      opacity: 0.5;
+      margin: 15px 5px;
+      width: 8px;
+      height: 8px;
+      border-radius: 8px;
+      transition: opacity 0.125s ease-in-out;
     }
   }
 }
 
 @include media-breakpoint-up(md) {
   .l-onboarding {
-    align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
 
     .logo img {
       height: 60px;
@@ -160,46 +163,51 @@
 
     .slides {
       // height: 50%;
-      height: auto;
+      // height: auto;
       //margin-top: 10%;
+      // margin: 10% auto 0;
 
-      margin: 10% auto 0;
-
-      .slide-wrapper {
-
+      .slide-content {
+        max-width: 80%;
       }
 
       .slide {
         //height: 60%;
-        align-items: flex-start;
-        justify-content: flex-start;
-        // justify-content: flex-end;
+        // align-items: flex-start;
+        justify-content: flex-end;
 
         h1 {
           font-size: 3rem;
-          max-width: 60%;
+          // max-width: 60%;
         }
 
         h4 {
           font-size: 2rem;
-          max-width: 60%;
+          // max-width: 60%;
         }
       }
     }
 
+    .dot-wrapper {
+      justify-content: flex-start;
+      // display: flex;
+    }
+
     .footer {
-
-      .dot-wrapper {
-        display: none;
-      }
-
       .btn {
         margin: 0;
         margin-left: 1rem;
       }
     }
   }
+}
 
-
-
+@include media-breakpoint-up(lg) {
+  .l-onboarding {
+    .slides {
+      .slide-content {
+        max-width: 60%;
+      }
+    }
+  }
 }

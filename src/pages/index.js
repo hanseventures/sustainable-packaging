@@ -24,7 +24,7 @@ const Home = props => {
   };
 
   return (
-    <Layout bodyClass='page-home container'>
+    <Layout bodyClass='page-home'>
       <SEO title={site.title} />
       <Helmet>
         <meta
@@ -33,26 +33,25 @@ const Home = props => {
         />
       </Helmet>
       <Onboarding />
-      <section className='l-cta content d-flex-md flex-md-row-reverse font-wht mt-md-3 m-0 mx-md-auto px-0 pt-0 px-md-3'>
-        <div className='image-wrapper'>
+      <section id="intro" className='l-cta bg-primary d-flex flex-md-row-reverse font-wht m-md-3'>
+        <div className='image-wrapper d-none d-md-block'>
           <img
             alt={intro.frontmatter.first_section}
-            className='d-none d-md-block min-width-0 '
             src='/images/suburban-coworking-cta.jpg'
           />
         </div>
-        <div className='content-wrapper bg-primary p-4'>
+        <div className='content content-wrapper'>
           <h2 className='mt-0 font-wht'>Unser Ziel</h2>
           <p>
             Wir wollen Co-Working Spaces dahin bringen, wo sie wirklich benötigt
             werden - und zwar in deine Nähe!
-            <br></br>
-            <br></br>
-            <b>Um dieses Ziel zu erreichen brauchen wir deine Hilfe.</b>
           </p>
-          <button className='btn btn-outline'>
-            <a href='#'>Direkt anmelden</a>
-          </button>
+          <p>
+            <strong>Um dieses Ziel zu erreichen brauchen wir deine Hilfe.</strong>
+          </p>
+          <a href='#contact-form' className='btn btn-outline mt-3'>
+            Direkt anmelden
+          </a>
         </div>
       </section>
 
@@ -76,7 +75,7 @@ const Home = props => {
         </div>
       </section>
 
-      <section className='l-intermission font-wht position-relative black-overlay my-5'>
+      <section className='l-intermission font-wht pos-relative black-overlay my-5'>
         <h3 className='h-2 pos-abs-center text-xs-center font-wht z-index-100'>
           Ein Ort der Ruhe, zum Arbeiten und Denken.
         </h3>

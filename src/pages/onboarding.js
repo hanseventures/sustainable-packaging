@@ -23,33 +23,50 @@ class Onboarding extends React.Component {
     const isLastStep = this.state.slides.length === this.state.step
     return (
       <div className="l-onboarding">
-      <div className="logo">
-        <Link to="/">
-          <img
-            height="60px"
-            alt="Suburban Coworking Logo"
-            src="/images/logo/suburban-coworking-logo-white.svg"
-          />
-        </Link>
-      </div>
-        <div className="background position-relative black-overlay" data-step={this.state.step}></div>
+
+        <div className="logo">
+          <Link className="d-block p-3 p-md-4" to="/">
+            <img
+              alt="Suburban Coworking Logo"
+              src="/images/logo/suburban-coworking-logo-white.svg"
+            />
+          </Link>
+        </div>
+
+        <div className="background pos-relative black-overlay" data-step={this.state.step}></div>
+
         <Slides step={this.state.step} slides={this.state.slides} />
-        <div className="footer d-flex flex-wrap mx-auto my-3" data-step={this.state.step}>
-          <div className="dot-wrapper" data-step={this.state.step}>
-            {this.state.slides.map((_, index) => (
-              <div className="dot-item" key={index} />
-            ))}
-          </div>
+
+        <div className="footer mt-3 mb-5" data-step={this.state.step}>
+
           {isLastStep ? (
-            <Link to="#contact-form" className="btn btn-secondary signup">
-              Direkt anmelden
-            </Link>
+            <div className="d-flex flex-column flex-lg-row mx-3 mx-md-0">
+              <Link to="#intro" className="btn btn-secondary">
+                Das erwartet dich
+              </Link>
+              <Link to="#contact-form" className="btn btn-primary mt-2 mt-lg-0">
+                Direkt anmelden
+              </Link>
+            </div>
           ) : (
-            <div className="btn btn-secondary" onClick={this.nextStep}>
-              Weiter
+            <div className="d-flex flex-column flex-lg-row mx-3 mx-md-0">
+              <div className="btn btn-secondary" onClick={this.nextStep}>
+                Weiter
+              </div>
+              <Link to="#contact-form" className="btn btn-outline mt-2 mt-lg-0">
+                Direkt anmelden
+              </Link>
             </div>
           )}
+
         </div>
+
+        <div className="dot-wrapper mb-1 m-md-3" data-step={this.state.step}>
+          {this.state.slides.map((_, index) => (
+            <div className="dot-item" key={index} />
+          ))}
+        </div>
+
       </div>
     )
   }
