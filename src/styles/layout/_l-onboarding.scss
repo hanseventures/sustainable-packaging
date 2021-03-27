@@ -13,22 +13,23 @@
   // max-width: 380px;
   overflow: hidden;
   min-height: -webkit-fill-available;
-  box-sizing: border-box;
+  // box-sizing: border-box;
+  position: relative;
 
   .background {
     position: absolute;
     top: 0;
+    bottom: 0;
+    right: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    // width: 100%;
+    // height: 100%;
     opacity: 0.9;
     pointer-events: none;
     background-image: url("/images/suburban-coworking-hero.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 100vh;
-    max-width: 100vw;
   }
 
   .slides {
