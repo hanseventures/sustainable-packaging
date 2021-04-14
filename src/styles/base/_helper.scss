@@ -34,6 +34,12 @@ hr {
   // color: $highlight;
 }
 
+// Strong font weight
+// -------------------------
+strong {
+  font-weight: $font-weight-medium;
+}
+
 // Accessibility
 // -------------------------
 
@@ -184,14 +190,18 @@ hr {
   &::after {
     content: '\A';
     position: absolute;
-    width: 100%; height:100%;
-    top:0; left:0;
-    background:rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba($black, 0.4);
   }
 
   img {
     width: 100%;
     vertical-align: top;
+    min-height: 50vh;
+    object-fit: cover;
   }
 }
 

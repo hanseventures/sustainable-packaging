@@ -11,7 +11,7 @@ $grey-light:          #C9C9C9; // Black - Focus Overlay
 $grey-medium:         #878787;
 $grey-dark:           #828282;
 $grey-darker:         #5C5C5C; // Black - Medium Empbasis
-$black:               #20242c; // High Emphasis
+$black:               #20242C; // High Emphasis
 
 // Template Colors
 // -------------------------
@@ -20,6 +20,7 @@ $primary-lighter:     lighten($primary, 8%);
 $primary-darker:      darken($primary, 8%);
 $secondary:           #00C5C5;
 $secondary-lighter:   lighten($secondary, 8%);
+$secondary-darker:    darken($secondary, 4%);
 $tertiary:            #79BCCD;
 $accept:              #27AE60;
 $deny:                #EB5757;

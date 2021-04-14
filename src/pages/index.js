@@ -55,28 +55,28 @@ const Home = props => {
         </div>
       </section>
 
-      <section className='l-first-section content d-flex-md'>
+      <section className='l-first-section content content--roomy d-flex-md'>
         <img
           alt={intro.frontmatter.first_section}
-          className='min-width-0 '
+          className='min-width-0 mr-md-3'
           src='/images/illustrations/suburban-illustration-01b.svg'
         />
         <div>
           <h2>Du bist Freelancer, Angestellter oder Teil eines Teams?</h2>
           <p>
-            Du brauchst <b>keinen festen Arbeitsplatz</b> oder du willst lieber
-            doch ein <b>Einzelbüro</b>, z. B. weil du viel telefonierst? Gib
+            Du brauchst <strong>keinen festen Arbeitsplatz</strong> oder du willst lieber
+            doch ein <strong>Einzelbüro</strong>, z. B. weil du viel telefonierst? Gib
             deinen Wunsch mit an, dass hilft uns bei der Planung.
             <br></br>
             <br></br>
-            Für <b>Unternehmen</b> bieten wir auch die Möglichkeit komplette
+            Für <strong>Unternehmen</strong> bieten wir auch die Möglichkeit komplette
             Räume zu buchen, um ganze Teams unterbringen zu können.
           </p>
         </div>
       </section>
 
-      <section className='l-intermission font-wht pos-relative black-overlay my-5'>
-        <h3 className='h-2 pos-abs-center text-xs-center font-wht z-index-100'>
+      <section className='l-intermission font-wht pos-relative black-overlay'>
+        <h3 className='h-2 pos-abs-center text-xs-center font-wht z-index-100 mx-5 mx-md-0'>
           Ein Ort der Ruhe, zum Arbeiten und Denken.
         </h3>
         <img
@@ -86,18 +86,20 @@ const Home = props => {
         />
       </section>
 
-      <section className='l-products content d-flex-md flex-md-column'>
-        <h2>So lässt es sich gut arbeiten!</h2>
-        <p>
-          Bei uns soll es nicht nur gute Atmosphäre geben, sondern du sollst
-          auch gesund sitzen.
-        </p>
+      <section className='l-products content content--roomy d-flex-md flex-md-column'>
+        <div className='text-xs-center'>
+          <h2>So lässt es sich gut arbeiten!</h2>
+          <p>
+            Bei uns soll es nicht nur gute Atmosphäre geben, sondern du sollst
+            auch gesund sitzen. Wir verwenden hochwertige Büromöbel z. B. von Lendis.
+          </p>
+        </div>
 
-        <div className='d-flex-md flex-md-row-reverse mb-5'>
+        <div className='chair d-flex-md flex-align-center column-gap-3 flex-md-row-reverse mt-5'>
           <img
             alt={intro.frontmatter.first_section}
-            className='chair-image min-width-0 d-none'
-            src={intro.frontmatter.intro_image}
+            className='chair-image min-width-0'
+            src='/images/drehstuhl-alex.jpeg'
           />
           <div className='chair-text'>
             <h3>Unsere Stühle</h3>
@@ -109,11 +111,11 @@ const Home = props => {
           </div>
         </div>
 
-        <div className='d-flex-md mb-5'>
+        <div className='table d-flex-md flex-align-center column-gap-3 mt-5'>
           <img
             alt={intro.frontmatter.first_section}
-            className='table-image min-width-0 d-none'
-            src={intro.frontmatter.intro_image}
+            className='table-image min-width-0 d-none_'
+            src='/images/schreibtisch-leo.jpeg'
           />
           <div className='table-text'>
             <h3>Unsere Tische</h3>
@@ -121,18 +123,16 @@ const Home = props => {
               Hochwertige Tische mit schwarzer Tischplatte aus HPL Fenix
               Beschichtung und einem hochwertigem Gestell aus Echtholz-Esche.
               Hier wackelt nichts und es gibt ausreichend Platz zu arbeiten.
-              <br></br>
-              <br></br>
-              <b>H: 74 cm - B: 160 cm - T: 80 cm</b>
+              <strong className="d-block mt-4">H: 74 cm - B: 160 cm - T: 80 cm</strong>
             </p>
           </div>
         </div>
 
-        <div className='d-flex-md flex-md-row-reverse mb-0'>
+        <div className='phonebox d-flex-md flex-align-center column-gap-3 flex-md-row-reverse mt-5'>
           <img
             alt={intro.frontmatter.first_section}
-            className='phonebox-image min-width-0 d-none'
-            src={intro.frontmatter.intro_image}
+            className='phonebox-image min-width-0 d-none_'
+            src='/images/telefonbox-lilly.jpeg'
           />
           <div className='phonebox-text'>
             <h3>Meeting? Kein Problem!</h3>
@@ -140,35 +140,33 @@ const Home = props => {
               Unsere Telefon- und Meetingboxen aus Echtholz haben eine
               Schallreduktion von 35 dB. So kannst du ganz ungstört an Meetings
               teilnehmen.
-              <br></br>
-              <br></br>
-              <b>H: 225 cm - B: 100 cm - T: 100 cm</b>
+              <strong className="d-block mt-4">H: 225 cm - B: 100 cm - T: 100 cm</strong>
             </p>
           </div>
         </div>
       </section>
 
-      <section className='l-locations content d-flex-md flex-md-row-reverse'>
+      <section className='l-locations content content--roomy d-flex-md flex-md-row-reverse'>
         <img
           alt={intro.frontmatter.first_section}
-          className='min-width-0 '
+          className='min-width-0 mb-3'
           src='/images/illustrations/suburban-illustration-03.svg'
         />
         <div>
           <h2>Zu den Locations</h2>
           <p>
             Wir wollen nicht 100 Leute in einer Location haben. Deshalb sind wir
-            auf der Suche nach <b>kleinen leerstehenden Gewerbeflächen</b>.
-            <br></br>
-            <br></br>
+            auf der Suche nach <strong>kleinen leerstehenden Gewerbeflächen</strong>.
+          </p>
+          <p>
             Sobald eine Location gefunden wurde, wird diese von unseren
             Innenarchitekten ausgestattet.
           </p>
         </div>
       </section>
 
-      <div className='content d-flex-md'>
-        <section className='l-prices width-md-50 mb-5 mb-md-0'>
+      <div className='content content--roomy d-flex-md'>
+        <section className='l-prices width-md-50'>
           <h2>Unsere Preise</h2>
           <p>Let's keep it simple.</p>
 
@@ -200,7 +198,7 @@ const Home = props => {
 
         <section className='l-icons width-md-50 mt-5 mt-md-0'>
           <h2>Diese Services sind inklusive</h2>
-          <div className='icon-wrapper d-flex flex-wrap flex-row flex-justify-center'>
+          <div className='icon-wrapper d-flex flex-wrap flex-row'>
             <div className='icon-item d-flex flex-column align-item-center'>
               <img
                 alt={intro.frontmatter.first_section}
@@ -261,8 +259,8 @@ const Home = props => {
         </section>
       </div>
 
-      <section id='contact-form' className='l-contact content pt-2 d-flex-md mt-md-3 mt-1 mx-md-auto mb-0 pb-0'>
-        <div className='form-wrapper bg-gry p-3'>
+      <section id='contact-form' className='l-contact content pt-2 d-flex-md mt-md-3_ mt-1_ mx-md-auto mb-0_ pb-0'>
+        <div className='form-wrapper bg-gry px-3 py-5'>
           <h2 className='mt-0 h-2'>Haben wir Dein Interesse wecken können?</h2>
           <p>
             Melde dich hier unverbindlich an. <br></br>
@@ -332,7 +330,7 @@ const Home = props => {
             </div>
 
             <div className='form-group form-entry-05 form-entry-full-width'>
-              Möchtest Du noch eine Location empfehlen?
+              <span className='d-block mb-2'>Möchtest Du noch eine Location empfehlen?</span>
               <textarea
                 name='entry.505546823'
                 rows='5'
@@ -359,7 +357,7 @@ const Home = props => {
         </div>
       </section>
 
-      <section className='l-social-icons content pt-0 '>
+      <section className='l-social-icons content content--roomy pt-0'>
         <div className='social-wrapper bg-primary font-wht px-4 py-2'>
           <p>Empfehle uns gerne Deinen Freunden und Kollegen weiter!</p>
           <div className='social-icons d-flex'>

@@ -47,15 +47,14 @@
     justify-content: center;
 
     .form-wrapper {
-      // width: 50%;
       flex-basis: 500px;
       box-sizing: border-box;
     }
 
     .image-wrapper {
-      flex: 1;
+      flex: 1 1 auto;
       background-image: url("/images/suburban-coworking-contact.jpg");
-      background-position: center;
+      background-position: 62% center;
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -83,7 +82,6 @@
     justify-content: center;
 
     .form-wrapper {
-      // width: 50%;
       flex-basis: 850px;
       box-sizing: border-box;
     }

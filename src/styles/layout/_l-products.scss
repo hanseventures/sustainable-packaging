@@ -2,42 +2,41 @@
 // Custom product styles
 // ==========================================================================
 
+.l-products {
+  background-color: $grey-lightest;
 
+  img {
+    max-width: 375px;
+    mix-blend-mode: multiply;
+  }
+}
 
 @include media-breakpoint-up(md) {
   .l-products {
-    .chair-image {
-      position: relative;
-      right: 17%;
+    background-color: inherit;
+
+    .chair-text,
+    .table-text,
+    .phonebox-text {
+      background-color: $grey-lightest;
     }
 
-    .chair-text {
-      background: $grey-lightest;
-      padding: 1.5rem 13rem 1.5rem 1.5rem;
-      width: 230%;
+    .chair-image,
+    .phonebox-image {
+      margin-left: -200px;
+    }
+
+    .chair-text,
+    .phonebox-text {
+      padding: 3em 200px 3em 3em;
     }
 
     .table-image {
-      position: relative;
-      left: 17%;
+      margin-right: -200px;
     }
 
     .table-text {
-      background: $grey-lightest;
-      // padding: 1.5rem 1.5rem 1.5rem 13rem;
-      padding: 1.5rem 13rem 1.5rem 1.5rem;
-      width: 230%;
-    }
-
-    .phonebox-image {
-      position: relative;
-      right: 17%;
-    }
-
-    .phonebox-text {
-      background: $grey-lightest;
-      padding: 1.5rem 13rem 1.5rem 1.5rem;
-      width: 230%;
+      padding: 3em 3em 3em 200px;
     }
   }
 }

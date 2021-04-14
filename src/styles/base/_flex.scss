@@ -88,7 +88,7 @@
   }
 
   .align-item-sm-baseline {
-    align-sm-items: baseline;
+    align-items: baseline;
   }
 }
 
@@ -123,6 +123,10 @@
 }
 
 @include media-breakpoint-up(lg) {
+  .d-flex-lg {
+    display: flex;
+  }
+
   .flex-lg-row {
     flex-direction: row;
   }
