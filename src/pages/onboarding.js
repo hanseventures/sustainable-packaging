@@ -22,18 +22,16 @@ class Onboarding extends React.Component {
   render() {
     const isLastStep = this.state.slides.length === this.state.step
     return (
-      <div className="l-onboarding">
+      <div className="l-onboarding" data-step={this.state.step}>
 
-        <div className="logo">
-          <Link className="d-block p-3 p-md-4" to="/">
+        <div className="logo mx-3 mt-3">
+          <Link className="d-block" to="/">
             <img
               alt="Suburban Coworking Logo"
               src="/images/logo/suburban-coworking-logo-white.svg"
             />
           </Link>
         </div>
-
-        <div className="background pos-relative black-overlay" data-step={this.state.step}></div>
 
         <Slides step={this.state.step} slides={this.state.slides} />
 
@@ -66,6 +64,8 @@ class Onboarding extends React.Component {
             <div className="dot-item" key={index} />
           ))}
         </div>
+
+        <div className="background pos-relative black-overlay" data-step={this.state.step}></div>
 
       </div>
     )
