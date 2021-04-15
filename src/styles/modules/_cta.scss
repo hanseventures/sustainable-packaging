@@ -4,6 +4,8 @@
 
 @include media-breakpoint-up(md) {
   .l-cta {
+    border-top: 1rem solid $white;
+
     .image-wrapper {
       flex: 1;
       background-image: url("/images/suburban-coworking-cta.jpg");
@@ -20,7 +22,6 @@
       flex-basis: 500px;
       box-sizing: border-box;
     }
-
 
     div {
       width: 50%;
