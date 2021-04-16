@@ -170,7 +170,7 @@ const Home = props => {
           <h2>Unsere Preise</h2>
           <p>Let's keep it simple.</p>
 
-          <table className='text-xs-left width-100'>
+          <table className='text-xs-left width-100 mt-4'>
             <tbody>
               <tr>
                 <th>Einzelarbeitsplatz</th>
@@ -335,7 +335,7 @@ const Home = props => {
                 name='entry.505546823'
                 rows='5'
                 cols='10'
-                placeholder='Z.B. Adresse, Gebäudenamen, Kontakt etc.'
+                placeholder='Adresse, Gebäudenamen, Kontakt, etc.'
               ></textarea>
             </div>
 
