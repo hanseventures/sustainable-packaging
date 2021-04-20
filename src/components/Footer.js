@@ -32,7 +32,7 @@ const Footer = props => {
             <p>Wir richten Co-Working Spaces in deiner Region ein!</p>
           </div>
 
-          <div className='d-flex flex-wrap column-gap-5 mt-5'>
+          <div className='d-flex flex-wrap column-gap-5 mt-5 mt-xl-3'>
             <div>
               <h3 className="font-wht">Unternehmen</h3>
               <ul className="list-none list-vertical">
