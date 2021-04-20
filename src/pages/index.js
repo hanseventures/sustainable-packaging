@@ -87,7 +87,7 @@ const Home = props => {
       </section>
 
       <section className='l-products content content--roomy d-flex-md flex-md-column'>
-        <div className='text-xs-center'>
+        <div className='text-xs-center trimmed-width-3 d-flex flex-column align-self-center'>
           <h2>So lässt es sich gut arbeiten!</h2>
           <p>
             Bei uns soll es nicht nur gute Atmosphäre geben, sondern du sollst
