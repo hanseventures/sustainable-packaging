@@ -1,7 +1,25 @@
-import * as React from 'react';
+import React, { useState } from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
 import { useWizard } from 'react-use-wizard';
 
 const Material = () => {
+
+  const data = useStaticQuery(graphql`
+    query MaterialQuery {
+      allMaterialDataJson {
+        edges {
+          node {
+            id
+            text
+            iconClass
+          }
+        }
+      }
+    }
+  `)
+
+  const [activeId, setActiveId] = useState();
+
   const {
     handleStep,
     nextStep,
@@ -18,27 +36,11 @@ const Material = () => {
   return (
     <>
       <ul className='box'>
-        <li onClick={() => nextStep()}>
-          <span>Material</span>
-        </li>
-        <li onClick={() => nextStep()}>
-          <span>Material</span>
-        </li>
-        <li onClick={() => nextStep()}>
-          <span>Material</span>
-        </li>
-        <li onClick={() => nextStep()}>
-          <span>Material</span>
-        </li>
-        <li onClick={() => nextStep()}>
-          <span>Material</span>
-        </li>
-        <li onClick={() => nextStep()}>
-          <span>Material</span>
-        </li>
-        <li onClick={() => nextStep()}>
-          <span>Material</span>
-        </li>
+        {data.allMaterialDataJson.edges.map(({ node }) => (
+          <li key={node.id} className={activeId === node.id ? 'active':'' } onClick={() => setActiveId(node.id)}>
+            <span>{node.text}</span>
+          </li>
+        ))}
       </ul>
 
       <div className='d-flex flex-column justify-content-center align-self-center p-4 m-3  flex-lg-row'>

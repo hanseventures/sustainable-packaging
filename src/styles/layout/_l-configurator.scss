@@ -39,6 +39,11 @@
         border-color: $secondary-lighter;
         color: $primary-darker;
       }
+
+      &.active {
+        background-color: $secondary-lighter;
+      }
+
     }
 
   }

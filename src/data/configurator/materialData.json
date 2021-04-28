@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "text": "Material",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 2,
+    "text": "Material",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 3,
+    "text": "Material",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 4,
+    "text": "Material",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 5,
+    "text": "Material",
+    "iconClass": "material-icons"
+  }
+]
