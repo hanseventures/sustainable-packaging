@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import { useWizard } from 'react-use-wizard'
 
-const Industry = () => {
+const Industry = (props) => {
   const data = useStaticQuery(graphql`
     query IndustryQuery {
       allIndustryDataJson {
@@ -17,8 +17,6 @@ const Industry = () => {
     }
   `)
 
-  const [activeId, setActiveId] = useState()
-
   const {
     handleStep,
     nextStep,
@@ -27,19 +25,19 @@ const Industry = () => {
     isFirstStep
   } = useWizard()
 
-  // Attach an optional handler
-  handleStep(() => {
-    console.log('Industry')
-  })
-
   return (
     <>
       <ul className='box'>
         {data.allIndustryDataJson.edges.map(({ node }) => (
           <li
             key={node.id}
-            className={activeId === node.id ? 'active' : ''}
-            onClick={() => setActiveId(node.id)}
+            className={props.form.industryId === node.id ? 'active' : ''}
+            onClick={() =>
+              props.dispatchForm({
+                type: "UPDATE_KEY_VALUES",
+                value: { industryId: node.id }
+              })
+            }
           >
             <span>{node.text}</span>
           </li>

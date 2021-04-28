@@ -1,14 +1,17 @@
 import { graphql } from 'gatsby';
-import React from 'react';
+import React, {useReducer} from 'react';
 import Helmet from 'react-helmet';
 import { Wizard } from 'react-use-wizard';
 
 import { Industry, Material, TypeOfPackaging } from '../components/configurator';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
+import globalContextProvider from '../context/GlobalContextProvider';
 
 const Configurator = props => {
   const site = props.data.site.siteMetadata
+
+  const [form, dispatchForm] = useReducer(globalContextProvider, {});
 
   return (
     <Layout bodyClass='page-configurator'>
@@ -21,9 +24,9 @@ const Configurator = props => {
       </Helmet>
       <section>
         <Wizard>
-          <Material />
-          <Industry />
-          <TypeOfPackaging />
+          <Material {...{form, dispatchForm}} />
+          <Industry {...{form, dispatchForm}}/>
+          <TypeOfPackaging {...{form, dispatchForm}}/>
         </Wizard>
       </section>
     </Layout>

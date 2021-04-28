@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import { useWizard } from 'react-use-wizard';
 
-const Material = () => {
+const Material = (props) => {
 
   const data = useStaticQuery(graphql`
     query MaterialQuery {
@@ -18,8 +18,6 @@ const Material = () => {
     }
   `)
 
-  const [activeId, setActiveId] = useState();
-
   const {
     handleStep,
     nextStep,
@@ -30,14 +28,21 @@ const Material = () => {
 
   // Attach an optional handler
   handleStep(() => {
-    console.log('Material')
+
   })
 
   return (
     <>
       <ul className='box'>
         {data.allMaterialDataJson.edges.map(({ node }) => (
-          <li key={node.id} className={activeId === node.id ? 'active':'' } onClick={() => setActiveId(node.id)}>
+          <li key={node.id}
+            className={props.form.materialId === node.id ? 'active' : ''}
+            onClick={() =>
+              props.dispatchForm({
+                type: "UPDATE_KEY_VALUES",
+                value: { materialId: node.id }
+              })
+            }>
             <span>{node.text}</span>
           </li>
         ))}

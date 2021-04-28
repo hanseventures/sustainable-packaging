@@ -1,8 +1,8 @@
 import { navigate, graphql, useStaticQuery } from 'gatsby'
-import React, { useState } from 'react'
+import React from 'react'
 import { useWizard } from 'react-use-wizard'
 
-const TypeOfPackaging = () => {
+const TypeOfPackaging = (props) => {
   const data = useStaticQuery(graphql`
     query TypeOfPackagingQuery {
       allPackagingDataJson {
@@ -17,8 +17,6 @@ const TypeOfPackaging = () => {
     }
   `)
 
-  const [activeId, setActiveId] = useState()
-
   const {
     isLoading,
     isLastStep,
@@ -29,19 +27,19 @@ const TypeOfPackaging = () => {
     handleStep
   } = useWizard()
 
-  // Attach an optional handler
-  handleStep(() => {
-    console.log('TypeOfPackaging')
-  })
-
   return (
     <>
       <ul className='box'>
         {data.allPackagingDataJson.edges.map(({ node }) => (
           <li
             key={node.id}
-            className={activeId === node.id ? 'active':''}
-            onClick={() => setActiveId(node.id)}
+            className={props.form.packagingId === node.id ? 'active':''}
+            onClick={() =>
+              props.dispatchForm({
+                type: "UPDATE_KEY_VALUES",
+                value: { packagingId: node.id }
+              })
+            }
           >
             <span>{node.text}</span>
           </li>
