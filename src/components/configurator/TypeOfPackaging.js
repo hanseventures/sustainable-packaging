@@ -3,7 +3,7 @@ import React from 'react'
 import { useWizard } from 'react-use-wizard'
 
 const TypeOfPackaging = (props) => {
-  const data = useStaticQuery(graphql`
+  const {allPackagingDataJson} = useStaticQuery(graphql`
     query TypeOfPackagingQuery {
       allPackagingDataJson {
         edges {
@@ -16,6 +16,12 @@ const TypeOfPackaging = (props) => {
       }
     }
   `)
+
+  const filterById = (id)=> allPackagingDataJson.edges.filter(({node}) => node.id === id)
+
+  handleStep(() => {
+    console.log(`object`, filterById(props.form.packagingId) )
+  });
 
   const {
     isLoading,
@@ -30,7 +36,7 @@ const TypeOfPackaging = (props) => {
   return (
     <>
       <ul className='box'>
-        {data.allPackagingDataJson.edges.map(({ node }) => (
+        {allPackagingDataJson.edges.map(({ node }) => (
           <li
             key={node.id}
             className={props.form.packagingId === node.id ? 'active':''}

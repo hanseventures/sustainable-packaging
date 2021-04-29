@@ -4,7 +4,7 @@ import { useWizard } from 'react-use-wizard';
 
 const Material = (props) => {
 
-  const data = useStaticQuery(graphql`
+  const {allMaterialDataJson} = useStaticQuery(graphql`
     query MaterialQuery {
       allMaterialDataJson {
         edges {
@@ -26,15 +26,17 @@ const Material = (props) => {
     isFirstStep
   } = useWizard()
 
+  const filterById = (id) => allMaterialDataJson.edges.filter(({node}) => node.id === id)
+
   // Attach an optional handler
   handleStep(() => {
-
+    console.log(`object`, filterById(props.form.materialId) )
   })
 
   return (
     <>
       <ul className='box'>
-        {data.allMaterialDataJson.edges.map(({ node }) => (
+        {allMaterialDataJson.edges.map(({ node }) => (
           <li key={node.id}
             className={props.form.materialId === node.id ? 'active' : ''}
             onClick={() =>

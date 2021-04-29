@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import { useWizard } from 'react-use-wizard'
 
 const Industry = (props) => {
-  const data = useStaticQuery(graphql`
+  const {allIndustryDataJson} = useStaticQuery(graphql`
     query IndustryQuery {
       allIndustryDataJson {
         edges {
@@ -25,10 +25,16 @@ const Industry = (props) => {
     isFirstStep
   } = useWizard()
 
+  const filterById = () => allIndustryDataJson.edges.filter(({node}) => node.id === props.form.industryId)
+
+  handleStep(() => {
+    console.log(`object`, filterById() )
+  });
+
   return (
     <>
       <ul className='box'>
-        {data.allIndustryDataJson.edges.map(({ node }) => (
+        {allIndustryDataJson.edges.map(({ node }) => (
           <li
             key={node.id}
             className={props.form.industryId === node.id ? 'active' : ''}
