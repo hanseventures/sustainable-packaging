@@ -27,12 +27,6 @@ const TypeOfPackaging = (props) => {
     handleStep
   } = useWizard()
 
-  const filterById = (id)=> allPackagingDataJson.edges.filter(({node}) => node.id === id)
-
-  handleStep(() => {
-    console.log(`object`, filterById(props.form.packagingId) )
-  });
-
   return (
     <>
       <ul className='box'>
