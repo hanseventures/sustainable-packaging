@@ -21,8 +21,6 @@ const Industry = (props) => {
     handleStep,
     nextStep,
     previousStep,
-    isLoading,
-    isFirstStep
   } = useWizard()
 
   const filterById = () => allIndustryDataJson.edges.filter(({node}) => node.id === props.form.industryId)

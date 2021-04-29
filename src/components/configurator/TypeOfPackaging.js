@@ -3,6 +3,12 @@ import React from 'react'
 import { useWizard } from 'react-use-wizard'
 
 const TypeOfPackaging = (props) => {
+  const {
+    isLastStep,
+    previousStep,
+    nextStep,
+  } = useWizard()
+
   const {allPackagingDataJson} = useStaticQuery(graphql`
     query TypeOfPackagingQuery {
       allPackagingDataJson {
@@ -16,23 +22,6 @@ const TypeOfPackaging = (props) => {
       }
     }
   `)
-
-  const {
-    isLoading,
-    isLastStep,
-    isFirstStep,
-    activeStep,
-    previousStep,
-    nextStep,
-    handleStep
-  } = useWizard()
-
-  const filterById = () => allMaterialDataJson.edges.filter(({node}) => node.id === props.form.industryId)
-
-  // Attach an optional handler
-  handleStep(() => {
-    console.log(`object`, filterById() )
-  })
 
   return (
     <>
