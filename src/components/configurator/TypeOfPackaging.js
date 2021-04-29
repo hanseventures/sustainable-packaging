@@ -27,6 +27,13 @@ const TypeOfPackaging = (props) => {
     handleStep
   } = useWizard()
 
+  const filterById = () => allMaterialDataJson.edges.filter(({node}) => node.id === props.form.industryId)
+
+  // Attach an optional handler
+  handleStep(() => {
+    console.log(`object`, filterById() )
+  })
+
   return (
     <>
       <ul className='box'>

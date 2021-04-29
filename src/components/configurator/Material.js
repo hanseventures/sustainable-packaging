@@ -26,11 +26,11 @@ const Material = (props) => {
     isFirstStep
   } = useWizard()
 
-  const filterById = (id) => allMaterialDataJson.edges.filter(({node}) => node.id === id)
+  const filterById = () => allMaterialDataJson.edges.filter(({node}) => node.id === props.form.industryId)
 
   // Attach an optional handler
   handleStep(() => {
-    console.log(`object`, filterById(props.form.materialId) )
+    console.log(`object`, filterById() )
   })
 
   return (
