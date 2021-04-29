@@ -17,12 +17,6 @@ const TypeOfPackaging = (props) => {
     }
   `)
 
-  const filterById = (id)=> allPackagingDataJson.edges.filter(({node}) => node.id === id)
-
-  handleStep(() => {
-    console.log(`object`, filterById(props.form.packagingId) )
-  });
-
   const {
     isLoading,
     isLastStep,
@@ -32,6 +26,12 @@ const TypeOfPackaging = (props) => {
     nextStep,
     handleStep
   } = useWizard()
+
+  const filterById = (id)=> allPackagingDataJson.edges.filter(({node}) => node.id === id)
+
+  handleStep(() => {
+    console.log(`object`, filterById(props.form.packagingId) )
+  });
 
   return (
     <>
