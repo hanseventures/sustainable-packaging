@@ -3,12 +3,6 @@ import React from 'react'
 import { useWizard } from 'react-use-wizard'
 
 const TypeOfPackaging = (props) => {
-  const {
-    isLastStep,
-    previousStep,
-    nextStep,
-  } = useWizard()
-
   const {allPackagingDataJson} = useStaticQuery(graphql`
     query TypeOfPackagingQuery {
       allPackagingDataJson {
@@ -22,6 +16,12 @@ const TypeOfPackaging = (props) => {
       }
     }
   `)
+
+  const {
+    isLastStep,
+    previousStep,
+    nextStep,
+  } = useWizard()
 
   return (
     <>
