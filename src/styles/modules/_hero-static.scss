@@ -16,6 +16,7 @@
 
     .content-wrapper {
       z-index: 100;
+      width: 100%;
 
       .content {
         // margin-top: $header-size;
@@ -49,23 +50,6 @@
   }
 }
 
-@include media-breakpoint-up(md) {
-  .hero {
-    .hero-image {
-      // background-position: top center;
-
-      .content {
-        // padding-left: 2.5em;
-        // padding-right: 2.5em;
-
-        .intro {
-          // max-width: 500px;
-        }
-      }
-    }
-  }
-}
-
 @include media-breakpoint-up(xl) {
   .hero {
     .hero-image {
@@ -76,10 +60,6 @@
         margin-left: auto;
         margin-right: auto;
         width: 1200px;
-      }
-
-      .content .intro {
-        // max-width: inherit;
       }
     }
   }

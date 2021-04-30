@@ -10,21 +10,21 @@ const HeroStatic = props => {
 
           <div class="content">
 
-            <div class="intro text-xs-center text-sm-left">
-              <h1 class="mb-4" title="">Title</h1>
+            <div class="intro text-xs-center text-md-left">
+              <h1 class="mb-4 mt-0" title="">Title</h1>
               <p class="subtitle font-weight-extralight mb-4" title="">Subtitle</p>
 
-              <div class="cta-wrapper">
+              <div class="d-flex flex-column flex-md-row column-gap-2 row-gap-2">
                 <a
                   href="#"
-                  class="btn btn-primary wdth-80"
+                  class="btn btn-primary"
                   title="title"
                 >
                   Primary Button
                 </a>
                 <a
                   href="#"
-                  class="btn btn-primary wdth-80 mt-3 mt-sm-0 ml-sm-3"
+                  class="btn btn-secondary"
                   title="title"
                 >
                   Secondary Button
