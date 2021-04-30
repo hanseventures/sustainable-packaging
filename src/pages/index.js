@@ -10,6 +10,7 @@ import {
   WhatsappShareButton,
 } from 'react-share';
 
+import HeroStatic from '../components/HeroStatic';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Onboarding from './onboarding';
@@ -32,6 +33,9 @@ const Home = props => {
           content='Wir richten Co-Working Spaces für dich in deiner Region ein! Trage dich mit deiner PLZ jetzt ein...'
         />
       </Helmet>
+
+      <HeroStatic />
+
       <Onboarding />
       <section id="intro" className='l-cta bg-primary d-flex flex-md-row-reverse font-wht mb-md-3 mx-md-3'>
         <div className='image-wrapper d-none d-md-block'>

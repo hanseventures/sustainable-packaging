@@ -28,7 +28,7 @@ $deny:                #EB5757;
 // $background-2:        #F2EFEC;
 // $form-borders:        #CCC;
 // $highlight:           #CF007E;
-// $lettering-black:     #191919;
+$lettering-black:     #191919;
 
 // Notification Colors
 // -------------------------
@@ -45,11 +45,11 @@ $info:                #56CCF2;
 // Background Colors
 // -------------------------
 .bg-wht {
-  background-color:   $white;
+  background-color: $white;
 }
 
 .bg-gry {
-  background-color:   $grey-lightest;
+  background-color: $grey-lightest;
 }
 
 .bg-wht-80 {
@@ -75,7 +75,7 @@ $info:                #56CCF2;
 // Background Colors
 // -------------------------
 .font-wht {
-  color:   $white !important;
+  color: $white !important;
 
   a {
     color: $white;

@@ -1,0 +1,96 @@
+// ==========================================================================
+// Styles for Hero
+// ==========================================================================
+.hero {
+  .hero-image {
+    align-items: center;
+    display: flex;
+    background-color: $grey-light;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("/images/suburban-coworking-hero.jpg");
+    position: relative; // to align ::after element.
+    width: 100%; // expand image size to full screen.
+    height: 90vh; // if full-layout activiated
+
+    .content-wrapper {
+      z-index: 100;
+
+      .content {
+        // margin-top: $header-size;
+        text-align: center;
+
+        h1,
+        p {
+          color: $white;
+          text-shadow: 1px 1px 2px rgba($lettering-black, 33%);
+        }
+      }
+    }
+
+    &::after {
+      background-color: rgba($black, 0.2);
+      content: '';
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .hero {
+    .hero-image {
+      height: 80vh;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .hero {
+    .hero-image {
+      // background-position: top center;
+
+      .content {
+        // padding-left: 2.5em;
+        // padding-right: 2.5em;
+
+        .intro {
+          // max-width: 500px;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .hero {
+    .hero-image {
+      height: 60vh;
+      min-height: 560px;
+
+      .content-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+      }
+
+      .content .intro {
+        // max-width: inherit;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+  .hero {
+    .hero-image {
+      .content-wrapper {
+        width: 1440px;
+      }
+    }
+  }
+}
