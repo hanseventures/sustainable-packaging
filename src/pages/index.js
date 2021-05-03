@@ -12,6 +12,7 @@ import {
 
 import HeroStatic from '../components/HeroStatic';
 import TextWithImage from '../components/TextWithImage';
+import CTA from '../components/CTA';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Onboarding from './onboarding';
@@ -38,6 +39,8 @@ const Home = props => {
       <HeroStatic />
 
       <TextWithImage />
+
+      <CTA />
 
       <Onboarding />
 

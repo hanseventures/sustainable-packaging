@@ -2,29 +2,13 @@
 // CTA section
 // ==========================================================================
 
-@include media-breakpoint-up(md) {
-  .l-cta {
-    border-top: 1rem solid $white;
+.cta {
+  .content {
+    height: 100%;
+    text-align: center;
+  }
 
-    .image-wrapper {
-      flex: 1;
-      background-image: url("/images/suburban-coworking-cta.jpg");
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-
-      img {
-        display: none !important;
-      }
-    }
-
-    .content-wrapper {
-      flex-basis: 500px;
-      box-sizing: border-box;
-    }
-
-    div {
-      width: 50%;
-    }
+  .d-grid {
+    grid-column: 1;
   }
 }

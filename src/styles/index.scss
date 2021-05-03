@@ -56,7 +56,8 @@
 @import 'modules/card';
 @import 'modules/chips';
 @import 'modules/contact';
-@import 'modules/cta';
+@import 'modules/cta'; // ready as gatsby component!
+@import 'modules/cta-with-image';
 // @import 'modules/cta-socials';
 // @import 'modules/cta-x';
 // @import 'modules/customers';
@@ -70,7 +71,7 @@
 @import "modules/cookie-bar";
 @import 'modules/header';
 @import 'modules/hero';
-@import 'modules/hero-static'; // ready as component!
+@import 'modules/hero-static'; // ready as gatsby component!
 @import 'modules/history';
 @import 'modules/icons';
 @import 'modules/intermission';
@@ -98,7 +99,7 @@
 // @import 'modules/testimonials-v2';
 // @import 'modules/text';
 // @import 'modules/text-image-ltr';
-@import 'modules/text-image'; // ready as component!
+@import 'modules/text-image'; // ready as gatsby component!
 // @import 'modules/text-human-ressources';
 // @import 'modules/text-slider';
 // @import 'modules/tooltip';
@@ -115,19 +116,19 @@
 // @import 'layout/l-news';
 // @import 'layout/l-career';
 // @import 'layout/l-contact';
-@import 'layout/l-dashboard-doctor';
-@import 'layout/l-dashboard-patient';
-@import 'layout/l-findings-overview';
-@import 'layout/l-findings-questions';
+// @import 'layout/l-dashboard-doctor';
+// @import 'layout/l-dashboard-patient';
+// @import 'layout/l-findings-overview';
+// @import 'layout/l-findings-questions';
 // @import 'layout/l-imprint';
-@import 'layout/l-messages-compose';
-@import 'layout/l-profile';
-@import 'layout/l-products';
-@import 'layout/l-onboarding';
-@import 'layout/l-login';
-@import 'layout/l-result-screen';
-@import 'layout/l-privacy';
-@import 'layout/l-doctor-selection';
+// @import 'layout/l-messages-compose';
+// @import 'layout/l-profile';
+// @import 'layout/l-products';
+// @import 'layout/l-onboarding';
+// @import 'layout/l-login';
+// @import 'layout/l-result-screen';
+// @import 'layout/l-privacy';
+// @import 'layout/l-doctor-selection';
 @import 'layout/l-thankyou';
 @import 'layout/l-configurator';
 
