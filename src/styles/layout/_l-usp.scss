@@ -29,6 +29,14 @@
       }
     }
   }
+
+  .highlight {
+    display: block;
+    font-weight: $font-weight-light;
+    color: $primary;
+    letter-spacing: 2px;
+    font-size: 1.25rem;
+  }
 }
 
 @include media-breakpoint-up(sm) {
@@ -59,7 +67,7 @@
   .l-usp {
     .content {
       .d-grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
       }
     }
   }
