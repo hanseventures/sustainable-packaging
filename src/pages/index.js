@@ -15,6 +15,7 @@ import TextWithImage from '../components/TextWithImage';
 import CTA from '../components/CTA';
 import CTAwithImage from '../components/CTAwithImage';
 import Products from '../components/Products';
+import Intermission from '../components/Intermission';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Onboarding from './onboarding';
@@ -30,7 +31,9 @@ const Home = props => {
 
   return (
     <Layout bodyClass='page-home'>
+
       <SEO title={site.title} />
+
       <Helmet>
         <meta
           name='description'
@@ -51,16 +54,7 @@ const Home = props => {
       // content should be flipped by className
       <TextWithImage />
 
-      <section className='l-intermission font-wht pos-relative black-overlay'>
-        <h3 className='h-2 pos-abs-center text-xs-center font-wht z-index-100 mx-5 mx-md-0'>
-          Ein Ort der Ruhe, zum Arbeiten und Denken.
-        </h3>
-        <img
-          alt={intro.frontmatter.first_section}
-          className=''
-          src='/images/suburban-coworking-intermission.jpg'
-        />
-      </section>
+      <Intermission />
 
       <Products />
 
