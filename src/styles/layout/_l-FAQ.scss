@@ -1,0 +1,134 @@
+// ==========================================================================
+// FAQ section
+// ==========================================================================
+
+.l-faq {
+  max-width: 1024px;
+  margin: 2em auto;
+
+  .faq-wrapper {
+    display: block;
+    padding: 2em 0;
+  }
+
+  section {
+    &.faq-dropdown {
+      margin: 1em 0;
+      position: relative;
+
+      .open-dropdown {
+        padding: 1rem;
+      }
+
+      i {
+        position: absolute;
+        right: 1em;
+        top: 1.25em;
+        transition: all 0.3s;
+        color: $primary;
+      }
+
+      h5 {
+        margin: 0;
+        width: 80%;
+      }
+
+      .answer,
+      .faq-first-level {
+        display: none;
+      }
+
+      .faq-first-level {
+        border-bottom: 1px solid $form-borders;
+        padding: 0.5rem 1rem;
+        position: relative;
+
+        &:last-child {
+          border: none;
+        }
+
+        &:first-of-type {
+          border-top: 1px solid $form-borders;
+        }
+
+        h6 {
+          margin: 1rem 1.7rem 1rem 0;
+          line-height: 1.5rem;
+        }
+
+        i {
+          top: 1.7rem;
+          font-size: 13px;
+        }
+      }
+    }
+
+    &.border {
+      border: solid 1px $form-borders;
+      border-radius: 3px;
+    }
+
+    &.show-first-level {
+      .first-level-arrow {
+        transform: rotate(180deg);
+        transition: all 0.3s;
+      }
+
+      .faq-first-level {
+        display: block;
+        z-index: 3;
+        background: $grey-lightest;
+
+        &:hover {
+          background: $white;
+        }
+      }
+    }
+
+    .show {
+      .answer {
+        display: block;
+      }
+
+      i {
+        transform: rotate(180deg);
+        transition: all 0.3s;
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  //Plus - Minus Animation
+  .circle {
+    position: absolute;
+    right: 1.32rem;
+    top: 2.3rem;
+
+    .vertical {
+      background-color: $primary;
+      width: 3px;
+      height: 13px;
+      margin-left: -60%;
+      margin-top: -8px;
+      transition: all 0.3s ease-in-out;
+      transform: rotate(0deg);
+    }
+
+    .horizontal {
+      background-color: $primary;
+      width: 13px;
+      height: 3px;
+      margin-left: -8px;
+      margin-top: 0;
+    }
+  }
+
+  .show {
+    .vertical {
+      transition: all 0.3s ease-in-out;
+      transform: rotate(90deg);
+    }
+  }
+}

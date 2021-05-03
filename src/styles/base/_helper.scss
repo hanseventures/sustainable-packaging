@@ -210,6 +210,8 @@ strong {
   z-index: 100;
 }
 
+$border-radius: 4px;
+
 @include media-breakpoint-up(xs) {
   .d-xs-block {
     display: block !important;

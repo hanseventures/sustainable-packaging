@@ -13,6 +13,7 @@ import {
 import HeroStatic from '../components/HeroStatic';
 import TextWithImage from '../components/TextWithImage';
 import USP from '../components/USP';
+import FAQ from '../components/FAQ';
 import CTA from '../components/CTA';
 import CTAwithImage from '../components/CTAwithImage';
 import Products from '../components/Products';
