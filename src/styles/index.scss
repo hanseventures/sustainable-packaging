@@ -70,7 +70,7 @@
 @import "modules/cookie-bar";
 @import 'modules/header';
 @import 'modules/hero';
-@import 'modules/hero-static';
+@import 'modules/hero-static'; // ready as component!
 @import 'modules/history';
 @import 'modules/icons';
 @import 'modules/intermission';
@@ -98,7 +98,7 @@
 // @import 'modules/testimonials-v2';
 // @import 'modules/text';
 // @import 'modules/text-image-ltr';
-// @import 'modules/text-image';
+@import 'modules/text-image'; // ready as component!
 // @import 'modules/text-human-ressources';
 // @import 'modules/text-slider';
 // @import 'modules/tooltip';
