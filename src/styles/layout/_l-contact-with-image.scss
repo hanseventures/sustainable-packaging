@@ -2,7 +2,7 @@
 // Contact section
 // ==========================================================================
 
-.l-contact {
+.l-contact-with-image {
   form {
     display: grid;
     grid-auto-columns: 1fr;
@@ -43,7 +43,7 @@
 }
 
 @include media-breakpoint-up(md) {
-  .l-contact {
+  .l-contact-with-image {
     justify-content: center;
 
     .form-wrapper {
@@ -78,7 +78,7 @@
 }
 
 @include media-breakpoint-up(xxl) {
-  .l-contact {
+  .l-contact-with-image {
     justify-content: center;
 
     .form-wrapper {
