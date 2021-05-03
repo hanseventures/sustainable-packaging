@@ -24,6 +24,7 @@ import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Onboarding from './onboarding';
 import IconOverview from '../components/IconOverview';
+import Testimonials from '../components/Testimonials';
 
 const Home = props => {
   const intro = props.data.intro
@@ -60,6 +61,7 @@ const Home = props => {
       <TextWithImage />
 
       <IconOverview />
+      <Testimonials />
       {/* content should be flipped by className */}
       <TextWithImage />
 
