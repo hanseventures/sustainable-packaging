@@ -1,6 +1,16 @@
 import React from "react"
+import {
+  FacebookIcon,
+  FacebookShareButton,
+  TwitterIcon,
+  TwitterShareButton,
+  WhatsappIcon,
+  WhatsappShareButton,
+} from 'react-share';
 
 const ContactWithImage = props => {
+  const shareUrl = typeof window !== `undefined` ? window.location.origin : ''
+
   return (
       <section id='contact-form' className='l-contact-with-image content content--roomy pt-2'>
         <div className="d-flex">
@@ -105,27 +115,31 @@ const ContactWithImage = props => {
           <div className='social-wrapper bg-primary font-wht px-4 py-2'>
             <p>Empfehle uns gerne Deinen Freunden und Kollegen weiter!</p>
             <div className='social-icons d-flex'>
-              {*
-                <WhatsappShareButton
-                url={shareUrl}
-                title={site.title}
+
+              <WhatsappShareButton
+                url='{shareUrl}'
+                title='{site.title}'
                 separator=':: '
                 className='mr-1'
               >
                 <WhatsappIcon size={32} round />
               </WhatsappShareButton>
+
               <TwitterShareButton
-                url={shareUrl}
-                title={site.title}
+                url='{shareUrl}'
+                title='{site.title}'
                 className='mr-1'
               >
                 <TwitterIcon size={32} round />
               </TwitterShareButton>
 
-              <FacebookShareButton url={shareUrl} quote={site.title}>
+              <FacebookShareButton
+                url='{shareUrl}'
+                quote='{site.title}'
+              >
                 <FacebookIcon size={32} round />
               </FacebookShareButton>
-              *}
+
             </div>
           </div>
         </div>
