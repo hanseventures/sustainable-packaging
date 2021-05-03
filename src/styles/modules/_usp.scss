@@ -1,62 +1,66 @@
 // ==========================================================================
-// USPs section
+// USP section
 // ==========================================================================
 
-.usp {
+.l-usp {
   .content {
     height: 100%;
     text-align: center;
-  }
 
-  .d-flex {
-    flex-direction: column;
-    align-items: center;
-  }
+    .d-grid {
+      grid-template-columns: 1fr;
 
-  .usp-block {
-    width: 90%;
-    margin-bottom: 1em;
-    // text-align: left;
-    display: flex;
+      .usp-block {
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+        display: flex;
 
-    p {
-      margin: 0;
-    }
+        img {
+          margin-right: 5%;
+          width: 16%;
+        }
 
-    img {
-      margin-right: 8%;
-      width: 12%;
+        svg {
+          margin-right: 6%;
+          max-width: 80px;
+          width: 30%;
+        }
+      }
     }
   }
 }
 
-@include media-breakpoint-up(md) {
-  .usp {
-    .d-flex {
-      flex-direction: row;
-    }
+@include media-breakpoint-up(sm) {
+  .l-usp {
+    .content {
+      .d-grid {
+        grid-template-columns: 1fr 1fr;
 
-    .usp-block {
-      width: 100%;
-      margin: 1em auto 0;
-      display: block;
+        .usp-block {
+          width: 100%;
+          margin: 2em auto 0;
+          text-align: center;
+          display: block;
 
-      img {
-        display: block;
-        margin: 0 auto 0.75em;
-        width: 100%;
-        max-width: 60px;
-      }
-
-      p {
-        margin-top: 1em 0.5em;
+          img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 80px;
+          }
+        }
       }
     }
   }
 }
 
 @include media-breakpoint-up(lg) {
-  .usp .d-flex .usp-block p {
-    font-size: 1em;
+  .l-usp {
+    .content {
+      .d-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+    }
   }
 }

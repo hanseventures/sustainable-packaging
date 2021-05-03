@@ -12,6 +12,8 @@ import {
 
 import HeroStatic from '../components/HeroStatic';
 import TextWithImage from '../components/TextWithImage';
+import USP from '../components/USP';
+
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Onboarding from './onboarding';
@@ -39,9 +41,12 @@ const Home = props => {
 
       <TextWithImage />
 
+      <USP />
+
+
       <Onboarding />
 
-      <section id="intro" className='l-cta bg-primary d-flex flex-md-row-reverse font-wht mb-md-3 mx-md-3'>
+      <section id='intro' className='l-cta bg-primary d-flex flex-md-row-reverse font-wht mb-md-3 mx-md-3'>
         <div className='image-wrapper d-none d-md-block'>
           <img
             alt={intro.frontmatter.first_section}
@@ -131,7 +136,7 @@ const Home = props => {
               Hochwertige Tische mit schwarzer Tischplatte aus HPL Fenix
               Beschichtung und einem hochwertigem Gestell aus Echtholz-Esche.
               Hier wackelt nichts und es gibt ausreichend Platz zu arbeiten.
-              <strong className="d-block mt-4">H: 74 cm - B: 160 cm - T: 80 cm</strong>
+              <strong className='d-block mt-4'>H: 74 cm - B: 160 cm - T: 80 cm</strong>
             </p>
           </div>
         </div>
@@ -148,7 +153,7 @@ const Home = props => {
               Unsere Telefon- und Meetingboxen aus Echtholz haben eine
               Schallreduktion von 35 dB. So kannst du ganz ungstört an Meetings
               teilnehmen.
-              <strong className="d-block mt-4">H: 225 cm - B: 100 cm - T: 100 cm</strong>
+              <strong className='d-block mt-4'>H: 225 cm - B: 100 cm - T: 100 cm</strong>
             </p>
           </div>
         </div>
