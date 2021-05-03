@@ -2,7 +2,7 @@ import React from "react"
 
 const TextWithImage = props => {
   return (
-    <section className="l-text-image text-image--left container bg-wht">
+    <section className="l-text-with-image text-image--left container bg-wht">
 
       <div className="content content-centered content-roomy trimmed-width-4 d-grid column-gap-4 row-gap-3">
 
