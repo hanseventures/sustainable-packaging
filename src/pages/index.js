@@ -62,6 +62,7 @@ const Home = props => {
 
       <IconOverview />
       <Testimonials />
+      <FAQ />
       {/* content should be flipped by className */}
       <TextWithImage />
 
