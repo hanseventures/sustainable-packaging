@@ -38,8 +38,6 @@ const Home = props => {
 
       <HeroStatic />
 
-      <TextWithImage />
-
       <CTA />
 
       <Onboarding />
@@ -66,25 +64,10 @@ const Home = props => {
         </div>
       </section>
 
-      <section className='l-first-section content content--roomy d-flex-md'>
-        <img
-          alt={intro.frontmatter.first_section}
-          className='min-width-0 mr-md-3'
-          src='/images/illustrations/suburban-illustration-01b.svg'
-        />
-        <div>
-          <h2>Du bist Freelancer, Angestellter oder Teil eines Teams?</h2>
-          <p>
-            Du brauchst <strong>keinen festen Arbeitsplatz</strong> oder du willst lieber
-            doch ein <strong>Einzelbüro</strong>, z. B. weil du viel telefonierst? Gib
-            deinen Wunsch mit an, dass hilft uns bei der Planung.
-            <br></br>
-            <br></br>
-            Für <strong>Unternehmen</strong> bieten wir auch die Möglichkeit komplette
-            Räume zu buchen, um ganze Teams unterbringen zu können.
-          </p>
-        </div>
-      </section>
+      <TextWithImage />
+
+      // content should be flipped by className
+      <TextWithImage />
 
       <section className='l-intermission font-wht pos-relative black-overlay'>
         <h3 className='h-2 pos-abs-center text-xs-center font-wht z-index-100 mx-5 mx-md-0'>
