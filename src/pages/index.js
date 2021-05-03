@@ -23,6 +23,7 @@ import ContactWithImage from '../components/ContactWithImage';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Onboarding from './onboarding';
+import IconOverview from '../components/IconOverview';
 
 const Home = props => {
   const intro = props.data.intro
@@ -58,6 +59,7 @@ const Home = props => {
 
       <TextWithImage />
 
+      <IconOverview />
       {/* content should be flipped by className */}
       <TextWithImage />
 
