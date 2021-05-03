@@ -1,8 +1,8 @@
 // ==========================================================================
-// Icon Overview styles
+// Prices and Services styles
 // ==========================================================================
 
-.icon-wrapper {
+.l-prices-and-services {
   .icon-item {
     width: 50%;
     font-size: 0.8rem;
@@ -18,7 +18,7 @@
 }
 
 @include media-breakpoint-up(md) {
-  .icon-wrapper {
+  .l-prices-and-services {
     .icon-item {
       width: 33%;
     }
