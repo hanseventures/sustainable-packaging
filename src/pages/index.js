@@ -16,6 +16,7 @@ import CTA from '../components/CTA';
 import CTAwithImage from '../components/CTAwithImage';
 import Products from '../components/Products';
 import Intermission from '../components/Intermission';
+import PricesAndServices from '../components/PricesAndServices';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Onboarding from './onboarding';
@@ -51,13 +52,10 @@ const Home = props => {
 
       <TextWithImage />
 
-      // content should be flipped by className
+      {/* content should be flipped by className */}
       <TextWithImage />
 
-      <Intermission />
-
-      <Products />
-
+      {/* This section is an example of aboves component and the content should be replaced with this. */}
       <section className='l-locations content content--roomy d-flex-md flex-md-row-reverse'>
         <img
           alt={intro.frontmatter.first_section}
@@ -77,99 +75,7 @@ const Home = props => {
         </div>
       </section>
 
-      <div className='content content--roomy d-flex-md'>
-        <section className='l-prices width-md-50'>
-          <h2>Unsere Preise</h2>
-          <p>Let's keep it simple.</p>
-
-          <table className='text-xs-left width-100 mt-4'>
-            <tbody>
-              <tr>
-                <th>Einzelarbeitsplatz</th>
-                <td>150 € / Monat</td>
-              </tr>
-              <tr>
-                <th>Fester Arbeitsplatz</th>
-                <td>250 € / Monat</td>
-              </tr>
-              <tr>
-                <th>Einzelbüro</th>
-                <td>500 € / Monat</td>
-              </tr>
-              <tr>
-                <th>Doppelbüro</th>
-                <td>800 € / Monat</td>
-              </tr>
-              <tr>
-                <th>Teams</th>
-                <td>auf Anfrage</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
-
-        <section className='l-icons width-md-50 mt-5 mt-md-0'>
-          <h2>Diese Services sind inklusive</h2>
-          <div className='icon-wrapper d-flex flex-wrap flex-row'>
-            <div className='icon-item d-flex flex-column align-item-center'>
-              <img
-                alt={intro.frontmatter.first_section}
-                className=''
-                src='images\icons\wifi.svg'
-              />
-              <span>Wifi</span>
-            </div>
-            <div className='icon-item d-flex flex-column align-item-center'>
-              <img
-                alt={intro.frontmatter.first_section}
-                className=''
-                src='images\icons\coffee.svg'
-              />
-              <span>Kaffeevollautomat</span>
-            </div>
-            <div className='icon-item d-flex flex-column align-item-center'>
-              <img
-                alt={intro.frontmatter.first_section}
-                className=''
-                src='images\icons\water.svg'
-              />
-              <span>Wasserspender</span>
-            </div>
-            <div className='icon-item d-flex flex-column align-item-center'>
-              <img
-                alt={intro.frontmatter.first_section}
-                className=''
-                src='images\icons\fridge.svg'
-              />
-              <span>Kühlschrank</span>
-            </div>
-            <div className='icon-item d-flex flex-column align-item-center'>
-              <img
-                alt={intro.frontmatter.first_section}
-                className=''
-                src='images\icons\microwave.svg'
-              />
-              <span>Mikrowelle</span>
-            </div>
-            <div className='icon-item d-flex flex-column align-item-center'>
-              <img
-                alt={intro.frontmatter.first_section}
-                className=''
-                src='images\icons\cleaning.svg'
-              />
-              <span>Reinigung</span>
-            </div>
-            <div className='icon-item d-flex flex-column align-item-center'>
-              <img
-                alt={intro.frontmatter.first_section}
-                className=''
-                src='images\icons\keys.svg'
-              />
-              <span>Schlüssel für die Immobilie</span>
-            </div>
-          </div>
-        </section>
-      </div>
+      <Intermission />
 
       <section id='contact-form' className='l-contact content pt-2 d-flex-md mt-md-3_ mt-1_ mx-md-auto mb-0_ pb-0'>
         <div className='form-wrapper bg-gry px-3 py-5'>
@@ -178,6 +84,7 @@ const Home = props => {
             Melde dich hier unverbindlich an. <br></br>
             Wir melden uns bei Dir zurück sobald es los geht!
           </p>
+      <Products />
 
           <form
             action='https://docs.google.com/forms/d/e/1FAIpQLSc-OV1zn7ycfcu7JJaC6ZNVuDBF1qhaty7tdJFySsVRU_KGFA/formResponse'
@@ -198,6 +105,7 @@ const Home = props => {
               />
               <br></br>
             </div>
+      <PricesAndServices />
 
             <div className='form-group form-entry-02'>
               <label className='form-control' htmlFor='plz'>
