@@ -57,7 +57,7 @@
 @import 'modules/chips';
 @import 'modules/contact';
 @import 'modules/cta'; // ready as gatsby component!
-@import 'modules/cta-with-image';
+@import 'modules/cta-with-image'; // ready as gatsby component!
 // @import 'modules/cta-socials';
 // @import 'modules/cta-x';
 // @import 'modules/customers';
@@ -131,7 +131,6 @@
 // @import 'layout/l-doctor-selection';
 @import 'layout/l-thankyou';
 @import 'layout/l-configurator';
-
 // @import 'layout/l-transparency-report';
 
 // ==========================================================================
@@ -142,5 +141,5 @@
 // @import 'state/outline';
 
 // ==========================================================================
-// Themes - Are styles that affect layout and modules individually.
+// Themes - Stays for module theming and overwrite layout and modules.
 // ==========================================================================
