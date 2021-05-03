@@ -103,13 +103,13 @@
 // Layout - Styles that are related to the structural layout of individual
 //          pages. They are prefixed with l-.
 // ==========================================================================
-@import 'layout/l-cta'; // ready as gatsby component!
-@import 'layout/l-cta-with-image'; // ready as gatsby component!
-@import 'layout/l-hero-static'; // ready as gatsby component!
-@import 'layout/l-intermission'; // ready as gatsby component!
-@import 'layout/l-products'; // ready as gatsby component!
-@import 'layout/l-text-image'; // ready as gatsby component!
-@import 'layout/l-contact-with-image';
+@import 'layout/l-contact-with-image'; // social buttons not working
+@import 'layout/l-cta'; // ready
+@import 'layout/l-cta-with-image'; // ready
+@import 'layout/l-hero-static'; // ready
+@import 'layout/l-intermission'; // ready
+@import 'layout/l-onboarding'; // ready
+@import 'layout/l-products'; // ready
 @import 'layout/l-prices-and-services'; // ready
 @import 'layout/l-text-with-image'; // settings to flip content is missing
 // @import 'layout/l-home';
@@ -125,7 +125,6 @@
 // @import 'layout/l-imprint';
 // @import 'layout/l-messages-compose';
 // @import 'layout/l-profile';
-// @import 'layout/l-onboarding';
 // @import 'layout/l-login';
 // @import 'layout/l-result-screen';
 // @import 'layout/l-privacy';
