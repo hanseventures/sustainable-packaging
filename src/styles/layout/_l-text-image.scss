@@ -2,7 +2,7 @@
 // Text with image section
 // ==========================================================================
 
-.text-image {
+.l-text-image {
   .content {
     grid-template-areas:
       "group-images"
@@ -19,14 +19,14 @@
 }
 
 @include media-breakpoint-up(md) {
-  .text-image.text-image--right {
+  .l-text-image.text-image--right {
     .content {
       grid-template-areas: "group-description group-images";
       grid-template-columns: 3fr 2fr;
     }
   }
 
-  .text-image.text-image--left {
+  .l-text-image.text-image--left {
     .content {
       grid-template-areas: "group-images group-description";
       grid-template-columns: 2fr 3fr;

@@ -2,7 +2,7 @@ import React from "react"
 
 const CTA = props => {
   return (
-    <section id="intro" className='cta-with-image bg-primary d-flex flex-md-row-reverse font-wht mb-md-3 mx-md-3'>
+    <section className='l-cta-with-image bg-primary d-flex flex-md-row-reverse font-wht mb-md-3 mx-md-3'>
 
       <div className='image-wrapper d-none d-md-block'>
         <img

@@ -56,8 +56,6 @@
 @import 'modules/card';
 @import 'modules/chips';
 @import 'modules/contact';
-@import 'modules/cta'; // ready as gatsby component!
-@import 'modules/cta-with-image'; // ready as gatsby component!
 // @import 'modules/cta-socials';
 // @import 'modules/cta-x';
 // @import 'modules/customers';
@@ -71,7 +69,6 @@
 @import "modules/cookie-bar";
 @import 'modules/header';
 @import 'modules/hero';
-@import 'modules/hero-static'; // ready as gatsby component!
 @import 'modules/history';
 @import 'modules/icons';
 @import 'modules/intermission';
@@ -99,7 +96,6 @@
 // @import 'modules/testimonials-v2';
 // @import 'modules/text';
 // @import 'modules/text-image-ltr';
-@import 'modules/text-image'; // ready as gatsby component!
 // @import 'modules/text-human-ressources';
 // @import 'modules/text-slider';
 // @import 'modules/tooltip';
@@ -110,6 +106,11 @@
 // Layout - Styles that are related to the structural layout of individual
 //          pages. They are prefixed with l-.
 // ==========================================================================
+@import 'layout/l-cta'; // ready as gatsby component!
+@import 'layout/l-cta-with-image'; // ready as gatsby component!
+@import 'layout/l-hero-static'; // ready as gatsby component!
+@import 'layout/l-products'; // ready as gatsby component!
+@import 'layout/l-text-image'; // ready as gatsby component!
 // @import 'layout/l-home';
 // @import 'layout/l-competencies';
 // @import 'layout/l-about-us';
@@ -123,7 +124,6 @@
 // @import 'layout/l-imprint';
 // @import 'layout/l-messages-compose';
 // @import 'layout/l-profile';
-@import 'layout/l-products'; // ready as gatsby component!
 // @import 'layout/l-onboarding';
 // @import 'layout/l-login';
 // @import 'layout/l-result-screen';

@@ -2,7 +2,7 @@ import React from "react"
 
 const HeroStatic = props => {
   return (
-    <section className="hero container bg-wht">
+    <section className="l-hero container bg-wht">
 
       <div className="hero-image">
 
