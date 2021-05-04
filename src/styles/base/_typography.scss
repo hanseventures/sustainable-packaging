@@ -104,6 +104,15 @@ body {
   text-decoration: underline;
 }
 
+// Topline of titles - still relevant?
+.highlight {
+  display: block;
+  font-weight: $font-weight-light;
+  color: $primary;
+  letter-spacing: 2px;
+  font-size: 1.25rem;
+}
+
 @include media-breakpoint-up(sm) {
   :root {
     // font-size: 18px;

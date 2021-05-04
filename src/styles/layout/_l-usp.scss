@@ -4,38 +4,16 @@
 
 .l-usp {
   .content {
-    height: 100%;
-    text-align: center;
-
     .d-grid {
       grid-template-columns: 1fr;
 
       .usp-block {
-        width: 100%;
-        margin: 0 auto;
-        text-align: left;
-        display: flex;
-
-        img {
-          margin-right: 5%;
-          width: 16%;
-        }
-
         svg {
-          margin-right: 6%;
           max-width: 80px;
-          width: 30%;
+          width: 20%;
         }
       }
     }
-  }
-
-  .highlight {
-    display: block;
-    font-weight: $font-weight-light;
-    color: $primary;
-    letter-spacing: 2px;
-    font-size: 1.25rem;
   }
 }
 
@@ -43,21 +21,7 @@
   .l-usp {
     .content {
       .d-grid {
-        grid-template-columns: 1fr 1fr;
-
-        .usp-block {
-          width: 100%;
-          margin: 2em auto 0;
-          text-align: center;
-          display: block;
-
-          img {
-            display: block;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 80px;
-          }
-        }
+        grid-template-columns: 1fr 1fr 1fr;
       }
     }
   }
@@ -67,7 +31,7 @@
   .l-usp {
     .content {
       .d-grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       }
     }
   }

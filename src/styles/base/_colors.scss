@@ -24,8 +24,8 @@ $secondary-darker:    darken($secondary, 4%);
 $tertiary:            #79BCCD;
 $accept:              #27AE60;
 $deny:                #EB5757;
-// $background-1:        #E2E2E2;
-// $background-2:        #F2EFEC;
+$bg-primary:          #E7E4D1;
+// $bg-secondary:        #F2EFEC;
 $form-borders:        #CCC;
 // $highlight:           #CF007E;
 $lettering-black:     #191919;
@@ -52,12 +52,8 @@ $info:                #56CCF2;
   background-color: $grey-lightest;
 }
 
-.bg-wht-80 {
-  // background-color:   rgba($white, 0.8);
-}
-
 .bg-primary {
-  background-color: $primary;
+  background-color: $bg-primary;
 }
 
 .bg-brwn-lght {
@@ -72,7 +68,7 @@ $info:                #56CCF2;
   // background-image:   radial-gradient($grey-lightest, $background-1, $background-1);
 }
 
-// Background Colors
+// Font Colors
 // -------------------------
 .font-wht {
   color: $white !important;

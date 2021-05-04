@@ -49,9 +49,10 @@ const Home = props => {
       </Helmet>
 
       <HeroStaticCentered />
+      <USP />
+
       <IconOverview />
       <CTA />
-      <USP />
       <Onboarding />
       <CTAwithImage />
       <Testimonials />
