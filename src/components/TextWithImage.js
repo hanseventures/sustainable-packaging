@@ -4,7 +4,7 @@ const TextWithImage = props => {
   return (
     <section className="l-text-with-image text-image--left container bg-wht">
 
-      <div className="content content-centered content-roomy trimmed-width-4 d-grid column-gap-4 row-gap-3">
+      <div className="content content-centered content-roomy trimmed-width-4 d-grid align-item-center column-gap-4 row-gap-3">
 
         <div className="group-description">
           <h2>Du bist Freelancer, Angestellter oder Teil eines Teams?</h2>
@@ -21,7 +21,7 @@ const TextWithImage = props => {
 
         <div className="group-images">
           <img
-            src="/images/illustrations/suburban-illustration-01b.svg"
+            src="/images/2/der-bestellprozess.jpg"
             className="my-3"
             alt="Image Description"
           />

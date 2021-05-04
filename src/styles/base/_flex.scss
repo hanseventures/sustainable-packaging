@@ -93,6 +93,10 @@
     flex-direction: row;
   }
 
+  .flex-sm-column {
+    flex-direction: column !important;
+  }
+
   .align-item-sm-baseline {
     align-items: baseline;
   }
