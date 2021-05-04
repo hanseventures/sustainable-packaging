@@ -12,7 +12,7 @@ const HeroStaticCentered = props => {
 
             <div className="intro text-xs-center">
               <h1 className="mb-2 mt-0" title="">Die passende nachhaltige Verpackung für Sie!</h1>
-              <p className="subtitle font-lg font-weight-extralight mb-4" title="">Umweltfreundliche Verpackungslösungen ohne Plastik.</p>
+              <p className="font-lg font-weight-extralight mb-4" title="">Umweltfreundliche Verpackungslösungen ohne Plastik.</p>
 
               <div className="d-flex flex-column flex-md-row column-gap-2 row-gap-2 justify-content-center">
                 <a

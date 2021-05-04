@@ -4,12 +4,9 @@
 
 p {
   @extend .font-sm;
+
   margin-bottom: 0.5em;
   margin-top: 0.5em;
-
-  &.subtitle {
-    // @extend .font-md;
-  }
 
   &.intro {
     // font-weight: bold;
