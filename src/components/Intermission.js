@@ -11,7 +11,7 @@ const Intermission = props => {
       <img
         alt="Description Image"
         className=''
-        src='/images/suburban-coworking-intermission.jpg'
+        src='/images/1/suburban-coworking-intermission.jpg'
       />
 
     </section>

@@ -27,7 +27,7 @@ class Onboarding extends React.Component {
           <Link className='d-block' to='/'>
             <img
               alt='Suburban Coworking Logo'
-              src='/images/logo/suburban-coworking-logo-white.svg'
+              src='/images/1/suburban-coworking-logo-white.svg'
             />
           </Link>
         </div>

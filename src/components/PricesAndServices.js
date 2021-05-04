@@ -40,7 +40,7 @@ const CTA = props => {
               <img
                 alt=""
                 className=''
-                src='images\icons\wifi.svg'
+                src='images/1/wifi.svg'
               />
               <span>Wifi</span>
             </div>
@@ -48,7 +48,7 @@ const CTA = props => {
               <img
                 alt=""
                 className=''
-                src='images\icons\coffee.svg'
+                src='images/1/coffee.svg'
               />
               <span>Kaffeevollautomat</span>
             </div>
@@ -56,7 +56,7 @@ const CTA = props => {
               <img
                 alt=""
                 className=''
-                src='images\icons\water.svg'
+                src='images/1/water.svg'
               />
               <span>Wasserspender</span>
             </div>
@@ -64,7 +64,7 @@ const CTA = props => {
               <img
                 alt=""
                 className=''
-                src='images\icons\fridge.svg'
+                src='images/1/fridge.svg'
               />
               <span>Kühlschrank</span>
             </div>
@@ -72,7 +72,7 @@ const CTA = props => {
               <img
                 alt=""
                 className=''
-                src='images\icons\microwave.svg'
+                src='images/1/microwave.svg'
               />
               <span>Mikrowelle</span>
             </div>
@@ -80,7 +80,7 @@ const CTA = props => {
               <img
                 alt=""
                 className=''
-                src='images\icons\cleaning.svg'
+                src='images/1/cleaning.svg'
               />
               <span>Reinigung</span>
             </div>
@@ -88,7 +88,7 @@ const CTA = props => {
               <img
                 alt=""
                 className=''
-                src='images\icons\keys.svg'
+                src='images/1/keys.svg'
               />
               <span>Schlüssel für die Immobilie</span>
             </div>

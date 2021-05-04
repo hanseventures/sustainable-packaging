@@ -106,7 +106,7 @@ const ContactWithImage = props => {
             <img
               alt='{intro.frontmatter.first_section}'
               className='d-none d-md-block min-width-0'
-              src='/images/suburban-coworking-contact.jpg'
+              src='/images/1/suburban-coworking-contact.jpg'
             />
           </div>
         </div>

@@ -49,7 +49,7 @@ const Products = props => {
         <img
           alt="Product Image Description"
           className='phonebox-image min-width-0 d-none_'
-          src='/images/telefonbox-lilly.jpeg'
+          src='/images/1/telefonbox-lilly.jpeg'
         />
         <div className='phonebox-text'>
           <h3>Meeting? Kein Problem!</h3>

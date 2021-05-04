@@ -23,7 +23,7 @@ const ThankYou = (props) => {
           <img
             alt="thank you illustrations"
             className='min-width-0 '
-            src='/images/illustrations/suburban-illustration-03.svg'
+            src='/images/1/suburban-illustration-03.svg'
           />
         </section>
       </div>

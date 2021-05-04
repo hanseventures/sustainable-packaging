@@ -7,7 +7,7 @@ const CTA = props => {
       <div className='image-wrapper d-none d-md-block'>
         <img
           alt="Image Description"
-          src='/images/suburban-coworking-cta.jpg'
+          src='/images/1/suburban-coworking-cta.jpg'
         />
       </div>
 
