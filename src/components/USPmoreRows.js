@@ -1,16 +1,16 @@
 import React from 'react'
 
-const IconOverview = props => {
+const USPmoreRows = props => {
   return (
-    <section className='l-icon_overview container'>
+    <section className='l-usp container'>
 
       <div className='content content-roomy'>
 
-        <div className='intro text-xs-center'>
-          <h2 className='mt-0'>
+        <div className='trimmed-width-2 text-xs-center'>
+          <h3 className='mt-0'>
             Branchen
-          </h2>
-          <span className='highlight mb-2'>Unsere Kunden mit dem Anspruch nach nachhaltigen Verpackungen kommen aus ganz unterschiedlichen Branchen.</span>
+          </h3>
+          <span className='mb-2'>Unsere Kunden mit dem Anspruch nach nachhaltigen Verpackungen kommen aus ganz unterschiedlichen Branchen.</span>
         </div>
 
         <div className='d-grid gap-sm-3 gap-lg-2 mt-5'>
@@ -25,8 +25,9 @@ const IconOverview = props => {
               </g>
             </svg>
 
-            <div>
-              <h3 className='h-5 mt-2'>Industrie</h3>
+            <div className='ml-3 ml-sm-0 mt-sm-3'>
+              <span>Industrie</span>
+              <p className='d-none'>Geben Sie eine Postleitzahl, Ortsnamen oder Gebiet ein.</p>
             </div>
 
           </div>
@@ -42,8 +43,9 @@ const IconOverview = props => {
               </g>
             </svg>
 
-            <div>
-              <h3 className='h-5 mt-2'>StartUps</h3>
+            <div className='ml-3 ml-sm-0 mt-sm-3'>
+              <span>StartUps</span>
+              <p className='d-none'>Geben Sie eine Postleitzahl, Ortsnamen oder Gebiet ein.</p>
             </div>
 
           </div>
@@ -57,8 +59,9 @@ const IconOverview = props => {
               </g>
             </svg>
 
-            <div>
-              <h3 className='h-5 mt-2'>Mode</h3>
+            <div className='ml-3 ml-sm-0 mt-sm-3'>
+              <span>Mode</span>
+              <p className='d-none'>Geben Sie eine Postleitzahl, Ortsnamen oder Gebiet ein.</p>
             </div>
 
           </div>
@@ -72,8 +75,9 @@ const IconOverview = props => {
               </g>
             </svg>
 
-            <div>
-              <h3 className='h-5 mt-2'>Gastronomie</h3>
+            <div className='ml-3 ml-sm-0 mt-sm-3'>
+              <span>Gastronomie</span>
+              <p className='d-none'>Geben Sie eine Postleitzahl, Ortsnamen oder Gebiet ein.</p>
             </div>
 
           </div>
@@ -89,8 +93,9 @@ const IconOverview = props => {
               </g>
             </svg>
 
-            <div>
-              <h3 className='h-5 mt-2'>Spielzeug</h3>
+            <div className='ml-3 ml-sm-0 mt-sm-3'>
+              <span>Spielzeug</span>
+              <p className='d-none'>Geben Sie eine Postleitzahl, Ortsnamen oder Gebiet ein.</p>
             </div>
 
           </div>
@@ -106,8 +111,9 @@ const IconOverview = props => {
               </g>
             </svg>
 
-            <div>
-              <h3 className='h-5 mt-2'>Kosmetik</h3>
+            <div className='ml-3 ml-sm-0 mt-sm-3'>
+              <span>Kosmetik</span>
+              <p className='d-none'>Geben Sie eine Postleitzahl, Ortsnamen oder Gebiet ein.</p>
             </div>
 
           </div>
@@ -123,8 +129,9 @@ const IconOverview = props => {
               </g>
             </svg>
 
-            <div>
-              <h3 className='h-5 mt-2'>Lebensmittel</h3>
+            <div className='ml-3 ml-sm-0 mt-sm-3'>
+              <span>Lebensmittel</span>
+              <p className='d-none'>Geben Sie eine Postleitzahl, Ortsnamen oder Gebiet ein.</p>
             </div>
 
           </div>
@@ -140,8 +147,9 @@ const IconOverview = props => {
               </g>
             </svg>
 
-            <div>
-              <h3 className='h-5 mt-2'>Elektronik</h3>
+            <div className='ml-3 ml-sm-0 mt-sm-3'>
+              <span>Elektronik</span>
+              <p className='d-none'>Geben Sie eine Postleitzahl, Ortsnamen oder Gebiet ein.</p>
             </div>
 
           </div>
@@ -157,8 +165,9 @@ const IconOverview = props => {
               </g>
             </svg>
 
-            <div>
-              <h3 className='h-5 mt-2'>Reinigung</h3>
+            <div className='ml-3 ml-sm-0 mt-sm-3'>
+              <span>Reinigung</span>
+              <p className='d-none'>Geben Sie eine Postleitzahl, Ortsnamen oder Gebiet ein.</p>
             </div>
 
           </div>
@@ -174,8 +183,9 @@ const IconOverview = props => {
               </g>
             </svg>
 
-            <div>
-              <h3 className='h-5 mt-2'>Weitere</h3>
+            <div className='ml-3 ml-sm-0 mt-sm-3'>
+              <span>Weitere</span>
+              <p className='d-none'>Geben Sie eine Postleitzahl, Ortsnamen oder Gebiet ein.</p>
             </div>
 
           </div>
@@ -187,4 +197,4 @@ const IconOverview = props => {
     </section>
   )
 }
-export default IconOverview
+export default USPmoreRows

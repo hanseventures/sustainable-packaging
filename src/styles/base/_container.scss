@@ -40,6 +40,15 @@
   }
 
   // always ends 1px before next breakpoint.
+  .trimmed-width-1,
+  .trimmed-width-2,
+  .trimmed-width-3,
+  .trimmed-width-4,
+  .trimmed-width-5 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .trimmed-width-1 {
     max-width: 575px;
   }

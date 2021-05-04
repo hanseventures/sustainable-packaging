@@ -24,7 +24,7 @@ import ContactWithImage from '../components/ContactWithImage';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Onboarding from './onboarding';
-import IconOverview from '../components/IconOverview';
+import USPmoreRows from '../components/USPmoreRows';
 import Testimonials from '../components/Testimonials';
 
 const Home = props => {
@@ -100,13 +100,12 @@ const Home = props => {
 
       </section>
 
-      <IconOverview />
+      <USPmoreRows />
       <CTA />
       <Onboarding />
       <CTAwithImage />
       <Testimonials />
       <FAQ />
-
 
       <Intermission />
       <Products />
