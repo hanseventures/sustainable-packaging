@@ -6,7 +6,7 @@ const USP = props => {
 
       <div className='content content-roomy'>
 
-        <div className='trimmed-width-2 text-xs-center'>
+        <div className='trimmed-2 text-xs-center'>
           <h3 className='mt-0'>
             <span className='highlight mb-2 d-none'>pryntad.com</span>
             Vorteile von nachhaltiger Verpackung

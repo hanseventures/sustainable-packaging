@@ -4,7 +4,7 @@ const CTA = props => {
   return (
     <section className="l-cta container bg-primary">
 
-      <div className="content content-centered content-roomy trimmed-width-3 d-grid">
+      <div className="content content-centered content-roomy trimmed-3 d-grid">
 
         <div className="text-xs-center">
 

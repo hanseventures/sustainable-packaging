@@ -6,7 +6,7 @@ const USPmoreRows = props => {
 
       <div className='content content-roomy'>
 
-        <div className='trimmed-width-2 text-xs-center'>
+        <div className='trimmed-2 text-xs-center'>
           <h3 className='mt-0'>
             Branchen
           </h3>

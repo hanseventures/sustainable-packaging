@@ -40,32 +40,32 @@
   }
 
   // always ends 1px before next breakpoint.
-  .trimmed-width-1,
-  .trimmed-width-2,
-  .trimmed-width-3,
-  .trimmed-width-4,
-  .trimmed-width-5 {
+  .trimmed-1,
+  .trimmed-2,
+  .trimmed-3,
+  .trimmed-4,
+  .trimmed-5 {
     margin-left: auto;
     margin-right: auto;
   }
 
-  .trimmed-width-1 {
+  .trimmed-1 {
     max-width: 575px;
   }
 
-  .trimmed-width-2 {
+  .trimmed-2 {
     max-width: 767px;
   }
 
-  .trimmed-width-3 {
+  .trimmed-3 {
     max-width: 991px;
   }
 
-  .trimmed-width-4 {
+  .trimmed-4 {
     max-width: 1199px;
   }
 
-  .trimmed-width-5 {
+  .trimmed-5 {
     max-width: 1439px;
   }
 }
@@ -75,7 +75,7 @@
 //     .content {
 //       padding: 3em 1.25em;
 //
-//       &.trimmed-width-2 {
+//       &.trimmed-2 {
 //         // max-width: 800px;
 //       }
 //     }
@@ -85,7 +85,7 @@
 // @include media-breakpoint-up(lg) {
 //   .container {
 //     .content {
-//       &.trimmed-width-3 {
+//       &.trimmed-3 {
 //         // max-width: 1200px;
 //       }
 //     }
