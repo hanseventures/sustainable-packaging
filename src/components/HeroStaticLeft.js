@@ -1,8 +1,8 @@
 import React from "react"
 
-const HeroStatic = props => {
+const HeroStaticLeft = props => {
   return (
-    <section className="l-hero container bg-wht">
+    <section className="l-hero-static container bg-wht">
 
       <div className="hero-image">
 
@@ -11,8 +11,8 @@ const HeroStatic = props => {
           <div className="content">
 
             <div className="intro text-xs-center text-md-left">
-              <h1 className="mb-4 mt-0" title="">Title</h1>
-              <p className="subtitle font-weight-extralight mb-4" title="">Subtitle</p>
+              <h1 className="mb-2 mt-0" title="">Title</h1>
+              <p className="subtitle font-lg font-weight-extralight mb-4" title="">Subtitle</p>
 
               <div className="d-flex flex-column flex-md-row column-gap-2 row-gap-2">
                 <a
@@ -42,4 +42,4 @@ const HeroStatic = props => {
     </section>
   )
 }
-export default HeroStatic
+export default HeroStaticLeft

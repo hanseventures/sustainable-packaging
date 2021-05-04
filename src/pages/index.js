@@ -10,7 +10,8 @@ import {
   WhatsappShareButton,
 } from 'react-share';
 
-import HeroStatic from '../components/HeroStatic';
+import HeroStaticLeft from '../components/HeroStaticLeft';
+import HeroStaticCentered from '../components/HeroStaticCentered';
 import TextWithImage from '../components/TextWithImage';
 import USP from '../components/USP';
 import FAQ from '../components/FAQ';
@@ -47,22 +48,16 @@ const Home = props => {
         />
       </Helmet>
 
-      <HeroStatic />
-
-      <CTA />
-
-      <USP />
-
-
-      <Onboarding />
-
-      <CTAwithImage />
-
-      <TextWithImage />
-
+      <HeroStaticCentered />
       <IconOverview />
+      <CTA />
+      <USP />
+      <Onboarding />
+      <CTAwithImage />
       <Testimonials />
       <FAQ />
+
+      <TextWithImage />
       {/* content should be flipped by className */}
       <TextWithImage />
 
@@ -87,11 +82,9 @@ const Home = props => {
       </section>
 
       <Intermission />
-
       <Products />
-
+      <HeroStaticLeft />
       <PricesAndServices />
-
       <ContactWithImage />
 
     </Layout>

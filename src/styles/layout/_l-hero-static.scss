@@ -1,7 +1,7 @@
 // ==========================================================================
-// Styles for Hero
+// Styles for HeroStatic-LEFT and -CENTERED
 // ==========================================================================
-.l-hero {
+.l-hero-static {
   .hero-image {
     align-items: center;
     display: flex;
@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-image: url("/images/suburban-coworking-hero.jpg");
+    background-image: url("/images/hero-v1.jpg");
     position: relative; // to align ::after element.
     width: 100%; // expand image size to full screen.
     height: 90vh; // if full-layout activiated
@@ -43,7 +43,7 @@
 }
 
 @include media-breakpoint-up(sm) {
-  .l-hero {
+  .l-hero-static {
     .hero-image {
       height: 80vh;
     }
@@ -51,7 +51,7 @@
 }
 
 @include media-breakpoint-up(xl) {
-  .l-hero {
+  .l-hero-static {
     .hero-image {
       height: 60vh;
       min-height: 560px;
@@ -66,7 +66,7 @@
 }
 
 @include media-breakpoint-up(xxl) {
-  .l-hero {
+  .l-hero-static {
     .hero-image {
       .content-wrapper {
         width: 1440px;
