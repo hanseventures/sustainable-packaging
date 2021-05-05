@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const FAQ = props => {
   return (
-    <section id="faq" className="l-faq container" itemscope itemtype="https://schema.org/FAQPage">
+    <section id="faq" className="l-faq container" itemScope itemType="https://schema.org/FAQPage">
 
     <div className="content d-grid">
 
@@ -22,9 +22,9 @@ const FAQ = props => {
               <h5 className="">Wie werden nachhaltige Verpackungen entsorgt?</h5>
             </div>
 
-            <article className="faq-first-level show" data-track="faq-cat-1-1" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-              <div className="" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                <p className="answer" itemprop="text">
+            <article className="faq-first-level show" data-track="faq-cat-1-1" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+              <div className="" itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                <p className="answer" itemProp="text">
                   <strong>Wir sind für Sie da!</strong><br></br>
                   <br></br>
                   Schreiben Sie uns eine E-Mail an <a href="mailto:hello@hello.com">hello@hello.com</a>.
@@ -42,9 +42,9 @@ const FAQ = props => {
               <h5 className="">Ist der Druck klimaneutral?</h5>
             </div>
 
-            <article className="faq-first-level" data-track="faq-cat-1-1" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-              <div className="" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                <p className="answer" itemprop="text">
+            <article className="faq-first-level" data-track="faq-cat-1-1" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+              <div className="" itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                <p className="answer" itemProp="text">
                   <strong>Wir sind für Sie da!</strong><br></br>
                   <br></br>
                   Schreiben Sie uns eine E-Mail an <a href="mailto:hello@pryntad.com">hello@pryntad.com</a>.
@@ -62,9 +62,9 @@ const FAQ = props => {
               <h5 className="">Sind die Materialien aus nachhaltiger Herstellung?</h5>
             </div>
 
-            <article className="faq-first-level" data-track="faq-cat-1-1" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-              <div className="" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                <p className="answer" itemprop="text">
+            <article className="faq-first-level" data-track="faq-cat-1-1" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+              <div className="" itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                <p className="answer" itemProp="text">
                   <strong>Wir sind für Sie da!</strong><br></br>
                   <br></br>
                   Schreiben Sie uns eine E-Mail an <a href="mailto:hello@pryntad.com">hello@pryntad.com</a>.
@@ -82,9 +82,9 @@ const FAQ = props => {
               <h5 className="">Wer prüft und zertifiziert die Verpackungen?</h5>
             </div>
 
-            <article className="faq-first-level" data-track="faq-cat-1-1" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-              <div className="" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                <p className="answer" itemprop="text">
+            <article className="faq-first-level" data-track="faq-cat-1-1" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+              <div className="" itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                <p className="answer" itemProp="text">
                   <strong>Wir sind für Sie da!</strong><br></br>
                   <br></br>
                   Schreiben Sie uns eine E-Mail an <a href="mailto:hello@pryntad.com">hello@pryntad.com</a>.
