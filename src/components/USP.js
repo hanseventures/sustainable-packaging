@@ -4,7 +4,7 @@ const USP = props => {
   return (
     <section className='l-usp container bg-primary'>
 
-      <div className='content content-roomy'>
+      <div className='content content--roomy'>
 
         <div className='trimmed-2 text-xs-center'>
           <h3 className='mt-0'>

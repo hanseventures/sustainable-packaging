@@ -56,7 +56,7 @@ const Home = props => {
       {/* This section is like the component TextWithImage, but should be flipped vertically with. */}
       <section className="l-text-with-image text-image--right container bg-wht">
 
-        <div className="content content-centered content-roomy trimmed-4 d-grid align-item-center column-gap-4 row-gap-3">
+        <div className="content content--centered content--roomy trimmed-4 d-grid align-item-center column-gap-4 row-gap-3">
 
           <div className="group-description">
             <h3>Nachhaltige Materialien</h3>
@@ -82,7 +82,7 @@ const Home = props => {
       {/* This section is like the component TextWithImage, but should be flipped vertically with. */}
       <section className="l-text-with-image text-image--right container bg-wht">
 
-        <div className="content content-centered content-roomy trimmed-4 d-grid align-item-center column-gap-4 row-gap-3">
+        <div className="content content--centered content--roomy trimmed-4 d-grid align-item-center column-gap-4 row-gap-3">
 
           <div className="group-description">
             <h3>Was ist möglich?</h3>
