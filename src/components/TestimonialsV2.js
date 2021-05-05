@@ -3,13 +3,13 @@ import React from 'react';
 
 const TestimonialsV2 = props => {
   return (
-    <section id="kundenstimmen" className="l-testimonials-v2 container bg-secondary">
+    <section className="l-testimonials-v2 container bg-secondary">
 
-      <div className="content content--roomy trimmed-4 d-grid">
+      <div className="content content--roomy d-grid">
 
         <h3 className="font-wht text-xs-center">Das sagen unsere Kunden</h3>
 
-        <div className="d-flex row-gap-3 column-gap-3 mt-4 text-xs-center">
+        <div className="d-flex row-gap-3 column-gap-3 trimmed-4 mt-5 text-xs-center">
 
           <article className="card card--default d-flex flex-basis-full flex-align-center flex-column py-5 px-3">
             <img src="/images/lvz/lvz-testimonials-02@2x.png" alt="avatar"></img>
