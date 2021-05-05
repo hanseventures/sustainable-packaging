@@ -103,13 +103,14 @@
 //          pages. They are prefixed with l-.
 // ==========================================================================
 @import 'layout/l-contact-with-image'; // social buttons not working
-@import 'layout/l-cta'; // ready
-@import 'layout/l-cta-with-image'; // ready
-@import 'layout/l-hero-static'; // ready
-@import 'layout/l-intermission'; // ready
-@import 'layout/l-onboarding'; // ready
-@import 'layout/l-products'; // ready
-@import 'layout/l-prices-and-services'; // ready
+@import 'layout/l-cta';
+@import 'layout/l-cta-with-image';
+@import 'layout/l-hero-static';
+@import 'layout/l-intermission';
+@import 'layout/l-onboarding';
+@import 'layout/l-products';
+@import 'layout/l-prices-and-plans';
+@import 'layout/l-prices-and-services';
 @import 'layout/l-text-with-image'; // settings to flip content is missing
 @import 'layout/l-usp';
 @import 'layout/l-faq';

@@ -67,14 +67,14 @@ a {
   }
 
   &.btn-primary {
-    background-color: rgba($white, 0.9);
-    border-color: rgba($white, 0.9);
+    background-color: $primary;
+    border-color: $primary;
     //box-shadow: $global-box-shadow-y;
-    color: $primary;
+    color: $white;
 
     &:hover {
-      background-color: $white;
-      border-color: $white;
+      background-color: darken($primary, 4%);
+      border-color: darken($primary, 4%);
     }
   }
 
