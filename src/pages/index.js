@@ -26,6 +26,7 @@ import SEO from '../components/SEO';
 import Onboarding from './onboarding';
 import PricesAndPlans from '../components/PricesAndPlans';
 import USPmoreRows from '../components/USPmoreRows';
+import Success from '../components/Success';
 import TestimonialsV1 from '../components/TestimonialsV1';
 import TestimonialsV2 from '../components/TestimonialsV2';
 
@@ -102,6 +103,7 @@ const Home = props => {
 
       </section>
 
+      <Success />
       <PricesAndPlans />
       <USPmoreRows />
       <TestimonialsV2 />
