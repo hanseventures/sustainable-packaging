@@ -27,14 +27,15 @@ const PricesAndPlans = props => {
               </g>
             </svg>
 
-              <h5 className="my-3">Transporttrays</h5>
-              <ul className="list-vertical font-xs mb-3">
-                <li>Wasserdicht</li>
-                <li>Bambus</li>
-                <li>60.000 Stk.</li>
-                <li>in 4 Wochen</li>
-                <li><strong>2,40 € / Stk.</strong></li>
-              </ul>
+            <h5 className="my-3">Transporttrays</h5>
+
+            <ul className="list-vertical font-xs mb-3">
+              <li>Wasserdicht</li>
+              <li>Bambus</li>
+              <li>60.000 Stk.</li>
+              <li>in 4 Wochen</li>
+              <li><strong>2,40 € / Stk.</strong></li>
+            </ul>
 
             <a
               className="btn btn-primary mt-2"
@@ -53,14 +54,15 @@ const PricesAndPlans = props => {
               </g>
             </svg>
 
-              <h5 className="my-3">Transporttrays</h5>
-              <ul className="list-vertical font-xs mb-3">
-                <li>Wasserdicht</li>
-                <li>Bambus</li>
-                <li>60.000 Stk.</li>
-                <li>in 4 Wochen</li>
-                <li><strong>2,40 € / Stk.</strong></li>
-              </ul>
+            <h5 className="my-3">Transporttrays</h5>
+
+            <ul className="list-vertical font-xs mb-3">
+              <li>Wasserdicht</li>
+              <li>Bambus</li>
+              <li>60.000 Stk.</li>
+              <li>in 4 Wochen</li>
+              <li><strong>2,40 € / Stk.</strong></li>
+            </ul>
 
             <a
               className="btn btn-primary mt-2"
@@ -79,14 +81,15 @@ const PricesAndPlans = props => {
               </g>
             </svg>
 
-              <h5 className="my-3">Transporttrays</h5>
-              <ul className="list-vertical font-xs mb-3">
-                <li>Wasserdicht</li>
-                <li>Bambus</li>
-                <li>60.000 Stk.</li>
-                <li>in 4 Wochen</li>
-                <li><strong>2,40 € / Stk.</strong></li>
-              </ul>
+            <h5 className="my-3">Transporttrays</h5>
+
+            <ul className="list-vertical font-xs mb-3">
+              <li>Wasserdicht</li>
+              <li>Bambus</li>
+              <li>60.000 Stk.</li>
+              <li>in 4 Wochen</li>
+              <li><strong>2,40 € / Stk.</strong></li>
+            </ul>
 
             <a
               className="btn btn-primary mt-2"

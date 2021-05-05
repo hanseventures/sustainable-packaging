@@ -2,7 +2,7 @@ import React from 'react'
 
 const TestimonialsV1 = props => {
   return (
-    <section id="kundenstimmen" className="l-testimonials-v1 container bg-secondary">
+    <section id="kundenstimmen" className="l-testimonials-v1 container bg-wht">
 
       <div className="content content-default d-grid">
 
