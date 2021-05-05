@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Testimonials = props => {
+const TestimonialsV1 = props => {
   return (
-    <section id="kundenstimmen" className="l-testimonials container">
+    <section id="kundenstimmen" className="l-testimonials-v1 container bg-secondary">
 
       <div className="content content-default d-grid">
 
@@ -82,4 +82,4 @@ const Testimonials = props => {
 
   )
 }
-export default Testimonials
+export default TestimonialsV1

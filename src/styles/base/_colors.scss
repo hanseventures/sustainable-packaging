@@ -15,7 +15,7 @@ $black:               #20242C; // High Emphasis
 
 // Template Colors
 // -------------------------
-$primary:             #104848;
+$primary:             #95B743;
 $primary-lighter:     lighten($primary, 8%);
 $primary-darker:      darken($primary, 8%);
 $secondary:           #00C5C5;
@@ -25,7 +25,7 @@ $tertiary:            #79BCCD;
 $accept:              #27AE60;
 $deny:                #EB5757;
 $bg-primary:          #E7E4D1;
-// $bg-secondary:        #F2EFEC;
+$bg-secondary:        #95B743;
 $form-borders:        #CCC;
 // $highlight:           #CF007E;
 $lettering-black:     #191919;
@@ -54,6 +54,10 @@ $info:                #56CCF2;
 
 .bg-primary {
   background-color: $bg-primary;
+}
+
+.bg-secondary {
+  background-color: $bg-secondary;
 }
 
 .bg-brwn-lght {

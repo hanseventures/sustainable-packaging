@@ -2,12 +2,8 @@
 // Testimonial section
 // ==========================================================================
 
-.l-testimonials {
-  background-color: $white;
-
+.l-testimonials-v2 {
   &.single {
-    //max-width: 800px;
-
     .testimonial-logo {
       max-width: 230px;
       height: auto;
@@ -53,7 +49,7 @@
 }
 
 @include media-breakpoint-up(md) {
-  .l-testimonials {
+  .l-testimonials-v2 {
     &.single {
       //width: 70%;
 

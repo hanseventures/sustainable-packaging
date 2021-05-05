@@ -25,7 +25,8 @@ import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Onboarding from './onboarding';
 import USPmoreRows from '../components/USPmoreRows';
-import Testimonials from '../components/Testimonials';
+import TestimonialsV1 from '../components/TestimonialsV1';
+import TestimonialsV2 from '../components/TestimonialsV2';
 
 const Home = props => {
   const intro = props.data.intro
@@ -101,12 +102,13 @@ const Home = props => {
       </section>
 
       <USPmoreRows />
+      <TestimonialsV2 />
+
       <CTA />
       <Onboarding />
       <CTAwithImage />
-      <Testimonials />
+      <TestimonialsV1 />
       <FAQ />
-
       <Intermission />
       <Products />
       <HeroStaticLeft />
