@@ -29,6 +29,20 @@ const Configurator = props => {
           <TypeOfPackaging {...{form, dispatchForm}}/>
         </Wizard>
       </section>
+      <section className="wizard-usp d-flex flex-column flex-md-row font-xs">
+        <div className="">
+          <img src="images\1\microwave.svg"/>
+          <span>Schnelle Angaben zum Produkt machen</span>
+        </div>
+        <div className="">
+          <img src="images\1\microwave.svg"/>
+          <span>Einfach und unverbindlich ausfüllen</span>
+        </div>
+        <div className="">
+          <img src="images\1\microwave.svg"/>
+          <span>Kostenlose Expertenberatung</span>
+        </div>
+      </section>
     </Layout>
   )
 }
