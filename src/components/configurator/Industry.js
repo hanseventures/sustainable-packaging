@@ -32,6 +32,10 @@ const Industry = (props) => {
   return (
     <>
     <h1>Branche wählen</h1>
+    <div className="progress-bar">
+      <div className="active step-01"></div>
+      <div className="non-active"></div>
+    </div>
       <ul className='box'>
         {allIndustryDataJson.edges.map(({ node }) => (
           <li

@@ -1,27 +1,42 @@
 [
   {
     "id": 1,
-    "text": "Material",
+    "text": "Eierschale",
     "iconClass": "material-icons"
   },
   {
     "id": 2,
-    "text": "Material",
+    "text": "Reis",
     "iconClass": "material-icons"
   },
   {
     "id": 3,
-    "text": "Material",
+    "text": "Bambus",
     "iconClass": "material-icons"
   },
   {
     "id": 4,
-    "text": "Material",
+    "text": "Mais",
     "iconClass": "material-icons"
   },
   {
     "id": 5,
-    "text": "Material",
+    "text": "Sulapac",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 6,
+    "text": "Holzfasern",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 7,
+    "text": "Algen",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 8,
+    "text": "Sonstiges",
     "iconClass": "material-icons"
   }
 ]

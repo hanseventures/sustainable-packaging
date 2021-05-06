@@ -24,8 +24,8 @@ const Configurator = props => {
       </Helmet>
       <section>
         <Wizard>
-          <Material {...{form, dispatchForm}} />
           <Industry {...{form, dispatchForm}}/>
+          <Material {...{form, dispatchForm}} />
           <TypeOfPackaging {...{form, dispatchForm}}/>
         </Wizard>
       </section>

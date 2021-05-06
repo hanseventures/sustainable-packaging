@@ -51,6 +51,43 @@
   }
 }
 
+.progress-bar {
+  width: 100%;
+  height: 0.5em;
+  padding: 0 0.5em;
+  position: relative;
+  box-sizing: border-box;
+
+
+  .active {
+    background: $primary;
+    width: 16%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    &.step-01 {
+      width: 14%;
+    }
+
+    &.step-02 {
+      width: 28%;
+    }
+
+    &.step-03 {
+      width: 42%;
+    }
+  }
+
+  .non-active {
+    background: $grey-lighter;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+}
+
 .wizard-usp {
   border-top: 1px solid grey;
   padding: 1em 0.5em 2em;

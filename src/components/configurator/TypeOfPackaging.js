@@ -26,6 +26,10 @@ const TypeOfPackaging = (props) => {
   return (
     <>
     <h1>Branche wählen</h1>
+    <div className="progress-bar">
+      <div className="active step-03"></div>
+      <div className="non-active"></div>
+    </div>
       <ul className='box'>
         {allPackagingDataJson.edges.map(({ node }) => (
           <li

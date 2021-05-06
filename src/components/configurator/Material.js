@@ -36,6 +36,10 @@ const Material = (props) => {
   return (
     <>
     <h1>Material wählen</h1>
+    <div className="progress-bar">
+      <div className="active step-02"></div>
+      <div className="non-active"></div>
+    </div>
       <ul className='box'>
         {allMaterialDataJson.edges.map(({ node }) => (
           <li key={node.id}
