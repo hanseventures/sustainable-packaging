@@ -1,37 +1,42 @@
 [
   {
     "id": 1,
-    "text": "Packaging",
+    "text": "Transporttrays",
     "iconClass": "packaging-icons"
   },
   {
     "id": 2,
-    "text": "Packaging",
+    "text": "Kartonagen mit Inlays",
     "iconClass": "packaging-icons"
   },
   {
     "id": 3,
-    "text": "Packaging",
+    "text": "Lebensmittelverpackungen",
     "iconClass": "packaging-icons"
   },
   {
     "id": 4,
-    "text": "Packaging",
+    "text": "Beutel + Türen",
     "iconClass": "packaging-icons"
   },
   {
     "id": 5,
-    "text": "Packaging",
+    "text": "Kartonagen",
     "iconClass": "packaging-icons"
   },
   {
     "id": 6,
-    "text": "Packaging",
+    "text": "Behälter + Becher",
     "iconClass": "packaging-icons"
   },
   {
     "id": 7,
-    "text": "Packaging",
+    "text": "Flaschen",
+    "iconClass": "packaging-icons"
+  },
+  {
+    "id": 8,
+    "text": "Sonstiges",
     "iconClass": "packaging-icons"
   }
 ]

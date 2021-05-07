@@ -50,7 +50,7 @@ const Material = (props) => {
                 value: { materialId: node.id }
               })
             }>
-            <img src="images\1\microwave.svg"/>
+            <img src="svg/streamline-icon-medical-specialty-skin@46x46.svg"/>
             <span>{node.text}</span>
           </li>
         ))}

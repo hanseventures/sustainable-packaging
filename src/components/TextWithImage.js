@@ -23,7 +23,7 @@ const TextWithImage = props => {
     <>
       {allTextWithImageJson.edges.map(({ node }) => (
         <section className=""
-        className={`l-text-with-image  container bg-wht ${ node.image_position }`}
+        className={`l-text-with-image container bg-wht ${ node.image_position }`}
         >
           <div className="content content--centered content--roomy trimmed-4 d-grid align-item-center column-gap-4 row-gap-3">
 
