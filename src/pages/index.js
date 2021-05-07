@@ -114,16 +114,6 @@ const Home = props => {
       <USPmoreRows />
       <TestimonialsV2 />
       <FAQv2 />
-
-      <CTA />
-      <Onboarding />
-      <CTAwithImage />
-      <TestimonialsV1 />
-      <FAQv1 />
-      <Intermission />
-      <Products />
-      <HeroStaticLeft />
-      <PricesAndServices />
       <ContactWithImage />
       <ContactSimple />
 
