@@ -3,7 +3,7 @@ import React, { useReducer } from 'react';
 import Helmet from 'react-helmet';
 import { Wizard } from 'react-use-wizard';
 
-import { Step01, Step02, Step03, Step04, Step05, Step06, Step07, Step08 } from '../components/configurator';
+import { Step01, Step02, Step03, Step04, Step05, Step06, Step07, Step08, Step09, Step10} from '../components/configurator';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import globalContextProvider from '../context/GlobalContextProvider';
