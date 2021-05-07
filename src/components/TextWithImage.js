@@ -1,42 +1,47 @@
-import { graphql, Link, navigate, StaticQuery } from 'gatsby';
-import React from "react"
+import { graphql, useStaticQuery } from 'gatsby';
+import React from 'react';
 
 const TextWithImage = props => {
+  const { allTextWithImageJson } = useStaticQuery(graphql`
+  query TextWithImageQuery {
+  allTextWithImageJson {
+    edges {
+      node {
+        id
+        image
+        image_position
+        text
+        headline
+        alt
+      }
+    }
+  }
+}
+`)
+
   return (
-    <section className="l-text-with-image text-image--left container bg-wht">
+    <>
+      {allTextWithImageJson.edges.map(({ node }) => (
+        <section className=""
+        className={`l-text-with-image  container bg-wht ${ node.image_position }`}
+        >
+          <div className="content content--centered content--roomy trimmed-4 d-grid align-item-center column-gap-4 row-gap-3">
 
-      <div className="content content--centered content--roomy trimmed-4">
-        <div className="d-grid align-item-center column-gap-4 row-gap-3">
-
-          <div className="group-description">
-            <h2>So funktionierts</h2>
-            <p>
-              Wir sind ein Vermittler zwischen Business-Kunden und Produzenten von nachhaltigen Verpackungen.<br></br>
-              Als neutraler Experte auf diesem Gebiet verhelfen wir Ihnen, in diesem wenig transparenten Markt, zur perfekten nachhaltigen Verpackung.<br></br>
-              Mit Hilfe unseres Konfigurators können wir einfach und schnell auf Ihre Wünsche eingehen.<br></br>
-            </p>
-            <a
-              href="#"
-              className='btn btn-primary mt-3'
-              onClick={()=> navigate('/configurator')}
-              title="title"
-            >
-              Konfigurator starten
-            </a>
+            <div className="group-description">
+              <h3>{node.headline}</h3>
+              <p dangerouslySetInnerHTML={{ __html: node.text }}></p>
+            </div>
+            <div className="group-images">
+              <img
+                src={node.image}
+                className="my-3"
+                alt={node.alt}
+              />
+            </div>
           </div>
-
-          <div className="group-images">
-            <img
-              src="/images/2/der-bestellprozess.jpg"
-              className="my-3"
-              alt="Image Description"
-            />
-          </div>
-
-        </div>
-      </div>
-
-    </section>
+        </section>))}
+    </>
   )
 }
+
 export default TextWithImage
