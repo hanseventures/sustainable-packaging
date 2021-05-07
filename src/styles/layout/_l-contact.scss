@@ -44,3 +44,19 @@
     }
   }
 }
+
+@include media-breakpoint-up(sm) {
+  .l-contact-simple {
+    .btn {
+      max-width: 300px;
+    }
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+  .l-contact-simple {
+    .btn {
+      max-width: none;
+    }
+  }
+}
