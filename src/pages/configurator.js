@@ -1,9 +1,9 @@
 import { graphql } from 'gatsby';
-import React, {useReducer} from 'react';
+import React, { useReducer } from 'react';
 import Helmet from 'react-helmet';
 import { Wizard } from 'react-use-wizard';
 
-import { Industry, Material, TypeOfPackaging } from '../components/configurator';
+import { Industry, Material, Step04, TypeOfPackaging } from '../components/configurator';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import globalContextProvider from '../context/GlobalContextProvider';
@@ -30,6 +30,7 @@ const Configurator = props => {
           <Industry {...{form, dispatchForm}}/>
           <Material {...{form, dispatchForm}} />
           <TypeOfPackaging {...{form, dispatchForm}}/>
+          <Step04 {...{form, dispatchForm}}/>
         </Wizard>
       </section>
 

@@ -1,0 +1,12 @@
+{
+  "title": "Material wählen",
+  "nodes": [{
+    "id": 1,
+    "text": "industry",
+    "iconClass": "material-icons"
+  },{
+    "id": 2,
+    "text": "industry",
+    "iconClass": "material-icons"
+  }]
+}
