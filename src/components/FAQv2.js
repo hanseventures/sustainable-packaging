@@ -35,7 +35,7 @@ const FAQv2 = props => {
           <span className='mb-2 d-none'>{componentsJson.title}</span>
         </div>
 
-        <div className='fa  q-wrapper trimmed-2 mt-5'>
+        <div className='faq-wrapper trimmed-2 mt-5'>
           {componentsJson.faqs.map((node, id) => (
             <article className={`mb-4 ${ currentModal === id ? 'is-open':''}`}>
               <button

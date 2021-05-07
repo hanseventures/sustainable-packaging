@@ -31,7 +31,7 @@ const Step02 = (props) => {
     isLastStep
   } = useWizard()
 
-  const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.industryId)
+  const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step02ID)
 
   // Attach an optional handler
   handleStep(() => {
@@ -47,7 +47,7 @@ const Step02 = (props) => {
         <div className="non-active"></div>
       </div>
 
-      <ul className='list-none d-grid box trimmed-3 my-5'>
+      <ul className='list-none d-grid box trimmed-4 text-xs-center my-5'>
         {configuratorJson.nodes.map((node) => (
           <li
             key={node.id}

@@ -22,10 +22,12 @@ const Contact = ({ data }) => {
             <h2 className='mt-0 h-2'>Wer bekommt das unverbindliche Angebot?</h2>
             <p>
               Damit wir Ihnen ein unverbindliches Angebot erstellen können benötigen wir noch Ihre Kontaktdaten.<br></br>
-              <br></br>
+            </p>
+            <p>
               Wir werden uns ca. innerhalb eines Werktages bei Ihnen zurückmelden.<br></br>
-              <br></br>
-              Ihr Team von<br></br>
+            </p>
+            <p>
+              Ihr Team von<br/>
               NACHHALTIGE-VERPACKUNG.DE
             </p>
             <div className="contact-usp">
