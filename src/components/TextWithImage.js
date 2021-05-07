@@ -1,5 +1,5 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import React from 'react';
+import React, { useState } from 'react';
 
 const TextWithImage = props => {
   const { allTextWithImageJson } = useStaticQuery(graphql`
