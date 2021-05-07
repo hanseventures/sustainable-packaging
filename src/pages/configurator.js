@@ -34,8 +34,8 @@ const Configurator = props => {
           <Step06 {...{form, dispatchForm}}/>
           <Step07 {...{form, dispatchForm}}/>
           <Step08 {...{form, dispatchForm}}/>
-          <Step09 {...{ form, dispatchForm }} />
-          <Step10 {...{ form, dispatchForm }} />
+          <Step09 {...{form, dispatchForm}} />
+          <Step10 {...{form, dispatchForm}} />
         </Wizard>
       </section>
 
