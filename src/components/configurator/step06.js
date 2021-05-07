@@ -47,7 +47,7 @@ const Step06 = (props) => {
         <div className="non-active"></div>
       </div>
 
-      <ul className='list-none d-grid box trimmed-3 my-5'>
+      <ul className='list-none d-grid box trimmed-4 my-5'>
         {configuratorJson.nodes.map((node) => (
           <li
             key={node.id}

@@ -1,23 +1,46 @@
 {
-  "title": "Step08 wählen",
+"title": "Wie viele Einheiten sollen verpackt werden?",
   "progressbar": "08",
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
-  "nodes": [
-    {
-      "id": 1,
-      "text": "industry",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 2,
-      "text": "industry",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 3,
-      "text": "industry",
-      "iconClass": "material-icons"
-    }
-  ]
+  "nodes": [{
+    "id": 1,
+    "text": "1-500",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 2,
+    "text": "500-999",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 3,
+    "text": "1.000-4.999",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 4,
+    "text": "5.000 - 9.999",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 5,
+    "text": "10.000 - 49.000",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 6,
+    "text": "50.000 - 99.000",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 7,
+    "text": "100.000+",
+    "iconClass": "material-icons"
+  },
+  {
+    "id": 8,
+    "text": "Sonstiges",
+    "iconClass": "material-icons"
+  }]
 }

@@ -1,23 +1,23 @@
 {
-  "title": "Step07 wählen",
+"title": "Welche Verpackungsfunktion ist besonders wichtig?",
   "progressbar": "07",
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
-  "nodes": [
-    {
-      "id": 1,
-      "text": "industry",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 2,
-      "text": "industry",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 3,
-      "text": "industry",
-      "iconClass": "material-icons"
-    }
-  ]
+  "nodes": [{
+    "id": 1,
+    "text": "Schutz",
+    "iconClass": "material-icons"
+  },{
+    "id": 2,
+    "text": "Marketing / Bedruckbarkeit",
+    "iconClass": "material-icons"
+  },{
+    "id": 3,
+    "text": "Transport",
+    "iconClass": "material-icons"
+  },{
+    "id": 4,
+    "text": "Handling",
+    "iconClass": "material-icons"
+  }]
 }
