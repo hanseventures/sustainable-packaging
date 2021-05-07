@@ -16,6 +16,12 @@
   .group-images {
     grid-area: group-images;
   }
+
+  .grid-inverted {
+    grid-template-areas:
+      "group-description"
+      "group-images";
+  }
 }
 
 @include media-breakpoint-up(md) {

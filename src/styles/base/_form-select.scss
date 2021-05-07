@@ -5,9 +5,10 @@
 
 .select {
   color: $grey-darker;
-  display: inline-block;
+  display: block;
   position: relative;
   width: 100%;
+  max-width: 300px;
 }
 
 .select select {
@@ -16,7 +17,7 @@
   appearance: none;
   background-color: $white;
   border-radius: $border-radius-md;
-  border: $border-thickness solid;
+  border: $border-thickness solid $grey-dark;
   color: $grey-darker;
   cursor: pointer;
   display: inline-block;
@@ -117,5 +118,11 @@
   .select select:active {
     background-color: $grey-lighter;
     color: $grey-darker;
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+  .select {
+    max-width: none;
   }
 }
