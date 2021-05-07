@@ -1,5 +1,5 @@
-import { graphql, Link, useStaticQuery } from "gatsby"
-import React from "react"
+import { graphql, Link, useStaticQuery } from 'gatsby';
+import React from 'react';
 
 const MobileMenu = props => {
   const data = useStaticQuery(graphql`
@@ -7,6 +7,7 @@ const MobileMenu = props => {
       allMainMenuJson {
         edges {
           node {
+            id
             name
             url
             weight
@@ -22,7 +23,7 @@ const MobileMenu = props => {
     >
       <ul>
         {data.allMainMenuJson.edges.map(({ node }) => (
-          <li key={node.name}>
+          <li key={node.id}>
             <Link to={node.url} activeClassName="active">
               {node.name}
             </Link>

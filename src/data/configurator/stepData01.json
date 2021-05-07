@@ -1,68 +1,48 @@
 {
-  "title": "Branche wählen",
+  "title": "Verpackungsart wählen",
   "progressbar": "01",
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
     {
       "id": 1,
-      "text": "Industrie",
-      "iconClass": "material-icons",
-      "imagePath": "svg/streamline-icon-water-dam@46x46.svg"
+      "text": "Transporttrays",
+      "iconClass": "packaging-icons"
     },
     {
       "id": 2,
-      "text": "StartUps",
-      "iconClass": "material-icons",
-      "imagePath": "svg/streamline-icon-space-rocket-flying@46x46.svg"
+      "text": "Kartonagen mit Inlays",
+      "iconClass": "packaging-icons"
     },
     {
       "id": 3,
-      "text": "Mode",
-      "iconClass": "material-icons",
-      "imagePath": "svg/streamline-icon-t-shirt@46x46.svg"
+      "text": "Lebensmittelverpackungen",
+      "iconClass": "packaging-icons"
     },
     {
       "id": 4,
-      "text": "Gastronomie",
-      "iconClass": "material-icons",
-      "imagePath": "svg/streamline-icon-fast-food-burger-drink@46x46.svg"
+      "text": "Beutel + Tüten",
+      "iconClass": "packaging-icons"
     },
     {
       "id": 5,
-      "text": "Spielzeug",
-      "iconClass": "material-icons",
-      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg"
+      "text": "Kartonagen",
+      "iconClass": "packaging-icons"
     },
     {
       "id": 6,
-      "text": "Kosmetik",
-      "iconClass": "material-icons",
-      "imagePath": "svg/streamline-icon-make-up-mascara@46x46.svg"
+      "text": "Behälter + Becher",
+      "iconClass": "packaging-icons"
     },
     {
       "id": 7,
-      "text": "Lebensmittel",
-      "iconClass": "material-icons",
-      "imagePath": "svg/streamline-icon-vegetables-plate@46x46.svg"
+      "text": "Flaschen",
+      "iconClass": "packaging-icons"
     },
     {
       "id": 8,
-      "text": "Elektronik",
-      "iconClass": "material-icons",
-      "imagePath": "svg/streamline-icon-screen-1@46x46.svg"
-    },
-    {
-      "id": 9,
-      "text": "Reinigung",
-      "iconClass": "material-icons",
-      "imagePath": "svg/streamline-icon-cleaning-spray@46x46.svg"
-    },
-    {
-      "id": 10,
       "text": "Sonstiges",
-      "iconClass": "material-icons",
-      "imagePath": "svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg"
+      "iconClass": "packaging-icons"
     }
   ]
 }

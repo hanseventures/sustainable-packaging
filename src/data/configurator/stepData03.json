@@ -1,18 +1,18 @@
 {
-  "title": "Verpackungsart wählen",
+  "title": "Step03 wählen",
   "progressbar": "03",
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
     {
       "id": 1,
-      "text": "Transporttrays",
-      "iconClass": "packaging-icons"
+      "text": "industry",
+      "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "text": "Kartonagen mit Inlays",
-      "iconClass": "packaging-icons"
+      "text": "industry",
+      "iconClass": "material-icons"
     },
     {
       "id": 3,

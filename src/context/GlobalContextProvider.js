@@ -1,4 +1,5 @@
 export default (previousState, action) => {
+  console.log(`previousState: action:`, previousState, action)
   switch (action.type) {
     case "RESET":
       return {};

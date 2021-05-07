@@ -1,0 +1,23 @@
+{
+"title": "Welche Verpackungsfunktion ist besonders wichtig?",
+  "progressbar": "09",
+  "btnPrevious": "Zurück",
+  "btnNext": "Weiter",
+  "nodes": [{
+    "id": 1,
+    "text": "Schutz",
+    "iconClass": "material-icons"
+  },{
+    "id": 2,
+    "text": "Marketing / Bedruckbarkeit",
+    "iconClass": "material-icons"
+  },{
+    "id": 3,
+    "text": "Transport",
+    "iconClass": "material-icons"
+  },{
+    "id": 4,
+    "text": "Handling",
+    "iconClass": "material-icons"
+  }]
+}

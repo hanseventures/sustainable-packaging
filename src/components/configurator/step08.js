@@ -1,6 +1,6 @@
-import React from 'react'
-import { navigate, graphql, useStaticQuery } from 'gatsby'
-import { useWizard } from 'react-use-wizard'
+import { graphql, navigate, useStaticQuery } from 'gatsby';
+import React from 'react';
+import { useWizard } from 'react-use-wizard';
 
 const Step08 = (props) => {
 
@@ -15,7 +15,6 @@ const Step08 = (props) => {
         nodes {
           id
           iconClass
-          imagePath
           text
         }
       }
@@ -68,25 +67,12 @@ const Step08 = (props) => {
         <div
           className='btn btn-secondary mr-1 mr-md-3'
           onClick={() => previousStep()}
-          disabled={isLoading || isFirstStep}
         >
           {configuratorJson.btnPrevious}
         </div>
-        {!isLastStep ? (
-        <div
-          className='btn btn-primary ml-1 ml-md-3'
-          onClick={() => nextStep()}
-        >
-          {configuratorJson.btnNext}
+        <div className='btn btn-secondary ml-1 ml-md-3' onClick={() => nextStep()}>
+        {configuratorJson.btnNext}
         </div>
-        ) : (
-        <div
-          className='btn btn-primary ml-1 ml-md-3'
-          onClick={() => navigate('/contact')}
-        >
-          {configuratorJson.btnNext}
-        </div>
-        )}
       </div>
     </>
   )

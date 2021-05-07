@@ -9,6 +9,7 @@ const TestimonialsV2 = props => {
       allTestimonialsJson {
         edges {
           node {
+            id
             image_path
             first_name
             last_name
@@ -28,7 +29,7 @@ const TestimonialsV2 = props => {
 
         <div className='d-flex flex-column flex-md-row row-gap-3 column-gap-3 trimmed-4 mt-5 text-xs-center'>
           {allTestimonialsJson.edges.map(({ node }) => (
-            <article className='card card--default d-flex flex-basis-full flex-align-center flex-column py-5 px-3'>
+            <article className='card card--default d-flex flex-basis-full flex-align-center flex-column py-5 px-3'  key={node.id}>
               <img src={node.image_path} alt='avatar'></img>
 
               <div className='mt-3'>

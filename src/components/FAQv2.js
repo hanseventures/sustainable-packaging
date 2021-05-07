@@ -37,7 +37,7 @@ const FAQv2 = props => {
 
         <div className='faq-wrapper trimmed-2 mt-5'>
           {componentsJson.faqs.map((node, id) => (
-            <article className={`mb-4 ${ currentModal === id ? 'is-open':''}`}>
+            <article key={id} className={`mb-4 ${ currentModal === id ? 'is-open':''}`}>
               <button
                 type='button'
                 onClick={() => toggleModal(id)}

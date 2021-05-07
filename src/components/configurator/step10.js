@@ -1,12 +1,12 @@
-import React from 'react'
-import { navigate, graphql, useStaticQuery } from 'gatsby'
-import { useWizard } from 'react-use-wizard'
+import { graphql, navigate, useStaticQuery } from 'gatsby';
+import React from 'react';
+import { useWizard } from 'react-use-wizard';
 
 const Step10 = (props) => {
 
   const {configuratorJson} = useStaticQuery(graphql`
     query Step10Query {
-      configuratorJson(progressbar: {eq: "01"}) {
+      configuratorJson(progressbar: {eq: "10"}) {
         id
         title
         progressbar
@@ -15,7 +15,6 @@ const Step10 = (props) => {
         nodes {
           id
           iconClass
-          imagePath
           text
         }
       }

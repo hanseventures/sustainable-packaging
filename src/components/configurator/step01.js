@@ -1,6 +1,6 @@
-import React from 'react'
-import { navigate, graphql, useStaticQuery } from 'gatsby'
-import { useWizard } from 'react-use-wizard'
+import { graphql, useStaticQuery } from 'gatsby';
+import React from 'react';
+import { useWizard } from 'react-use-wizard';
 
 const Step01 = (props) => {
 
@@ -15,7 +15,6 @@ const Step01 = (props) => {
         nodes {
           id
           iconClass
-          imagePath
           text
         }
       }
@@ -27,8 +26,7 @@ const Step01 = (props) => {
     nextStep,
     previousStep,
     isLoading,
-    isFirstStep,
-    isLastStep
+    isFirstStep
   } = useWizard()
 
   const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step01ID)
@@ -72,21 +70,9 @@ const Step01 = (props) => {
         >
           {configuratorJson.btnPrevious}
         </div>
-        {!isLastStep ? (
-        <div
-          className='btn btn-primary ml-1 ml-md-3'
-          onClick={() => nextStep()}
-        >
-          {configuratorJson.btnNext}
+        <div className='btn btn-secondary ml-1 ml-md-3' onClick={() => nextStep()}>
+        {configuratorJson.btnNext}
         </div>
-        ) : (
-        <div
-          className='btn btn-primary ml-1 ml-md-3'
-          onClick={() => navigate('/contact')}
-        >
-          {configuratorJson.btnNext}
-        </div>
-        )}
       </div>
     </>
   )

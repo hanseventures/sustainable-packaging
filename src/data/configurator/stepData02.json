@@ -1,47 +1,22 @@
 {
-  "title": "Material wählen",
+  "title": "Spezielle Eigenschaft",
   "progressbar": "02",
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
     {
       "id": 1,
-      "text": "Eierschale",
+      "text": "industry",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "text": "Reis",
+      "text": "industry",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "text": "Bambus",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 4,
-      "text": "Mais",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 5,
-      "text": "Sulapac",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 6,
-      "text": "Holzfasern",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 7,
-      "text": "Algen",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 8,
-      "text": "Sonstiges",
+      "text": "industry",
       "iconClass": "material-icons"
     }
   ]

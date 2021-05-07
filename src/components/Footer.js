@@ -1,5 +1,5 @@
-import { graphql, Link, useStaticQuery } from "gatsby"
-import React from "react"
+import { graphql, Link, useStaticQuery } from 'gatsby';
+import React from 'react';
 
 const Footer = props => {
   const data = useStaticQuery(graphql`
@@ -7,6 +7,7 @@ const Footer = props => {
       allFooterMenuJson {
         edges {
           node {
+            id
             weight
             url
             name
@@ -36,7 +37,7 @@ const Footer = props => {
             <div>
               <ul className="list-none list-vertical d-flex my-0">
                 {data.allFooterMenuJson.edges.map(({ node }) => (
-                  <li key={node.name} className="font-xs mx-1 my-0">
+                  <li key={node.id} className="font-xs mx-1 my-0">
                     <Link to={node.url}>{node.name}</Link>
                   </li>
                 ))}
