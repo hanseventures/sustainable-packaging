@@ -1,0 +1,25 @@
+// ==========================================================================
+// FAQ section
+// ==========================================================================
+
+.l-faq-v2 {
+  article {
+    button.faq--collapsible {
+      width: 100%;
+
+      &:hover {
+        background-color: $grey-lightest;
+      }
+    }
+
+    .faq--content {
+      display: none;
+    }
+
+    &.is-open {
+      .faq--content {
+        display: block;
+      }
+    }
+  }
+}

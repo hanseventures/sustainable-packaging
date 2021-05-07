@@ -61,7 +61,6 @@
 @import 'modules/search-doctor';
 // @import 'modules/events';
 @import 'modules/dropdown';
-@import 'modules/faq';
 @import 'modules/footer';
 // @import 'modules/footer-v2';
 // @import 'modules/form-callback';
@@ -113,7 +112,8 @@
 @import 'layout/l-prices-and-services';
 @import 'layout/l-text-with-image'; // settings to flip content is missing
 @import 'layout/l-usp';
-@import 'layout/l-faq';
+@import 'layout/l-faq-v1';
+@import 'layout/l-faq-v2';
 @import 'layout/l-success';
 @import 'layout/l-testimonials-v1';
 @import 'layout/l-testimonials-v2'; // icon via component not working

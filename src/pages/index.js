@@ -14,7 +14,8 @@ import HeroStaticLeft from '../components/HeroStaticLeft';
 import HeroStaticCentered from '../components/HeroStaticCentered';
 import TextWithImage from '../components/TextWithImage';
 import USP from '../components/USP';
-import FAQ from '../components/FAQ';
+import FAQv1 from '../components/FAQv1';
+import FAQv2 from '../components/FAQv2';
 import CTA from '../components/CTA';
 import CTAwithImage from '../components/CTAwithImage';
 import Products from '../components/Products';
@@ -107,12 +108,13 @@ const Home = props => {
       <PricesAndPlans />
       <USPmoreRows />
       <TestimonialsV2 />
+      <FAQv2 />
 
       <CTA />
       <Onboarding />
       <CTAwithImage />
       <TestimonialsV1 />
-      <FAQ />
+      <FAQv1 />
       <Intermission />
       <Products />
       <HeroStaticLeft />
