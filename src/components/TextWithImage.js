@@ -1,3 +1,4 @@
+import { graphql, Link, navigate, StaticQuery } from 'gatsby';
 import React from "react"
 
 const TextWithImage = props => {
@@ -10,10 +11,18 @@ const TextWithImage = props => {
           <div className="group-description">
             <h2>So funktionierts</h2>
             <p>
-            Wir sind ein Vermittler zwischen Business-Kunden und Produzenten von nachhaltigen Verpackungen.<br></br>
-            Als neutraler Experte auf diesem Gebiet verhelfen wir Ihnen, in diesem wenig transparenten Markt, zur perfekten nachhaltigen Verpackung.<br></br>
-            Mit Hilfe unseres Konfigurators können wir einfach und schnell auf Ihre Wünsche eingehen.<br></br>
+              Wir sind ein Vermittler zwischen Business-Kunden und Produzenten von nachhaltigen Verpackungen.<br></br>
+              Als neutraler Experte auf diesem Gebiet verhelfen wir Ihnen, in diesem wenig transparenten Markt, zur perfekten nachhaltigen Verpackung.<br></br>
+              Mit Hilfe unseres Konfigurators können wir einfach und schnell auf Ihre Wünsche eingehen.<br></br>
             </p>
+            <a
+              href="#"
+              className='btn btn-primary mt-3'
+              onClick={()=> navigate('/configurator')}
+              title="title"
+            >
+              Konfigurator starten
+            </a>
           </div>
 
           <div className="group-images">

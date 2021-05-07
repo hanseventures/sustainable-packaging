@@ -94,6 +94,14 @@ const Home = props => {
               <h3>Was ist möglich?</h3>
               <p>Fast alle Verpackungen können heutzutage nachhaltig hergestellt werden, von der Take-Away-Verpackung, über Becher bis zum Versandkarton im Spezialformat können wir alles für sie realisieren und das bereits ab kleinen Stückzahlen.</p>
               <p>Teilen Sie uns über unseren Konfigurator ihre Wunschverpackung mit, damit wir Ihnen ein unverbindliches Angebot erstellen können.</p>
+              <a
+                href="#"
+                className='btn btn-primary mt-3'
+                onClick={()=> navigate('/configurator')}
+                title="title"
+              >
+                Konfigurator starten
+              </a>
             </div>
 
             <div className="group-images">
