@@ -1,3 +1,4 @@
+import { graphql, Link, navigate, StaticQuery } from 'gatsby';
 import React from "react"
 
 const HeroStaticCentered = props => {
@@ -17,7 +18,8 @@ const HeroStaticCentered = props => {
               <div className="d-flex flex-column flex-md-row column-gap-2 row-gap-2 justify-content-center">
                 <a
                   href="#"
-                  className="btn btn-primary"
+                  className='btn btn-primary'
+                  onClick={()=> navigate('/configurator')}
                   title="title"
                 >
                   Konfigurator starten
