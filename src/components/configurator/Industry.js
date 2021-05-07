@@ -31,16 +31,18 @@ const Industry = (props) => {
 
   return (
     <>
-    <h1>Branche wählen</h1>
-    <div className="progress-bar">
-      <div className="active step-01"></div>
-      <div className="non-active"></div>
-    </div>
-      <ul className='box'>
+      <h1 className="h-2 text-xs-center">Branche wählen</h1>
+
+      <div className="progress-bar trimmed-2 mt-4">
+        <div className="active step-01"></div>
+        <div className="non-active"></div>
+      </div>
+
+      <ul className='list-none d-grid box trimmed-3 my-5'>
         {allIndustryDataJson.edges.map(({ node }) => (
           <li
             key={node.id}
-            className={props.form.industryId === node.id ? 'active' : ''}
+            className={props.form.industryId === node.id ? 'p-3 active' : 'p-3'}
             onClick={() =>
               props.dispatchForm({
                 type: "UPDATE_KEY_VALUES",
@@ -48,8 +50,8 @@ const Industry = (props) => {
               })
             }
           >
-            <img src="images\1\microwave.svg"/>
-            <span>{node.text}</span>
+            <img src="images\1\microwave.svg" className="mb-2" />
+            <strong>{node.text}</strong>
           </li>
         ))}
       </ul>
@@ -58,7 +60,7 @@ const Industry = (props) => {
         <div className='btn btn-secondary mr-1 mr-md-3' onClick={() => previousStep()}>
           Previous
         </div>
-        <div className='btn btn-secondary ml-1 ml-md-3' onClick={() => nextStep()}>
+        <div className='btn btn-primary ml-1 ml-md-3' onClick={() => nextStep()}>
           Next
         </div>
       </div>

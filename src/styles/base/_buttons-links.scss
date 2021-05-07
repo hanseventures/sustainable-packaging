@@ -78,19 +78,6 @@ a {
     }
   }
 
-  &.btn-primary-inverted {
-    // background-color: transparent;
-    // border-color: $primary;
-    // color: $primary;
-
-    &:hover {
-      // background-color: $primary-lighter;
-      // border-color: $primary-darker;
-      // box-shadow: $global-text-shadow;
-      // color: $white;
-    }
-  }
-
   &.btn-accept {
     background-color: $accept;
     border-color: $accept;
@@ -139,7 +126,7 @@ a {
 
     &:hover {
       background-color: $secondary-lighter;
-      border-color: $secondary-lighter;
+      border-color: $secondary-darker;
       color: $primary-darker;
     }
   }
