@@ -2,11 +2,11 @@ import React from 'react'
 import { navigate, graphql, useStaticQuery } from 'gatsby'
 import { useWizard } from 'react-use-wizard'
 
-const Step04 = (props) => {
+const Step01 = (props) => {
 
   const {configuratorJson} = useStaticQuery(graphql`
-    query Step04Query {
-      configuratorJson(progressbar: {eq: "04"}) {
+    query Step01Query {
+      configuratorJson(progressbar: {eq: "01"}) {
         id
         title
         progressbar
@@ -51,11 +51,11 @@ const Step04 = (props) => {
         {configuratorJson.nodes.map((node) => (
           <li
             key={node.id}
-            className={props.form.step04ID === node.id ? 'p-3 active' : 'p-3'}
+            className={props.form.step01ID === node.id ? 'p-3 active' : 'p-3'}
             onClick={() =>
               props.dispatchForm({
                 type: "UPDATE_KEY_VALUES",
-                value: { step04ID: node.id }
+                value: { step01ID: node.id }
               })
             }>
             <img src="svg/streamline-icon-medical-specialty-skin@46x46.svg" className="mb-2" />
@@ -92,4 +92,4 @@ const Step04 = (props) => {
   )
 }
 
-export default Step04
+export default Step01

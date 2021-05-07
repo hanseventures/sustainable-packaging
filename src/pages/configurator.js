@@ -3,7 +3,7 @@ import React, { useReducer } from 'react';
 import Helmet from 'react-helmet';
 import { Wizard } from 'react-use-wizard';
 
-import { Industry, Material, Step04, TypeOfPackaging } from '../components/configurator';
+import { Step01, Step02, Step03, Step04, Step05, Step06, Step07, Step08 } from '../components/configurator';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import globalContextProvider from '../context/GlobalContextProvider';
@@ -27,10 +27,11 @@ const Configurator = props => {
 
       <section className="content content--roomy">
         <Wizard>
-          <Industry {...{form, dispatchForm}}/>
-          <Material {...{form, dispatchForm}} />
-          <TypeOfPackaging {...{form, dispatchForm}}/>
           <Step04 {...{form, dispatchForm}}/>
+          <Step05 {...{form, dispatchForm}}/>
+          <Step06 {...{form, dispatchForm}}/>
+          <Step07 {...{form, dispatchForm}}/>
+          <Step08 {...{form, dispatchForm}}/>
         </Wizard>
       </section>
 
