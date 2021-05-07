@@ -11,6 +11,7 @@ const Industry = (props) => {
             id
             text
             iconClass
+            imagePath
           }
         }
       }
@@ -50,7 +51,7 @@ const Industry = (props) => {
               })
             }
           >
-            <img src="images\1\microwave.svg" className="mb-2" />
+            <img src={node.imagePath} className="mb-2" />
             <strong>{node.text}</strong>
           </li>
         ))}

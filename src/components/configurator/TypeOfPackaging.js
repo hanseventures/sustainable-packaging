@@ -42,7 +42,7 @@ const TypeOfPackaging = (props) => {
               })
             }
           >
-            <img src="images\1\microwave.svg"/>
+            <img src="svg/streamline-icon-shipment-upload@46x46.svg"/>
             <span>{node.text}</span>
           </li>
         ))}
