@@ -6,7 +6,7 @@ const ContactSimple = props => {
   return (
     <section id='contact-form' className="l-text-with-image l-contact-simple text-image--right container bg-wht">
 
-      <div className="content content--centered content--roomy trimmed-4 pt-1">
+      <div className="content content--centered content--roomy trimmed-4">
         <div className="d-grid grid-inverted align-item-center column-gap-4 row-gap-3">
 
           <div className="group-description align-self-start">

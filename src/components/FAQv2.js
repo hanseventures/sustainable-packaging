@@ -2,7 +2,7 @@ import React from 'react';
 
 const FAQv2 = props => {
   return (
-    <section className="l-faq-v2 container" itemScope itemType="https://schema.org/FAQPage">
+    <section className="l-faq-v2 container bg-primary" itemScope itemType="https://schema.org/FAQPage">
 
       <div className="content content--roomy">
 

@@ -1,3 +1,4 @@
+import { navigate } from 'gatsby';
 import React from 'react';
 
 const PricesAndPlans = props => {
@@ -40,6 +41,7 @@ const PricesAndPlans = props => {
             <a
               className="btn btn-primary mt-2"
               href="#"
+              onClick={()=> navigate('/configurator')}
               title="Button Title"
             >
               Weiter
@@ -54,7 +56,7 @@ const PricesAndPlans = props => {
               </g>
             </svg>
 
-            <h5 className="my-3">Transporttrays</h5>
+            <h5 className="my-3">Kartonagen</h5>
 
             <ul className="list-vertical font-xs mb-3">
               <li>Wasserdicht</li>
@@ -67,6 +69,7 @@ const PricesAndPlans = props => {
             <a
               className="btn btn-primary mt-2"
               href="#"
+              onClick={()=> navigate('/configurator')}
               title="Button Title"
             >
               Weiter
@@ -81,7 +84,7 @@ const PricesAndPlans = props => {
               </g>
             </svg>
 
-            <h5 className="my-3">Transporttrays</h5>
+            <h5 className="my-3">Flaschen</h5>
 
             <ul className="list-vertical font-xs mb-3">
               <li>Wasserdicht</li>
@@ -94,6 +97,7 @@ const PricesAndPlans = props => {
             <a
               className="btn btn-primary mt-2"
               href="#"
+              onClick={()=> navigate('/configurator')}
               title="Button Title"
             >
               Weiter
