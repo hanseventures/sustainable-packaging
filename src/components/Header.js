@@ -23,7 +23,7 @@ class Header extends React.Component {
     const config = this.props.data.configJson
     return (
       <div className="header">
-        <div className="container">
+        <div className="container d-flex justify-space-between align-item-center box-sizing-border-box py-2 px-4">
           <div className="logo">
             <Link to="/">
               <img
@@ -33,18 +33,11 @@ class Header extends React.Component {
               />
             </Link>
           </div>
-          <div className="logo-mobile">
-            <Link to="/">
-              <img
-                height={config.logo.desktop_height}
-                alt={config.logo.alt}
-                src={config.logo.mobile}
-              />
-            </Link>
+
+          <div className="hotline">
+            <b>Hotline:</b> <span>040 - 303 88 66 0</span>
           </div>
-          <MenuMobile active={this.state.menuActive} />
-          <Menu />
-          <Hamburger toggleMenu={this.toggleMenu} />
+
         </div>
       </div>
     )

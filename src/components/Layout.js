@@ -10,6 +10,7 @@ import SubFooter from './SubFooter';
 const Layout = props => (
   <>
     <SEO />
+    <Header />
     <div className={`page${props.bodyClass ? ` ${props.bodyClass}` : ""}`}>
       <div id="Wrapper" className="wrapper container">
         {props.bodyClass === "onboarding" ? (
