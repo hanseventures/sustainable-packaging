@@ -8,6 +8,7 @@ const Step04 = (props) => {
     query Step04Query {
       configuratorJson {
         title
+        progressbar
         nodes {
           id
           iconClass
@@ -36,7 +37,7 @@ const Step04 = (props) => {
     <>
     <h1>{configuratorJson.title}</h1>
     <div className="progress-bar">
-      <div className="active step-02"></div>
+      <div className={`active step-${ configuratorJson.progressbar }`}></div>
       <div className="non-active"></div>
     </div>
       <ul className='box'>
