@@ -22,24 +22,26 @@ class Header extends React.Component {
   render() {
     const config = this.props.data.configJson
     return (
-      <div className="header">
+      <header>
         <div className="container d-flex justify-space-between align-item-center box-sizing-border-box py-2 px-4">
           <div className="logo">
             <Link to="/">
               <img
                 height={config.logo.desktop_height}
+                width="300"
                 alt={config.logo.alt}
                 src={config.logo.desktop}
+                className="logo"
               />
             </Link>
           </div>
 
-          <div className="hotline">
+          <div className="hotline d-none d-md-block">
             <b>Hotline:</b> <span>040 - 303 88 66 0</span>
           </div>
 
         </div>
-      </div>
+      </header>
     )
   }
 }

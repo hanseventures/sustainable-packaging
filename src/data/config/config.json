@@ -3,7 +3,8 @@
   "logo": {
     "mobile": "/images/logo@2x.png",
     "desktop": "/images/logo@2x.png",
-    "desktop_height": "46px",
+    "desktop_height": "auto",
+    "desktop_width": "300",
     "alt": ""
   },
   "homepage_meta_tags": {

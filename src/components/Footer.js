@@ -25,7 +25,10 @@ const Footer = props => {
       <div className="content content--low">
         <div className="d-flex-lg column-gap-5 flex-space-between">
           <div>
-            <h1 className="h-2 mb-0">Nachhaltige Verpackung</h1>
+          <img
+             className="logo"
+             src="/images/logo@2x.png"
+           />
             <p className="my-0">Umweltbewusste Verpackung für jedermann</p>
           </div>
 
@@ -33,7 +36,7 @@ const Footer = props => {
             <div>
               <ul className="list-none list-vertical d-flex my-0">
                 {data.allFooterMenuJson.edges.map(({ node }) => (
-                  <li key={node.name} className="font-xs mx-1">
+                  <li key={node.name} className="font-xs mx-1 my-0">
                     <Link to={node.url}>{node.name}</Link>
                   </li>
                 ))}

@@ -2,6 +2,11 @@
 // Header styles
 // ==========================================================================
 
+header {
+  .logo {
+    height: auto;
+  }
+}
 
 header.container { // priority wise call it: header.container
   box-shadow: 0 0 5px 0 rgba($black, 0.5);
@@ -92,6 +97,10 @@ header.container { // priority wise call it: header.container
           // font-size: inherit;
         }
       }
+    }
+
+    .hotline {
+      margin-top: 11px;
     }
   }
 }
