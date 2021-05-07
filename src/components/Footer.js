@@ -21,35 +21,23 @@ const Footer = props => {
     }
   `)
   return (
-    <div className="l-footer container bg-primary font-wht">
+    <div className="l-footer container bg-primary font-black">
       <div className="content content--low">
         <div className="d-flex-lg column-gap-5 flex-space-between">
           <div>
-            <img
-              className="logo"
-              src="/images/1/suburban-coworking-logo-white.svg"
-            />
-            <p>Wir richten Co-Working Spaces in deiner Region ein!</p>
+            <h1 className="h-2 mb-0">Nachhaltige Verpackung</h1>
+            <p className="my-0">Umweltbewusste Verpackung für jedermann</p>
           </div>
 
-          <div className='d-flex flex-wrap column-gap-5 mt-5 mt-xl-3'>
+          <div className='d-flex flex-wrap column-gap-5 mt-0 mt-xl-3 align-item-end'>
             <div>
-              <h3 className="font-wht">Unternehmen</h3>
-              <ul className="list-none list-vertical">
+              <ul className="list-none list-vertical d-flex my-0">
                 {data.allFooterMenuJson.edges.map(({ node }) => (
-                  <li key={node.name} className="text-decoration-underline">
+                  <li key={node.name} className="font-xs mx-1">
                     <Link to={node.url}>{node.name}</Link>
                   </li>
                 ))}
               </ul>
-            </div>
-
-            <div>
-              <h3 className="font-wht">Kontakt</h3>
-              <p>
-                <strong>Tel.:</strong> +49 (0)40 303 88 66 12<br/>
-                <strong>Mail:</strong> <a href="mailto:info@suburbancoworking.de">info@suburbancoworking.de</a>
-              </p>
             </div>
           </div>
         </div>

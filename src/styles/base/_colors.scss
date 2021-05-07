@@ -81,3 +81,11 @@ $info:                #56CCF2;
     color: $white;
   }
 }
+
+.font-black {
+  color: $black !important;
+
+  a {
+    color: $black;
+  }
+}
