@@ -1,9 +1,9 @@
 {
   "homepage": {},
   "logo": {
-    "mobile": "/images/1/suburban-coworking-logo-white.svg",
-    "desktop": "/images/1/suburban-coworking-logo-white.svg",
-    "desktop_height": "36px",
+    "mobile": "/images/logo@2x.png",
+    "desktop": "/images/logo@2x.png",
+    "desktop_height": "46px",
     "alt": ""
   },
   "homepage_meta_tags": {
