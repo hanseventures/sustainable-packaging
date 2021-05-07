@@ -1,23 +1,23 @@
 [{
-  "image_path": "/images/lvz/lvz-testimonials-01@2x.png",
-  "first_name": "David",
-  "last_name": "van Laak",
-  "position": "Geschäftsführer",
-  "ratings": 3,
-  "comments": "Im Einzelhandel benötigen wir immer neue innovative Verpackungen. XYZ konnte uns da mit ihrem Know-How sehr gut unterstützen."
+  "image_path": "/images/testimonial-01@2x.png",
+  "first_name": "Alex",
+  "last_name": "P.",
+  "position": "Gründerin",
+  "ratings": 5,
+  "comments": "“Damit wir unser neues Produkt nachhaltig verpacken konnten, war XYZ der perfekte Ansprechpartner und Vermittler”"
 },{
-  "image_path": "/images/lvz/lvz-testimonials-03@2x.png",
-  "first_name": "Dörte",
-  "last_name": "Waurick",
-  "position": "Geschäftsführer",
-  "ratings": 4,
-  "comments": "Seit nunmehr 53 Jahren ist die LVZ ein verlässlicher Partner, um Neuigkeiten von den akademixern der Leserschaft nahe zu bringen. Danke dafür!"
+  "image_path": "/images/testimonial-02@2x.png",
+  "first_name": "Markus",
+  "last_name": "K.",
+  "position": "Einkäufer",
+  "ratings": 5,
+  "comments": "“Im Einzelhandel benötigen wir immer neue innovative Verpackungen. XYZ konnte uns da mit ihrem Know-How sehr gut unterstützen”"
 },{
-  "image_path": "/images/lvz/lvz-testimonials-01@2x.png",
-  "first_name": "Nico",
-  "last_name": "Wehrmann",
-  "position": "inhaber",
-  "ratings": 3,
-  "comments": "Wir schätzen die LVZ als Werbepartner sehr. Sie macht, wie auch unser Unternehmen, für viele Leipziger die Zeit zu Hause nach manch turbulentem Tag erst richtig behaglich."
+  "image_path": "/images/testimonial-03@2x.png",
+  "first_name": "Achim",
+  "last_name": "B.",
+  "position": "Produzent",
+  "ratings": 5,
+  "comments": "“XYZ hat uns wirklich bei der Akquise neuer Kunden geholfen, damit wir unsere Produkte noch besser im Markt etablieren konnten.”"
 }
 ]
