@@ -27,6 +27,9 @@ const Configurator = props => {
 
       <section className="content content--roomy">
         <Wizard>
+          <Step01 {...{form, dispatchForm}}/>
+          <Step02 {...{form, dispatchForm}}/>
+          <Step03 {...{form, dispatchForm}}/>
           <Step04 {...{form, dispatchForm}}/>
           <Step05 {...{form, dispatchForm}}/>
           <Step06 {...{form, dispatchForm}}/>
