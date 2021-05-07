@@ -10,12 +10,53 @@
   }
 }
 
+.l-contact-simple {
+  .btn {
+    max-width: none;
+  }
+}
+
+.contact-usp {
+  border: 2px solid $primary;
+  border-radius: 5px;
+
+  ul {
+    list-style-type: none;
+
+    li::before {
+      content: ' ★ ';
+      color: $primary;
+      font-weight: bold;
+      display: inline-block;
+      width: 1.2em;
+      margin-left: -1em;
+      font-size: 1.2em;
+    }
+  }
+}
+
 @include media-breakpoint-up(lg) {
   .contact {
     .hero {
       .hero-image.full-layout {
         background-position: right center !important;
       }
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .l-contact-simple {
+    .btn {
+      max-width: 300px;
+    }
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+  .l-contact-simple {
+    .btn {
+      max-width: none;
     }
   }
 }

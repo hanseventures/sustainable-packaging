@@ -8,7 +8,6 @@
   display: block;
   position: relative;
   width: 100%;
-  max-width: 300px;
 }
 
 .select select {
@@ -118,6 +117,12 @@
   .select select:active {
     background-color: $grey-lighter;
     color: $grey-darker;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .select {
+    max-width: 300px;
   }
 }
 

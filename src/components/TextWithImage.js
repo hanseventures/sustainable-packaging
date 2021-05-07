@@ -1,5 +1,5 @@
-import { graphql, useStaticQuery } from 'gatsby';
-import React, { useState } from 'react';
+import { graphql, navigate, useStaticQuery } from 'gatsby';
+import React from 'react';
 
 const TextWithImage = props => {
   const { allTextWithImageJson } = useStaticQuery(graphql`
@@ -22,14 +22,22 @@ const TextWithImage = props => {
   return (
     <>
       {allTextWithImageJson.edges.map(({ node }) => (
-        <section className=""
-        className={`l-text-with-image container bg-wht ${ node.image_position }`}
+        <section
+          className={`l-text-with-image container bg-wht ${ node.image_position }`}
         >
           <div className="content content--centered content--roomy trimmed-4 d-grid align-item-center column-gap-4 row-gap-3">
 
             <div className="group-description">
               <h3>{node.headline}</h3>
               <p dangerouslySetInnerHTML={{ __html: node.text }}></p>
+              <a
+                href="#"
+                className='btn btn-primary mt-3'
+                onClick={()=> navigate('/configurator')}
+                title="title"
+              >
+                Konfigurator starten
+              </a>
             </div>
             <div className="group-images">
               <img

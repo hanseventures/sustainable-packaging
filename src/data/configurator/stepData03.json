@@ -1,0 +1,48 @@
+{
+  "title": "Verpackungsart wählen",
+  "progressbar": "03",
+  "btnPrevious": "Zurück",
+  "btnNext": "Weiter",
+  "nodes": [
+    {
+      "id": 1,
+      "text": "Transporttrays",
+      "iconClass": "packaging-icons"
+    },
+    {
+      "id": 2,
+      "text": "Kartonagen mit Inlays",
+      "iconClass": "packaging-icons"
+    },
+    {
+      "id": 3,
+      "text": "Lebensmittelverpackungen",
+      "iconClass": "packaging-icons"
+    },
+    {
+      "id": 4,
+      "text": "Beutel + Tüten",
+      "iconClass": "packaging-icons"
+    },
+    {
+      "id": 5,
+      "text": "Kartonagen",
+      "iconClass": "packaging-icons"
+    },
+    {
+      "id": 6,
+      "text": "Behälter + Becher",
+      "iconClass": "packaging-icons"
+    },
+    {
+      "id": 7,
+      "text": "Flaschen",
+      "iconClass": "packaging-icons"
+    },
+    {
+      "id": 8,
+      "text": "Sonstiges",
+      "iconClass": "packaging-icons"
+    }
+  ]
+}
