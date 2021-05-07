@@ -114,7 +114,6 @@ const Home = props => {
       <USPmoreRows />
       <TestimonialsV2 />
       <FAQv2 />
-      <ContactWithImage />
       <ContactSimple />
 
     </Layout>
