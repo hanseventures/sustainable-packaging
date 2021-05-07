@@ -1,11 +1,16 @@
 {
-  "title": "Material wählen",
+  "title": "Step04 wählen",
+  "progressbar": "04",
   "nodes": [{
     "id": 1,
     "text": "industry",
     "iconClass": "material-icons"
   },{
     "id": 2,
+    "text": "industry",
+    "iconClass": "material-icons"
+  },{
+    "id": 3,
     "text": "industry",
     "iconClass": "material-icons"
   }]
