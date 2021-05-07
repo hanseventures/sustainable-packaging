@@ -30,6 +30,14 @@ const TextWithImage = props => {
             <div className="group-description">
               <h3>{node.headline}</h3>
               <p dangerouslySetInnerHTML={{ __html: node.text }}></p>
+              <a
+                href="#"
+                className='btn btn-primary mt-3'
+                onClick={()=> navigate('/configurator')}
+                title="title"
+              >
+                Konfigurator starten
+              </a>
             </div>
             <div className="group-images">
               <img
