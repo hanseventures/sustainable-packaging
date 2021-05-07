@@ -21,6 +21,7 @@ import Products from '../components/Products';
 import Intermission from '../components/Intermission';
 import PricesAndServices from '../components/PricesAndServices';
 import ContactWithImage from '../components/ContactWithImage';
+import ContactSimple from '../components/ContactSimple';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Onboarding from './onboarding';
@@ -118,6 +119,7 @@ const Home = props => {
       <HeroStaticLeft />
       <PricesAndServices />
       <ContactWithImage />
+      <ContactSimple />
 
     </Layout>
   )
