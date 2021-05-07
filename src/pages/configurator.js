@@ -14,21 +14,25 @@ const Configurator = props => {
   const [form, dispatchForm] = useReducer(globalContextProvider, {});
 
   return (
-    <Layout bodyClass='page-configurator'>
+    <Layout bodyClass='l-page-configurator'>
+
       <SEO title={site.title} />
+
       <Helmet>
         <meta
           name='description'
           content='Wir richten Co-Working Spaces für dich in deiner Region ein! Trage dich mit deiner PLZ jetzt ein...'
         />
       </Helmet>
-      <section>
+
+      <section className="content content--roomy">
         <Wizard>
           <Industry {...{form, dispatchForm}}/>
           <Material {...{form, dispatchForm}} />
           <TypeOfPackaging {...{form, dispatchForm}}/>
         </Wizard>
       </section>
+
       <section className="wizard-usp d-flex flex-column flex-md-row justify-content-center font-xs">
         <div className="">
           <svg viewBox="0 0 20 20" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(0.8333333333333334,0,0,0.8333333333333334,0,0)"><path d="M23.25.749,8.158,22.308a2.2,2.2,0,0,1-3.569.059L.75,17.249" fill="none" stroke="#7EA425" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></g></svg>
@@ -43,6 +47,7 @@ const Configurator = props => {
           <span>Kostenlose Expertenberatung</span>
         </div>
       </section>
+
     </Layout>
   )
 }

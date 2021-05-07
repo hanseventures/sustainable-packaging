@@ -10,6 +10,11 @@ open http://localhost:8000
 
 ## Deployment
 
+Test locally:
+```bash
+npm run build
+```
+
 The deployment is going automatically and push to the Gatsby cloud
 
 ## Further Reading
