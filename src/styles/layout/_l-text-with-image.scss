@@ -3,7 +3,7 @@
 // ==========================================================================
 
 .l-text-with-image {
-  .content {
+  .d-grid {
     grid-template-areas:
       "group-images"
       "group-description";
@@ -20,14 +20,14 @@
 
 @include media-breakpoint-up(md) {
   .l-text-with-image.text-image--right {
-    .content {
+    .d-grid {
       grid-template-areas: "group-description group-images";
       grid-template-columns: 3fr 2fr;
     }
   }
 
   .l-text-with-image.text-image--left {
-    .content {
+    .d-grid {
       grid-template-areas: "group-images group-description";
       grid-template-columns: 2fr 3fr;
     }

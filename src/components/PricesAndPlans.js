@@ -17,7 +17,7 @@ const PricesAndPlans = props => {
           </span>
         </div>
 
-        <div className="d-flex row-gap-3 column-gap-3 trimmed-3 mt-5 text-xs-center">
+        <div className="d-flex flex-column flex-md-row row-gap-3 column-gap-3 trimmed-3 mt-5 text-xs-center">
 
           <article className="card card--default d-flex flex-basis-full flex-align-center flex-column py-5 px-3">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">

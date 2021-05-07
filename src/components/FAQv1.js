@@ -1,8 +1,8 @@
 import React from 'react';
 
-const FAQ = props => {
+const FAQv1 = props => {
   return (
-    <section id="faq" className="l-faq container" itemScope itemType="https://schema.org/FAQPage">
+    <section id="faq" className="l-faq-v1 container" itemScope itemType="https://schema.org/FAQPage">
 
     <div className="content d-grid">
 
@@ -104,4 +104,4 @@ const FAQ = props => {
   </section>
   )
 }
-export default FAQ
+export default FAQv1

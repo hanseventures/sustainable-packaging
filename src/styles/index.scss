@@ -1,11 +1,37 @@
 @charset 'utf-8';
 
+/***
+
+#How to keep the SASS code clean and consistent.
+
+Basics
+1. Activate stylelint.config.js to keep the css clean.
+2. Use SMACSS methodology (http://smacss.com/) for the file structure.
+3. Always do the mobile first approach - this means, set styles for mobile first, then tablet and finally for desktop.
+
+Hierachry
+1. Don't change the @import hierachry OF THIS file, because some imports depend on each other.
+2. Create a page layout with .container (parent) and .content (sibling) for page layout. Check out more .content-VARIATIONS in container.scss
+3. ONLY use "breakpoint up" and never "breaktpoint down", otherwise styles might overwrite each other and it gets messy - especially when multiple people work on the same project.
+
+Manage SCSS
+1. Always try to use as much classes as possible - this helps to stay consistent.
+2. Use margin/padding spacings like in bootstrap projects, e. g. .m-0, .mt-1, .mr-2, .mb-3, pl-4, px-5, py-0
+3. Use custom classes for custom styles, e.g. .slide-content. Don't put styles classes like container, content, d-flex, etc.
+4. In some cases, variables are usefull, always reuse those, e.g. variables.scss, color.scss
+5. Each import file has a main class as wrapper. This applies also to their breakpoints, which are following in the same file.
+6. Active classes always use ".is-" as state prefix.
+7. try to use one parent and child classes, e.g. .hero and .hero-logo, .hero-text, .hero-buttons
+8. Never leave unused classes in the code.
+
+***/
+
 // ==========================================================================
 // Import Vendor Files
 // ==========================================================================
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-// @import '../../node_modules/animate.css/animate';
+@import '../../node_modules/animate.css/animate';
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 @import 'vendor/normalize';
 
@@ -61,7 +87,6 @@
 @import 'modules/search-doctor';
 // @import 'modules/events';
 @import 'modules/dropdown';
-@import 'modules/faq';
 @import 'modules/footer';
 // @import 'modules/footer-v2';
 // @import 'modules/form-callback';
@@ -113,7 +138,8 @@
 @import 'layout/l-prices-and-services';
 @import 'layout/l-text-with-image'; // settings to flip content is missing
 @import 'layout/l-usp';
-@import 'layout/l-faq';
+@import 'layout/l-faq-v1';
+@import 'layout/l-faq-v2';
 @import 'layout/l-success';
 @import 'layout/l-testimonials-v1';
 @import 'layout/l-testimonials-v2'; // icon via component not working

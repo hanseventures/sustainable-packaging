@@ -14,7 +14,8 @@ import HeroStaticLeft from '../components/HeroStaticLeft';
 import HeroStaticCentered from '../components/HeroStaticCentered';
 import TextWithImage from '../components/TextWithImage';
 import USP from '../components/USP';
-import FAQ from '../components/FAQ';
+import FAQv1 from '../components/FAQv1';
+import FAQv2 from '../components/FAQv2';
 import CTA from '../components/CTA';
 import CTAwithImage from '../components/CTAwithImage';
 import Products from '../components/Products';
@@ -58,23 +59,25 @@ const Home = props => {
       {/* This section is like the component TextWithImage, but should be flipped vertically with. */}
       <section className="l-text-with-image text-image--right container bg-wht">
 
-        <div className="content content--centered content--roomy trimmed-4 d-grid align-item-center column-gap-4 row-gap-3">
+        <div className="content content--centered content--roomy trimmed-4">
+          <div className="d-grid align-item-center column-gap-4 row-gap-3">
 
-          <div className="group-description">
-            <h3>Nachhaltige Materialien</h3>
-            <p>Viele nachwachsende Rohstoffe stehen der ursprünglichen Plastikverpackung kaum oder gar nicht mehr nach und die Auswahl an nachhaltigen Materialien ist heutzutage sehr vielfältig und wächst stetig weiter.</p>
-            <p>Zu den häufigsten alternativen Materialien gehören: Bambus, Holzfaser, Reis und Mais.</p>
-            <p>Wir stellen Nachhaltigkeit durch XYZ sicher.</p>
+            <div className="group-description">
+              <h3>Nachhaltige Materialien</h3>
+              <p>Viele nachwachsende Rohstoffe stehen der ursprünglichen Plastikverpackung kaum oder gar nicht mehr nach und die Auswahl an nachhaltigen Materialien ist heutzutage sehr vielfältig und wächst stetig weiter.</p>
+              <p>Zu den häufigsten alternativen Materialien gehören: Bambus, Holzfaser, Reis und Mais.</p>
+              <p>Wir stellen Nachhaltigkeit durch XYZ sicher.</p>
+            </div>
+
+            <div className="group-images">
+              <img
+                src="/images/2/nachhaltige-materialien.jpg"
+                className="my-3"
+                alt={intro.frontmatter.first_section}
+              />
+            </div>
+
           </div>
-
-          <div className="group-images">
-            <img
-              src="/images/2/nachhaltige-materialien.jpg"
-              className="my-3"
-              alt={intro.frontmatter.first_section}
-            />
-          </div>
-
         </div>
 
       </section>
@@ -84,22 +87,24 @@ const Home = props => {
       {/* This section is like the component TextWithImage, but should be flipped vertically with. */}
       <section className="l-text-with-image text-image--right container bg-wht">
 
-        <div className="content content--centered content--roomy trimmed-4 d-grid align-item-center column-gap-4 row-gap-3">
+        <div className="content content--centered content--roomy trimmed-4">
+          <div className="d-grid align-item-center column-gap-4 row-gap-3">
 
-          <div className="group-description">
-            <h3>Was ist möglich?</h3>
-            <p>Fast alle Verpackungen können heutzutage nachhaltig hergestellt werden, von der Take-Away-Verpackung, über Becher bis zum Versandkarton im Spezialformat können wir alles für sie realisieren und das bereits ab kleinen Stückzahlen.</p>
-            <p>Teilen Sie uns über unseren Konfigurator ihre Wunschverpackung mit, damit wir Ihnen ein unverbindliches Angebot erstellen können.</p>
+            <div className="group-description">
+              <h3>Was ist möglich?</h3>
+              <p>Fast alle Verpackungen können heutzutage nachhaltig hergestellt werden, von der Take-Away-Verpackung, über Becher bis zum Versandkarton im Spezialformat können wir alles für sie realisieren und das bereits ab kleinen Stückzahlen.</p>
+              <p>Teilen Sie uns über unseren Konfigurator ihre Wunschverpackung mit, damit wir Ihnen ein unverbindliches Angebot erstellen können.</p>
+            </div>
+
+            <div className="group-images">
+              <img
+                src="/images/2/nachhaltige-materialien.jpg"
+                className="my-3"
+                alt={intro.frontmatter.first_section}
+              />
+            </div>
+
           </div>
-
-          <div className="group-images">
-            <img
-              src="/images/2/nachhaltige-materialien.jpg"
-              className="my-3"
-              alt={intro.frontmatter.first_section}
-            />
-          </div>
-
         </div>
 
       </section>
@@ -108,12 +113,13 @@ const Home = props => {
       <PricesAndPlans />
       <USPmoreRows />
       <TestimonialsV2 />
+      <FAQv2 />
 
       <CTA />
       <Onboarding />
       <CTAwithImage />
       <TestimonialsV1 />
-      <FAQ />
+      <FAQv1 />
       <Intermission />
       <Products />
       <HeroStaticLeft />
