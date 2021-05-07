@@ -35,15 +35,16 @@ const Step04 = (props) => {
 
   return (
     <>
-    <h1>{configuratorJson.title}</h1>
-    <div className="progress-bar">
+    <h1 className="h-2 text-xs-center">{configuratorJson.title}</h1>
+    <div className="progress-bar trimmed-2 mt-4">
       <div className={`active step-${ configuratorJson.progressbar }`}></div>
       <div className="non-active"></div>
     </div>
-      <ul className='box'>
+
+    <ul className='list-none d-grid box trimmed-3 my-5'>
         {configuratorJson.nodes.map((node) => (
           <li key={node.id}
-            className={props.form.materialId === node.id ? 'active' : ''}
+            className={props.form.materialId === node.id ? 'p-3 active' : 'p-3'}
             onClick={() =>
               props.dispatchForm({
                 type: "UPDATE_KEY_VALUES",
@@ -62,10 +63,10 @@ const Step04 = (props) => {
           onClick={() => previousStep()}
           disabled={isLoading || isFirstStep}
         >
-          Previous
+          Zurück
         </div>
         <div className='btn btn-secondary ml-1 ml-md-3' onClick={() => nextStep()}>
-          Next
+          Weiter
         </div>
       </div>
     </>

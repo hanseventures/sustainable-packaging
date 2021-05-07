@@ -35,22 +35,22 @@ const Material = (props) => {
 
   return (
     <>
-    <h1>Material wählen</h1>
-    <div className="progress-bar">
+    <h1 className="h-2 text-xs-center">Material wählen</h1>
+    <div className="progress-bar trimmed-2 mt-4">
       <div className="active step-02"></div>
       <div className="non-active"></div>
     </div>
-      <ul className='box'>
+    <ul className='list-none d-grid box trimmed-3 my-5'>
         {allMaterialDataJson.edges.map(({ node }) => (
           <li key={node.id}
-            className={props.form.materialId === node.id ? 'active' : ''}
+            className={props.form.materialId === node.id ? 'p-3 active' : 'p-3'}
             onClick={() =>
               props.dispatchForm({
                 type: "UPDATE_KEY_VALUES",
                 value: { materialId: node.id }
               })
             }>
-            <img src="svg/streamline-icon-medical-specialty-skin@46x46.svg"/>
+            <img src="svg/streamline-icon-medical-specialty-skin@46x46.svg"  className="mb-2" />
             <span>{node.text}</span>
           </li>
         ))}
@@ -62,10 +62,10 @@ const Material = (props) => {
           onClick={() => previousStep()}
           disabled={isLoading || isFirstStep}
         >
-          Previous
+          Zurück
         </div>
         <div className='btn btn-secondary ml-1 ml-md-3' onClick={() => nextStep()}>
-          Next
+          Weiter
         </div>
       </div>
     </>
