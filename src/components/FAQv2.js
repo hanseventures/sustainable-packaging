@@ -16,8 +16,15 @@ const FAQv2 = props => {
 
   const [currentModal, setOpenCurrentModal] = useState('')
 
-  const toggleModal = (id) => {
-    setOpenCurrentModal(id)
+  const toggleModal = (e, id) => {
+    if (e.target.nodeName === 'DIV' && id === '') {
+      setOpenCurrentModal('')
+    } else if (
+      e.target.nodeName === 'BUTTON' ||
+      e.target.nodeName === 'STRONG'
+    ) {
+      setOpenCurrentModal(id)
+    }
   }
 
   return (
@@ -37,13 +44,19 @@ const FAQv2 = props => {
 
         <div className='faq-wrapper trimmed-2 mt-5'>
           {componentsJson.faqs.map((node, id) => (
-            <article key={id} className={`mb-1 ${ currentModal === id ? 'is-open':''}`}>
+            <article
+              key={id}
+              className={`mb-1 ${currentModal === id ? 'is-open' : ''}`}
+            >
               <button
                 type='button'
-                onClick={() => toggleModal(id)}
+                onClick={e => toggleModal(e, id)}
                 className='faq--collapsible pos-relative text-xs-left p-3'
               >
-                <div className='plus-animated p-3'>
+                <div
+                  className='plus-animated p-3'
+                  onClick={e => toggleModal(e, '')}
+                >
                   <div className='vertical'></div>
                   <div className='horizontal'></div>
                 </div>
