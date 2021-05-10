@@ -33,7 +33,7 @@ const TextWithImage = props => {
               <span dangerouslySetInnerHTML={{ __html: node.text }}></span>
               <a
                 href="#"
-                className='btn btn-primary mt-3'
+                className="btn btn-primary mt-3"
                 onClick={()=> navigate('/configurator')}
                 title="title"
               >
