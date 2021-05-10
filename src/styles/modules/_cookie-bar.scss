@@ -1,11 +1,11 @@
 /* ------------------------ Overrites cookie-bar.eu styles ------------------------ */
 div#cookie-bar {
-  background-color: $secondary;
-  border-radius: 2px;
-  box-shadow: none;
+  background-color: $white;
+  border-radius: $border-radius-md;
+  box-shadow: $global-box-shadow-y;
 
   p {
-    color: $primary;
+    color: $lettering-black;
     font-size: 14px !important;
     margin-left: 20px;
     margin-right: 20px;
