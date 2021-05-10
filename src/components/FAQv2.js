@@ -24,6 +24,11 @@ const FAQv2 = props => {
       e.target.nodeName === 'STRONG'
     ) {
       setOpenCurrentModal(id)
+    } else if (
+      e.target.nodeName === 'DIV' &&
+      !e.target.parentElement.parentElement.classList.contains('is-open')
+    ) {
+      setOpenCurrentModal(id)
     }
   }
 
