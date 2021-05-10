@@ -1,17 +1,17 @@
 {
-  "title": "Gesetzliche Anforderungen?",
-  "progressbar": "4",
+  "title": "Wiederkehrende Lieferung?",
+  "progressbar": "11",
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
     {
       "id": 1,
-      "text": "Geschlossene Kühlkette",
+      "text": "Einmalige Lieferung",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "text": "Hygienestandards",
+      "text": "Regelmäßige Lieferung",
       "iconClass": "material-icons"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
       "id": 4,
-      "text": "Keine",
+      "text": "Sonstiges",
       "iconClass": "material-icons"
     }
   ]

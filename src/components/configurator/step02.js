@@ -6,7 +6,7 @@ const Step02 = (props) => {
 
   const {configuratorJson} = useStaticQuery(graphql`
     query Step02Query {
-      configuratorJson(progressbar: {eq: "02"}) {
+      configuratorJson(progressbar: {eq: "2"}) {
         id
         title
         progressbar

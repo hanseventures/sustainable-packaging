@@ -1,23 +1,28 @@
 {
   "title": "Welche Ziele verfolgen Sie?",
-  "progressbar": "06",
+  "progressbar": "6",
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
-  "nodes": [{
-    "id": 1,
-    "text": "Umsatzsteigerung",
-    "iconClass": "material-icons"
-  },{
-    "id": 2,
-    "text": "Kosteneinsparung",
-    "iconClass": "material-icons"
-  },{
-    "id": 3,
-    "text": "Effizienzsteigerung",
-    "iconClass": "material-icons"
-  },{
-    "id": 4,
-    "text": "Co2 Fußabdruck",
-    "iconClass": "material-icons"
-  }]
+  "nodes": [
+    {
+      "id": 1,
+      "text": "Kosteneinsparung",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 2,
+      "text": "Effizienzsteigerung",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 3,
+      "text": "Co2 Fußabdruck",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 4,
+      "text": "Sonstiges",
+      "iconClass": "material-icons"
+    }
+  ]
 }

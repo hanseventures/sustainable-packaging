@@ -1,27 +1,33 @@
 {
 "title": "Wie ist der logistische Lebensweg?",
-  "progressbar": "05",
+  "progressbar": "5",
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
-  "nodes": [{
-    "id": 1,
-    "text": "Zentrallager",
-    "iconClass": "material-icons"
-  },{
-    "id": 2,
-    "text": "Zwischenlager",
-    "iconClass": "material-icons"
-  },{
-    "id": 3,
-    "text": "Kommissionierung",
-    "iconClass": "material-icons"
-  },{
-    "id": 4,
-    "text": "Endkunde",
-    "iconClass": "material-icons"
-  },{
-    "id": 5,
-    "text": "Sonstiges",
-    "iconClass": "material-icons"
-  }]
+  "nodes": [
+    {
+      "id": 1,
+      "text": "Zentrallager",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 2,
+      "text": "Zwischenlager",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 3,
+      "text": "Kommissionierung",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 4,
+      "text": "Endkunde",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 5,
+      "text": "Sonstiges",
+      "iconClass": "material-icons"
+    }
+  ]
 }

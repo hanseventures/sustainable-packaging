@@ -1,48 +1,48 @@
 {
-  "title": "Step03 wählen",
-  "progressbar": "03",
+  "title": "Material wählen",
+  "progressbar": "3",
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
     {
       "id": 1,
-      "text": "industry",
+      "text": "Eierschale",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "text": "industry",
+      "text": "Reis",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "text": "Lebensmittel-verpackungen",
-      "iconClass": "packaging-icons"
+      "text": "Bambus",
+      "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "text": "Beutel + Tüten",
-      "iconClass": "packaging-icons"
+      "text": "Mais",
+      "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "text": "Kartonagen",
-      "iconClass": "packaging-icons"
+      "text": "Sulapac",
+      "iconClass": "material-icons"
     },
     {
       "id": 6,
-      "text": "Behälter + Becher",
-      "iconClass": "packaging-icons"
+      "text": "Holzfasern",
+      "iconClass": "material-icons"
     },
     {
       "id": 7,
-      "text": "Flaschen",
-      "iconClass": "packaging-icons"
+      "text": "Algen",
+      "iconClass": "material-icons"
     },
     {
       "id": 8,
       "text": "Sonstiges",
-      "iconClass": "packaging-icons"
+      "iconClass": "material-icons"
     }
   ]
 }
