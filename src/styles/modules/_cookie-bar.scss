@@ -9,11 +9,12 @@ div#cookie-bar {
     font-size: 14px !important;
     margin-left: 20px;
     margin-right: 20px;
-  }
 
-  a {
-    color: $primary;
-    text-decoration: underline;
+    a {
+      color: $primary;
+      padding: 0;
+      text-decoration: underline;
+    }
   }
 
   #cookie-bar-button {
@@ -33,9 +34,10 @@ div#cookie-bar {
 
 @media (min-width: 768px) {
   div#cookie-bar {
-    p {
-      width: calc(100% - 200px);
-    }
+    align-items: center;
+    display: flex !important;
+    flex-direction: row;
+    max-width: 80%;
 
     #cookie-bar-button {
       font-size: 16px;
