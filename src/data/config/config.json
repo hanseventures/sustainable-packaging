@@ -1,8 +1,8 @@
 {
   "homepage": {},
   "logo": {
-    "mobile": "/images/logo@2x.png",
-    "desktop": "/images/logo@2x.png",
+    "mobile": "/images/2/logo@2x.png",
+    "desktop": "/images/2/logo@2x.png",
     "desktop_height": "auto",
     "desktop_width": "300",
     "alt": ""
