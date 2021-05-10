@@ -1,12 +1,14 @@
-import { graphql } from "gatsby"
-import React from "react"
+import { graphql, navigate } from 'gatsby';
+import React from 'react';
 
-import Call from "../components/Call"
-import Layout from "../components/Layout"
+import Layout from '../components/Layout';
 
 const Contact = ({ data }) => {
-  const { title } = data.markdownRemark.frontmatter
-  const { html } = data.markdownRemark
+
+  const handleSubmit = () => {
+    navigate('/thankyou');
+  };
+
   return (
     <Layout bodyClass="page-default-single">
     <section id='contact-form' className="l-text-with-image l-contact-simple text-image--right container bg-wht">
@@ -42,16 +44,16 @@ const Contact = ({ data }) => {
 
           <div className="group-images align-self-start mt-0">
           <form
-            action='https://docs.google.com/forms/d/e/1FAIpQLSc-OV1zn7ycfcu7JJaC6ZNVuDBF1qhaty7tdJFySsVRU_KGFA/formResponse'
+            action='https://docs.google.com/forms/d/e/1FAIpQLSccTnG1uRaGZ9KgEWUpf7B1gh2gNrqPiJgdMdDYBGSiuvBdFQ/formResponse'
             method='post'
             target='hidden_iframe'
-            onSubmit='{handleSubmit}'
+            onSubmit={handleSubmit}
           >
           <div className='select form-group form-entry-01'>
             <select
               aria-label='Select menu example'
               id='anrede'
-              name='entry.1403452405'
+              name='entry.447426616'
               defaultValue='Anrede'
             >
               <option value='Herr'>
@@ -69,7 +71,7 @@ const Contact = ({ data }) => {
                 type='text'
                 id='fname'
                 name='fname'
-                name='entry.1805432203'
+                name='entry.238740927'
                 required
               />
               <br></br>
@@ -84,7 +86,7 @@ const Contact = ({ data }) => {
                 type='text'
                 id='company'
                 name='company'
-                name='entry.1262603567'
+                name='entry.759518630'
               />
               <br></br>
             </div>
@@ -97,8 +99,8 @@ const Contact = ({ data }) => {
                 required
                 type='text'
                 id='tel'
-                name='tel'
-                name='entry.1262603567'
+                name='telefon'
+                name='entry.261858826'
               />
               <br></br>
             </div>
@@ -112,7 +114,7 @@ const Contact = ({ data }) => {
                 type='text'
                 id='email'
                 name='email'
-                name='entry.1262603567'
+                name='entry.1626642809'
               />
               <br></br>
             </div>

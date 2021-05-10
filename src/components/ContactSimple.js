@@ -1,7 +1,10 @@
-import React from "react"
+import React from 'react';
 
 const ContactSimple = props => {
-  const shareUrl = typeof window !== `undefined` ? window.location.origin : ''
+
+  const handleSubmit = (e) => {
+    e.target.innerHTML = "<h3>Vielen Dank!</h3>"
+  };
 
   return (
     <section id='contact-form' className="l-text-with-image l-contact-simple text-image--right container bg-wht">
@@ -20,16 +23,16 @@ const ContactSimple = props => {
 
           <div className="group-images">
           <form
-            action='https://docs.google.com/forms/d/e/1FAIpQLSc-OV1zn7ycfcu7JJaC6ZNVuDBF1qhaty7tdJFySsVRU_KGFA/formResponse'
+            action='https://docs.google.com/forms/d/e/1FAIpQLSccTnG1uRaGZ9KgEWUpf7B1gh2gNrqPiJgdMdDYBGSiuvBdFQ/formResponse'
             method='post'
             target='hidden_iframe'
-            onSubmit='{handleSubmit}'
+            onSubmit={handleSubmit}
           >
           <div className='select form-group form-entry-01'>
             <select
               aria-label='Select menu example'
               id='anrede'
-              name='entry.1403452405'
+              name='entry.447426616'
               defaultValue='Anrede'
             >
               <option value='Herr'>
@@ -47,7 +50,7 @@ const ContactSimple = props => {
                 type='text'
                 id='fname'
                 name='fname'
-                name='entry.1805432203'
+                name='entry.238740927'
                 required
               />
               <br></br>
@@ -61,8 +64,8 @@ const ContactSimple = props => {
                 required
                 type='text'
                 id='tel'
-                name='tel'
-                name='entry.1262603567'
+                name='telefon'
+                name='entry.261858826'
               />
               <br></br>
             </div>
