@@ -14,7 +14,7 @@ Vertreten durch: Sebastian Schulz
 
 ##Kontakt
 Telefon: +49 (0)40 303 88 66 12
-E-Mail: info@suburbancoworking.de
+E-Mail: info@umweltbewusste-verpackungen.de
 
 ##Umsatzsteuer-ID
 Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:

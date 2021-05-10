@@ -8,10 +8,5 @@
     "name": "Datenschutz",
     "url": "/datenschutz/",
     "weight": 2
-  },
-  {
-    "name": "Kontakt",
-    "url": "/kontakt/",
-    "weight": 3
   }
 ]
