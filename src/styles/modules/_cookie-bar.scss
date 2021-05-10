@@ -1,23 +1,23 @@
 /* ------------------------ Overrites cookie-bar.eu styles ------------------------ */
 div#cookie-bar {
-  background-color: $primary;
+  background-color: $secondary;
   border-radius: 2px;
   box-shadow: none;
 
   p {
-    color: $white;
+    color: $primary;
     font-size: 14px !important;
     margin-left: 20px;
     margin-right: 20px;
   }
 
   a {
-    color: $white;
+    color: $primary;
     text-decoration: underline;
   }
 
   #cookie-bar-button {
-    background-color: $secondary;
+    background-color: $primary;
     border: 0;
     border-radius: 0;
     color: $white !important;
