@@ -30,7 +30,7 @@ const TextWithImage = props => {
 
             <div className="group-description">
               <h3>{node.headline}</h3>
-              <p dangerouslySetInnerHTML={{ __html: node.text }}></p>
+              <span dangerouslySetInnerHTML={{ __html: node.text }}></span>
               <a
                 href="#"
                 className='btn btn-primary mt-3'
