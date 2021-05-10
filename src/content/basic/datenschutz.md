@@ -60,7 +60,7 @@ Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 Juhobi HR Tech GmbH
 Am Sandtorkai 72
 20457 Hamburg
-Telefon: +49 40 – 303 88 66 0
+Telefon: +49 40 – 303 88 66 12
 E-Mail: info@suburbancoworking.de
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.

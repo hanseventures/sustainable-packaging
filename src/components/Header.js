@@ -37,7 +37,7 @@ class Header extends React.Component {
           </div>
 
           <div className="hotline d-none d-md-block">
-            <b>Hotline:</b> <span>040 - 303 88 66 0</span>
+            <b>Hotline:</b> <span>040 - 303 88 66 12</span>
           </div>
 
         </div>

@@ -37,7 +37,7 @@ const Contact = ({ data }) => {
               <li>Unabhängige Beratung</li>
             </ul>
             </div>
-            <small className="d-block mt-2">Durch Absenden der Anfrage stimme ich dem Kontakt durch die HanseVentures BSJ GmbH zu. Widerruf jederzeit hier möglich.</small>
+            <small className="d-block mt-2">Durch Absenden der Anfrage stimme ich dem Kontakt durch die Juhobi HR Tech GmbH zu. Widerruf jederzeit hier möglich.</small>
           </div>
 
           <div className="group-images align-self-start mt-0">
