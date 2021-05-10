@@ -33,35 +33,35 @@ const Contact = ({ data }) => {
                 SoWirdHeuteVerpackt.de
               </p>
               <div className="contact-usp">
-              <ul>
-                <li>Nur hochwertige Produkte</li>
-                <li>Unverbindliches Angebot</li>
-                <li>Unabhängige Beratung</li>
-              </ul>
+                <ul>
+                  <li>Nur hochwertige Produkte</li>
+                  <li>Unverbindliches Angebot</li>
+                  <li>Unabhängige Beratung</li>
+                </ul>
               </div>
               <small className="d-block mt-2">Durch Absenden der Anfrage stimme ich der Kontaktaufnahme durch SoWirdHeuteVerpackt.de (Juhobi HR Tech GmbH und verbundenen Unternehmen) zu. Ein Widerruf ist jederzeit möglich.</small>
             </div>
 
-          <div className="group-images align-self-start mt-0">
-          <form
-            action='https://docs.google.com/forms/d/e/1FAIpQLSccTnG1uRaGZ9KgEWUpf7B1gh2gNrqPiJgdMdDYBGSiuvBdFQ/formResponse'
-            method='post'
-            target='hidden_iframe'
-            onSubmit={handleSubmit}
-          >
-          <div className='select form-group form-entry-01'>
-            <select
-              aria-label='Select menu example'
-              id='anrede'
-              name='entry.447426616'
-              defaultValue='Anrede'
+            <div className="group-images align-self-start mt-0">
+            <form
+              action='https://docs.google.com/forms/d/e/1FAIpQLSccTnG1uRaGZ9KgEWUpf7B1gh2gNrqPiJgdMdDYBGSiuvBdFQ/formResponse'
+              method='post'
+              target='hidden_iframe'
+              onSubmit={handleSubmit}
             >
-              <option value='Herr'>
-                Herr
-              </option>
-              <option value='Frau'>Frau</option>
-            </select>
-          </div>
+            <div className='select form-group form-entry-01'>
+              <select
+                aria-label='Select menu example'
+                id='anrede'
+                name='entry.447426616'
+                defaultValue='Anrede'
+              >
+                <option value='Herr'>
+                  Herr
+                </option>
+                <option value='Frau'>Frau</option>
+              </select>
+            </div>
 
             <div className='form-group form-entry-02'>
               <label className='form-control' htmlFor='fname'>
