@@ -3,7 +3,9 @@ import React from 'react';
 const ContactSimple = props => {
 
   const handleSubmit = (e) => {
-    e.target.innerHTML = "<h3>Vielen Dank!</h3>"
+    setTimeout(() => {
+      e.target.innerHTML = "<h3>Vielen Dank!</h3>"
+    }, 200);
   };
 
   return (
@@ -31,7 +33,7 @@ const ContactSimple = props => {
           <div className='select form-group form-entry-01'>
             <select
               aria-label='Select menu example'
-              id='anrede'
+              id='fsalutation'
               name='entry.447426616'
               defaultValue='Anrede'
             >
@@ -42,28 +44,28 @@ const ContactSimple = props => {
             </select>
           </div>
 
-            <div className='form-group form-entry-02'>
-              <label className='form-control' htmlFor='fname'>
-                Name
-              </label>
-              <input
-                type='text'
-                id='fname'
-                name='fname'
-                name='entry.238740927'
-                required
-              />
-              <br></br>
+          <div className='form-group form-entry-02'>
+            <label className='form-control' htmlFor='fname'>
+              Name
+            </label>
+            <input
+              type='text'
+              id='fname'
+              name='name'
+              name='entry.238740927'
+              required
+            />
+            <br></br>
             </div>
 
             <div className='form-group form-entry-03'>
-              <label className='form-control' htmlFor='tel'>
+              <label className='form-control' htmlFor='telefon'>
                 Telefon
               </label>
               <input
                 required
                 type='text'
-                id='tel'
+                id='telefon'
                 name='telefon'
                 name='entry.261858826'
               />
