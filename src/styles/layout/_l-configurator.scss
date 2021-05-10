@@ -51,44 +51,11 @@
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
-    &.step-01 {
-      width: 10%;
-    }
-
-    &.step-02 {
-      width: 20%;
-    }
-
-    &.step-03 {
-      width: 30%;
-    }
-
-    &.step-04 {
-      width: 40%;
-    }
-
-    &.step-05 {
-      width: 50%;
-    }
-
-    &.step-06 {
-      width: 60%;
-    }
-
-    &.step-07 {
-      width: 70%;
-    }
-
-    &.step-08 {
-      width: 80%;
-    }
-
-    &.step-09 {
-      width: 90%;
-    }
-
-    &.step-10 {
-      width: 100%;
+    // Define amount in variabls.scss
+    @for $i from 1 through $totalSteps {
+      &.step-#{$i} {
+        width: calc(100% / #{$totalSteps} * #{$i});
+      }
     }
   }
 
@@ -103,9 +70,9 @@
 .wizard-usp {
   border-top: 1px solid $grey-lighter;
   padding: 1em 1em 2em;
-  margin: 0 0.5em;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 840px;
-  margin: 0 auto;
 
   div {
     display: flex;

@@ -2,11 +2,11 @@ import { graphql, navigate, useStaticQuery } from 'gatsby';
 import React from 'react';
 import { useWizard } from 'react-use-wizard';
 
-const Step07 = (props) => {
+const Step11 = (props) => {
 
   const {configuratorJson} = useStaticQuery(graphql`
-    query Step07Query {
-      configuratorJson(progressbar: {eq: "7"}) {
+    query Step11Query {
+      configuratorJson(progressbar: {eq: "11"}) {
         id
         title
         progressbar
@@ -30,7 +30,7 @@ const Step07 = (props) => {
     isLastStep
   } = useWizard()
 
-  const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step07ID)
+  const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step11ID)
 
   // Attach an optional handler
   handleStep(() => {
@@ -50,11 +50,11 @@ const Step07 = (props) => {
         {configuratorJson.nodes.map((node) => (
           <li
             key={node.id}
-            className={props.form.step07ID === node.id ? 'p-3 active' : 'p-3'}
+            className={props.form.step11ID === node.id ? 'p-3 active' : 'p-3'}
             onClick={() =>
               props.dispatchForm({
                 type: "UPDATE_KEY_VALUES",
-                value: { step07ID: node.id }
+                value: { step11ID: node.id }
               })
             }>
             <img src="svg/streamline-icon-medical-specialty-skin@46x46.svg" className="mb-2" />
@@ -67,15 +67,28 @@ const Step07 = (props) => {
         <div
           className='btn btn-secondary mr-1 mr-md-3'
           onClick={() => previousStep()}
+          disabled={isLoading || isFirstStep}
         >
           {configuratorJson.btnPrevious}
         </div>
-        <div className='btn btn-secondary ml-1 ml-md-3' onClick={() => nextStep()}>
-        {configuratorJson.btnNext}
+        {!isLastStep ? (
+        <div
+          className='btn btn-primary ml-1 ml-md-3'
+          onClick={() => nextStep()}
+        >
+          {configuratorJson.btnNext}
         </div>
+        ) : (
+        <div
+          className='btn btn-primary ml-1 ml-md-3'
+          onClick={() => navigate('/contact')}
+        >
+          {configuratorJson.btnNext}
+        </div>
+        )}
       </div>
     </>
   )
 }
 
-export default Step07
+export default Step11
