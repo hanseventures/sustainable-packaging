@@ -20,15 +20,22 @@ const FAQv2 = props => {
     if (e.target.nodeName === 'DIV' && id === '') {
       setOpenCurrentModal('')
     } else if (
-      e.target.nodeName === 'BUTTON' ||
-      e.target.nodeName === 'STRONG'
+      (e.target.nodeName === 'BUTTON' ||
+      e.target.nodeName === 'STRONG') &&
+      !(e.target.parentElement.parentElement.classList.contains('is-open') || e.target.parentElement.classList.contains('is-open'))
     ) {
       setOpenCurrentModal(id)
     } else if (
+      (e.target.nodeName === 'BUTTON' || e.target.nodeName === 'STRONG') &&
+        (e.target.parentElement.parentElement.classList.contains('is-open') ||
+        e.target.parentElement.classList.contains('is-open'))
+    ) {
+      setOpenCurrentModal('')
+    } else if (
       e.target.nodeName === 'DIV' &&
       !e.target.parentElement.parentElement.classList.contains('is-open')
-    ) {
-      setOpenCurrentModal(id)
+      ) {
+        setOpenCurrentModal(id)
     }
   }
 
