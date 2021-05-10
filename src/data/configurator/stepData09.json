@@ -1,23 +1,38 @@
 {
-"title": "Welche Verpackungsfunktion ist besonders wichtig?",
+"title": "Spezielle Eigenschaften",
   "progressbar": "09",
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
-  "nodes": [{
-    "id": 1,
-    "text": "Schutz",
-    "iconClass": "material-icons"
-  },{
-    "id": 2,
-    "text": "Marketing / Bedruckbarkeit",
-    "iconClass": "material-icons"
-  },{
-    "id": 3,
-    "text": "Transport",
-    "iconClass": "material-icons"
-  },{
-    "id": 4,
-    "text": "Handling",
-    "iconClass": "material-icons"
-  }]
+  "nodes": [
+    {
+      "id": 1,
+      "text": "Wasserfest",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 2,
+      "text": "Hitzebeständig",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 3,
+      "text": "Isolierend",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 4,
+      "text": "Wasserdicht",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 5,
+      "text": "Keine",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 6,
+      "text": "Sonstiges",
+      "iconClass": "material-icons"
+    }
+  ]
 }

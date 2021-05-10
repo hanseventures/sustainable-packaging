@@ -3,17 +3,26 @@
   "progressbar": "04",
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
-  "nodes": [{
-    "id": 1,
-    "text": "Geschlossene Kühlkette",
-    "iconClass": "material-icons"
-  },{
-    "id": 2,
-    "text": "Hygienestandards",
-    "iconClass": "material-icons"
-  },{
-    "id": 3,
-    "text": "Keine",
-    "iconClass": "material-icons"
-  }]
+  "nodes": [
+    {
+      "id": 1,
+      "text": "Geschlossene Kühlkette",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 2,
+      "text": "Hygienestandards",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 3,
+      "text": "Noch nicht definiert",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 4,
+      "text": "Keine",
+      "iconClass": "material-icons"
+    }
+  ]
 }

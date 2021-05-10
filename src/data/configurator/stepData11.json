@@ -1,22 +1,22 @@
 {
-  "title": "Welche Ziele verfolgen Sie?",
-  "progressbar": "06",
+  "title": "Wiederkehrende Lieferung?",
+  "progressbar": "11",
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
     {
       "id": 1,
-      "text": "Kosteneinsparung",
+      "text": "Einmalige Lieferung",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "text": "Effizienzsteigerung",
+      "text": "Regelmäßige Lieferung",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "text": "Co2 Fußabdruck",
+      "text": "Noch nicht definiert",
       "iconClass": "material-icons"
     },
     {

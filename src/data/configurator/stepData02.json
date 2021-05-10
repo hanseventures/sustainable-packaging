@@ -1,23 +1,53 @@
 {
-  "title": "Spezielle Eigenschaft",
+  "title": "Verpackungsart wählen",
   "progressbar": "02",
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
     {
       "id": 1,
-      "text": "industry",
-      "iconClass": "material-icons"
+      "text": "Transporttrays",
+      "iconClass": "packaging-icons"
     },
     {
       "id": 2,
-      "text": "industry",
-      "iconClass": "material-icons"
+      "text": "Kartonagen mit Inlays",
+      "iconClass": "packaging-icons"
     },
     {
       "id": 3,
-      "text": "industry",
-      "iconClass": "material-icons"
+      "text": "Lebensmittel-verpackungen",
+      "iconClass": "packaging-icons"
+    },
+    {
+      "id": 4,
+      "text": "Beutel + Tüten",
+      "iconClass": "packaging-icons"
+    },
+    {
+      "id": 5,
+      "text": "Kartonagen",
+      "iconClass": "packaging-icons"
+    },
+    {
+      "id": 6,
+      "text": "Behälter + Becher",
+      "iconClass": "packaging-icons"
+    },
+    {
+      "id": 7,
+      "text": "Flaschen + Cups",
+      "iconClass": "packaging-icons"
+    },
+    {
+      "id": 7,
+      "text": "Take-Away Boxen",
+      "iconClass": "packaging-icons"
+    },
+    {
+      "id": 8,
+      "text": "Sonstiges",
+      "iconClass": "packaging-icons"
     }
   ]
 }
