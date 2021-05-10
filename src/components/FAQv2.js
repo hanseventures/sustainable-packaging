@@ -22,7 +22,7 @@ const FAQv2 = props => {
 
   return (
     <section
-      className='l-faq-v2 container'
+      className='l-faq-v2 container bg-primary'
       itemScope
       itemType='https://schema.org/FAQPage'
     >
@@ -37,7 +37,7 @@ const FAQv2 = props => {
 
         <div className='faq-wrapper trimmed-2 mt-5'>
           {componentsJson.faqs.map((node, id) => (
-            <article key={id} className={`mb-4 ${ currentModal === id ? 'is-open':''}`}>
+            <article key={id} className={`mb-1 ${ currentModal === id ? 'is-open':''}`}>
               <button
                 type='button'
                 onClick={() => toggleModal(id)}
