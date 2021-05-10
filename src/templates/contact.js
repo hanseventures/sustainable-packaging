@@ -11,36 +11,36 @@ const Contact = ({ data }) => {
 
   return (
     <Layout bodyClass="page-default-single">
-    <section id='contact-form' className="l-text-with-image l-contact-simple text-image--right container bg-wht">
+      <section id='contact-form' className="l-text-with-image l-contact-simple text-image--right container bg-wht">
 
-    <div className="form-headline d-flex align-item-center justify-content-center flex-column flex-md-row pt-5">
-      <img src="svg/checkmark-green.svg" /> <h1 className="text-xs-center m-0 ml-md-3 mt-3 mt-md-0">Hersteller gefunden!</h1>
-    </div>
+      <div className="form-headline d-flex align-item-center justify-content-center flex-column flex-md-row pt-5">
+        <img src="svg/checkmark-green.svg" /> <h1 className="text-xs-center m-0 ml-md-3 mt-3 mt-md-0">Hersteller gefunden!</h1>
+      </div>
 
-      <div className="content content--centered content--roomy trimmed-4">
-        <div className="d-grid grid-inverted align-item-center column-gap-4 row-gap-3">
+        <div className="content content--centered content--roomy trimmed-3">
+          <div className="d-grid grid-inverted align-item-center column-gap-4 row-gap-3">
 
-          <div className="group-description align-self-start">
-            <h2 className='mt-0 h-2'>Wer bekommt das unverbindliche Angebot?</h2>
-            <p>
-              Damit wir Ihnen ein unverbindliches Angebot erstellen können benötigen wir noch Ihre Kontaktdaten.<br></br>
-            </p>
-            <p>
-              Wir werden uns ca. innerhalb eines Werktages bei Ihnen zurückmelden.<br></br>
-            </p>
-            <p>
-              Ihr Team von<br/>
-              NACHHALTIGE-VERPACKUNG.DE
-            </p>
-            <div className="contact-usp">
-            <ul>
-              <li>Nur hochwertige Produkte</li>
-              <li>Unverbindliches Angebot</li>
-              <li>Unabhängige Beratung</li>
-            </ul>
+            <div className="group-description align-self-start">
+              <h2 className='mt-0 h-4'>Wer bekommt das unverbindliche Angebot?</h2>
+              <p>
+                Damit wir Ihnen ein unverbindliches Angebot erstellen können benötigen wir noch Ihre Kontaktdaten.<br></br>
+              </p>
+              <p>
+                Wir werden uns ca. innerhalb eines Werktages bei Ihnen zurückmelden.<br></br>
+              </p>
+              <p>
+                Ihr Team von<br/>
+                SoWirdHeuteVerpackt.de
+              </p>
+              <div className="contact-usp">
+              <ul>
+                <li>Nur hochwertige Produkte</li>
+                <li>Unverbindliches Angebot</li>
+                <li>Unabhängige Beratung</li>
+              </ul>
+              </div>
+              <small className="d-block mt-2">Durch Absenden der Anfrage stimme ich der Kontaktaufnahme durch SoWirdHeuteVerpackt.de (Juhobi HR Tech GmbH und verbundenen Unternehmen) zu. Ein Widerruf ist jederzeit möglich.</small>
             </div>
-            <small className="d-block mt-2">Durch Absenden der Anfrage stimme ich dem Kontakt durch die Juhobi HR Tech GmbH zu. Widerruf jederzeit hier möglich.</small>
-          </div>
 
           <div className="group-images align-self-start mt-0">
           <form
@@ -127,11 +127,9 @@ const Contact = ({ data }) => {
             ></input>
           </form>
           </div>
-
         </div>
-      </div>
 
-    </section>
+      </section>
     </Layout>
   )
 }
