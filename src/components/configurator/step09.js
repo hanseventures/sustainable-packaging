@@ -57,7 +57,7 @@ const Step09 = (props) => {
                 value: { step09ID: node.id }
               })
             }>
-            <img src="svg/streamline-icon-medical-specialty-skin@46x46.svg" className="mb-2" />
+            <img src="svg/streamline-icon-cleaning-spray@46x46.svg" className="mb-2" />
             <span>{node.text}</span>
           </li>
         ))}
