@@ -7,10 +7,13 @@
     //font-size: 4rem;
     text-align: center;
   }
+
+  img {
+    max-height: 30vh;
+  }
 }
 
 @include media-breakpoint-up(md) {
-
   h1 {
     font-size: 4rem;
   }

@@ -1,15 +1,15 @@
 {
   "homepage": {},
   "logo": {
-    "mobile": "/images/logo@2x.png",
-    "desktop": "/images/logo@2x.png",
+    "mobile": "/images/2/logo@2x.png",
+    "desktop": "/images/2/logo@2x.png",
     "desktop_height": "auto",
     "desktop_width": "300",
     "alt": ""
   },
   "homepage_meta_tags": {
     "meta_description": "",
-    "meta_og_title": "Suburban Coworking",
+    "meta_og_title": "So wird heute verpackt",
     "meta_og_type": "website",
     "meta_og_url": "",
     "meta_og_image": "",
@@ -19,8 +19,8 @@
     "meta_twitter_creator": ""
   },
   "footer": {
-    "copyright_text": "Suburban Coworking",
-    "copyright_link": "https://suburban-coworking.de"
+    "copyright_text": "So wird heute verpackt",
+    "copyright_link": "https://sowirdheuteverpackt.gtsb.io/"
   },
   "googleTrackingId": "",
   "googleTagmanagerId": "GTM-WVCBSS3"

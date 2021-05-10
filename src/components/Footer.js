@@ -28,7 +28,7 @@ const Footer = props => {
           <div>
           <img
              className="logo"
-             src="/images/logo@2x.png"
+             src="/images/2/logo@2x.png"
            />
             <p className="my-0">Umweltbewusste Verpackung für jedermann</p>
           </div>
