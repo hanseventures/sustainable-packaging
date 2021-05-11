@@ -6,31 +6,31 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "svg/streamline-icon-material-isolation@46x46.svg",
+      "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
       "text": "Schutz",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "svg/streamline-icon-material-isolation@46x46.svg",
+      "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
       "text": "Marketing / Bedruckbarkeit",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "svg/streamline-icon-material-isolation@46x46.svg",
+      "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
       "text": "Transport",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "svg/streamline-icon-material-isolation@46x46.svg",
+      "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
       "text": "Handling",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "svg/streamline-icon-material-isolation@46x46.svg",
+      "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     }

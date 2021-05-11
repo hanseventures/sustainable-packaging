@@ -6,25 +6,25 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
+      "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
       "text": "Kosteneinsparung",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
+      "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
       "text": "Effizienzsteigerung",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
+      "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
       "text": "Co2 Fußabdruck",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
+      "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     }

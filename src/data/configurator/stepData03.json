@@ -6,49 +6,49 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Eierschale",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Reis",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Bambus",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Mais",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Sulapac",
       "iconClass": "material-icons"
     },
     {
       "id": 6,
-      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Holzfasern",
       "iconClass": "material-icons"
     },
     {
       "id": 7,
-      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Algen",
       "iconClass": "material-icons"
     },
     {
       "id": 8,
-      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     }

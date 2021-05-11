@@ -6,61 +6,61 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
       "text": "Industrie",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
       "text": "StartUps",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
       "text": "Mode",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
       "text": "Gastronomie",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
       "text": "Spielzeug",
       "iconClass": "material-icons"
     },
     {
       "id": 6,
-      "imagePath": "svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
       "text": "Kosmetik",
       "iconClass": "material-icons"
     },
     {
       "id": 7,
-      "imagePath": "svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
       "text": "Lebensmittel",
       "iconClass": "material-icons"
     },
     {
       "id": 8,
-      "imagePath": "svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
       "text": "Elektronik",
       "iconClass": "material-icons"
     },
     {
       "id": 9,
-      "imagePath": "svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
       "text": "Reinigung",
       "iconClass": "material-icons"
     },
     {
       "id": 10,
-      "imagePath": "svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     }

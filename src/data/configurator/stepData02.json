@@ -6,55 +6,55 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "svg/streamline-icon-shipment-upload@46x46.svg",
+      "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
       "text": "Transporttrays",
       "iconClass": "packaging-icons"
     },
     {
       "id": 2,
-      "imagePath": "svg/streamline-icon-shipment-upload@46x46.svg",
+      "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
       "text": "Kartonagen mit Inlays",
       "iconClass": "packaging-icons"
     },
     {
       "id": 3,
-      "imagePath": "svg/streamline-icon-shipment-upload@46x46.svg",
+      "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
       "text": "Lebensmittel-verpackungen",
       "iconClass": "packaging-icons"
     },
     {
       "id": 4,
-      "imagePath": "svg/streamline-icon-shipment-upload@46x46.svg",
+      "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
       "text": "Beutel + Tüten",
       "iconClass": "packaging-icons"
     },
     {
       "id": 5,
-      "imagePath": "svg/streamline-icon-shipment-upload@46x46.svg",
+      "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
       "text": "Kartonagen",
       "iconClass": "packaging-icons"
     },
     {
       "id": 6,
-      "imagePath": "svg/streamline-icon-shipment-upload@46x46.svg",
+      "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
       "text": "Behälter + Becher",
       "iconClass": "packaging-icons"
     },
     {
       "id": 7,
-      "imagePath": "svg/streamline-icon-shipment-upload@46x46.svg",
+      "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
       "text": "Flaschen + Cups",
       "iconClass": "packaging-icons"
     },
     {
       "id": 8,
-      "imagePath": "svg/streamline-icon-shipment-upload@46x46.svg",
+      "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
       "text": "Take-Away Boxen",
       "iconClass": "packaging-icons"
     },
     {
       "id": 9,
-      "imagePath": "svg/streamline-icon-shipment-upload@46x46.svg",
+      "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "packaging-icons"
     }
