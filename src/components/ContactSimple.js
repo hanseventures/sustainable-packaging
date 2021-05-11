@@ -3,7 +3,9 @@ import React from 'react';
 const ContactSimple = props => {
 
   const handleSubmit = (e) => {
-    e.target.innerHTML = "<div class='alert alert--success text-xs-center'><h3 class='font-wht mb-1'>Vielen Dank!</h3><span class='font-weight-light'>Wir melden uns kurzfristig zurück.</span></div>"
+    setTimeout(() => {
+      e.target.innerHTML = "<div class='alert alert--success text-xs-center'><h3 class='font-wht mb-1'>Vielen Dank!</h3><span class='font-weight-light'>Wir melden uns kurzfristig zurück.</span></div>"
+    }, 200);
   };
 
   return (
