@@ -23,6 +23,7 @@ const Contact = ({ data }) => {
 
             <div className="group-description align-self-start">
               <h2 className='mt-0 h-4'>Wer bekommt das unverbindliche Angebot?</h2>
+
               <p>
                 Damit wir Ihnen ein unverbindliches Angebot erstellen können benötigen wir noch Ihre Kontaktdaten.<br></br>
               </p>
@@ -33,6 +34,7 @@ const Contact = ({ data }) => {
                 Ihr Team von<br/>
                 SoWirdHeuteVerpackt.de
               </p>
+
               <div className="contact-usp">
                 <ul>
                   <li>Nur hochwertige Produkte</li>
@@ -40,10 +42,12 @@ const Contact = ({ data }) => {
                   <li>Unabhängige Beratung</li>
                 </ul>
               </div>
+
               <small className="d-block mt-2">Durch Absenden der Anfrage stimme ich der Kontaktaufnahme durch SoWirdHeuteVerpackt.de (Juhobi HR Tech GmbH und verbundenen Unternehmen) zu. Ein Widerruf ist jederzeit möglich.</small>
             </div>
 
             <div className="group-images align-self-start mt-0">
+
               <form
                 action='https://docs.google.com/forms/d/e/1FAIpQLSccTnG1uRaGZ9KgEWUpf7B1gh2gNrqPiJgdMdDYBGSiuvBdFQ/formResponse'
                 method='post'
@@ -57,9 +61,7 @@ const Contact = ({ data }) => {
                     name='entry.447426616'
                     defaultValue='Anrede'
                   >
-                    <option value='Herr'>
-                      Herr
-                    </option>
+                    <option value='Herr'>Herr</option>
                     <option value='Frau'>Frau</option>
                   </select>
                 </div>
@@ -75,7 +77,6 @@ const Contact = ({ data }) => {
                     name='entry.238740927'
                     required
                   />
-                  <br />
                 </div>
 
                 <div className='form-group form-entry-03'>
@@ -89,7 +90,6 @@ const Contact = ({ data }) => {
                     name='company'
                     name='entry.759518630'
                   />
-                  <br />
                 </div>
 
                 <div className='form-group form-entry-04'>
@@ -103,7 +103,6 @@ const Contact = ({ data }) => {
                     name='telefon'
                     name='entry.261858826'
                   />
-                  <br />
                 </div>
 
                 <div className='form-group form-entry-05'>
@@ -117,7 +116,6 @@ const Contact = ({ data }) => {
                     name='email'
                     name='entry.1626642809'
                   />
-                  <br />
                 </div>
 
                 <input
@@ -131,6 +129,7 @@ const Contact = ({ data }) => {
             </div>
           </div>
         </div>
+
       </section>
     </Layout>
   )

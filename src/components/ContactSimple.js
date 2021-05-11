@@ -16,69 +16,80 @@ const ContactSimple = props => {
             <h2 className='mt-0 h-2'>Beratung erwünscht?</h2>
             <p>
               Sie wollen lieber beraten werden und persönlich besprechen ob ihre Produktvorstellung von uns umsetzbar ist?<br></br>
-              <br></br>
+            </p>
+            <p>
               Kein Problem, wir rufen Sie gerne zurück!
             </p>
           </div>
 
           <div className="group-images">
-          <form
-            action='https://docs.google.com/forms/d/e/1FAIpQLSccTnG1uRaGZ9KgEWUpf7B1gh2gNrqPiJgdMdDYBGSiuvBdFQ/formResponse'
-            method='post'
-            target='hidden_iframe'
-            onSubmit={handleSubmit}
-          >
-          <div className='select form-group form-entry-01'>
-            <select
-              aria-label='Select menu example'
-              id='fsalutation'
-              name='entry.447426616'
-              defaultValue='Anrede'
+
+            <form
+              action='https://docs.google.com/forms/d/e/1FAIpQLSccTnG1uRaGZ9KgEWUpf7B1gh2gNrqPiJgdMdDYBGSiuvBdFQ/formResponse'
+              method='post'
+              target='hidden_iframe'
+              onSubmit={handleSubmit}
             >
-              <option value='Herr'>
-                Herr
-              </option>
-              <option value='Frau'>Frau</option>
-            </select>
-          </div>
+              <div className='select form-group form-entry-01'>
+                <select
+                  aria-label='Select menu example'
+                  id='fsalutation'
+                  name='entry.447426616'
+                  defaultValue='Anrede'
+                >
+                  <option value='Herr'>Herr</option>
+                  <option value='Frau'>Frau</option>
+                </select>
+              </div>
 
-          <div className='form-group form-entry-02'>
-            <label className='form-control' htmlFor='fname'>
-              Name
-            </label>
-            <input
-              type='text'
-              id='fname'
-              name='name'
-              name='entry.238740927'
-              required
-            />
-            <br></br>
-            </div>
+              <div className='form-group form-entry-02'>
+                <label className='form-control' htmlFor='fname'>
+                  Name
+                </label>
+                <input
+                  type='text'
+                  id='fname'
+                  name='name'
+                  name='entry.238740927'
+                  required
+                />
+              </div>
 
-            <div className='form-group form-entry-03'>
-              <label className='form-control' htmlFor='telefon'>
-                Telefon
-              </label>
+              <div className='form-group form-entry-03'>
+                <label className='form-control' htmlFor='telefon'>
+                  Telefon
+                </label>
+                <input
+                  required
+                  type='text'
+                  id='telefon'
+                  name='telefon'
+                  name='entry.261858826'
+                />
+              </div>
+
+              <div className='form-group form-entry-04 d-none'>
+                <label className='form-control' htmlFor='callBackForm'>
+                  Firma (optional)
+                </label>
+                <input
+                  required
+                  type='hidden'
+                  id='callBackForm'
+                  name='callBackForm'
+                  name='entry.759518630'
+                />
+              </div>
+
               <input
-                required
-                type='text'
-                id='telefon'
-                name='telefon'
-                name='entry.261858826'
+                id='submit'
+                type='submit'
+                value='Rückruf anfordern'
+                className='btn btn-primary'
               />
-              <br></br>
-            </div>
+            </form>
 
-            <input
-              id='submit'
-              type='submit'
-              value='Rückruf anfordern'
-              className='btn btn-primary'
-            ></input>
-          </form>
           </div>
-
         </div>
       </div>
 
