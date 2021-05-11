@@ -6,25 +6,25 @@
   "nodes": [
     {
       "id": 1,
-      "imagePage": "/svg/streamline-icon-medical-specialty-skin@46x46.svg",
+      "imagePath": "/svg/streamline-icon-medical-specialty-skin@46x46.svg",
       "text": "Geschlossene Kühlkette",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePage": "/svg/streamline-icon-medical-specialty-skin@46x46.svg",
+      "imagePath": "/svg/streamline-icon-medical-specialty-skin@46x46.svg",
       "text": "Hygienestandards",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePage": "/svg/streamline-icon-medical-specialty-skin@46x46.svg",
+      "imagePath": "/svg/streamline-icon-medical-specialty-skin@46x46.svg",
       "text": "Noch nicht definiert",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePage": "/svg/streamline-icon-medical-specialty-skin@46x46.svg",
+      "imagePath": "/svg/streamline-icon-medical-specialty-skin@46x46.svg",
       "text": "Keine",
       "iconClass": "material-icons"
     }
