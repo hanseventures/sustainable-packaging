@@ -122,12 +122,12 @@
 
 @include media-breakpoint-up(sm) {
   .select {
-    max-width: 300px;
+    // max-width: 300px;
   }
 }
 
 @include media-breakpoint-up(xxl) {
   .select {
-    max-width: none;
+    // max-width: none;
   }
 }
