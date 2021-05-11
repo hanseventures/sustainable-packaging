@@ -68,53 +68,49 @@ const Contact = ({ data }) => {
                 </div>
 
                 <div className='form-group form-entry-02'>
-                  <label className='form-control' htmlFor='name'>
-                    Name
-                  </label>
                   <input
+                    className='form-control is-active'
                     type='text'
                     id='name'
                     name='name'
                     name='entry.238740927'
                     required
                   />
+                  <label htmlFor='name'>Name</label>
                 </div>
 
                 <div className='form-group form-entry-03'>
-                  <label className='form-control' htmlFor='company'>
-                    Firma (optional)
-                  </label>
                   <input
+                    className='form-control is-active'
                     type='text'
                     id='company'
                     name='Firma'
                     name='entry.759518630'
                   />
+                  <label htmlFor='company'>Firma (optional)</label>
                 </div>
 
                 <div className='form-group form-entry-04'>
-                  <label className='form-control' htmlFor='telephone'>
-                    Telefon
-                  </label>
                   <input
+                    className='form-control is-active'
                     type='text'
                     id='telephone'
                     name='telefon'
                     name='entry.261858826'
                     required
                   />
+                  <label htmlFor='telephone'>Telefon</label>
                 </div>
 
                 <div className='form-group form-entry-05'>
-                  <label className='form-control' htmlFor='email'>
-                    E-Mail (optional)
-                  </label>
                   <input
+                    className='form-control is-active'
                     type='text'
                     id='email'
                     name='email'
                     name='entry.1626642809'
                   />
+                  <label htmlFor='email'>E-Mail (optional)</label>
                 </div>
 
                 <div className='d-none'>

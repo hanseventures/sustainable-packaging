@@ -46,29 +46,27 @@ const ContactSimple = props => {
               </div>
 
               <div className='form-group form-entry-02'>
-                <label className='form-control' htmlFor='name'>
-                  Name
-                </label>
                 <input
+                  className='form-control is-active'
                   type='text'
                   id='name'
                   name='name'
                   name='entry.238740927'
                   required
                 />
+                <label htmlFor='name'>Name</label>
               </div>
 
               <div className='form-group form-entry-03'>
-                <label className='form-control' htmlFor='telephone'>
-                  Telefon
-                </label>
                 <input
+                  className='form-control is-active'
                   type='text'
                   id='telephone'
                   name='telefon'
                   name='entry.261858826'
                   required
                 />
+                <label htmlFor='telephone'>Telefon</label>
               </div>
 
               <div className='d-none'>
