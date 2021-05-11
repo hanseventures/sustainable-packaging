@@ -118,6 +118,16 @@ const Contact = ({ data }) => {
                   />
                 </div>
 
+                <div className='d-none'>
+                  <input
+                    type='hidden'
+                    id='configuratorForm'
+                    name='configuratorForm'
+                    name='entry.484512639'
+                    value="Konfigurator Formular"
+                  />
+                </div>
+
                 <input
                   id='submit'
                   type='submit'

@@ -60,24 +60,21 @@ const ContactSimple = props => {
                   Telefon
                 </label>
                 <input
-                  required
                   type='text'
                   id='telefon'
                   name='telefon'
                   name='entry.261858826'
+                  required
                 />
               </div>
 
-              <div className='form-group form-entry-04 d-none'>
-                <label className='form-control' htmlFor='callBackForm'>
-                  Firma (optional)
-                </label>
+              <div className='d-none'>
                 <input
-                  required
                   type='hidden'
                   id='callBackForm'
                   name='callBackForm'
-                  name='entry.759518630'
+                  name='entry.484512639'
+                  value="Rückruf Formular"
                 />
               </div>
 
