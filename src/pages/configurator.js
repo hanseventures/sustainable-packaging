@@ -1,21 +1,44 @@
-import { graphql } from 'gatsby';
-import React, { useReducer } from 'react';
-import Helmet from 'react-helmet';
-import { Wizard } from 'react-use-wizard';
+import { graphql } from 'gatsby'
+import _ from 'lodash'
+import React, { useReducer, useState } from 'react'
+import Helmet from 'react-helmet'
+import { Wizard } from 'react-use-wizard'
 
-import { Step01, Step02, Step03, Step04, Step05, Step06, Step07, Step08, Step09, Step10, Step11 } from '../components/configurator';
-import Layout from '../components/Layout';
-import SEO from '../components/SEO';
-import globalContextProvider from '../context/GlobalContextProvider';
+import {
+  Step01,
+  Step02,
+  Step03,
+  Step04,
+  Step05,
+  Step06,
+  Step07,
+  Step08,
+  Step09,
+  Step10,
+  Step11,
+} from '../components/configurator'
+import Layout from '../components/Layout'
+import SEO from '../components/SEO'
+import globalContextProvider from '../context/GlobalContextProvider'
 
 const Configurator = props => {
-  const site = props.data.site.siteMetadata
+  const {
+    site: {
+      siteMetadata: { title }
+    },
+    allConfiguratorJson: { edges: objects }
+  } = props.data
 
   const [form, dispatchForm] = useReducer(globalContextProvider, {})
+  const [selectedObjects, setSelectedObject] = useState([])
+
+  const handleSelect = (selectedObject) => {
+    setSelectedObject(_.flattenDeep(selectedObject))
+  }
 
   return (
     <Layout bodyClass='l-page-configurator'>
-      <SEO title={site.title} />
+      <SEO title={title} />
 
       <Helmet>
         <meta name="robots" content="nofollow, noindex" />
@@ -23,17 +46,17 @@ const Configurator = props => {
 
       <section className='content content--roomy'>
         <Wizard>
-          <Step01 {...{form, dispatchForm}}/>
-          <Step02 {...{form, dispatchForm}}/>
-          <Step03 {...{form, dispatchForm}}/>
-          <Step04 {...{form, dispatchForm}}/>
-          <Step05 {...{form, dispatchForm}}/>
-          <Step06 {...{form, dispatchForm}}/>
-          <Step07 {...{form, dispatchForm}}/>
-          <Step08 {...{form, dispatchForm}}/>
-          <Step09 {...{form, dispatchForm}} />
-          <Step10 {...{form, dispatchForm}} />
-          <Step11 {...{form, dispatchForm}} />
+          <Step01 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step02 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step03 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step04 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step05 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step06 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step07 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step08 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step09 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step10 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step11 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
         </Wizard>
       </section>
 
@@ -119,6 +142,23 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    allConfiguratorJson {
+      edges {
+        node {
+          id
+          title
+          progressbar
+          nodes {
+            iconClass
+            id
+            text
+            imagePath
+          }
+          btnNext
+          btnPrevious
+        }
       }
     }
   }

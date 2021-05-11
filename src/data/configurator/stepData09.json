@@ -1,36 +1,42 @@
 {
-"title": "Spezielle Eigenschaften",
-  "progressbar": "9",
+  "title": "Spezielle Eigenschaften",
+  "progressbar": 9,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
     {
       "id": 1,
+      "imagePath": "svg/streamline-icon-cleaning-spray@46x46.svg",
       "text": "Wasserfest",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
+      "imagePath": "svg/streamline-icon-cleaning-spray@46x46.svg",
       "text": "Hitzebeständig",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
+      "imagePath": "svg/streamline-icon-cleaning-spray@46x46.svg",
       "text": "Isolierend",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
+      "imagePath": "svg/streamline-icon-cleaning-spray@46x46.svg",
       "text": "Wasserdicht",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
+      "imagePath": "svg/streamline-icon-cleaning-spray@46x46.svg",
       "text": "Keine",
       "iconClass": "material-icons"
     },
     {
       "id": 6,
+      "imagePath": "svg/streamline-icon-cleaning-spray@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     }

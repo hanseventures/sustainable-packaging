@@ -1,46 +1,54 @@
 {
 "title": "Wie viele Verpackungseinheiten benötigen Sie?",
-  "progressbar": "8",
+  "progressbar": 8,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
     {
       "id": 1,
+      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
       "text": "1-500",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
+      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
       "text": "500-999",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
+      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
       "text": "1.000-4.999",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
+      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
       "text": "5.000 - 9.999",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
+      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
       "text": "10.000 - 49.000",
       "iconClass": "material-icons"
     },
     {
       "id": 6,
+      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
       "text": "50.000 - 99.000",
       "iconClass": "material-icons"
     },
     {
       "id": 7,
+      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
       "text": "100.000+",
       "iconClass": "material-icons"
     },
     {
       "id": 8,
+      "imagePath": "svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     }

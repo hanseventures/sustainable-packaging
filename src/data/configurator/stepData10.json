@@ -1,41 +1,48 @@
 {
   "title": "Liefertermin",
-  "progressbar": "10",
+  "progressbar": 10,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
     {
       "id": 1,
+      "imagePath": "svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "Sofort",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
+      "imagePath": "svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "2-4 Wochen",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
+      "imagePath": "svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "2-3 Monate",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
+      "imagePath": "svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "3-6 Monate",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
+      "imagePath": "svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "6-12 Monate",
       "iconClass": "material-icons"
     },
     {
       "id": 6,
+      "imagePath": "svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "1+ Jahr",
       "iconClass": "material-icons"
     },
     {
       "id": 7,
+      "imagePath": "svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "Noch nicht definiert",
       "iconClass": "material-icons"
     }

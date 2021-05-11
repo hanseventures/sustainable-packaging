@@ -1,25 +1,12 @@
-import { graphql, useStaticQuery } from 'gatsby';
-import React from 'react';
-import { useWizard } from 'react-use-wizard';
+import { graphql, useStaticQuery } from 'gatsby'
+import _ from 'lodash'
+import React from 'react'
+import { useWizard } from 'react-use-wizard'
+
+import MultiSelect from './MultiSelect'
 
 const Step03 = (props) => {
-
-  const {configuratorJson} = useStaticQuery(graphql`
-    query Step03Query {
-      configuratorJson(progressbar: {eq: "3"}) {
-        id
-        title
-        progressbar
-        btnPrevious
-        btnNext
-        nodes {
-          id
-          iconClass
-          text
-        }
-      }
-    }
-  `)
+  const configuratorJson = _.filter(props.objects, (obj) => obj.node.progressbar === 3)[0].node
 
   const {
     handleStep,
@@ -27,12 +14,12 @@ const Step03 = (props) => {
     previousStep,
   } = useWizard()
 
-  const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step03ID)
+  // const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step03ID)
 
-  // Attach an optional handler
-  handleStep(() => {
-    console.log(`object`, filterById() )
-  })
+  // // Attach an optional handler
+  // handleStep(() => {
+  //   console.log(`object`, filterById() )
+  // })
 
   return (
     <>
@@ -43,22 +30,7 @@ const Step03 = (props) => {
         <div className="non-active"></div>
       </div>
 
-      <ul className='list-none d-grid box trimmed-4 text-xs-center my-5'>
-        {configuratorJson.nodes.map((node) => (
-          <li
-            key={node.id}
-            className={props.form.step03ID === node.id ? 'p-3 active' : 'p-3'}
-            onClick={() =>
-              props.dispatchForm({
-                type: "UPDATE_KEY_VALUES",
-                value: { step03ID: node.id }
-              })
-            }>
-            <img src="svg/streamline-icon-toys-lego@46x46.svg" className="mb-2" />
-            <span>{node.text}</span>
-          </li>
-        ))}
-      </ul>
+      <MultiSelect id={configuratorJson.id}  objects={configuratorJson.nodes} handleSelection={props.handleSelect} selectedObjects={props.selectedObjects} />
 
       <div className='d-flex flex-column justify-content-center align-self-center p-1 m-1 mb-4 flex-row flex-lg-row'>
         <div
@@ -67,7 +39,7 @@ const Step03 = (props) => {
         >
           {configuratorJson.btnPrevious}
         </div>
-        <div className='btn btn-secondary ml-1 ml-md-3' onClick={() => nextStep()}>
+        <div className={`btn btn-${_.find(props.selectedObjects, configuratorJson.id) && !_.isEmpty(_.find(props.selectedObjects, configuratorJson.id)[configuratorJson.id]) ?   'primary' : 'secondary'  } ml-1 ml-md-3`} onClick={() => nextStep()}>
         {configuratorJson.btnNext}
         </div>
       </div>

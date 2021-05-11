@@ -1,31 +1,36 @@
 {
 "title": "Wie ist der logistische Lebensweg?",
-  "progressbar": "5",
+  "progressbar": 5,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
     {
       "id": 1,
+      "imagePath": "svg/streamline-icon-shipment-in-transit@46x46.svg",
       "text": "Zentrallager",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
+      "imagePath": "svg/streamline-icon-shipment-in-transit@46x46.svg",
       "text": "Zwischenlager",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
+      "imagePath": "svg/streamline-icon-shipment-in-transit@46x46.svg",
       "text": "Kommissionierung",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
+      "imagePath": "svg/streamline-icon-shipment-in-transit@46x46.svg",
       "text": "Endkunde",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
+      "imagePath": "svg/streamline-icon-shipment-in-transit@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     }
