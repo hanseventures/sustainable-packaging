@@ -1,5 +1,6 @@
 import { graphql, navigate } from 'gatsby';
 import React from 'react';
+import Helmet from 'react-helmet';
 
 import Layout from '../components/Layout';
 
@@ -11,6 +12,11 @@ const Contact = ({ data }) => {
 
   return (
     <Layout bodyClass="page-default-single">
+
+      <Helmet>
+        <meta name="robots" content="nofollow, noindex" />
+      </Helmet>
+
       <section id='contact-form' className="l-text-with-image l-contact-simple text-image--right container bg-wht">
 
         <div className="form-headline d-flex align-item-center justify-content-center flex-column flex-md-row pt-5">

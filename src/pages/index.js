@@ -29,7 +29,7 @@ const Home = props => {
       <Helmet>
         <meta
           name='description'
-          content='Wir richten Co-Working Spaces für dich in deiner Region ein! Trage dich mit deiner PLZ jetzt ein...'
+          content='Umweltfreundliche Verpackungslösungen ohne Plastik, denn so verpackt man heute!'
         />
       </Helmet>
 

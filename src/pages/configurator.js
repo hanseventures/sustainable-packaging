@@ -18,10 +18,7 @@ const Configurator = props => {
       <SEO title={site.title} />
 
       <Helmet>
-        <meta
-          name='description'
-          content='Wir richten Co-Working Spaces für dich in deiner Region ein! Trage dich mit deiner PLZ jetzt ein...'
-        />
+        <meta name="robots" content="nofollow, noindex" />
       </Helmet>
 
       <section className='content content--roomy'>
