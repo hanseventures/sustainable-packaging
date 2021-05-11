@@ -32,23 +32,24 @@ const ContactSimple = props => {
             >
               <div className='select form-group form-entry-01'>
                 <select
-                  aria-label='Select menu example'
-                  id='fsalutation'
+                  aria-label='Select salutation'
+                  id='anrede'
                   name='entry.447426616'
                   defaultValue='Anrede'
                 >
+                  <option value="-1">Anrede</option>
                   <option value='Herr'>Herr</option>
                   <option value='Frau'>Frau</option>
                 </select>
               </div>
 
               <div className='form-group form-entry-02'>
-                <label className='form-control' htmlFor='fname'>
+                <label className='form-control' htmlFor='name'>
                   Name
                 </label>
                 <input
                   type='text'
-                  id='fname'
+                  id='name'
                   name='name'
                   name='entry.238740927'
                   required
@@ -56,12 +57,12 @@ const ContactSimple = props => {
               </div>
 
               <div className='form-group form-entry-03'>
-                <label className='form-control' htmlFor='telefon'>
+                <label className='form-control' htmlFor='telephone'>
                   Telefon
                 </label>
                 <input
                   type='text'
-                  id='telefon'
+                  id='telephone'
                   name='telefon'
                   name='entry.261858826'
                   required
