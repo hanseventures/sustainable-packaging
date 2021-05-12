@@ -1,5 +1,6 @@
 {
   "title": "Verpackungsart wählen",
+  "gaName": "verpackungsart",
   "progressbar": 2,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",

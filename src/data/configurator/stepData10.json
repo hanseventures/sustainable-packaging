@@ -1,5 +1,6 @@
 {
   "title": "Liefertermin",
+  "gaName": "liefertermin",
   "progressbar": 10,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",

@@ -1,5 +1,6 @@
 {
-"title": "Wie viele Verpackungseinheiten benötigen Sie?",
+  "title": "Wie viele Verpackungseinheiten benötigen Sie?",
+  "gaName": "verpackungseinheiten",
   "progressbar": 8,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
