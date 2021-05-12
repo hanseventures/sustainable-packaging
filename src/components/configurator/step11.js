@@ -76,7 +76,7 @@ const Step11 = (props) => {
         </div>
         {!isLastStep ? (
         <div
-          id={`${configuratorJson.gaName}-${configuratorJson.btnPrevious}`}
+          id={`${configuratorJson.gaName}-${configuratorJson.btnPrevious.toLowerCase()}`}
           className='btn btn-primary ml-1 ml-md-3'
           onClick={() => nextStep()}
         >
@@ -84,7 +84,7 @@ const Step11 = (props) => {
         </div>
         ) : (
         <div
-          id={`${configuratorJson.gaName}-${configuratorJson.btnNext}`}
+          id={`${configuratorJson.gaName}-${configuratorJson.btnNext.toLowerCase()}`}
           className={`btn btn-${hasSelected(props.selectedObjects, configuratorJson.id) ?   'primary' : 'secondary'  } ml-1 ml-md-3`}
           onClick={() => RedirectHandeler()}
         >

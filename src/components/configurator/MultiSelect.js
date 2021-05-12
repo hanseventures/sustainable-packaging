@@ -29,7 +29,7 @@ const MultiSelect = props => {
     <ul className='list-none d-grid box trimmed-4 text-xs-center my-5'>
       {props.objects.map(node => (
         <li
-          id={`${props.gaName}-${node.text.toLowerCase()}`}
+          id={`${props.gaName}-${node.text.toLowerCase().replace(/\s/g, '')}`}
           key={node.id}
           onClick={() => handleSelect(node.id)}
           className={

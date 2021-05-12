@@ -149,6 +149,7 @@ export const query = graphql`
         node {
           id
           title
+          gaName
           progressbar
           nodes {
             iconClass

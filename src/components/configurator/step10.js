@@ -44,7 +44,7 @@ const Step10 = props => {
 
       <div className='d-flex flex-column justify-content-center align-self-center p-1 m-1 mb-4 flex-row flex-lg-row'>
         <div
-          id={`${configuratorJson.gaName}-${configuratorJson.btnPrevious}`}
+          id={`${configuratorJson.gaName}-${configuratorJson.btnPrevious.toLowerCase()}`}
           className='btn btn-secondary mr-1 mr-md-3'
           onClick={() => previousStep()}
           disabled={isLoading || isFirstStep}
@@ -52,7 +52,7 @@ const Step10 = props => {
           {configuratorJson.btnPrevious}
         </div>
         <div
-          id={`${configuratorJson.gaName}-${configuratorJson.btnNext}`}
+          id={`${configuratorJson.gaName}-${configuratorJson.btnNext.toLowerCase()}`}
           className={`btn btn-${
             hasSelected(props.selectedObjects, configuratorJson.id)
               ? 'primary'
