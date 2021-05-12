@@ -85,7 +85,7 @@ input[type=number] {
     }
 
     &:focus {
-      color: $secondary;
+      color: $lettering-black;
       outline-color: $primary;
 
       & + label {
