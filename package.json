@@ -16,7 +16,7 @@
   "dependencies": {
     "@emotion/react": "11.4.0",
     "animate.css": "^4.1.1",
-    "gatsby": "^3.0.4",
+    "gatsby": "^3.5.0",
     "gatsby-plugin-google-fonts": "1.0.1",
     "gatsby-plugin-google-marketing-platform": "0.1.21",
     "gatsby-plugin-image": "1.0.1",
