@@ -9,7 +9,8 @@ import Step08 from './step08';
 import Step09 from './step09';
 import Step10 from './step10';
 import Step11 from './step11';
+import Details from './details';
 
 export {
-  Step01, Step02, Step03, Step04, Step05, Step06, Step07, Step08, Step09, Step10, Step11
+  Step01, Step02, Step03, Step04, Step05, Step06, Step07, Step08, Step09, Step10, Step11, Details
 }

@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { Wizard } from 'react-use-wizard'
 
 import {
+  Details,
   Step01,
   Step02,
   Step03,
@@ -36,6 +37,9 @@ const Configurator = props => {
     setSelectedObject(_.flattenDeep(selectedObject))
   }
 
+  const hashUrl = typeof window !== `undefined` ? window.location.hash : ''
+  const step = _.last(hashUrl.split('#')) || 0
+
   return (
     <Layout bodyClass='l-page-configurator'>
       <SEO title={title} />
@@ -45,7 +49,7 @@ const Configurator = props => {
       </Helmet>
 
       <section className='content content--roomy'>
-        <Wizard>
+        <Wizard startIndex={Number(step)}>
           <Step01 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step02 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step03 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
@@ -57,6 +61,7 @@ const Configurator = props => {
           <Step09 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step10 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step11 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Details {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
         </Wizard>
       </section>
 
@@ -151,6 +156,7 @@ export const query = graphql`
           title
           gaName
           progressbar
+          pageId
           nodes {
             iconClass
             id

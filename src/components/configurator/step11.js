@@ -11,17 +11,6 @@ const Step11 = (props) => {
 
   const configuratorJson = _.filter(props.objects, (obj) => obj.node.progressbar === 11)[0].node
 
-  const [show, setShow] = useState(false);
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    if (loading) {
-      setTimeout(() => {
-        setLoading(false);
-      }, 5000);
-    }
-  }, [loading]);
-
   const {
     nextStep,
     previousStep,
@@ -29,18 +18,6 @@ const Step11 = (props) => {
     isFirstStep,
     isLastStep
   } = useWizard()
-
-  const RedirectHandeler = () => {
-    setLoading(!loading);
-    setTimeout(() => {
-      setLoading(!loading);
-      setShow(!show);
-      navigate('/contact')
-    }, 5000);
-  };
-
-  if (loading) return <Spinner />;
-
 
   // const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step11ID)
 
@@ -74,7 +51,6 @@ const Step11 = (props) => {
         >
           {configuratorJson.btnPrevious}
         </div>
-        {!isLastStep ? (
         <div
           id={`${configuratorJson.gaName}-${configuratorJson.btnPrevious.toLowerCase()}`}
           className='btn btn-primary ml-1 ml-md-3'
@@ -82,15 +58,6 @@ const Step11 = (props) => {
         >
           {configuratorJson.btnNext}
         </div>
-        ) : (
-        <div
-          id={`${configuratorJson.gaName}-${configuratorJson.btnNext.toLowerCase()}`}
-          className={`btn btn-${hasSelected(props.selectedObjects, configuratorJson.id) ?   'primary' : 'secondary'  } ml-1 ml-md-3`}
-          onClick={() => RedirectHandeler()}
-        >
-          {configuratorJson.btnNext}
-        </div>
-        )}
       </div>
     </>
   )

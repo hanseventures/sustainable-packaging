@@ -10,11 +10,11 @@ const Step01 = props => {
     nextStep,
     previousStep,
     isLoading,
-    isFirstStep,
+    isFirstStep
   } = useWizard();
 
   const hashUrl = typeof window !== `undefined` ? window.location.hash : ''
-  const step =  hashUrl.split('#')[1]
+  const step = _.last(hashUrl.split('#'))
 
   useEffect(() => {
     if (step) {
@@ -26,8 +26,6 @@ const Step01 = props => {
     props.objects,
     obj => obj.node.progressbar === 1
   )[0].node
-
-
 
   // const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step01ID)
 
