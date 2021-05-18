@@ -8,47 +8,59 @@
     {
       "id": 1,
       "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
-      "text": "Eierschale",
+      "text": "Holz",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
       "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
-      "text": "Reis",
+      "text": "Gras",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
       "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
-      "text": "Bambus",
+      "text": "Bagasse",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
       "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
-      "text": "Mais",
+      "text": "Algen",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
       "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
-      "text": "Sulapac",
+      "text": "Glas",
       "iconClass": "material-icons"
     },
     {
       "id": 6,
       "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
-      "text": "Holzfasern",
+      "text": "Pflanzenstärke",
       "iconClass": "material-icons"
     },
     {
       "id": 7,
       "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
-      "text": "Algen",
+      "text": "Pilzfasern",
       "iconClass": "material-icons"
     },
     {
       "id": 8,
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
+      "text": "Hanf",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 9,
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
+      "text": "rPET",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 10,
       "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"

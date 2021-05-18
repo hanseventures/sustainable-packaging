@@ -1,6 +1,6 @@
 {
-  "title": "Welche Ziele verfolgen Sie?",
-  "gaName": "ziele",
+  "title": "Verpackungsgröße wählen",
+  "gaName": "groesse",
   "progressbar": 6,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
@@ -8,25 +8,31 @@
     {
       "id": 1,
       "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
-      "text": "Kosteneinsparung",
+      "text": "S (bis 500g)",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
       "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
-      "text": "Effizienzsteigerung",
+      "text": "M (bis 2KG)",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
       "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
-      "text": "Co2 Fußabdruck",
+      "text": "L (bis 5kg)",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
       "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
-      "text": "Sonstiges",
+      "text": "XL (bis 10kg)",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 5,
+      "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
+      "text": "XXL (ab 10kg)",
       "iconClass": "material-icons"
     }
   ]

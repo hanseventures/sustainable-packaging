@@ -1,5 +1,5 @@
 {
-  "title": "Gesetzliche Anforderungen?",
+  "title": "Gesetzliche Anforderungen wählen",
   "gaName": "anforderungen",
   "progressbar": 4,
   "btnPrevious": "Zurück",
@@ -14,19 +14,19 @@
     {
       "id": 2,
       "imagePath": "/svg/streamline-icon-medical-specialty-skin@46x46.svg",
-      "text": "Hygienestandards",
+      "text": "Hygiene-standards",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
       "imagePath": "/svg/streamline-icon-medical-specialty-skin@46x46.svg",
-      "text": "Noch nicht definiert",
+      "text": "Sonstiges",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
       "imagePath": "/svg/streamline-icon-medical-specialty-skin@46x46.svg",
-      "text": "Keine",
+      "text": "Nicht zutreffed",
       "iconClass": "material-icons"
     }
   ]

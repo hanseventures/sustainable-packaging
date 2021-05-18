@@ -1,5 +1,5 @@
 {
-  "title": "Spezielle Eigenschaften",
+  "title": "Eigenschaften wählen",
   "gaName": "eigenschaften",
   "progressbar": 9,
   "btnPrevious": "Zurück",
@@ -8,7 +8,7 @@
     {
       "id": 1,
       "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
-      "text": "Wasserfest",
+      "text": "Frischebox",
       "iconClass": "material-icons"
     },
     {
@@ -26,17 +26,23 @@
     {
       "id": 4,
       "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
-      "text": "Wasserdicht",
+      "text": "Nassfest",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
       "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
-      "text": "Keine",
-      "iconClass": "material-icons"
+      "text": "Fettbarriere",
+      "iconClass": "packaging-icons"
     },
     {
       "id": 6,
+      "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
+      "text": "Reiß- und Durchstoßfest",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 7,
       "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"

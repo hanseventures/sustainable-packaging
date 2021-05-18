@@ -1,6 +1,6 @@
 {
-  "title": "Wie ist der logistische Lebensweg?",
-  "gaName": "lebensweg",
+  "title": "Verpackungszubehör",
+  "gaName": "zubehoer",
   "progressbar": 5,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
@@ -8,29 +8,23 @@
     {
       "id": 1,
       "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
-      "text": "Zentrallager",
+      "text": "Tragegriff",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
       "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
-      "text": "Zwischenlager",
+      "text": "Blickfenster",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
       "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
-      "text": "Kommissionierung",
+      "text": "Verpackungs-einsatz",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
-      "text": "Endkunde",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 5,
       "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"

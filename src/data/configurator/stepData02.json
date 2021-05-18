@@ -8,53 +8,47 @@
     {
       "id": 1,
       "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
-      "text": "Transporttrays",
+      "text": "Transport-verpackungen",
       "iconClass": "packaging-icons"
     },
     {
       "id": 2,
       "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
-      "text": "Kartonagen mit Inlays",
+      "text": "Schachteln",
       "iconClass": "packaging-icons"
     },
     {
       "id": 3,
       "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
-      "text": "Lebensmittel-verpackungen",
+      "text": "konische Schalen",
       "iconClass": "packaging-icons"
     },
     {
       "id": 4,
       "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
-      "text": "Beutel + Tüten",
+      "text": "Trays",
       "iconClass": "packaging-icons"
     },
     {
       "id": 5,
       "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
-      "text": "Kartonagen",
+      "text": "Flaschenträger",
       "iconClass": "packaging-icons"
     },
     {
       "id": 6,
       "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
-      "text": "Behälter + Becher",
+      "text": "Tüten",
       "iconClass": "packaging-icons"
     },
     {
       "id": 7,
       "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
-      "text": "Flaschen + Cups",
+      "text": "Cups",
       "iconClass": "packaging-icons"
     },
     {
       "id": 8,
-      "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
-      "text": "Take-Away Boxen",
-      "iconClass": "packaging-icons"
-    },
-    {
-      "id": 9,
       "imagePath": "/svg/streamline-icon-shipment-upload@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "packaging-icons"

@@ -1,6 +1,6 @@
 {
-  "title": "Welche Verpackungsfunktion ist besonders wichtig?",
-  "gaName": "verpackungsfunktionen",
+  "title": "Grundfarbe & Druck wählen",
+  "gaName": "farbe-druck",
   "progressbar": 7,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
@@ -8,31 +8,31 @@
     {
       "id": 1,
       "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
-      "text": "Schutz",
+      "text": "Grundfarbe Natur",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
       "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
-      "text": "Marketing / Bedruckbarkeit",
+      "text": "Grundfarbe Weiß",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
       "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
-      "text": "Transport",
+      "text": "Grundfarbe Schwarz",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
       "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
-      "text": "Handling",
+      "text": "mit Logo bedruckt",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
       "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
-      "text": "Sonstiges",
+      "text": "individuell bedruckt",
       "iconClass": "material-icons"
     }
   ]

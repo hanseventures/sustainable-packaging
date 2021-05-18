@@ -49,13 +49,13 @@ const Configurator = props => {
         <Wizard>
           <Step01 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step02 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
-          <Step03 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
-          <Step04 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step05 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
-          <Step06 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
-          <Step07 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
-          <Step08 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step09 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step03 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step07 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step04 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step06 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
+          <Step08 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step10 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step11 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Details {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />

@@ -1,5 +1,5 @@
 {
-  "title": "Wiederkehrende Lieferung?",
+  "title": "Abo Optionen",
   "gaName": "abo",
   "progressbar": 11,
   "btnPrevious": "Zurück",
@@ -8,25 +8,31 @@
     {
       "id": 1,
       "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
-      "text": "Einmalige Lieferung",
+      "text": "Wöchentlich",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
       "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
-      "text": "Regelmäßige Lieferung",
+      "text": "Monatlich",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
       "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
-      "text": "Noch nicht definiert",
+      "text": "Vierteljährlich",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
       "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
-      "text": "Sonstiges",
+      "text": "Vielleicht später",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 5,
+      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
+      "text": "Kein Abo",
       "iconClass": "material-icons"
     }
   ]
