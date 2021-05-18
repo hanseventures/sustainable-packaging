@@ -4,18 +4,19 @@
 
 .l-page-configurator {
   ul.box {
-    grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
 
     li {
       transition: all 300ms ease-in-out;
       display: flex;
       align-items: center;
-      justify-content: center;
       flex-direction: column;
       overflow: hidden;
       background-color: $grey-lighter;
       border-radius: $border-radius-md;
+      flex: 0 0 14%;
 
       &:hover,
       &.active {
@@ -28,10 +29,6 @@
         width: 55px;
         height: 55px;
       }
-
-      span {
-        // word-break: break-all;
-      }
     }
   }
 }
@@ -42,6 +39,7 @@
   padding: 0 0.5em;
   position: relative;
   box-sizing: border-box;
+  transition: all 0.25s linear;
 
   .active {
     background: $primary;
@@ -83,21 +81,5 @@
     width: 20px;
     height: 20px;
     margin: 0 0.5rem 0 0;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  .l-page-configurator {
-    ul.box {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  .l-page-configurator {
-    ul.box {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
   }
 }

@@ -39,7 +39,7 @@ const Details = (props) => {
       { !loading ?
         (<>
           <h1 className="h-2 text-xs-center">{configuratorJson.title}</h1>
-          <ul className='list-none d-grid box trimmed-4 text-xs-center my-5'>
+          <ul className='list-none d-flex box trimmed-4 text-xs-center my-5'>
             {_.flatMapDeep(selected).map((node, i) => (
               <li
                 key={i}
