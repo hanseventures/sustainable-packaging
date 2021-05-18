@@ -35,7 +35,7 @@ $lettering-black:     #191919;
 $success:             #6FCF97;
 $danger:              #D22940;
 $attention:           #F2C94C;
-$info:                #56CCF2;
+$info:                $secondary; // default: #56CCF2
 
 // Social Networks
 // -------------------------

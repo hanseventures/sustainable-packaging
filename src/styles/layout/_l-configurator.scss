@@ -3,7 +3,7 @@
 // ==========================================================================
 
 .l-page-configurator {
-  ul.box {
+  .wizard-box {
     grid-gap: 1em;
     justify-content: center;
     flex-wrap: wrap;
@@ -28,6 +28,15 @@
       img {
         width: 55px;
         height: 55px;
+      }
+    }
+  }
+
+  .wizard-summary {
+    li {
+      img {
+        width: 23px;
+        height: auto;
       }
     }
   }

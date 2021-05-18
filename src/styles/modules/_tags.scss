@@ -13,18 +13,17 @@
   text-align: center;
   text-transform: uppercase;
 
-  &.tag--approved {
+  &.tag--success {
     background-color: $success;
     color: rgba($white, 0.9);
   }
 
-  &.tag--sequencing-active,
-  &.tag--study-active {
+  &.tag--info {
     background-color: $info;
     color: rgba($black, 0.75);
   }
 
-  &.tag--study-invitation {
+  &.tag--attention {
     background-color: $attention;
     color: rgba($black, 0.75);
   }

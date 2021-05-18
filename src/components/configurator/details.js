@@ -39,17 +39,31 @@ const Details = (props) => {
       { !loading ?
         (<>
           <h1 className="h-2 text-xs-center">{configuratorJson.title}</h1>
-          <ul className='list-none d-flex box trimmed-4 text-xs-center my-5'>
-            {_.flatMapDeep(selected).map((node, i) => (
-              <li
-                key={i}
-                className='p-3 active'
-              >
-                <img src={node.imagePath} className='mb-2' />
-                <span>{node.text}</span>
-              </li>
-            ))}
-          </ul>
+          <div className='my-5 trimmed-3'>
+            <p className='text-xs-center m-5'>Vielen Dank, dass sie in unseren Service für nachhaltige Verpackungen interessiert sind. Hier ist die Zusammenfassung Ihrer Auswahl.</p>
+            <ul className='wizard-summary list-vertical'>
+              {_.flatMapDeep(selected).map((node, i) => (
+                <li
+                  key={i}
+                  className='d-flex flex-column align-item-center column-gap-2'
+                >
+                  <span className="font-weight-medium">Verpackungsart:</span>
+
+                  <ul className="list-none d-flex column-gap-1">
+                    <li className='d-flex align-item-center column-gap-2 tag tag--info mt-2'>
+                      <img src={node.imagePath} />
+                      {node.text}
+                    </li>
+                    <li className='d-flex align-item-center column-gap-2 tag tag--info mt-2'>
+                      <img src={node.imagePath} />
+                      {node.text}
+                    </li>
+                  </ul>
+
+                </li>
+              ))}
+            </ul>
+          </div>
 
           <div className='d-flex flex-column justify-content-center align-self-center p-1 m-1 mb-4 flex-row flex-lg-row'>
             <div

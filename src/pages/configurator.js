@@ -63,7 +63,7 @@ const Configurator = props => {
       </section>
 
       <section className='wizard-usp d-flex flex-column flex-md-row justify-content-center font-xs'>
-        <div className=''>
+        <div>
           <svg
             viewBox='0 0 20 20'
             height='20'
@@ -103,7 +103,7 @@ const Configurator = props => {
           </svg>
           <span>Einfach und unverbindlich ausfüllen</span>
         </div>
-        <div className=''>
+        <div>
           <svg
             viewBox='0 0 20 20'
             height='20'

@@ -3,12 +3,12 @@
 // ==========================================================================
 
 .badge {
-    border-radius: 100%;
-    display: block;
-    height: 22px;
-    line-height: 22px;
-    text-align: center;
-    width: 22px;
+  border-radius: 100%;
+  display: block;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  width: 22px;
 
   &.badge-alert {
     background: $danger;
