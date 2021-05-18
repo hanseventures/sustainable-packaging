@@ -1,7 +1,7 @@
 {
   "title": "Gesetzliche Anforderungen wählen",
   "gaName": "anforderungen",
-  "progressbar": 4,
+  "progressbar": 7,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
@@ -26,7 +26,7 @@
     {
       "id": 4,
       "imagePath": "/svg/streamline-icon-medical-specialty-skin@46x46.svg",
-      "text": "Nicht zutreffed",
+      "text": "Nicht zutreffend",
       "iconClass": "material-icons"
     }
   ]

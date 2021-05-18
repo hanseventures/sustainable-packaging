@@ -1,7 +1,7 @@
 {
   "title": "Verpackungsgröße wählen",
   "gaName": "groesse",
-  "progressbar": 6,
+  "progressbar": 8,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
