@@ -37,9 +37,6 @@ const Configurator = props => {
     setSelectedObject(_.flattenDeep(selectedObject))
   }
 
-  const hashUrl = typeof window !== `undefined` ? window.location.hash : ''
-  const step = _.last(hashUrl.split('#')) || 0
-
   return (
     <Layout bodyClass='l-page-configurator'>
       <SEO title={title} />
@@ -49,7 +46,7 @@ const Configurator = props => {
       </Helmet>
 
       <section className='content content--roomy'>
-        <Wizard startIndex={Number(step)}>
+        <Wizard>
           <Step01 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step02 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step03 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />

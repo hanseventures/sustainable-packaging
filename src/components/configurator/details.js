@@ -1,6 +1,6 @@
 import { navigate } from 'gatsby'
 import _ from 'lodash'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { useWizard } from 'react-use-wizard'
 
 import Spinner from './spinner'
@@ -13,14 +13,6 @@ const Details = (props) => {
 
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    if (loading) {
-      setTimeout(() => {
-        setLoading(false);
-      }, 30000);
-    }
-  }, [loading]);
-
   const {
     nextStep,
     previousStep,
@@ -32,10 +24,8 @@ const Details = (props) => {
   const RedirectHandeler = () => {
     setLoading(!loading);
     setTimeout(() => {
-      setLoading(!loading);
       navigate('/contact')
-    }, 30000
-    );
+    }, 30000);
   };
 
   let selected = []
