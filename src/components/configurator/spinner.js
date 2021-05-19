@@ -1,18 +1,18 @@
 import { css } from '@emotion/react'
 import React from 'react'
-import { ClimbingBoxLoader } from 'react-spinners'
+import { BeatLoader } from 'react-spinners'
 
 // Can be a string as well. Need to ensure each key-value pair ends with ;
 const override = css`
   display: block;
-  margin: 0 auto;
-  border-color: red;
+  text-align: center;
 `;
 
 function Spinner() {
   return (
-    <div className="sweet-loading">
-      <ClimbingBoxLoader color="#95B743" css={override} size={50} />
+    <div className="sweet-loading text-xs-center my-5">
+      <span className="d-block mb-4">Unsere Datenbank wird durchsucht...</span>
+      <BeatLoader color="#95B743" css={override} size={16} margin={4} />
     </div>
   );
 }
