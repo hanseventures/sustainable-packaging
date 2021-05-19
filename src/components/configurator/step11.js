@@ -9,7 +9,10 @@ import Spinner from './spinner'
 
 const Step11 = (props) => {
 
-  const configuratorJson = _.filter(props.objects, (obj) => obj.node.progressbar === 11)[0].node
+  const configuratorJson = _.filter(
+    props.objects,
+    obj => obj.node.parent.name === "stepData11"
+  )[0].node
 
   const {
     nextStep,
@@ -31,7 +34,7 @@ const Step11 = (props) => {
       <h1 className="h-2 text-xs-center">{configuratorJson.title}</h1>
 
       <div className="progress-bar trimmed-2 mt-4">
-        <div className={`active step-${ configuratorJson.progressbar }`}></div>
+        <div className={`active step-${configuratorJson.progressbar}`}></div>
         <div className="non-active"></div>
       </div>
 

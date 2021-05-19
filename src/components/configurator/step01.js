@@ -24,7 +24,7 @@ const Step01 = props => {
 
   const configuratorJson = _.filter(
     props.objects,
-    obj => obj.node.progressbar === 1
+    obj => obj.node.parent.name === "stepData01"
   )[0].node
 
   // const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step01ID)
@@ -63,11 +63,10 @@ const Step01 = props => {
 
         <div
           id={`${configuratorJson.gaName}-${configuratorJson.btnNext.toLowerCase()}`}
-          className={`btn btn-${
-            hasSelected(props.selectedObjects, configuratorJson.id)
+          className={`btn btn-${hasSelected(props.selectedObjects, configuratorJson.id)
               ? 'primary'
               : 'secondary'
-          } ml-1 ml-md-3`}
+            } ml-1 ml-md-3`}
           onClick={() => nextStep()}
         >
           {configuratorJson.btnNext}

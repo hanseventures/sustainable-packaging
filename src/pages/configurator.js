@@ -162,6 +162,11 @@ export const query = graphql`
           }
           btnNext
           btnPrevious
+          parent {
+            ... on File {
+              name
+            }
+          }
         }
       }
     }

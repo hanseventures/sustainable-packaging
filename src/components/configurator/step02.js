@@ -9,7 +9,7 @@ import MultiSelect from './MultiSelect'
 const Step02 = props => {
   const configuratorJson = _.filter(
     props.objects,
-    obj => obj.node.progressbar === 2
+    obj => obj.node.parent.name === "stepData02"
   )[0].node
 
   const { nextStep, previousStep } = useWizard()
