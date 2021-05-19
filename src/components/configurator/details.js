@@ -31,8 +31,10 @@ const Details = (props) => {
   let selected = []
 
   props.selectedObjects.map(node => {
-    selected.push(Object.values(node))
+    selected.push(_.flatMap(_.entries(node)))
   })
+
+  const title = (selectedID) => _.last(_.filter(props.objects, { node: { id: selectedID } })).node.title
 
   return (
     <>
@@ -42,24 +44,23 @@ const Details = (props) => {
           <div className='my-5 trimmed-3'>
             <p className='text-xs-center m-5'>Vielen Dank, dass sie in unseren Service für nachhaltige Verpackungen interessiert sind. Hier ist die Zusammenfassung Ihrer Auswahl.</p>
             <ul className='wizard-summary list-vertical'>
-              {_.flatMapDeep(selected).map((node, i) => (
+              {selected.map((nodes, i) => (
                 <li
                   key={i}
                   className='d-flex flex-column align-item-center column-gap-2'
                 >
-                  <span className="font-weight-medium">Verpackungsart:</span>
-
+                  <span className="font-weight-medium">{title(_.first(nodes))}:</span>
                   <ul className="list-none d-flex column-gap-1">
-                    <li className='d-flex align-item-center column-gap-2 tag tag--info mt-2'>
-                      <img src={node.imagePath} />
-                      {node.text}
-                    </li>
-                    <li className='d-flex align-item-center column-gap-2 tag tag--info mt-2'>
-                      <img src={node.imagePath} />
-                      {node.text}
-                    </li>
+                    {_.last(nodes).map((node, idx) => (
+                      <li
+                        key={idx}
+                        className='d-flex align-item-center column-gap-2 tag tag--info mt-2'
+                      >
+                        <img src={node.imagePath} />
+                        {node.text}
+                      </li>
+                    ))}
                   </ul>
-
                 </li>
               ))}
             </ul>
