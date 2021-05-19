@@ -22,7 +22,7 @@ const HeroStaticCentered = props => {
                   onClick={()=> navigate('/configurator')}
                   title="title"
                 >
-                  Konfigurator starten
+                  Traumverpackung finden
                 </a>
                 <a
                   href="#"

@@ -1,20 +1,23 @@
 [{
   "headline": "Nachhaltige Materialien",
-  "text": "<p>Viele nachwachsende Rohstoffe stehen der ursprünglichen Plastikverpackung kaum oder gar nicht mehr nach und die Auswahl an nachhaltigen Materialien ist heutzutage sehr vielfältig und wächst stetig weiter.</p><p>Zu den häufigsten alternativen Materialien gehören: Bambus, Holzfaser, Reis und Mais.</p><p>Wir stellen Nachhaltigkeit durch XYZ sicher.</p>",
-  "image":"images/2/nachhaltige-materialien.jpg",
+  "text": "<p>Viele nachwachsende Rohstoffe stehen der ursprünglichen Plastikverpackung kaum oder gar nicht mehr nach und die Auswahl an nachhaltigen Materialien ist heutzutage sehr vielfältig und wächst stetig weiter.</p><p>Unsere Produkte sind natürlich frei von Weichmachern und vollständig recycle- oder sogar kompostierbar. Ein Entsprechender Hinweis auf unseren Produkten hilft zudem den Endverbraucher bei der Entsorgung.</p><p>In unserem <strong>Verpackungs-Finder</strong> haben Sie die Möglichkeit Ihre Verpackung zusammen zustellen und ein unverbindliches Angebot anzufordern.</p>",
+  "button": "Verpackung finden",
+  "image": "images/2/nachhaltige-materialien.jpg",
   "image_position": "text-image--right",
-  "alt":""
+  "alt": ""
 },
 {
   "headline": "So funktionierts",
   "text": "<p>Wir sind ein Vermittler zwischen Business-Kunden und Produzenten von nachhaltigen Verpackungen.</p><p>Als neutraler Experte auf diesem Gebiet verhelfen wir Ihnen, in diesem wenig transparenten Markt, zur perfekten nachhaltigen Verpackung.</p><p>Mit Hilfe unseres Konfigurators können wir einfach und schnell auf Ihre Wünsche eingehen.</p>",
-  "image":"images/2/der-bestellprozess.jpg",
+  "button": "Jetzt loslegen",
+  "image": "images/2/der-bestellprozess.jpg",
   "image_position": "text-image--left",
-  "alt":""
+  "alt": ""
 },{
   "headline": "Was ist möglich?",
   "text": "<p>Fast alle Verpackungen können heutzutage nachhaltig hergestellt werden, von der Take-Away-Verpackung, über Becher bis zum Versandkarton im Spezialformat können wir alles für sie realisieren und das bereits ab kleinen Stückzahlen.</p><p>Teilen Sie uns über unseren Konfigurator ihre Wunschverpackung mit, damit wir Ihnen ein unverbindliches Angebot erstellen können.</p>",
-  "image":"images/2/nachhaltige-materialien.jpg",
+  "button": "Nachhaltig durchstarten",
+  "image": "images/2/nachhaltige-materialien.jpg",
   "image_position": "text-image--right",
-  "alt":""
+  "alt": ""
 }]

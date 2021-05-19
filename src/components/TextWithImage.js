@@ -12,6 +12,7 @@ const TextWithImage = props => {
         image_position
         text
         headline
+        button
         alt
       }
     }
@@ -35,9 +36,8 @@ const TextWithImage = props => {
                 href="#"
                 className="btn btn-primary mt-3"
                 onClick={()=> navigate('/configurator')}
-                title="title"
               >
-                Konfigurator starten
+                {node.button}
               </a>
             </div>
             <div className="group-images">
