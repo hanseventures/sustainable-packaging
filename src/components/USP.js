@@ -8,10 +8,10 @@ const USP = props => {
 
         <div className='trimmed-2 text-xs-center'>
           <h3 className='mt-0'>
-            <span className='highlight mb-2 d-none'>pryntad.com</span>
-            Vorteile von nachhaltiger Verpackung
+            <span className='highlight mb-2 d-none'>So wird heute verpackt!</span>
+            Vorteile von nachhaltigen Verpackungen
           </h3>
-          <span className='mb-2 d-none'>Unsere Kunden mit dem Anspruch nach nachhaltigen Verpackungen kommen aus ganz unterschiedlichen Branchen.</span>
+          <span className='mb-2'>Je nach Rohstoff haben nachhaltigen Verpackungen diverse Vorteile, um effektiv Umwelt und Ressourcen zu schonen.</span>
         </div>
 
         <div className='d-grid row-gap-3 column-gap-3 mt-5'>

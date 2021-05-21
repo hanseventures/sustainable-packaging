@@ -12,24 +12,22 @@ const HeroStaticCentered = props => {
           <div className="content">
 
             <div className="intro text-xs-center">
-              <h1 className="mb-2 mt-0" title="">Die passende nachhaltige Verpackung für Sie!</h1>
-              <p className="font-lg font-weight-extralight mb-4" title="">Umweltfreundliche Verpackungslösungen ohne Plastik.</p>
+              <h1 className="mb-2 mt-0" title="">Nachhaltige Verpackungen nach Ihren Wünschen!</h1>
+              <p className="font-lg font-weight-extralight mb-4" title="">Wir bieten recycle- und kompostierbare Verpackungslösungen, individuell abgestimmt nach Kundenwunsch.</p>
 
               <div className="d-flex flex-column flex-md-row column-gap-2 row-gap-2 justify-content-center">
                 <a
-                  href="#"
+                  href='#'
                   className='btn btn-primary'
                   onClick={()=> navigate('/configurator')}
-                  title="title"
                 >
                   Traumverpackung finden
                 </a>
                 <a
-                  href="#"
-                  className="btn btn-secondary d-none"
-                  title="title"
+                  href='tel:+4940303886612'
+                  className='btn btn-secondary'
                 >
-                  Secondary Button
+                  Rufen Sie uns an
                 </a>
               </div>
 
