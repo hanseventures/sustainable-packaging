@@ -119,10 +119,10 @@ a {
   }
 
   &.btn-secondary {
-    background-color: $secondary;
-    border-color: $secondary;
+    background-color: $white;
+    border-color: $white;
     //box-shadow: $global-box-shadow-y;
-    color: $grey-medium;
+    color: $primary;
 
     &:hover {
       background-color: $secondary-lighter;
