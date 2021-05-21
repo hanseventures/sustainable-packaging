@@ -13,6 +13,7 @@ const TextWithImage = props => {
         text
         headline
         button
+        content_spacing
         alt
       }
     }
@@ -27,7 +28,7 @@ const TextWithImage = props => {
           className={`l-text-with-image container bg-wht ${node.image_position}`}
           key={node.id}
         >
-          <div className="content content--centered content--roomy trimmed-4 d-grid align-item-center column-gap-4 row-gap-3">
+          <div className={`content content--centered ${node.content_spacing} trimmed-4 d-grid align-item-center column-gap-4 row-gap-3`}>
 
             <div className="group-description">
               <h3>{node.headline}</h3>

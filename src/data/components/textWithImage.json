@@ -1,23 +1,26 @@
 [{
   "headline": "Nachhaltige Materialien",
-  "text": "<p>Viele nachwachsende Rohstoffe stehen der ursprünglichen Plastikverpackung kaum oder gar nicht mehr nach und die Auswahl an nachhaltigen Materialien ist heutzutage sehr vielfältig und wächst stetig weiter.</p><p>Unsere Produkte sind natürlich frei von Weichmachern und vollständig recycle- oder sogar kompostierbar. Ein Entsprechender Hinweis auf unseren Produkten hilft zudem den Endverbraucher bei der Entsorgung.</p><p>In unserem <strong>Verpackungs-Finder</strong> haben Sie die Möglichkeit Ihre Verpackung zusammen zustellen und ein unverbindliches Angebot anzufordern.</p>",
+  "text": "<p>Viele nachwachsende Rohstoffe stehen der ursprünglichen Plastikverpackung kaum oder gar nicht mehr nach und die Auswahl an nachhaltigen Materialien ist heutzutage sehr vielfältig und wächst stetig weiter.</p><p>Unsere Produkte sind natürlich frei von Weichmachern und vollständig recycle- oder sogar kompostierbar. Ein Entsprechender Hinweis auf unseren Produkten hilft zudem den Endverbraucher bei der Entsorgung.</p>",
   "button": "Verpackung finden",
   "image": "images/2/nachhaltige-materialien.jpg",
   "image_position": "text-image--right",
+  "content_spacing": "content--roomy",
   "alt": ""
 },
 {
   "headline": "Was ist möglich?",
-  "text": "<p>Fast alle Verpackungen können heutzutage nachhaltig hergestellt werden, von der Take-Away-Verpackung, über Becher bis zum Versandkarton im Spezialformat können wir alles für sie realisieren und das bereits ab kleinen Stückzahlen.</p><p>Teilen Sie uns über unseren Konfigurator ihre Wunschverpackung mit, damit wir Ihnen ein unverbindliches Angebot erstellen können.</p>",
+  "text": "<p>So gut wie alle Verpackungen können heutzutage bereits nachhaltig hergestellt werden.</p><p>Ob Produkt-Verpackung, Cups, Versandkartons, Frischeboxen und vieles mehr - wir realisieren Ihren Wunsch und das bereits ab geringen Stückzahlen.</p>",
   "button": "Jetzt loslegen",
-  "image": "images/2/der-bestellprozess.jpg",
+  "image": "images/2/unsere-produkt-vielfalt.jpg",
   "image_position": "text-image--left",
+  "content_spacing": "content--low",
   "alt": ""
 },{
   "headline": "So funktionierts",
-  "text": "<p>Wir sind ein Vermittler zwischen Business-Kunden und Produzenten von nachhaltigen Verpackungen.</p><p>Als neutraler Experte auf diesem Gebiet verhelfen wir Ihnen, in diesem wenig transparenten Markt, zur perfekten nachhaltigen Verpackung.</p><p>In unserem <i>Verpackungs-Finder</i> haben Sie die Möglichkeit Ihre Verpackung zusammen zustellen und ein unverbindliches Angebot anzufordern.</p>",
+  "text": "<p>Als Experte auf diesem Gebiet kümmern wir uns um Ihre Fragen, Wünsche und Vorstellungen und beraten Sie gerne.</p><p>Nutzen Sie unseren <i>Verpackungs-Finder</i> um Ihre Vorstellungen zu definieren und ein unverbindliches Angebot anzufordern.</p>",
   "button": "Nachhaltig durchstarten",
-  "image": "images/2/nachhaltige-materialien.jpg",
+  "image": "images/2/istockphoto-940237132-612x612.jpg",
   "image_position": "text-image--right",
+  "content_spacing": "content--roomy",
   "alt": ""
 }]
