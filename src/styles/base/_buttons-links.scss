@@ -46,7 +46,7 @@ a {
   }
 
   &.btn-primary,
-  &.btn-primary-inverted,
+  &.btn-hero,
   &.btn-secondary,
   &.btn-outline,
   &.btn-accept,
@@ -102,23 +102,20 @@ a {
     }
   }
 
-  &.btn-max {
-    // background-color: $background-2;
-    // border-color: transparent;
-    // color: $black;
-    // font-size: 1.1em;
-    // padding-left: 20px;
-    // padding-right: 20px;
-    // text-align: left;
-    // width: 100%;
+  &.btn-secondary {
+    background-color: $secondary;
+    border-color: $secondary;
+    //box-shadow: $global-box-shadow-y;
+    color: $grey-medium;
 
     &:hover {
-      // background-color: darken($background-2, 8%);
-      // text-decoration: none;
+      background-color: $secondary-lighter;
+      border-color: $secondary-darker;
+      color: $primary-darker;
     }
   }
 
-  &.btn-secondary {
+  &.btn-hero {
     background-color: $white;
     border-color: $white;
     //box-shadow: $global-box-shadow-y;

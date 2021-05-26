@@ -25,7 +25,7 @@ const HeroStaticCentered = props => {
                 </a>
                 <a
                   href='tel:+4940303886612'
-                  className='btn btn-secondary'
+                  className='btn btn-hero'
                 >
                   Rufen Sie uns an
                 </a>
