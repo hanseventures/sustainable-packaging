@@ -25,7 +25,7 @@ const Details = (props) => {
     setLoading(!loading);
     setTimeout(() => {
       navigate('/contact')
-    }, 30000);
+    }, 5000);
   };
 
   let selected = []
