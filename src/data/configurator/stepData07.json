@@ -7,31 +7,31 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
+      "imagePath": "/svg/step07/streamline-icon-color-drop-off@46x46.svg",
       "text": "Grundfarbe Natur",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
+      "imagePath": "/svg/step07/streamline-icon-color-drop-pick@46x46.svg",
       "text": "Grundfarbe Weiß",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
+      "imagePath": "/svg/step07/Subtract.svg",
       "text": "Grundfarbe Schwarz",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
+      "imagePath": "/svg/step07/streamline-icon-color-brush-paint@46x46.svg",
       "text": "mit Logo bedruckt",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "/svg/streamline-icon-material-isolation@46x46.svg",
+      "imagePath": "/svg/step07/streamline-icon-color-palette-sample@46x46.svg",
       "text": "individuell bedruckt",
       "iconClass": "material-icons"
     }

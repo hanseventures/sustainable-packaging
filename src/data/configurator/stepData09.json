@@ -7,49 +7,49 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
+      "imagePath": "/svg/step09/streamline-icon-archive@46x46.svg",
       "text": "Frischebox",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
+      "imagePath": "/svg/step09/streamline-icon-sauna-heat-stone@46x46.svg",
       "text": "Hitzebeständig",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
+      "imagePath": "/svg/step09/streamline-icon-material-isolation@46x46.svg",
       "text": "Isolierend",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
+      "imagePath": "/svg/step09/streamline-icon-blood-drop@46x46.svg",
       "text": "Nassfest",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
+      "imagePath": "/svg/step09/streamline-icon-layers-stacked@46x46.svg",
       "text": "Fettbarriere",
       "iconClass": "packaging-icons"
     },
     {
       "id": 6,
-      "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
+      "imagePath": "/svg/step09/streamline-icon-business-contract-break@46x46.svg",
       "text": "Reiß- und Durchstoßfest",
       "iconClass": "material-icons"
     },
     {
       "id": 7,
-      "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
+      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     },
     {
       "id": 8,
-      "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
+      "imagePath": "/svg/streamline-icon-delete@46x46.svg",
       "text": "Nicht zutreffend",
       "iconClass": "material-icons"
     }

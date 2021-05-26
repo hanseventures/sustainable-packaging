@@ -7,61 +7,61 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/step03/streamline-icon-tree-log@46x46.svg",
       "text": "Holz",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/step03/streamline-icon-bread-wheat@46x46.svg",
       "text": "Gras",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/step03/streamline-icon-plant-bamboo@46x46.svg",
       "text": "Bagasse",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/step03/streamline-icon-farming-grow-crops@46x46.svg",
       "text": "Algen",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/step03/streamline-icon-water-glass@46x46.svg",
       "text": "Glas",
       "iconClass": "material-icons"
     },
     {
       "id": 6,
-      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/step03/streamline-icon-organic-plant-root@46x46.svg",
       "text": "Pflanzenstärke",
       "iconClass": "material-icons"
     },
     {
       "id": 7,
-      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/step03/streamline-icon-3-d-print-reel@46x46.svg",
       "text": "Pilzfasern",
       "iconClass": "material-icons"
     },
     {
       "id": 8,
-      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/step03/streamline-icon-clothes-design-thread@46x46.svg",
       "text": "Hanf",
       "iconClass": "material-icons"
     },
     {
       "id": 9,
-      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/step03/streamline-icon-recycling-bottle@46x46.svg",
       "text": "rPET",
       "iconClass": "material-icons"
     },
     {
       "id": 10,
-      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
+      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     }

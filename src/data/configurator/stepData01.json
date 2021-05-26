@@ -7,61 +7,61 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/step01/streamline-icon-vegetables-plate@46x46.svg",
       "text": "Lebensmittel",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/step01/streamline-icon-flower@46x46.svg",
       "text": "Blumen",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/step01/streamline-icon-vegetables-carrot@46x46.svg",
       "text": "Frischwaren",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/step01/streamline-icon-toys-lego@46x46.svg",
       "text": "Spielzeug",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/step01/streamline-icon-t-shirt@46x46.svg",
       "text": "Mode",
       "iconClass": "material-icons"
     },
     {
       "id": 6,
-      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/step01/streamline-icon-screen-1@46x46.svg",
       "text": "Technik",
       "iconClass": "material-icons"
     },
     {
       "id": 7,
-      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/step01/streamline-icon-make-up-mascara@46x46.svg",
       "text": "Drogerie",
       "iconClass": "material-icons"
     },
     {
       "id": 8,
-      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/step01/streamline-icon-water-dam@46x46.svg",
       "text": "Industrie",
       "iconClass": "material-icons"
     },
     {
       "id": 9,
-      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/step01/streamline-icon-restaurant-menu@46x46.svg",
       "text": "Gastronomie",
       "iconClass": "material-icons"
     },
     {
       "id": 10,
-      "imagePath": "/svg/streamline-icon-space-rocket-flying@46x46.svg",
+      "imagePath": "/svg/step01/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     }
