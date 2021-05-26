@@ -11,19 +11,19 @@ const Layout = props => (
   <>
     <SEO />
     <Header />
-    <div className={`page${props.bodyClass ? ` ${props.bodyClass}` : ""}`}>
-      <div id="Wrapper" className="wrapper container">
+    <main className={`page${props.bodyClass ? ` ${props.bodyClass}` : ""}`}>
+      <div id="wrapper" className="wrapper container">
         {props.bodyClass === "onboarding" ? (
           props.children
         ) : (
           <>
 
             {props.children}
-            <Footer />
           </>
         )}
       </div>
-    </div>
+    </main>
+    <Footer />
   </>
 )
 
