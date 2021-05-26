@@ -22,7 +22,7 @@ const Footer = props => {
     }
   `)
   return (
-    <div className="l-footer container bg-primary font-black">
+    <footer className="l-footer container bg-primary font-black">
       <div className="content content--low">
         <div className="d-flex-lg column-gap-5 flex-space-between">
           <div>
@@ -50,7 +50,7 @@ const Footer = props => {
           <small>2021 Copyright - Juhobi HR Tech GmbH</small>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
 
