@@ -1,5 +1,7 @@
 import _ from 'lodash'
 import React from 'react'
+import loadIcon from './loadIcons'
+import splitOnLast from './splitOnLast'
 
 const MultiSelect = props => {
   const selectedObject = _.find(props.selectedObjects, props.id)
@@ -36,11 +38,11 @@ const MultiSelect = props => {
             selectedObject === undefined
               ? 'p-3'
               : findSelectedObjectById(node.id)
-              ? 'p-3 active'
-              : 'p-3'
+                ? 'p-3 active'
+                : 'p-3'
           }
         >
-          <img src={node.imagePath} className='mb-2' />
+          <img src={loadIcon[splitOnLast(node.imagePath, '-').shift()].default} className='mb-2' />
           <span>{node.text}</span>
         </li>
       ))}
