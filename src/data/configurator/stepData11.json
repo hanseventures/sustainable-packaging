@@ -9,31 +9,36 @@
       "id": 1,
       "imagePath": "streamline-regular/accounting-bills-1-itsR8K",
       "text": "Wöchentlich",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     },
     {
       "id": 2,
       "imagePath": "streamline-bold/accounting-calculator-1-49rbSr",
       "text": "Monatlich",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     },
     {
       "id": 3,
       "imagePath": "streamline-regular/accounting-bills-itsqV5",
       "text": "Vierteljährlich",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     },
     {
       "id": 4,
       "imagePath": "streamline-bold/accounting-calculator-49rlHF",
       "text": "Vielleicht später",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     },
     {
       "id": 5,
       "imagePath": "streamline-regular/accounting-calculator-1-sjstoT",
       "text": "Kein Abo",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     }
   ]
 }
