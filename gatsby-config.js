@@ -11,6 +11,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: process.env.SITEURL || "https://suburbancoworking.gatsbyjs.io",
   },
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-transformer-json",
