@@ -7,25 +7,25 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
+      "imagePath": "streamline-regular/accessories-earrings-oriental-y7q3ua",
       "text": "Tragegriff",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
+      "imagePath": "streamline-bold/3-d-print-triangle-itsyxN",
       "text": "Blickfenster",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
+      "imagePath": "streamline-regular/accessories-earrings-y7qSBo",
       "text": "Verpackungs-einsatz",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
+      "imagePath": "streamline-bold/3-d-print-warning-Ei8x70",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     }

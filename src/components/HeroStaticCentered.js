@@ -1,5 +1,5 @@
-import { graphql, Link, navigate, StaticQuery } from 'gatsby';
-import React from "react"
+import { graphql, Link, navigate, StaticQuery } from 'gatsby'
+import React from 'react'
 
 const HeroStaticCentered = props => {
   return (
@@ -16,13 +16,12 @@ const HeroStaticCentered = props => {
               <p className="font-lg font-weight-extralight mb-4" title="">Wir bieten recycle- und kompostierbare Verpackungslösungen, individuell abgestimmt nach Kundenwunsch.</p>
 
               <div className="d-flex flex-column flex-md-row column-gap-2 row-gap-2 justify-content-center">
-                <a
-                  href='#'
+                <button
                   className='btn btn-primary'
                   onClick={()=> navigate('/configurator')}
                 >
                   Traumverpackung finden
-                </a>
+                </button>
                 <a
                   href='tel:+4940303886612'
                   className='btn btn-hero'

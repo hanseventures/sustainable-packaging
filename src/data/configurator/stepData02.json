@@ -7,49 +7,49 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/step02/streamline-icon-warehouse-cart-package-ribbon@46x46.svg",
+      "imagePath": "streamline-bold/3-d-box-corner-jUABpQ",
       "text": "Transport-verpackungen",
       "iconClass": "packaging-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/step02/streamline-icon-shipment-upload@46x46.svg",
+      "imagePath": "streamline-regular/3-d-print-warning-sjsoGE",
       "text": "Schachteln",
       "iconClass": "packaging-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/step02/streamline-icon-breakfast-cereal-bowl@46x46.svg",
+      "imagePath": "streamline-bold/3-d-box-expand-sjshNE",
       "text": "Schalen",
       "iconClass": "packaging-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/step02/streamline-icon-kitchenware-ice-tray@46x46.svg",
+      "imagePath": "streamline-regular/ab-testing-award-bmoPdR",
       "text": "Trays",
       "iconClass": "packaging-icons"
     },
     {
       "id": 5,
-      "imagePath": "/svg/step02/streamline-icon-water-bottle-1@46x46.svg",
+      "imagePath": "streamline-bold/3-d-drawing-2-sjsU3n",
       "text": "Flaschenträger",
       "iconClass": "packaging-icons"
     },
     {
       "id": 6,
-      "imagePath": "/svg/step02/streamline-icon-shopping-bag-side@46x46.svg",
+      "imagePath": "streamline-bold/3-d-drawing-3-sjsh1s",
       "text": "Tüten",
       "iconClass": "packaging-icons"
     },
     {
       "id": 7,
-      "imagePath": "/svg/step02/streamline-icon-water-glass-2@46x46.svg",
+      "imagePath": "streamline-regular/ab-testing-browsers-bmo2eP",
       "text": "Cups",
       "iconClass": "packaging-icons"
     },
     {
       "id": 8,
-      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
+      "imagePath": "streamline-bold/3-d-pen-box-sjsMTP",
       "text": "Sonstiges",
       "iconClass": "packaging-icons"
     }

@@ -7,49 +7,49 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/step09/streamline-icon-archive@46x46.svg",
+      "imagePath": "streamline-bold/accessories-necklace-pendant-ZOslYR",
       "text": "Frischebox",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/step09/streamline-icon-sauna-heat-stone@46x46.svg",
+      "imagePath": "streamline-regular/accessories-watch-fSZbRt",
       "text": "Hitzebeständig",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/step09/streamline-icon-material-isolation@46x46.svg",
+      "imagePath": "streamline-bold/accessories-ribbon-tie-ZOsRIr",
       "text": "Isolierend",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/step09/streamline-icon-blood-drop@46x46.svg",
+      "imagePath": "streamline-regular/accessories-winter-gloves-fSZ35e",
       "text": "Nassfest",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "/svg/step09/streamline-icon-layers-stacked@46x46.svg",
+      "imagePath": "streamline-bold/accessories-umbrella-1-qmI6mN",
       "text": "Fettbarriere",
       "iconClass": "packaging-icons"
     },
     {
       "id": 6,
-      "imagePath": "/svg/step09/streamline-icon-business-contract-break@46x46.svg",
+      "imagePath": "streamline-regular/accounting-abacus-sjsFjW",
       "text": "Reiß- und Durchstoßfest",
       "iconClass": "material-icons"
     },
     {
       "id": 7,
-      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
+      "imagePath": "streamline-bold/accessories-watch-qmId5n",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     },
     {
       "id": 8,
-      "imagePath": "/svg/streamline-icon-delete@46x46.svg",
+      "imagePath": "streamline-regular/accounting-bill-itsPvJ",
       "text": "Nicht zutreffend",
       "iconClass": "material-icons"
     }

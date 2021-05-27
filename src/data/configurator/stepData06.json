@@ -7,31 +7,31 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
+      "imagePath": "streamline-regular/accessories-hand-fan-y7q6G",
       "text": "S (bis 500g)",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
+      "imagePath": "streamline-bold/ab-testing-browsers-1-YBG0sn",
       "text": "M (bis 2KG)",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
+      "imagePath": "streamline-regular/accessories-necklace-1-fSZg0Y",
       "text": "L (bis 5kg)",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
+      "imagePath": "streamline-bold/ab-testing-chemistry-monitor-1-HO2MAN",
       "text": "XL (bis 10kg)",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "/svg/streamline-icon-accounting-coins-stack-1@46x46.svg",
+      "imagePath": "streamline-regular/accessories-necklace-pendant-fSZ7JP",
       "text": "XXL (ab 10kg)",
       "iconClass": "material-icons"
     }

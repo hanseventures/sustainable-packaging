@@ -7,61 +7,61 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/step03/streamline-icon-tree-log@46x46.svg",
+      "imagePath": "streamline-regular/ab-testing-chemistry-bmolNw",
       "text": "Holz",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/step03/streamline-icon-bread-wheat@46x46.svg",
+      "imagePath": "streamline-bold/3-d-pen-sjs35e",
       "text": "Gras",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/step03/streamline-icon-plant-bamboo@46x46.svg",
+      "imagePath": "streamline-regular/ab-testing-chemistry-monitor-bmoMRy",
       "text": "Bagasse",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/step03/streamline-icon-farming-grow-crops@46x46.svg",
+      "imagePath": "streamline-bold/3-d-print-candy-sjsoKt",
       "text": "Algen",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "/svg/step03/streamline-icon-water-glass@46x46.svg",
+      "imagePath": "streamline-regular/ab-testing-monitors-bmojwr",
       "text": "Glas",
       "iconClass": "material-icons"
     },
     {
       "id": 6,
-      "imagePath": "/svg/step03/streamline-icon-organic-plant-root@46x46.svg",
+      "imagePath": "streamline-bold/3-d-print-clock-itsmoc",
       "text": "Pflanzenstärke",
       "iconClass": "material-icons"
     },
     {
       "id": 7,
-      "imagePath": "/svg/step03/streamline-icon-3-d-print-reel@46x46.svg",
+      "imagePath": "streamline-regular/ab-testing-smartphones-bmoP44",
       "text": "Pilzfasern",
       "iconClass": "material-icons"
     },
     {
       "id": 8,
-      "imagePath": "/svg/step03/streamline-icon-clothes-design-thread@46x46.svg",
+      "imagePath": "streamline-bold/3-d-print-food-itseFQ",
       "text": "Hanf",
       "iconClass": "material-icons"
     },
     {
       "id": 9,
-      "imagePath": "/svg/step03/streamline-icon-recycling-bottle@46x46.svg",
+      "imagePath": "streamline-regular/ac-cool-QzI4w7",
       "text": "rPET",
       "iconClass": "material-icons"
     },
     {
       "id": 10,
-      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
+      "imagePath": "streamline-bold/3-d-print-monitor-itszfk",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     }

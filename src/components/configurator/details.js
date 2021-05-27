@@ -3,7 +3,9 @@ import _ from 'lodash'
 import React, { useState } from 'react'
 import { useWizard } from 'react-use-wizard'
 
+import loadIcon from './loadIcons'
 import Spinner from './spinner'
+import splitOnLast from './splitOnLast'
 
 const Details = (props) => {
   const configuratorJson = _.first(_.filter(
@@ -56,7 +58,7 @@ const Details = (props) => {
                         key={idx}
                         className='d-flex align-item-center column-gap-2 tag tag--info mt-2'
                       >
-                        <img src={node.imagePath} />
+                        <img src={loadIcon[splitOnLast(node.imagePath, '-').shift()].default} />
                         {node.text}
                       </li>
                     ))}

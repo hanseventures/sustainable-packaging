@@ -7,25 +7,25 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/step04/streamline-icon-temperature-snowflake@46x46.svg",
+      "imagePath": "streamline-regular/ac-heat-PvJ94o",
       "text": "Geschlossene Kühlkette",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/streamline-icon-cleaning-spray@46x46.svg",
+      "imagePath": "streamline-bold/3-d-print-settings-itsJPp",
       "text": "Hygiene-standards",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
+      "imagePath": "streamline-regular/accessories-cane-y7qEkd",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/streamline-icon-delete@46x46.svg",
+      "imagePath": "streamline-bold/3-d-print-triangle-1-Ei8WGy",
       "text": "Nicht zutreffend",
       "iconClass": "material-icons"
     }

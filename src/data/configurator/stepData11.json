@@ -7,31 +7,31 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
+      "imagePath": "streamline-regular/accounting-bills-1-itsR8K",
       "text": "Wöchentlich",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
+      "imagePath": "streamline-bold/accounting-calculator-1-49rbSr",
       "text": "Monatlich",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
+      "imagePath": "streamline-regular/accounting-bills-itsqV5",
       "text": "Vierteljährlich",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
+      "imagePath": "streamline-bold/accounting-calculator-49rlHF",
       "text": "Vielleicht später",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
+      "imagePath": "streamline-regular/accounting-calculator-1-sjstoT",
       "text": "Kein Abo",
       "iconClass": "material-icons"
     }
