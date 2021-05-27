@@ -15,7 +15,6 @@ module.exports = {
     PRESERVE_FILE_DOWNLOAD_CACHE: true,
     PRESERVE_WEBPACK_CACHE: true,
     FAST_DEV: true,
-    FAST_REFRESH: true,
     DEV_SSR: true,
     QUERY_ON_DEMAND: true,
     LAZY_IMAGES: true,
