@@ -1,4 +1,4 @@
-const config = require("./src/data/config/config.json")
+const config = require('./src/data/config/config.json')
 
 /**
  * Configure your Gatsby site with this file.
@@ -9,47 +9,57 @@ const config = require("./src/data/config/config.json")
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    siteUrl: process.env.SITEURL || "https://suburbancoworking.gatsbyjs.io",
+    siteUrl: process.env.SITEURL || 'https://suburbancoworking.gatsbyjs.io'
   },
-  flags: { PRESERVE_WEBPACK_CACHE: true },
+  flags: {
+    PRESERVE_FILE_DOWNLOAD_CACHE: true,
+    PRESERVE_WEBPACK_CACHE: true,
+    FAST_DEV: true,
+    FAST_REFRESH: true,
+    DEV_SSR: true,
+    QUERY_ON_DEMAND: true,
+    LAZY_IMAGES: true,
+    PARALLEL_SOURCING: true,
+    FUNCTIONS: true,
+  },
   plugins: [
-    "gatsby-plugin-sass",
-    "gatsby-transformer-json",
-    "gatsby-transformer-remark",
-    "gatsby-plugin-image",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sharp",
+    'gatsby-plugin-sass',
+    'gatsby-transformer-json',
+    'gatsby-transformer-remark',
+    'gatsby-plugin-image',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sharp',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/content`,
-        name: "content",
-      },
+        name: 'content'
+      }
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
-        name: "pages",
-      },
+        name: 'pages'
+      }
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/data`,
-        name: "data",
-      },
+        name: 'data'
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/static/images`,
-      },
+        path: `${__dirname}/static/images`
+      }
     },
     {
-      resolve: "gatsby-plugin-google-marketing-platform",
+      resolve: 'gatsby-plugin-google-marketing-platform',
 
       options: {
         dataLayer: {
@@ -65,19 +75,19 @@ module.exports = {
           }
         },
         analytics: {
-          id: '[Google Analytics ID]',
+          id: '[Google Analytics ID]'
         },
         optimize: {
-          id: '[Google Optimize ID]',
+          id: '[Google Optimize ID]'
         }
       }
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: ["roboto:300,400,500,700", "poly"],
-        display: "swap",
-      },
+        fonts: ['roboto:300,400,500,700', 'poly'],
+        display: 'swap'
+      }
     },
     {
       resolve: 'gatsby-plugin-react-svg',
@@ -87,5 +97,5 @@ module.exports = {
         }
       }
     }
-  ],
+  ]
 }
