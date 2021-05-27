@@ -17,6 +17,7 @@
     "@emotion/react": "11.4.0",
     "@streamlinehq/streamlinehq": "^2.1.0",
     "animate.css": "^4.1.1",
+    "colord": "2.0.0",
     "gatsby": "^3.5.0",
     "gatsby-plugin-google-fonts": "1.0.1",
     "gatsby-plugin-google-marketing-platform": "0.1.21",
