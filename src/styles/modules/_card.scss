@@ -20,4 +20,9 @@
     background-color: $attention;
     color: $lettering-black;
   }
+
+  &.card--simple {
+    background-color: $secondary;
+    color: $lettering-black;
+  }
 }
