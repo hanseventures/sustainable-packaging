@@ -44,7 +44,7 @@ const TextWithImage = props => {
             <div className="group-images">
               <img
                 src={node.image}
-                className="my-3"
+                className="my-3 img--radius-xl"
                 alt={node.alt}
               />
             </div>

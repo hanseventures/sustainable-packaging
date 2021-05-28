@@ -5,16 +5,16 @@
 img {
   max-width: 100%;
 
-  &.img--radius-sm {
-    // border-radius: 4px;
-  }
-
   &.img--radius-md {
-    // border-radius: 8px;
+    border-radius: $border-radius-md;
   }
 
   &.img--radius-lg {
-    border-radius: 12px;
+    border-radius: $border-radius-lg;
+  }
+
+  &.img--radius-xl {
+    border-radius: $border-radius-xl;
   }
 }
 
@@ -24,7 +24,7 @@ svg {
     // transition: 200ms ease-in-out;
 
     &:hover {
-      // transform: scale(1.2);
+      //transform: scale(1.2);
     }
   }
 }

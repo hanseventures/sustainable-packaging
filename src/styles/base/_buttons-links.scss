@@ -38,7 +38,7 @@ a {
   text-align: center;
   text-decoration: none;
   text-transform: none;
-  transition: 0.25s all linear;
+  transition: 0.125s all linear;
   width: 100%;
 
   & + .btn {
@@ -67,14 +67,14 @@ a {
   }
 
   &.btn-primary {
-    background-color: $primary;
-    border-color: $primary;
+    background-color: $primary-darker;
+    border-color: $primary-darker;
     //box-shadow: $global-box-shadow-y;
     color: $white;
 
     &:hover {
-      background-color: darken($primary, 4%);
-      border-color: darken($primary, 4%);
+      background-color: $primary;
+      border-color: $primary;
     }
   }
 

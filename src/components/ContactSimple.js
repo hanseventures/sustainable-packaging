@@ -17,7 +17,7 @@ const ContactSimple = props => {
           <div className="group-description align-self-start">
             <h2 className='mt-0 h-2'>Beratung erwünscht?</h2>
             <p>
-              Sie wollen lieber beraten werden und persönlich besprechen ob ihre Produktvorstellung von uns umsetzbar ist?<br></br>
+              Sie wollen lieber beraten werden und persönlich besprechen, ob ihre Produktvorstellung von uns umsetzbar ist?<br></br>
             </p>
             <p>
               Kein Problem, wir rufen Sie gerne zurück!
