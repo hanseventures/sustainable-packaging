@@ -1,6 +1,6 @@
 {
-  "title": "Verpackungsform wählen",
-  "gaName": "verpackungsform",
+  "title": "Verpackung wählen",
+  "gaName": "verpackung",
   "progressbar": 2,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
@@ -8,7 +8,7 @@
     {
       "id": 1,
       "imagePath": "/svg/step02/streamline-icon-warehouse-cart-package-ribbon@46x46.svg",
-      "text": "Transport-verpackungen",
+      "text": "Transport",
       "iconClass": "packaging-icons"
     },
     {
