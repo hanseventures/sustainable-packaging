@@ -7,73 +7,63 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "streamline-regular/ab-testing-chemistry-bmolNw",
+      "imagePath": "/svg/step03/streamline-icon-tree-log@46x46.svg",
       "text": "Holz",
-      "iconClass": "material-icons",
-      "iconColors": ["#ff00c3"]
+      "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "streamline-bold/3-d-pen-sjs35e",
+      "imagePath": "/svg/step03/streamline-icon-bread-wheat@46x46.svg",
       "text": "Gras",
-      "iconClass": "material-icons",
-      "iconColors": ["#ff00c3"]
+      "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "streamline-regular/ab-testing-chemistry-monitor-bmoMRy",
+      "imagePath": "/svg/step03/streamline-icon-plant-bamboo@46x46.svg",
       "text": "Bagasse",
-      "iconClass": "material-icons",
-      "iconColors": ["#ff00c3"]
+      "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "streamline-bold/3-d-print-candy-sjsoKt",
+      "imagePath": "/svg/step03/streamline-icon-farming-grow-crops@46x46.svg",
       "text": "Algen",
-      "iconClass": "material-icons",
-      "iconColors": ["#ff00c3"]
+      "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "streamline-regular/ab-testing-monitors-bmojwr",
+      "imagePath": "/svg/step03/streamline-icon-water-glass@46x46.svg",
       "text": "Glas",
-      "iconClass": "material-icons",
-      "iconColors": ["#ff00c3"]
+      "iconClass": "material-icons"
     },
     {
       "id": 6,
-      "imagePath": "streamline-bold/3-d-print-clock-itsmoc",
+      "imagePath": "/svg/step03/streamline-icon-organic-plant-root@46x46.svg",
       "text": "Pflanzenstärke",
-      "iconClass": "material-icons",
-      "iconColors": ["#ff00c3"]
+      "iconClass": "material-icons"
     },
     {
       "id": 7,
-      "imagePath": "streamline-regular/ab-testing-smartphones-bmoP44",
+      "imagePath": "/svg/step03/streamline-icon-3-d-print-reel@46x46.svg",
       "text": "Pilzfasern",
-      "iconClass": "material-icons",
-      "iconColors": ["#ff00c3"]
+      "iconClass": "material-icons"
     },
     {
       "id": 8,
-      "imagePath": "streamline-bold/3-d-print-food-itseFQ",
+      "imagePath": "/svg/step03/streamline-icon-clothes-design-thread@46x46.svg",
       "text": "Hanf",
-      "iconClass": "material-icons",
-      "iconColors": ["#ff00c3"]
+      "iconClass": "material-icons"
     },
     {
       "id": 9,
-      "imagePath": "streamline-regular/ac-cool-QzI4w7",
+      "imagePath": "/svg/step03/streamline-icon-recycling-bottle@46x46.svg",
       "text": "rPET",
-      "iconClass": "material-icons",
-      "iconColors": ["#ff00c3"]
+      "iconClass": "material-icons"
     },
     {
       "id": 10,
-      "imagePath": "streamline-bold/3-d-print-monitor-itszfk",
+      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "Sonstiges",
-      "iconClass": "material-icons",
-      "iconColors": ["#ff00c3"]
+      "iconClass": "material-icons"
     }
   ]
 }

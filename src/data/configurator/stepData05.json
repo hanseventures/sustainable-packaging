@@ -7,31 +7,27 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "streamline-regular/accessories-earrings-oriental-y7q3ua",
+      "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
       "text": "Tragegriff",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78"]
+      "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "streamline-bold/3-d-print-triangle-itsyxN",
+      "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
       "text": "Blickfenster",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78"]
+      "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "streamline-regular/accessories-earrings-y7qSBo",
+      "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
       "text": "Verpackungs-einsatz",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78"]
+      "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "streamline-bold/3-d-print-warning-Ei8x70",
+      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "Sonstiges",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78"]
+      "iconClass": "material-icons"
     }
   ]
 }

@@ -7,38 +7,33 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "streamline-regular/accessories-tie-fSZZWz",
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Bis 500 St.",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "streamline-bold/accessories-earrings-oriental-ZOsMRy",
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Bis 1.000 St.",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "streamline-regular/accessories-umbrella-1-fSZmG5",
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Bis 10.000 St.",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "streamline-bold/accessories-hand-fan-ZOsl2S",
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Bis 100.000 St.",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "streamline-regular/accessories-umbrella-fSZOFk",
+      "imagePath": "/svg/streamline-icon-toys-lego@46x46.svg",
       "text": "Über 100.000 St.",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     }
   ]
 }

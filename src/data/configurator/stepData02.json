@@ -7,59 +7,51 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "streamline-bold/3-d-box-corner-jUABpQ",
+      "imagePath": "/svg/step02/streamline-icon-warehouse-cart-package-ribbon@46x46.svg",
       "text": "Transport-verpackungen",
-      "iconClass": "packaging-icons",
-      "iconColors": ["#ff0000"]
+      "iconClass": "packaging-icons"
     },
     {
       "id": 2,
-      "imagePath": "streamline-regular/3-d-print-warning-sjsoGE",
+      "imagePath": "/svg/step02/streamline-icon-shipment-upload@46x46.svg",
       "text": "Schachteln",
-      "iconClass": "packaging-icons",
-      "iconColors": ["#ff0000"]
+      "iconClass": "packaging-icons"
     },
     {
       "id": 3,
-      "imagePath": "streamline-bold/3-d-box-expand-sjshNE",
+      "imagePath": "/svg/step02/streamline-icon-breakfast-cereal-bowl@46x46.svg",
       "text": "Schalen",
-      "iconClass": "packaging-icons",
-      "iconColors": ["#ff0000"]
+      "iconClass": "packaging-icons"
     },
     {
       "id": 4,
-      "imagePath": "streamline-regular/ab-testing-award-bmoPdR",
+      "imagePath": "/svg/step02/streamline-icon-kitchenware-ice-tray@46x46.svg",
       "text": "Trays",
-      "iconClass": "packaging-icons",
-      "iconColors": ["#ff0000"]
+      "iconClass": "packaging-icons"
     },
     {
       "id": 5,
-      "imagePath": "streamline-bold/3-d-drawing-2-sjsU3n",
+      "imagePath": "/svg/step02/streamline-icon-water-bottle-1@46x46.svg",
       "text": "Flaschenträger",
-      "iconClass": "packaging-icons",
-      "iconColors": ["#ff0000"]
+      "iconClass": "packaging-icons"
     },
     {
       "id": 6,
-      "imagePath": "streamline-bold/3-d-drawing-3-sjsh1s",
+      "imagePath": "/svg/step02/streamline-icon-shopping-bag-side@46x46.svg",
       "text": "Tüten",
-      "iconClass": "packaging-icons",
-      "iconColors": ["#ff0000"]
+      "iconClass": "packaging-icons"
     },
     {
       "id": 7,
-      "imagePath": "streamline-regular/ab-testing-browsers-bmo2eP",
+      "imagePath": "/svg/step02/streamline-icon-water-glass-2@46x46.svg",
       "text": "Cups",
-      "iconClass": "packaging-icons",
-      "iconColors": ["#ff0000"]
+      "iconClass": "packaging-icons"
     },
     {
       "id": 8,
-      "imagePath": "streamline-bold/3-d-pen-box-sjsMTP",
+      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "Sonstiges",
-      "iconClass": "packaging-icons",
-      "iconColors": ["#ff0000"]
+      "iconClass": "packaging-icons"
     }
   ]
 }

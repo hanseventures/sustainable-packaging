@@ -7,73 +7,63 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "streamline-bold/video-edit-magic-wand-1-dzppz7",
-      "text": "Industrie",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "imagePath": "/svg/step01/streamline-icon-vegetables-plate@46x46.svg",
+      "text": "Lebensmittel",
+      "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "streamline-bold/video-edit-magic-wand-dzpom9",
-      "text": "StartUps",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "imagePath": "/svg/step01/streamline-icon-flower@46x46.svg",
+      "text": "Blumen",
+      "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "streamline-bold/video-edit-peel-dzpH4q",
-      "text": "Mode",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "imagePath": "/svg/step01/streamline-icon-vegetables-carrot@46x46.svg",
+      "text": "Frischwaren",
+      "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "streamline-bold/video-edit-play-dzpIzK",
-      "text": "Gastronomie",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "imagePath": "/svg/step01/streamline-icon-toys-lego@46x46.svg",
+      "text": "Spielzeug",
+      "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "streamline-bold/video-edit-split-Nc3fvj",
-      "text": "Spielzeug",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "imagePath": "/svg/step01/streamline-icon-t-shirt@46x46.svg",
+      "text": "Mode",
+      "iconClass": "material-icons"
     },
     {
       "id": 6,
-      "imagePath": "streamline-bold/video-edit-subtract-Nc3u7b",
-      "text": "Kosmetik",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "imagePath": "/svg/step01/streamline-icon-screen-1@46x46.svg",
+      "text": "Technik",
+      "iconClass": "material-icons"
     },
     {
       "id": 7,
-      "imagePath": "streamline-bold/video-file-add-2320Eh",
-      "text": "Lebensmittel",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "imagePath": "/svg/step01/streamline-icon-make-up-mascara@46x46.svg",
+      "text": "Drogerie",
+      "iconClass": "material-icons"
     },
     {
       "id": 8,
-      "imagePath": "streamline-bold/video-file-avi-232OdT",
-      "text": "Elektronik",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "imagePath": "/svg/step01/streamline-icon-water-dam@46x46.svg",
+      "text": "Industrie",
+      "iconClass": "material-icons"
     },
     {
       "id": 9,
-      "imagePath": "streamline-bold/video-file-camera-23273d",
-      "text": "Reinigung",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "imagePath": "/svg/step01/streamline-icon-restaurant-menu@46x46.svg",
+      "text": "Gastronomie",
+      "iconClass": "material-icons"
     },
     {
       "id": 10,
-      "imagePath": "streamline-bold/video-file-check-232Yq5",
+      "imagePath": "/svg/step01/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "Sonstiges",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "iconClass": "material-icons"
     }
   ]
 }

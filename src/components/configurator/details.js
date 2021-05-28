@@ -3,7 +3,7 @@ import _ from 'lodash'
 import React, { useState } from 'react'
 import { useWizard } from 'react-use-wizard'
 
-import loadIcon from './loadIcons'
+// import loadIcon from './loadIcons'
 import Spinner from './spinner'
 import splitOnLast from './splitOnLast'
 

@@ -7,38 +7,33 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "streamline-regular/accounting-bills-1-itsR8K",
+      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
       "text": "Wöchentlich",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "streamline-bold/accounting-calculator-1-49rbSr",
+      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
       "text": "Monatlich",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "streamline-regular/accounting-bills-itsqV5",
+      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
       "text": "Vierteljährlich",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "streamline-bold/accounting-calculator-49rlHF",
+      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
       "text": "Vielleicht später",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "streamline-regular/accounting-calculator-1-sjstoT",
+      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
       "text": "Kein Abo",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
+      "iconClass": "material-icons"
     }
   ]
 }
