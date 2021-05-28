@@ -32,15 +32,6 @@ const PricesAndPlans = props => {
               <li>in 4 Wochen</li>
               <li><strong>2,40 € / Stk.</strong></li>
             </ul>
-
-            <a
-              className="btn btn-primary mt-2"
-              href="#"
-              onClick={()=> navigate('/configurator')}
-              title="Button Title"
-            >
-              Weiter
-            </a>
           </article>
 
           <article className="card card--default d-flex flex-basis-full flex-align-center flex-column py-5 px-3">
@@ -55,15 +46,6 @@ const PricesAndPlans = props => {
               <li>in 3 Monaten</li>
               <li><strong>1,09 € / Stk.</strong></li>
             </ul>
-
-            <a
-              className="btn btn-primary mt-2"
-              href="#"
-              onClick={()=> navigate('/configurator')}
-              title="Button Title"
-            >
-              Weiter
-            </a>
           </article>
 
           <article className="card card--default d-flex flex-basis-full flex-align-center flex-column py-5 px-3">
@@ -78,15 +60,6 @@ const PricesAndPlans = props => {
               <li>ab Sofort</li>
               <li><strong>0,98 € / Stk.</strong></li>
             </ul>
-
-            <a
-              className="btn btn-primary mt-2"
-              href="#"
-              onClick={()=> navigate('/configurator')}
-              title="Button Title"
-            >
-              Weiter
-            </a>
           </article>
 
         </div>
