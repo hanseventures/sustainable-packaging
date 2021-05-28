@@ -10,7 +10,8 @@ const Step01 = props => {
     nextStep,
     previousStep,
     isLoading,
-    isFirstStep
+    isFirstStep,
+    activeStep
   } = useWizard();
 
   const hashUrl = typeof window !== `undefined` ? window.location.hash : ''
@@ -67,7 +68,7 @@ const Step01 = props => {
               ? 'primary'
               : 'secondary'
             } ml-1 ml-md-3`}
-          onClick={() => nextStep()}
+          onClick={() => nextStep(Number(activeStep)+1)}
         >
           {configuratorJson.btnNext}
         </div>
