@@ -5,10 +5,11 @@
 .l-faq-v2 {
   article {
     button.faq--collapsible {
+      background-color: lighten($bg-primary, 6%);
       width: 100%;
 
       &:hover {
-        background-color: $grey-lightest;
+        background-color: $white;
       }
     }
 
