@@ -58,7 +58,7 @@ const Details = (props) => {
                         key={idx}
                         className='d-flex align-item-center column-gap-2 tag tag--info mt-2'
                       >
-                        <img src={loadIcon[splitOnLast(node.imagePath, '-').shift()].default} />
+                        <img src={node.imagePath} />
                         {node.text}
                       </li>
                     ))}

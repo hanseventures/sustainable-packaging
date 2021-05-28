@@ -7,31 +7,31 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
+      "imagePath": "/svg/step11/streamline-icon-calendar-1@46x46-week.svg",
       "text": "Wöchentlich",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
+      "imagePath": "/svg/step11/streamline-icon-calendar-1@46x46-month.svg",
       "text": "Monatlich",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
+      "imagePath": "/svg/step11/streamline-icon-calendar-1@46x46-quarterly.svg",
       "text": "Vierteljährlich",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
+      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "Vielleicht später",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "/svg/streamline-icon-water-dam@46x46.svg",
+      "imagePath": "/svg/streamline-icon-delete@46x46.svg",
       "text": "Kein Abo",
       "iconClass": "material-icons"
     }
