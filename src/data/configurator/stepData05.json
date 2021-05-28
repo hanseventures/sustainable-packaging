@@ -7,19 +7,19 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
+      "imagePath": "/svg/step05/streamline-icon-shopping-basket-handle@46x46.svg",
       "text": "Tragegriff",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
+      "imagePath": "/svg/step05/streamline-icon-app-window-expand@46x46.svg",
       "text": "Blickfenster",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/streamline-icon-shipment-in-transit@46x46.svg",
+      "imagePath": "/svg/step05/streamline-icon-email-action-receive@46x46.svg",
       "text": "Verpackungs-einsatz",
       "iconClass": "material-icons"
     },

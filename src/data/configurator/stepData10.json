@@ -7,31 +7,31 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
+      "imagePath": "/svg/step10/streamline-icon-shipment-in-transit@46x46.svg",
       "text": "Sofort",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
+      "imagePath": "/svg/step10/streamline-icon-calendar@46x46-1_3.svg",
       "text": "in 1-3 Monaten",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
+      "imagePath": "/svg/step10/streamline-icon-calendar@46x46-4_6.svg",
       "text": "in 4-6 Monaten",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
+      "imagePath": "/svg/step10/streamline-icon-calendar@46x46-7_12.svg",
       "text": "in 7-12 Monaten",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "/svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
+      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "noch nicht bekannt",
       "iconClass": "material-icons"
     }
