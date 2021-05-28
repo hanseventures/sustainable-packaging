@@ -7,38 +7,33 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "streamline-bold/ab-testing-chemistry-YBGBsm",
+      "imagePath": "/svg/step07/streamline-icon-color-drop-off@46x46.svg",
       "text": "Grundfarbe Natur",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "streamline-regular/accessories-necklace-y7qyxN",
+      "imagePath": "/svg/step07/streamline-icon-color-drop-pick@46x46.svg",
       "text": "Grundfarbe Weiß",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "streamline-bold/ab-testing-smartphones-HO29EG",
+      "imagePath": "/svg/step07/Subtract.svg",
       "text": "Grundfarbe Schwarz",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "streamline-regular/accessories-ribbon-tie-fSZ67q",
+      "imagePath": "/svg/step07/streamline-icon-color-brush-paint@46x46.svg",
       "text": "mit Logo bedruckt",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "streamline-bold/ac-heat-PopniE",
+      "imagePath": "/svg/step07/streamline-icon-color-palette-sample@46x46.svg",
       "text": "individuell bedruckt",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     }
   ]
 }

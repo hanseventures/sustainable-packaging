@@ -7,38 +7,33 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "streamline-bold/accounting-abacus-49rmGi",
+      "imagePath": "/svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "Sofort",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "streamline-regular/accounting-bill-stack-1-itsikB",
+      "imagePath": "/svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "in 1-3 Monaten",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "streamline-bold/accounting-bill-stack-1-bmoO8B",
+      "imagePath": "/svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "in 4-6 Monaten",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "streamline-regular/accounting-bill-stack-itsU5i",
+      "imagePath": "/svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "in 7-12 Monaten",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "streamline-bold/accounting-bills-1-bmoyKP",
+      "imagePath": "/svg/streamline-icon-locker-room-suitcase-umbrella@46x46.svg",
       "text": "noch nicht bekannt",
-      "iconClass": "material-icons",
-      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
+      "iconClass": "material-icons"
     }
   ]
 }
