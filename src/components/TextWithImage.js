@@ -14,6 +14,7 @@ const TextWithImage = props => {
         headline
         button
         content_spacing
+        configurator_link
         alt
       }
     }
@@ -36,7 +37,7 @@ const TextWithImage = props => {
               <a
                 href="#"
                 className="btn btn-primary mt-3"
-                onClick={()=> navigate('/configurator')}
+                onClick={()=> navigate(node.configurator_link)}
               >
                 {node.button}
               </a>
