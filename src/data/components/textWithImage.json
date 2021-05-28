@@ -1,5 +1,5 @@
 [{
-  "headline": "Materialien & Rohstoffe",
+  "headline": "Rohstoffe",
   "text": "<p>Nachwachsende Rohstoffe stehen heutzutage der ursprünglichen Plastikverpackung in kaum etwas nach. Um vielfältige Lösungen bieten zu können greifen wir dafür auf eine breite Auswahl an nachhaltigen Rohstoffen zurück.</p><p>Unsere Produkte sind frei von Weichmachern und vollständig recycle- oder sogar kompostierbar. Ein Entsprechender Hinweis auf unseren Produkten hilft zudem den Endverbraucher bei der Entsorgung.</p>",
   "button": "Rohstoffe anzeigen",
   "image": "images/2/materials.jpg",
@@ -9,7 +9,7 @@
   "alt": ""
 },
 {
-  "headline": "Unsere Produkte",
+  "headline": "Produkte",
   "text": "<p>So gut wie alle Verpackungen können heutzutage bereits nachhaltig hergestellt werden.</p><p>Ob Versandkartons, Frischeboxen, Cups oder was auch immer sie sich vorstellen - wir realisieren Ihren Wunsch und das bereits ab geringen Stückzahlen.</p>",
   "button": "Produkt auswählen",
   "image": "images/2/istockphoto-1190422898-612x612.jpg",
@@ -18,7 +18,7 @@
   "configurator_link": "/configurator#2",
   "alt": ""
 },{
-  "headline": "So funktionierts",
+  "headline": "Beratung",
   "text": "<p>Als Experte auf diesem Gebiet kümmern wir uns um Ihre Fragen, Wünsche und Vorstellungen und beraten Sie gerne.</p><p>Nutzen Sie unseren <i>Verpackungs-Finder</i> um Ihre Vorstellungen zu definieren und ein unverbindliches Angebot anzufordern.</p>",
   "button": "Nachhaltig durchstarten",
   "image": "images/2/istockphoto-1223044329-612x612.jpg",
