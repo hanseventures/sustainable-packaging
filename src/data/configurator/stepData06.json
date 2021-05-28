@@ -9,31 +9,36 @@
       "id": 1,
       "imagePath": "streamline-regular/accessories-hand-fan-y7q6G",
       "text": "S (bis 500g)",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#FF8D78","#ff0000"]
     },
     {
       "id": 2,
       "imagePath": "streamline-bold/ab-testing-browsers-1-YBG0sn",
       "text": "M (bis 2KG)",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#FF8D78","#ff0000"]
     },
     {
       "id": 3,
       "imagePath": "streamline-regular/accessories-necklace-1-fSZg0Y",
       "text": "L (bis 5kg)",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#FF8D78","#ff0000"]
     },
     {
       "id": 4,
       "imagePath": "streamline-bold/ab-testing-chemistry-monitor-1-HO2MAN",
       "text": "XL (bis 10kg)",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#FF8D78","#ff0000"]
     },
     {
       "id": 5,
       "imagePath": "streamline-regular/accessories-necklace-pendant-fSZ7JP",
       "text": "XXL (ab 10kg)",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#FF8D78","#ff0000"]
     }
   ]
 }

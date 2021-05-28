@@ -9,49 +9,57 @@
       "id": 1,
       "imagePath": "streamline-bold/accessories-necklace-pendant-ZOslYR",
       "text": "Frischebox",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
     },
     {
       "id": 2,
       "imagePath": "streamline-regular/accessories-watch-fSZbRt",
       "text": "Hitzebeständig",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
     },
     {
       "id": 3,
       "imagePath": "streamline-bold/accessories-ribbon-tie-ZOsRIr",
       "text": "Isolierend",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
     },
     {
       "id": 4,
       "imagePath": "streamline-regular/accessories-winter-gloves-fSZ35e",
       "text": "Nassfest",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
     },
     {
       "id": 5,
       "imagePath": "streamline-bold/accessories-umbrella-1-qmI6mN",
       "text": "Fettbarriere",
-      "iconClass": "packaging-icons"
+      "iconClass": "packaging-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
     },
     {
       "id": 6,
       "imagePath": "streamline-regular/accounting-abacus-sjsFjW",
       "text": "Reiß- und Durchstoßfest",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
     },
     {
       "id": 7,
       "imagePath": "streamline-bold/accessories-watch-qmId5n",
       "text": "Sonstiges",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
     },
     {
       "id": 8,
       "imagePath": "streamline-regular/accounting-bill-itsPvJ",
       "text": "Nicht zutreffend",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78","#ff0000"]
     }
   ]
 }

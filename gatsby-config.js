@@ -18,8 +18,7 @@ module.exports = {
     DEV_SSR: true,
     QUERY_ON_DEMAND: true,
     LAZY_IMAGES: true,
-    PARALLEL_SOURCING: true,
-    FUNCTIONS: true,
+    PARALLEL_SOURCING: true
   },
   plugins: [
     'gatsby-plugin-sass',

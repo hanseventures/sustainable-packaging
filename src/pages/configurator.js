@@ -159,6 +159,7 @@ export const query = graphql`
             id
             text
             imagePath
+            iconColors
           }
           btnNext
           btnPrevious

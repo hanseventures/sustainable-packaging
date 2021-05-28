@@ -9,61 +9,71 @@
       "id": 1,
       "imagePath": "streamline-bold/video-edit-magic-wand-1-dzppz7",
       "text": "Industrie",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     },
     {
       "id": 2,
       "imagePath": "streamline-bold/video-edit-magic-wand-dzpom9",
       "text": "StartUps",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     },
     {
       "id": 3,
       "imagePath": "streamline-bold/video-edit-peel-dzpH4q",
       "text": "Mode",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     },
     {
       "id": 4,
       "imagePath": "streamline-bold/video-edit-play-dzpIzK",
       "text": "Gastronomie",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     },
     {
       "id": 5,
       "imagePath": "streamline-bold/video-edit-split-Nc3fvj",
       "text": "Spielzeug",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     },
     {
       "id": 6,
       "imagePath": "streamline-bold/video-edit-subtract-Nc3u7b",
       "text": "Kosmetik",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     },
     {
       "id": 7,
       "imagePath": "streamline-bold/video-file-add-2320Eh",
       "text": "Lebensmittel",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     },
     {
       "id": 8,
       "imagePath": "streamline-bold/video-file-avi-232OdT",
       "text": "Elektronik",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     },
     {
       "id": 9,
       "imagePath": "streamline-bold/video-file-camera-23273d",
       "text": "Reinigung",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     },
     {
       "id": 10,
       "imagePath": "streamline-bold/video-file-check-232Yq5",
       "text": "Sonstiges",
-      "iconClass": "material-icons"
+      "iconClass": "material-icons",
+      "iconColors": ["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6","#FF8D78"]
     }
   ]
 }

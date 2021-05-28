@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "@emotion/react": "11.4.0",
-    "@streamlinehq/streamlinehq": "^2.1.0",
     "animate.css": "^4.1.1",
+    "colord": "2.0.0",
     "gatsby": "^3.5.0",
     "gatsby-plugin-google-fonts": "1.0.1",
     "gatsby-plugin-google-marketing-platform": "0.1.21",
@@ -31,16 +31,18 @@
     "gatsby-transformer-remark": "4.3.0",
     "gatsby-transformer-sharp": "3.0.0",
     "lodash": "4.17.21",
-    "prop-types": "15.7.2",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "6.1.0",
     "react-share": "4.4.0",
     "react-spinners": "0.10.6",
+    "react-svg": "^13.0.6",
     "react-use-wizard": "1.1.1",
     "sass": "1.32.8"
   },
   "devDependencies": {
+    "@streamlinehq/streamlinehq": "^2.1.0",
     "prettier": "2.2.1"
   },
   "repository": {

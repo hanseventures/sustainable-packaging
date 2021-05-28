@@ -9,49 +9,57 @@
       "id": 1,
       "imagePath": "streamline-bold/3-d-box-corner-jUABpQ",
       "text": "Transport-verpackungen",
-      "iconClass": "packaging-icons"
+      "iconClass": "packaging-icons",
+      "iconColors": ["#ff0000"]
     },
     {
       "id": 2,
       "imagePath": "streamline-regular/3-d-print-warning-sjsoGE",
       "text": "Schachteln",
-      "iconClass": "packaging-icons"
+      "iconClass": "packaging-icons",
+      "iconColors": ["#ff0000"]
     },
     {
       "id": 3,
       "imagePath": "streamline-bold/3-d-box-expand-sjshNE",
       "text": "Schalen",
-      "iconClass": "packaging-icons"
+      "iconClass": "packaging-icons",
+      "iconColors": ["#ff0000"]
     },
     {
       "id": 4,
       "imagePath": "streamline-regular/ab-testing-award-bmoPdR",
       "text": "Trays",
-      "iconClass": "packaging-icons"
+      "iconClass": "packaging-icons",
+      "iconColors": ["#ff0000"]
     },
     {
       "id": 5,
       "imagePath": "streamline-bold/3-d-drawing-2-sjsU3n",
       "text": "Flaschenträger",
-      "iconClass": "packaging-icons"
+      "iconClass": "packaging-icons",
+      "iconColors": ["#ff0000"]
     },
     {
       "id": 6,
       "imagePath": "streamline-bold/3-d-drawing-3-sjsh1s",
       "text": "Tüten",
-      "iconClass": "packaging-icons"
+      "iconClass": "packaging-icons",
+      "iconColors": ["#ff0000"]
     },
     {
       "id": 7,
       "imagePath": "streamline-regular/ab-testing-browsers-bmo2eP",
       "text": "Cups",
-      "iconClass": "packaging-icons"
+      "iconClass": "packaging-icons",
+      "iconColors": ["#ff0000"]
     },
     {
       "id": 8,
       "imagePath": "streamline-bold/3-d-pen-box-sjsMTP",
       "text": "Sonstiges",
-      "iconClass": "packaging-icons"
+      "iconClass": "packaging-icons",
+      "iconColors": ["#ff0000"]
     }
   ]
 }
