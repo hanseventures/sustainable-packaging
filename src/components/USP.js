@@ -9,7 +9,7 @@ const USP = props => {
         <div className='trimmed-2 text-xs-center'>
           <h3 className='mt-0'>
             <span className='highlight mb-2 d-none'>So wird heute verpackt!</span>
-            Vorteile von nachhaltigen Verpackungen
+            Vorteile von nachhaltige Verpackungen
           </h3>
           <span className='mb-2'>Je nach Rohstoff haben nachhaltigen Verpackungen unterschiedlichste Vorteile, um effektiv Umwelt und Ressourcen zu schonen.</span>
         </div>

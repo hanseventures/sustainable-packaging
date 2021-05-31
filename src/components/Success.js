@@ -11,7 +11,7 @@ const Success = props => {
             Unser Erfolg in Zahlen
           </h3>
           <span className='mb-2 font-wht'>
-            Wir haben uns auf die Beratung und Umsetzung von nachhaltiger Verpackung spezialisiert und damit viele treue Kunden gewinden können.
+            Wir haben uns auf die Beratung und Umsetzung von nachhaltiger Verpackung spezialisiert und damit viele treue Kunden gewinnen können.
           </span>
         </div>
 
