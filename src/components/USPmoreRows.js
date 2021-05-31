@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby';
 
 const USPmoreRows = props => {
   return (
@@ -128,14 +129,9 @@ const USPmoreRows = props => {
         </div>
 
         <div className='text-xs-center'>
-          <a
-            className="btn btn-primary mt-5"
-            href="#"
-            onClick={()=> navigate('/configurator')}
-            title="Button Title"
-          >
+          <Link className="btn btn-primary mt-5" to="/configurator" title="Button Title">
             Verpackung zusammenstellen
-          </a>
+          </Link>
         </div>
 
       </div>

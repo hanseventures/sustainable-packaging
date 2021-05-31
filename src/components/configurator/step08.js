@@ -15,6 +15,7 @@ const Step08 = props => {
   const {
     nextStep,
     previousStep,
+    activeStep
   } = useWizard()
 
   // const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step08ID)
@@ -56,7 +57,7 @@ const Step08 = props => {
               ? 'primary'
               : 'secondary'
           } ml-1 ml-md-3`}
-          onClick={() => nextStep()}
+          onClick={() => nextStep(Number(activeStep)+1)}
         >
           {configuratorJson.btnNext}
         </div>

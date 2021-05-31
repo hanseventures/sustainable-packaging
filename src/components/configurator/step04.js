@@ -11,13 +11,13 @@ const Step04 = props => {
     obj => obj.node.parent.name === "stepData04"
   )[0].node
 
-  const { nextStep, previousStep } = useWizard()
+  const { nextStep, previousStep, handleStep, activeStep } = useWizard()
 
   // const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step04ID)
 
   // // Attach an optional handler
   // handleStep(() => {
-  //   console.log(`object`, filterById() )
+  //   console.log(`step04ID`)
   // })
 
   return (
@@ -52,7 +52,7 @@ const Step04 = props => {
               ? 'primary'
               : 'secondary'
           } ml-1 ml-md-3`}
-          onClick={() => nextStep()}
+          onClick={() => nextStep(Number(activeStep)+1)}
         >
           {configuratorJson.btnNext}
         </div>

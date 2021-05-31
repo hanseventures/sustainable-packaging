@@ -1,4 +1,4 @@
-import { graphql, navigate, useStaticQuery } from 'gatsby';
+import { graphql, navigate, useStaticQuery, Link } from 'gatsby';
 import React from 'react';
 
 const TextWithImage = props => {
@@ -34,13 +34,9 @@ const TextWithImage = props => {
             <div className="group-description">
               <h3>{node.headline}</h3>
               <span dangerouslySetInnerHTML={{ __html: node.text }}></span>
-              <a
-                href="#"
-                className="btn btn-primary mt-3"
-                onClick={()=> navigate(node.configurator_link)}
-              >
+              <Link className="btn btn-primary mt-3" to={node.configurator_link}>
                 {node.button}
-              </a>
+              </Link>
             </div>
             <div className="group-images">
               <img

@@ -19,7 +19,7 @@ const Step11 = (props) => {
     previousStep,
     isLoading,
     isFirstStep,
-    isLastStep
+    activeStep
   } = useWizard()
 
   // const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step11ID)
@@ -57,7 +57,7 @@ const Step11 = (props) => {
         <div
           id={`${configuratorJson.gaName}-${configuratorJson.btnPrevious.toLowerCase()}`}
           className='btn btn-primary ml-1 ml-md-3'
-          onClick={() => nextStep()}
+          onClick={() => nextStep(Number(activeStep)+1)}
         >
           {configuratorJson.btnNext}
         </div>
