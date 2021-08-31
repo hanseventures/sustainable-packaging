@@ -34,6 +34,12 @@
       "imagePath": "/svg/step06/streamline-icon-shipment-box@46x46-XXL.svg",
       "text": "XXL (ab 10kg)",
       "iconClass": "material-icons"
+    },
+    {
+      "id": 6,
+      "imagePath": "/svg/streamline-icon-delete@46x46.svg",
+      "text": "Noch unklar",
+      "iconClass": "material-icons"
     }
   ]
 }

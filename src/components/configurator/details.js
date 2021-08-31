@@ -44,7 +44,7 @@ const Details = (props) => {
         (<>
           <h1 className="h-2 text-xs-center">{configuratorJson.title}</h1>
           <div className='my-5 trimmed-3'>
-            <p className='text-xs-center m-5'>Vielen Dank, dass sie in unseren Service für nachhaltige Verpackungen interessiert sind. Hier ist die Zusammenfassung Ihrer Auswahl.</p>
+            <p className='text-xs-center m-5'>Bitte kontrollieren Sie Ihre Angaben bevor Sie fortfahren.</p>
             <ul className='wizard-summary list-vertical'>
               {selected.map((nodes, i) => (
                 <li

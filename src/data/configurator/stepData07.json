@@ -34,6 +34,24 @@
       "imagePath": "/svg/step07/streamline-icon-color-palette-sample@46x46.svg",
       "text": "individuell bedruckt",
       "iconClass": "material-icons"
+    },
+    {
+      "id": 6,
+      "imagePath": "/svg/step07/streamline-icon-color-palette-sample@46x46.svg",
+      "text": "Andere Grundfarbe",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 7,
+      "imagePath": "/svg/step07/streamline-icon-color-palette-sample@46x46.svg",
+      "text": "Kein Druck",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 8,
+      "imagePath": "/svg/step07/streamline-icon-color-palette-sample@46x46.svg",
+      "text": "Noch unklar",
+      "iconClass": "material-icons"
     }
   ]
 }

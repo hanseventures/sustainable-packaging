@@ -43,12 +43,18 @@
     },
     {
       "id": 7,
+      "imagePath": "/svg/step09/streamline-icon-business-contract-break@46x46.svg",
+      "text": "Lebensmittelecht",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 8,
       "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     },
     {
-      "id": 8,
+      "id": 9,
       "imagePath": "/svg/streamline-icon-delete@46x46.svg",
       "text": "Nicht zutreffend",
       "iconClass": "material-icons"
