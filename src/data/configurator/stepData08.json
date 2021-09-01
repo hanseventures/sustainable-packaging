@@ -37,13 +37,13 @@
     },
     {
       "id": 6,
-      "imagePath": "/svg/step08/streamline-icon-accounting-coins-stack-XXL.svg",
+      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "Kein regelmäßiger Bedarf",
       "iconClass": "material-icons"
     },
     {
       "id": 7,
-      "imagePath": "/svg/step08/streamline-icon-accounting-coins-stack-XXL.svg",
+      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "Noch unklar",
       "iconClass": "material-icons"
     }
