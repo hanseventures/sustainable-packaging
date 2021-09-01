@@ -15,7 +15,7 @@ const ContactSimple = props => {
         <div className="d-grid grid-inverted align-item-center column-gap-4 row-gap-3">
 
           <div className="group-description align-self-start">
-            <h2 className='mt-0 h-2'>Beratung erwünscht?</h2>
+            <h2 className='mt-0 h-2'>Beratung gewünscht?</h2>
             <p>
               Sie wollen lieber beraten werden und persönlich besprechen, ob ihre Produktvorstellung von uns umsetzbar ist?<br></br>
             </p>

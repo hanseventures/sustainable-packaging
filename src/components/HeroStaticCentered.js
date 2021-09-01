@@ -20,7 +20,7 @@ const HeroStaticCentered = props => {
                   className='btn btn-primary'
                   onClick={()=> navigate('/configurator')}
                 >
-                  Traumverpackung finden
+                  Wunschverpackung finden
                 </button>
                 <a
                   href='tel:+4940303886612'
