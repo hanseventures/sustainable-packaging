@@ -67,14 +67,14 @@ a {
   }
 
   &.btn-primary {
-    background-color: $primary-darker;
-    border-color: $primary-darker;
+    background-color: $primary;
+    border-color: $primary;
     //box-shadow: $global-box-shadow-y;
     color: $white;
 
     &:hover {
-      background-color: $primary;
-      border-color: $primary;
+      background-color: $primary-darker;
+      border-color: $primary-darker;
     }
   }
 
