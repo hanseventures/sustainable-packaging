@@ -43,7 +43,7 @@ const Configurator = props => {
         <meta name="robots" content="nofollow, noindex" />
       </Helmet>
 
-      <section className='content content--roomy'>
+      <section className='content content--roomy pt-3 pt-md-5'>
         <Wizard>
           <Step01 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step02 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
