@@ -7,25 +7,25 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/step03/streamline-icon-tree-log@46x46.svg",
+      "imagePath": "/svg/step03/streamline-icon-alert-circle@46x46.svg",
       "text": "Ja, sehr wichtiges Kriterium",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/step03/streamline-icon-bread-wheat@46x46.svg",
+      "imagePath": "/svg/step03/streamline-icon-check@46x46.svg",
       "text": "Ja, aber nicht zwingend",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/step03/streamline-icon-plant-bamboo@46x46.svg",
+      "imagePath": "/svg/step03/streamline-icon-organic-plant-grow@46x46.svg",
       "text": "Nein, solange mögl. nachhaltig",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/step03/streamline-icon-farming-grow-crops@46x46.svg",
+      "imagePath": "/svg/streamline-icon-delete@46x46.svg",
       "text": "Nein",
       "iconClass": "material-icons"
     },

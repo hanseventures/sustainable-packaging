@@ -37,13 +37,13 @@
     },
     {
       "id": 6,
-      "imagePath": "/svg/step07/streamline-icon-color-palette-sample@46x46.svg",
+      "imagePath": "/svg/step07/streamline-icon-color-brush@46x46.svg",
       "text": "Andere Grundfarbe",
       "iconClass": "material-icons"
     },
     {
       "id": 7,
-      "imagePath": "/svg/step07/streamline-icon-color-palette-sample@46x46.svg",
+      "imagePath": "/svg/streamline-icon-delete@46x46.svg",
       "text": "Kein Druck",
       "iconClass": "material-icons"
     },
