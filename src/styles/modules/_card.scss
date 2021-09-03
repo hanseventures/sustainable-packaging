@@ -7,7 +7,7 @@
   box-sizing: border-box;
   display: block;
   padding: 1em;
-  width: 100%;
+  width: auto;
 
   &.card--default {
     background-color: $white;

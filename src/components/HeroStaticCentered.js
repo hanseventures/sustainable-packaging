@@ -15,16 +15,16 @@ const HeroStaticCentered = props => {
               <h1 className="mb-2 mt-0" title="">Nachhaltige Verpackungen nach Ihren Wünschen!</h1>
               <p className="font-lg font-weight-extralight mb-4" title="">Wir bieten recycle- und kompostierbare Verpackungslösungen, individuell abgestimmt nach Kundenwunsch.</p>
 
-              <div className="d-flex flex-column flex-md-row emulated-flex-gap justify-content-center">
+              <div className="d-flex flex-column flex-md-row justify-content-center">
                 <button
-                  className='btn btn-primary'
+                  className='btn btn-primary mb-2 mr-md-2'
                   onClick={()=> navigate('/configurator')}
                 >
                   Zur Wunschverpackung
                 </button>
                 <a
                   href='tel:+4940303886612'
-                  className='btn btn-hero'
+                  className='btn btn-hero mb-2'
                 >
                   Rufen Sie uns an
                 </a>
