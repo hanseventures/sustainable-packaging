@@ -46,6 +46,8 @@ const Step11 = (props) => {
         gaName={configuratorJson.gaName}
       />
 
+      <small className='d-block text-xs-center mb-3'>Mehrfachauswahl möglich</small>
+
       <div className='d-flex flex-column justify-content-center align-self-center p-1 m-1 mb-4 flex-row flex-lg-row'>
         <div
           className='btn btn-secondary mr-1 mr-md-3'
