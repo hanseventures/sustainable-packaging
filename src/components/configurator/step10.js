@@ -1,6 +1,6 @@
 import { navigate } from 'gatsby'
 import _ from 'lodash'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useWizard } from 'react-use-wizard'
 
 import { hasSelected } from './helpers'
@@ -20,12 +20,10 @@ const Step10 = props => {
     activeStep
   } = useWizard()
 
-  // const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step10ID)
-
-  // // Attach an optional handler
-  // handleStep(() => {
-  //   console.log(`object`, filterById() )
-  // })
+  // Attach an optional handler
+  handleStep(() => {
+   window.scrollTo(0, 0)
+  })
 
   return (
     <>

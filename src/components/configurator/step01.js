@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useWizard } from 'react-use-wizard'
 
 import { hasSelected } from './helpers'
@@ -11,7 +11,8 @@ const Step01 = props => {
     previousStep,
     isLoading,
     isFirstStep,
-    activeStep
+    activeStep,
+    handleStep
   } = useWizard();
 
   const hashUrl = typeof window !== `undefined` ? window.location.hash : ''
@@ -23,17 +24,15 @@ const Step01 = props => {
     }
   }, [step]);
 
+  // Attach an optional handler
+  handleStep(() => {
+   window.scrollTo(0, 0)
+  })
+
   const configuratorJson = _.filter(
     props.objects,
     obj => obj.node.parent.name === "stepData01"
   )[0].node
-
-  // const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step01ID)
-
-  // // Attach an optional handler
-  // handleStep(() => {
-  //   console.log(`object`, filterById() )
-  // })
 
   return (
     <>

@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useWizard } from 'react-use-wizard'
 
 import { hasSelected } from './helpers'
@@ -11,14 +11,14 @@ const Step04 = props => {
     obj => obj.node.parent.name === "stepData04"
   )[0].node
 
-  const { nextStep, previousStep, handleStep, activeStep } = useWizard()
+  const { nextStep, previousStep, activeStep,
+    handleStep
+  } = useWizard()
 
-  // const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step04ID)
-
-  // // Attach an optional handler
-  // handleStep(() => {
-  //   console.log(`step04ID`)
-  // })
+  // Attach an optional handler
+  handleStep(() => {
+   window.scrollTo(0, 0)
+  })
 
   return (
     <>

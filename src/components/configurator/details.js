@@ -20,7 +20,8 @@ const Details = (props) => {
     previousStep,
     isLoading,
     isFirstStep,
-    isLastStep
+    isLastStep,
+    handleStep
   } = useWizard()
 
   const RedirectHandeler = () => {

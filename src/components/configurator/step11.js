@@ -19,15 +19,14 @@ const Step11 = (props) => {
     previousStep,
     isLoading,
     isFirstStep,
-    activeStep
+    activeStep,
+    handleStep
   } = useWizard()
 
-  // const filterById = () => configuratorJson.nodes.filter((node) => node.id === props.form.step11ID)
-
-  // // Attach an optional handler
-  // handleStep(() => {
-  //   console.log(`object`, filterById() )
-  // })
+  // Attach an optional handler
+  handleStep(() => {
+   window.scrollTo(0, 0)
+  })
 
   return (
     <>
