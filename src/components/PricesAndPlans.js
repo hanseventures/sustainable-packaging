@@ -18,7 +18,7 @@ const PricesAndPlans = props => {
           </span>
         </div>
 
-        <div className="d-flex flex-column flex-md-row row-gap-3 column-gap-3 trimmed-5 mt-5 text-xs-center">
+        <div className="d-flex flex-column flex-md-row emulated-flex-gap trimmed-5 mt-5 text-xs-center">
 
           <article className="card card--default d-flex flex-basis-full flex-align-center flex-column py-5 px-3">
             <img

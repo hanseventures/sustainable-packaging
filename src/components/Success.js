@@ -15,7 +15,7 @@ const Success = props => {
           </span>
         </div>
 
-        <div className="d-flex flex-column flex-md-row row-gap-3 column-gap-3 trimmed-3 mt-5 text-xs-center">
+        <div className="d-flex flex-column flex-md-row trimmed-3 mt-5 text-xs-center emulated-flex-gap">
 
           <article className="card card--default d-flex flex-basis-full flex-align-center flex-column py-5 px-3">
             <svg viewBox="0 0 79 79" height="79" width="79" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(3.2916666666666665,0,0,3.2916666666666665,0,0)"><path d="M0.75 23.25L23.25 23.25" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"></path><path d="M6,17.25H3a.75.75,0,0,0-.75.75v5.25h4.5V18A.75.75,0,0,0,6,17.25Z" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"></path><path d="M13.5,12.75h-3a.75.75,0,0,0-.75.75v9.75h4.5V13.5A.75.75,0,0,0,13.5,12.75Z" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"></path><path d="M21,9.75H18a.75.75,0,0,0-.75.75V23.25h4.5V10.5A.75.75,0,0,0,21,9.75Z" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"></path><path d="M4.182 9.241L20.25 1.944" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"></path><path d="M19.056 5.126L20.25 1.944 17.068 0.75" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"></path></g></svg>
