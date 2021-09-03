@@ -13,26 +13,26 @@
     },
     {
       "id": 2,
+      "imagePath": "/svg/step10/streamline-icon-calendar-4-weeks@46x46.svg",
+      "text": "<= 4 Wochen",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 3,
       "imagePath": "/svg/step10/streamline-icon-calendar@46x46-1_3.svg",
       "text": "in 1-3 Monaten",
       "iconClass": "material-icons"
     },
     {
-      "id": 3,
+      "id": 4,
       "imagePath": "/svg/step10/streamline-icon-calendar@46x46-4_6.svg",
       "text": "in 4-6 Monaten",
       "iconClass": "material-icons"
     },
     {
-      "id": 4,
-      "imagePath": "/svg/step10/streamline-icon-calendar@46x46-7_12.svg",
-      "text": "in 7-12 Monaten",
-      "iconClass": "material-icons"
-    },
-    {
       "id": 5,
       "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
-      "text": "noch nicht bekannt",
+      "text": "Noch unklar",
       "iconClass": "material-icons"
     }
   ]

@@ -33,7 +33,7 @@ a {
   font-family: $font-family-buttons;
   font-weight: $font-weight-medium;
   letter-spacing: 1px;
-  line-height: 0.875em;
+  line-height: 1.125em;
   padding: 10px;
   text-align: center;
   text-decoration: none;
@@ -54,7 +54,7 @@ a {
   &.btn-max,
   &.btn-tag {
     outline: none;
-    padding: 16px;
+    padding: 14px 6px;
 
     &.btn-shrink {
       padding: 16px 32px;
@@ -67,14 +67,14 @@ a {
   }
 
   &.btn-primary {
-    background-color: $primary-darker;
-    border-color: $primary-darker;
+    background-color: $primary;
+    border-color: $primary;
     //box-shadow: $global-box-shadow-y;
     color: $white;
 
     &:hover {
-      background-color: $primary;
-      border-color: $primary;
+      background-color: $primary-darker;
+      border-color: $primary-darker;
     }
   }
 

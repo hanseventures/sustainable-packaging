@@ -27,7 +27,7 @@ const TestimonialsV2 = props => {
       <div className='content content--roomy d-grid'>
         <h3 className='font-wht text-xs-center'>Das sagen unsere Kunden</h3>
 
-        <div className='d-flex flex-column flex-md-row row-gap-3 column-gap-3 trimmed-4 mt-5 text-xs-center'>
+        <div className='d-flex flex-column flex-md-row emulated-flex-gap trimmed-4 mt-5 text-xs-center'>
           {allTestimonialsJson.edges.map(({ node }) => (
             <article className='card card--default d-flex flex-basis-full flex-align-center flex-column py-5 px-3'  key={node.id}>
               <img src={node.image_path} alt='avatar'></img>

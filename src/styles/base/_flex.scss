@@ -92,6 +92,20 @@
   min-width: 0;
 }
 
+/* Emulate Gap Support with Flexbox and Margins */
+.emulated-flex-gap {
+  --gap: 0.5rem;
+  display: inline-flex;
+  //flex-wrap: wrap;
+  margin: calc(-1 * var(--gap));
+  width: calc(100% + var(--gap));
+}
+
+.emulated-flex-gap > * {
+  margin: var(--gap);
+}
+
+
 @include media-breakpoint-up(sm) {
   .flex-sm-row {
     flex-direction: row;

@@ -29,7 +29,7 @@ const MultiSelect = props => {
   }
 
   return (
-    <ul className='wizard-box list-none d-flex trimmed-4 text-xs-center my-5'>
+    <ul className='wizard-box list-none d-flex trimmed-4 text-xs-center mt-5 mb-3 emulated-flex-gap'>
       {props.objects.map(node => (
         <li
           id={`${props.gaName}-${node.text.toLowerCase().replace(/\s/g, '')}`}

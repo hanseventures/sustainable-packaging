@@ -52,6 +52,12 @@
       "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "packaging-icons"
+    },
+    {
+      "id": 9,
+      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
+      "text": "Noch unklar",
+      "iconClass": "packaging-icons"
     }
   ]
 }

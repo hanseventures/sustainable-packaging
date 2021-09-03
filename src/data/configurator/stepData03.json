@@ -1,5 +1,5 @@
 {
-  "title": "Rohstoff wählen",
+  "title": "Gibt es eine konkrete Rohstoffpräferenz (z.B. Holz, Pilzfasern, Hanf)?",
   "gaName": "rohstoff",
   "progressbar": 5,
   "btnPrevious": "Zurück",
@@ -7,62 +7,32 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/step03/streamline-icon-tree-log@46x46.svg",
-      "text": "Holz",
+      "imagePath": "/svg/step03/streamline-icon-alert-circle@46x46.svg",
+      "text": "Ja, sehr wichtiges Kriterium",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/step03/streamline-icon-bread-wheat@46x46.svg",
-      "text": "Gras",
+      "imagePath": "/svg/step03/streamline-icon-check@46x46.svg",
+      "text": "Ja, aber nicht zwingend",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/step03/streamline-icon-plant-bamboo@46x46.svg",
-      "text": "Bagasse",
+      "imagePath": "/svg/step03/streamline-icon-organic-plant-grow@46x46.svg",
+      "text": "Nein, solange mögl. nachhaltig",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/step03/streamline-icon-farming-grow-crops@46x46.svg",
-      "text": "Algen",
+      "imagePath": "/svg/streamline-icon-delete@46x46.svg",
+      "text": "Nein",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "/svg/step03/streamline-icon-water-glass@46x46.svg",
-      "text": "Glas",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 6,
-      "imagePath": "/svg/step03/streamline-icon-organic-plant-root@46x46.svg",
-      "text": "Pflanzenstärke",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 7,
-      "imagePath": "/svg/step03/streamline-icon-3-d-print-reel@46x46.svg",
-      "text": "Pilzfasern",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 8,
-      "imagePath": "/svg/step03/streamline-icon-clothes-design-thread@46x46.svg",
-      "text": "Hanf",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 9,
-      "imagePath": "/svg/step03/streamline-icon-recycling-bottle@46x46.svg",
-      "text": "rPET",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 10,
       "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
-      "text": "Sonstiges",
+      "text": "Noch unklar",
       "iconClass": "material-icons"
     }
   ]

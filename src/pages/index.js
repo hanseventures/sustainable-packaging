@@ -35,9 +35,7 @@ const Home = props => {
 
       <HeroStaticCentered />
       <USP />
-
       <TextWithImage />
-
       <Success />
       <PricesAndPlans />
       <USPmoreRows />

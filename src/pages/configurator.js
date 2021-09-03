@@ -10,13 +10,11 @@ import {
   Step02,
   Step03,
   Step04,
-  Step05,
   Step06,
   Step07,
   Step08,
   Step09,
   Step10,
-  Step11,
 } from '../components/configurator'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
@@ -45,11 +43,10 @@ const Configurator = props => {
         <meta name="robots" content="nofollow, noindex" />
       </Helmet>
 
-      <section className='content content--roomy'>
+      <section className='content content--roomy py-3 py-md-5'>
         <Wizard>
           <Step01 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step02 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
-          <Step05 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step09 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step03 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step07 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
@@ -57,7 +54,6 @@ const Configurator = props => {
           <Step06 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step08 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step10 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
-          <Step11 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Details {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
         </Wizard>
       </section>

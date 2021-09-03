@@ -63,7 +63,7 @@ const FAQv2 = props => {
               <button
                 type='button'
                 onClick={e => toggleModal(e, id)}
-                className='faq--collapsible pos-relative text-xs-left p-3'
+                className='faq--collapsible pos-relative text-xs-left p-3 pr-5'
               >
                 <div
                   className='plus-animated p-3'

@@ -1,23 +1,23 @@
 [{
-  "image_path": "/images/2/testimonial-01@2x.png",
-  "first_name": "Alex",
+  "image_path": "/images/2/testimonial-05@2x.png",
+  "first_name": "Christoph D.",
   "last_name": "P.",
-  "position": "Gründerin",
+  "position": "Produkt Manager",
   "ratings": 5,
-  "comments": "“Damit wir unser neues Produkt nachhaltig verpacken konnten, war XYZ der perfekte Ansprechpartner und Vermittler”"
+  "comments": "“SoWirdHeuteVerpackt.de” war unser perfekte Ansprechpartner und hat mit einer trendigen nachhaltigen Verpackung unser neues Produkt sogar weiter aufwerten können."
 },{
-  "image_path": "/images/2/testimonial-02@2x.png",
-  "first_name": "Markus",
-  "last_name": "K.",
-  "position": "Einkäufer",
+  "image_path": "/images/2/testimonial-04@2x.png",
+  "first_name": "Christina & Ellmar",
+  "last_name": "",
+  "position": "Startup Gründer",
   "ratings": 5,
-  "comments": "“Im Einzelhandel benötigen wir immer neue innovative Verpackungen. XYZ konnte uns da mit ihrem Know-How sehr gut unterstützen”"
+  "comments": "Für unser nachhaltiges Startup benötigen wir immer innovative und nachhaltige Verpackungen. “SoWirdHeuteVerpackt.de” hat uns mit ihrem Know-How sehr gut beraten."
 },{
   "image_path": "/images/2/testimonial-03@2x.png",
-  "first_name": "Achim",
+  "first_name": "André",
   "last_name": "B.",
-  "position": "Produzent",
+  "position": "Teamleiter Einkauf",
   "ratings": 5,
-  "comments": "“XYZ hat uns wirklich bei der Akquise neuer Kunden geholfen, damit wir unsere Produkte noch besser im Markt etablieren konnten.”"
+  "comments": "Durch die professionelle Hilfe und das breite Fachwissen haben wir es geschafft mehrere Produkte problemlos auf nachhaltige Verpackungen umzustellen."
 }
 ]

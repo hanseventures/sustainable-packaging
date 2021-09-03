@@ -4,7 +4,7 @@
 
 .l-page-configurator {
   .wizard-box {
-    grid-gap: 1em;
+    //grid-gap: 1em;
     justify-content: center;
     flex-wrap: wrap;
 
@@ -16,7 +16,8 @@
       overflow: hidden;
       background-color: $grey-lighter;
       border-radius: $border-radius-md;
-      flex: 0 0 14%;
+      flex: 0 0 31%;
+      font-size: 0.8rem;
 
       &:hover,
       &.active {
@@ -90,5 +91,16 @@
     width: 20px;
     height: 20px;
     margin: 0 0.5rem 0 0;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .l-page-configurator {
+    .wizard-box {
+      li {
+        flex: 0 0 14%;
+        font-size: 1rem;
+      }
+    }
   }
 }
