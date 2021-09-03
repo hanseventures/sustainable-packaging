@@ -35,9 +35,9 @@ const Footer = props => {
 
           <div className='d-flex flex-wrap column-gap-5 mt-0 mt-xl-3 align-item-end'>
             <div>
-              <ul className="list-none list-vertical d-flex my-0">
+              <ul className="list-none list-vertical d-flex mt-3 mt-lg-0 my-0">
                 {data.allFooterMenuJson.edges.map(({ node }) => (
-                  <li key={node.id} className="font-xs mx-1 my-0">
+                  <li key={node.id} className="font-xs mx-1 my-0 text-decoration-underline">
                     <Link to={node.url}>{node.name}</Link>
                   </li>
                 ))}

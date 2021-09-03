@@ -6,4 +6,12 @@
   .logo {
     width: 400px;
   }
+
+  ul {
+    li {
+      &:first-child {
+        margin-left: 0 !important;
+      }
+    }
+  }
 }
