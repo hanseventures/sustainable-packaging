@@ -41,7 +41,12 @@ const PricesAndPlans = props => {
               <li>Vollständiges Recycling</li>
             </ul>
 
-            <small><strong>ab 1,40 € pro Verpackung<br />ab 10.000 Stk.</strong></small>
+            <small><strong>
+            ab 1.000 Stk. XX € pro Verpackung <br /><br />
+            ab 10.000 Stk 1,40 € pro Verpackung<br /><br />
+            ab 50.000 Stk. XX € pro Verpackung <br />
+
+            </strong></small>
 
           </article>
 
@@ -60,13 +65,19 @@ const PricesAndPlans = props => {
               <li>Die Kosten im 2-3-fachen gegenüber der Plastikschale</li>
               <li>Produkte sind individuell mit lebensmittelkonformen Farben bedruckbar</li>
             </ul>
-            <small><strong>ab 0,04 € pro Verpackung <br/ > ab 10.000 Stück</strong></small>
+            <small>
+
+            <strong>
+              ab  10.000 Stk. 0,06 € pro Verpackung<br/ ><br/ >
+              ab  50.000 Stk. 0,05 € pro Verpackung<br/ ><br/ >
+              ab  500.000 Stk. 0,04 € pro Verpackung<br/ >
+            </strong></small>
 
           </article>
 
           <article className="card card--default d-flex flex-basis-full flex-align-center flex-column py-5 px-3">
             <img
-              src="images/2/irgendeine-verpackung.jpg"
+              src="images/2/blumen-tray.jpg"
               className="my-3 img--radius-xl"
               alt=""
             />
@@ -78,7 +89,11 @@ const PricesAndPlans = props => {
               <li>Problem: Ein Großteil der entsorgten Trays aus Plastik gelangt überhaupt nicht ins Recycling. Verbleibende Trays werden verbannt. Ursache ist unter anderem die nicht Erkennung des schwarzen Plastiks in den Recyclinganlagen</li>
               <li>Produkte sind auch bedruckbar</li>
             </ul>
-            <small><strong>ab 260 €  pro 100stk. <br/ > ab 40.000 Stück</strong></small>
+            <small>
+            4er Steige: <br/ ><strong> ab 75.000 Stk., 260 € pro 100 Stk.</strong> <br/ ><br />
+            5er Steige: <br/ > <strong>ab 40.000 Stk., 260 € pro 100 Stk.</strong> <br/ ><br />
+            6er Steige: <br/ ><strong> ab 60.000 Stk., 250 € pro 100 Stk. <br/ >
+            </strong></small>
 
           </article>
 
