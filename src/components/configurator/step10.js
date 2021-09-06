@@ -17,7 +17,8 @@ const Step10 = props => {
     isLoading,
     isFirstStep,
     nextStep,
-    activeStep
+    activeStep,
+    handleStep
   } = useWizard()
 
   // Attach an optional handler

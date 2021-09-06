@@ -15,7 +15,8 @@ const Step08 = props => {
   const {
     nextStep,
     previousStep,
-    activeStep
+    activeStep,
+    handleStep
   } = useWizard()
 
   // Attach an optional handler
