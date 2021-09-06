@@ -21,7 +21,11 @@ const SEO = props => (
               // { rel: 'shortcut icon', type: 'image/svg', href: `${favicon}` }
             ]
           }
-        />
+        >
+          {/* TODO:  Remember to remove this liune when going live */}
+          <meta name="robots" content="noindex, nofollow" />
+          <meta name="googlebot" content="noindex" />
+        </Helmet>
       )
     }}
   />
