@@ -58,7 +58,6 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-google-marketing-platform',
-
       options: {
         dataLayer: {
           // Preset dataLayer values
@@ -66,11 +65,6 @@ module.exports = {
         },
         tagmanager: {
           id: config.googleTagmanagerId,
-          params: {
-            // GTM URL Parameters
-            // Ex: https://www.googletagmanager.com/gtm.js?id=[ID]&gtm_cookies_win=x
-            // gtm_cookies_win: 'x'
-          }
         },
         analytics: {
           id: '[Google Analytics ID]'
