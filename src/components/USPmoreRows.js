@@ -11,7 +11,7 @@ const USPmoreRows = props => {
           <h3 className='mt-0'>
             Branchen
           </h3>
-          <span className='mb-2'>Unsere Kunden mit dem Anspruch nach nachhaltigen Verpackungen kommen aus ganz unterschiedlichen Branchen.</span>
+          <span className='mb-2'>Unsere Kunden mit Bedarf an nachhaltigen Verpackungslösungen kommen aus ganz unterschiedlichen Branchen.</span>
         </div>
 
         <div className='d-grid row-gap-3 column-gap-3 mt-5'>
