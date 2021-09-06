@@ -42,9 +42,9 @@ const PricesAndPlans = props => {
             </ul>
 
             <small><strong>
-            ab 1.000 Stk. XX € pro Verpackung <br /><br />
-            ab 10.000 Stk 1,40 € pro Verpackung<br /><br />
-            ab 50.000 Stk. XX € pro Verpackung <br />
+            ab 10.000 Stk. 1,40 € pro Verpackung <br /><br />
+            ab 50.000 Stk XX € pro Verpackung<br /><br />
+            ab 500.000 Stk. XX € pro Verpackung <br />
 
             </strong></small>
 
