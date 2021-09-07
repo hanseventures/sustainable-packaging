@@ -15,6 +15,7 @@ import {
   Step08,
   Step09,
   Step10,
+  Step11,
 } from '../components/configurator'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
@@ -54,7 +55,6 @@ const Configurator = props => {
           <Step06 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step08 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step10 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
-          <Details {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
         </Wizard>
       </section>
 

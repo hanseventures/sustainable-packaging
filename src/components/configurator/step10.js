@@ -3,6 +3,7 @@ import _ from 'lodash'
 import React, { useEffect, useState } from 'react'
 import { useWizard } from 'react-use-wizard'
 
+import Spinner from './spinner'
 import { hasSelected } from './helpers'
 import MultiSelect from './MultiSelect'
 
@@ -11,6 +12,8 @@ const Step10 = props => {
     props.objects,
     obj => obj.node.parent.name === "stepData10"
   )[0].node
+
+  const [loading, setLoading] = useState(false);
 
   const {
     previousStep,
@@ -26,8 +29,17 @@ const Step10 = props => {
    window.scrollTo(0, 0)
   })
 
+  const RedirectHandeler = () => {
+    setLoading(!loading);
+    setTimeout(() => {
+      navigate('/contact')
+    }, 4000);
+  };
+
   return (
     <>
+      { !loading ?
+        (<>
       <h1 className='h-2 text-xs-center'>{configuratorJson.title}</h1>
 
       <div className='progress-bar trimmed-2 mt-4'>
@@ -61,12 +73,15 @@ const Step10 = props => {
               ? 'primary'
               : 'secondary'
           } ml-1 ml-md-3`}
-          onClick={() => nextStep(Number(activeStep)+1)}
+          //onClick={() => nextStep(Number(activeStep)+1)
+          onClick={() => RedirectHandeler()}
         >
           {configuratorJson.btnNext}
         </div>
       </div>
-    </>
+    </>)
+    : <Spinner />}
+</>
   )
 }
 
