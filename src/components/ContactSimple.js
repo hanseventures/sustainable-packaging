@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 
 const ContactSimple = props => {
 
   const handleSubmit = (e) => {
     setTimeout(() => {
-      e.target.innerHTML = "<div class='alert alert--success text-xs-center'><h3 class='font-wht mb-1'>Vielen Dank!</h3><span class='font-weight-light'>Wir melden uns kurzfristig zurück.</span></div>"
+      e.target.innerHTML = "<div id='rückrufformular' class='alert alert--success text-xs-center'><h3 class='font-wht mb-1'>Vielen Dank!</h3><span class='font-weight-light'>Wir melden uns kurzfristig zurück.</span></div>"
     }, 200);
   };
 
