@@ -23,7 +23,7 @@ const TestimonialsV2 = props => {
   `)
 
   return (
-    <section className='l-testimonials-v2 container bg-secondary'>
+    <section className='l-testimonials-v2 container bg-grn-gradient'>
       <div className='content content--roomy d-grid'>
         <h3 className='font-wht text-xs-center'>Das sagen unsere Kunden</h3>
 

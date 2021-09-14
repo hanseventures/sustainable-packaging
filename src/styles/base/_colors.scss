@@ -16,6 +16,7 @@ $black:               #20242C; // High Emphasis
 // Template Colors
 // -------------------------
 $primary:             #95B743;
+$primary-lightest:    lighten($primary, 16%);
 $primary-lighter:     lighten($primary, 8%);
 $primary-darker:      darken($primary, 8%);
 $secondary:           #E5E5E5;
@@ -26,6 +27,7 @@ $accept:              #27AE60;
 $deny:                #EB5757;
 $bg-primary:          #EFEDE0;
 $bg-secondary:        #95B743;
+$bg-tertiary:         #E4E3D6;
 $form-borders:        #CCC;
 // $highlight:           #CF007E;
 $lettering-black:     #191919;
@@ -60,6 +62,10 @@ $info:                $secondary; // default: #56CCF2
   background-color: $bg-secondary;
 }
 
+.bg-tertiary {
+  background-color: $bg-tertiary;
+}
+
 .bg-brwn-lght {
   // background-color:   $background-1;
 }
@@ -69,7 +75,13 @@ $info:                $secondary; // default: #56CCF2
 }
 
 .bg-brwn-radial {
-  // background-image:   radial-gradient($grey-lightest, $background-1, $background-1);
+  background: $bg-tertiary;
+  background-image: radial-gradient($bg-tertiary, darken($bg-tertiary, 4%), darken($bg-tertiary, 8%));
+}
+
+.bg-grn-gradient {
+  background: $primary;
+  background-image: linear-gradient(to bottom right, $primary, darken($primary, 12%));
 }
 
 // Font Colors

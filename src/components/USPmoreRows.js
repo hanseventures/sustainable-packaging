@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 const USPmoreRows = props => {
   return (
-    <section className='l-usp container'>
+    <section className='l-usp container bg-wht'>
 
       <div className='content content--roomy'>
 

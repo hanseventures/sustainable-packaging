@@ -41,7 +41,7 @@ const FAQv2 = props => {
 
   return (
     <section
-      className='l-faq-v2 container bg-primary'
+      className='l-faq-v2 container bg-brwn-radial'
       itemScope
       itemType='https://schema.org/FAQPage'
     >

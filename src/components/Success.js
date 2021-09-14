@@ -2,7 +2,7 @@ import React from 'react';
 
 const Success = props => {
   return (
-    <section className="l-success container bg-secondary">
+    <section className="l-success container bg-grn-gradient">
 
       <div className="content content--roomy d-grid">
 
