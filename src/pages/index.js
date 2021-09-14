@@ -38,9 +38,9 @@ const Home = props => {
       <TextWithImage />
       <Success />
       <PricesAndPlans />
+      <FAQv2 />
       <USPmoreRows />
       <TestimonialsV2 />
-      <FAQv2 />
       <ContactSimple />
 
     </Layout>

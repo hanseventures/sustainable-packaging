@@ -4,14 +4,22 @@
 
 .l-faq-v2 {
   article {
+    box-shadow: $global-box-shadow-y;
+    background-color: $white;
+    border-radius: $border-radius-md;
+    overflow: hidden;
+
     button.faq--collapsible {
-      background-color: lighten($bg-primary, 6%);
       width: 100%;
       line-height: 1.5;
 
       &:hover {
-        background-color: $white;
+        background-color: $primary-lightest;
       }
+    }
+
+    .plus-animated {
+      margin-top: 5px;
     }
 
     .faq--content {
