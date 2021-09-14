@@ -19,18 +19,24 @@
     },
     {
       "id": 3,
+      "imagePath": "/svg/step04/fsc-certificate@46x46.svg",
+      "text": "FSC-Zertifizierung",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 4,
       "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     },
     {
-      "id": 4,
+      "id": 5,
       "imagePath": "/svg/streamline-icon-delete@46x46.svg",
       "text": "Nicht zutreffend",
       "iconClass": "material-icons"
     },
     {
-      "id": 5,
+      "id": 6,
       "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "Noch unklar",
       "iconClass": "material-icons"

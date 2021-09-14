@@ -49,12 +49,18 @@
     },
     {
       "id": 8,
+      "imagePath": "/svg/step09/recycle.svg",
+      "text": "100% Recyclebar",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 9,
       "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
       "text": "Sonstiges",
       "iconClass": "material-icons"
     },
     {
-      "id": 9,
+      "id": 10,
       "imagePath": "/svg/streamline-icon-delete@46x46.svg",
       "text": "Nicht zutreffend",
       "iconClass": "material-icons"
