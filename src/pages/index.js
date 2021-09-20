@@ -31,6 +31,7 @@ const Home = props => {
           name='description'
           content='Umweltfreundliche Verpackungslösungen ohne Plastik, denn so verpackt man heute!'
         />
+        <title>sowirdheuteverpackt.de</title>
       </Helmet>
 
       <HeroStaticCentered />

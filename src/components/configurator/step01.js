@@ -24,6 +24,13 @@ const Step01 = props => {
     }
   }, [step]);
 
+  useEffect(() => {
+    window.dataLayer.push({
+      event: 'configurator-step',
+      name: `configurator/${ configuratorJson.progressbar }-${ configuratorJson.gaName }`
+    })
+  },[])
+
   // Attach an optional handler
   handleStep(() => {
    window.scrollTo(0, 0)

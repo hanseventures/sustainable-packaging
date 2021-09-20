@@ -21,6 +21,13 @@ const Step05 = props => {
    window.scrollTo(0, 0)
   })
 
+  useEffect(() => {
+    window.dataLayer.push({
+      event: 'configurator-step',
+      name: `configurator/${ configuratorJson.progressbar }-${ configuratorJson.gaName }`
+    })
+  },[])
+
   return (
     <>
       <h1 className='h-2 text-xs-center'>{configuratorJson.title}</h1>

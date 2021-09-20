@@ -29,6 +29,13 @@ const Step10 = props => {
    window.scrollTo(0, 0)
   })
 
+  useEffect(() => {
+    window.dataLayer.push({
+      event: 'configurator-step',
+      name: `configurator/${ configuratorJson.progressbar }-${ configuratorJson.gaName }`
+    })
+  },[])
+
   const RedirectHandeler = () => {
     setLoading(!loading);
     setTimeout(() => {

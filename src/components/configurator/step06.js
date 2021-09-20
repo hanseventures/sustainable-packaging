@@ -21,6 +21,13 @@ const Step06 = props => {
    window.scrollTo(0, 0)
   })
 
+  useEffect(() => {
+    window.dataLayer.push({
+      event: 'configurator-step',
+      name: `configurator/${ configuratorJson.progressbar }-${ configuratorJson.gaName }`
+    })
+  },[])
+
   return (
     <>
       <h1 className='h-2 text-xs-center'>{configuratorJson.title}</h1>
@@ -37,7 +44,7 @@ const Step06 = props => {
         selectedObjects={props.selectedObjects}
         gaName={configuratorJson.gaName}
       />
-      
+
       <small className='d-block text-xs-center mb-3'>Mehrfachauswahl möglich</small>
 
       <div className='d-flex flex-column justify-content-center align-self-center p-1 m-1 mb-4 flex-row flex-lg-row'>

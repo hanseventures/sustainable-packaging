@@ -42,6 +42,7 @@ const Configurator = props => {
 
       <Helmet>
         <meta name="robots" content="nofollow, noindex" />
+        <title>Konfiguration | sowirdheuteverpackt.de</title>
       </Helmet>
 
       <section className='content content--roomy py-3 py-md-5'>
