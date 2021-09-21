@@ -1,7 +1,7 @@
 {
   "title": "Gibt es eine konkrete Rohstoffpräferenz (z.B. Holz, Hanf, Mais, Gras, Glas)?",
   "gaName": "rohstoff",
-  "progressbar": 5,
+  "progressbar": 4,
   "btnPrevious": "Zurück",
   "btnNext": "Weiter",
   "nodes": [
