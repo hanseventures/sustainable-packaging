@@ -135,7 +135,7 @@ const Contact = ({ data, location }) => {
                     id='configuratorValues'
                     name='configuratorValues'
                     name='entry.100454620'
-                    value={JSON.stringify(location.state.data)}
+                    value={JSON.stringify(location.state ? location.state.data : {})}
                   />
                 </div>
 
