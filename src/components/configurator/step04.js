@@ -37,7 +37,7 @@ const Step04 = props => {
       </div>
 
       <MultiSelect
-        id={configuratorJson.id}
+        id={configuratorJson.title}
         objects={configuratorJson.nodes}
         handleSelection={props.handleSelect}
         selectedObjects={props.selectedObjects}

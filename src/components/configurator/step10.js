@@ -39,7 +39,7 @@ const Step10 = props => {
   const RedirectHandeler = () => {
     setLoading(!loading);
     setTimeout(() => {
-      navigate('/contact')
+      navigate('/contact', {state:{ data:props.selectedObjects }})
     }, 4000);
   };
 
@@ -55,7 +55,7 @@ const Step10 = props => {
           </div>
 
           <MultiSelect
-            id={configuratorJson.id}
+            id={configuratorJson.title}
             objects={configuratorJson.nodes}
             handleSelection={props.handleSelect}
             selectedObjects={props.selectedObjects}

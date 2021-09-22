@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 
 import Layout from '../components/Layout';
 
-const Contact = ({ data }) => {
+const Contact = ({ data, location }) => {
 
   const handleSubmit = () => {
     navigate('/thankyou');
@@ -126,6 +126,16 @@ const Contact = ({ data }) => {
                     name='configuratorForm'
                     name='entry.484512639'
                     value="Konfigurator Formular"
+                  />
+                </div>
+
+                <div className='d-none'>
+                  <input
+                    type='hidden'
+                    id='configuratorValues'
+                    name='configuratorValues'
+                    name='entry.100454620'
+                    value={JSON.stringify(location.state.data)}
                   />
                 </div>
 
