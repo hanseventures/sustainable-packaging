@@ -66,8 +66,9 @@ const Contact = ({ data, location }) => {
                     id='anrede'
                     name='entry.447426616'
                     defaultValue='Anrede'
+                    required
                   >
-                    <option value="-1">Anrede</option>
+                    <option value="">Anrede</option>
                     <option value='Herr'>Herr</option>
                     <option value='Frau'>Frau</option>
                   </select>
