@@ -7,7 +7,7 @@ import Layout from '../components/Layout';
 const Contact = ({ data, location }) => {
 
   const handleSubmit = () => {
-    navigate('/thankyou');
+    navigate('/thankyou/');
   };
 
   return (
