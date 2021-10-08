@@ -72,7 +72,7 @@ module.exports = {
         optimize: {
           id: '[Google Optimize ID]'
         },
-        includeInDevelopment: true,
+        includeInDevelopment: false,
       }
     },
     {
