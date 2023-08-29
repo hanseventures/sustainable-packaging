@@ -23,7 +23,7 @@ const HeroStaticCentered = props => {
                   Zur Wunschverpackung
                 </button>
                 <a
-                  href='tel:+4940303886612'
+                  href='tel:+4940303886619'
                   className='btn btn-hero mb-2'
                 >
                   Rückruf anfordern
