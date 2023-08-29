@@ -37,7 +37,7 @@ class Header extends React.Component {
           </div>
 
           <div className="hotline d-none d-md-block">
-            <b>Hotline:</b> <a href="tel:+4940303886612">040 - 303 88 66 12</a>
+            <b>Hotline:</b> <a href="tel:+4940303886619">+49 40 - 303 88 66 19</a>
           </div>
 
         </div>

@@ -31,15 +31,13 @@ const Home = props => {
           name='description'
           content='Umweltfreundliche Verpackungslösungen ohne Plastik, denn so verpackt man heute!'
         />
-        <title>sowirdheuteverpackt.de</title>
+        <title>greener.de</title>
       </Helmet>
 
       <HeroStaticCentered />
       <USP />
       <TextWithImage />
       <Success />
-      <PricesAndPlans />
-      <FAQv2 />
       <USPmoreRows />
       <TestimonialsV2 />
       <ContactSimple />

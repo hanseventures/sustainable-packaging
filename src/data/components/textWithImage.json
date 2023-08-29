@@ -1,6 +1,6 @@
 [{
-  "headline": "Rohstoffe",
-  "text": "<p>Verpackungen aus nachwachsenden Rohstoffen stehen heutzutage klassischen Verpackungslösungen in kaum etwas nach. Um optimale Lösungen für jedes Einsatzgebiet ermöglichen zu können, greifen wir dafür auf eine breite Auswahl an nachhaltigen Rohstoffen zurück.</p><p>Wir sind überzeugt: <i>Gute Verpackungen müssen heutzutage vollständig recycle- oder sogar kompostierbar sein.</i></p>",
+  "headline": "Smart Matching mit KI",
+  "text": "<p>Durch den Einsatz von KI ermöglichen wir eine äußerst präzise Suche, die auf individuellen Anforderungen und zahlreichen Datenpunkten pro Lieferant basiert. So finden wir schnell die optimal passende nachhaltige Verpackungslösung für Ihre Bedürfnisse.</p>",
   "button": "Verpackungslösung finden",
   "image": "images/2/materials.jpg",
   "image_position": "text-image--right",
@@ -9,8 +9,8 @@
   "alt": ""
 },
 {
-  "headline": "Verpackung",
-  "text": "<p>So gut wie alle Verpackungen können heutzutage bereits nachhaltig hergestellt werden.</p><p>Ob Versandkartons, Frischeboxen, Cups oder was auch immer Sie sich vorstellen - wir realisieren Ihren Wunsch und das bereits ab geringen Stückzahlen.</p>",
+  "headline": "360° Blick zu Nachhaltigkeit",
+  "text": "<p>Wir ermöglichen es Ihnen, schnelle und gut informierte Entscheidungen zu treffen, indem wir einen umfassenden Überblick über Nachhaltigkeitsaspekte von Verpackungslösungen und Lieferanten bieten. Dies beinhaltet Informationen wie CO2-Verbrauch, LCA-Analysen und vorhandene Zertifizierungen der Lieferanten und Verpackungen.</p>",
   "button": "Verpackung auswählen",
   "image": "images/2/istockphoto-1190422898-612x612.jpg",
   "image_position": "text-image--left",
@@ -18,8 +18,8 @@
   "configurator_link": "/configurator#1",
   "alt": ""
 },{
-  "headline": "Beratung",
-  "text": "<p>Als Experte auf diesem Gebiet kümmern wir uns um Ihre Fragen, Wünsche und Vorstellungen und beraten Sie gerne.</p><p>Nutzen Sie unseren <i>Verpackungs-Finder</i> um Ihre Vorstellungen zu definieren und ein unverbindliches Angebot anzufordern.</p>",
+  "headline": "Unabhängige Beratung",
+  "text": "<p>Unabhängige Verpackungsingenieure und Nachhaltigkeitsexperten kümmern sich um Ihre Fragen, Wünsche und Vorstellungen und beraten Sie gerne.<br /><br />Nutzen Sie unseren Verpackungs-Finder um Ihre Vorstellungen zu definieren und ein unverbindliches Angebot anzufordern.</p>",
   "button": "Nachhaltig durchstarten",
   "image": "images/2/istockphoto-1223044329-612x612.jpg",
   "image_position": "text-image--right",

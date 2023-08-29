@@ -13,8 +13,8 @@ Registergericht: Amtsgerichts Hamburg
 Vertreten durch: Sebastian Schulz
 
 ##### Kontakt
-Telefon: +49 (0)40 303 88 66 12  
-E-Mail: info@sowirdheuteverpackt.de
+Telefon: +49 (0)40 303 88 66 19   
+E-Mail: info@greener.de
 
 ##### Umsatzsteuer-ID
 Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:  
@@ -28,7 +28,7 @@ Am Sandtorkai 71-72
 ##### EU-Streitschlichtung
 Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr. Unsere E-Mail-Adresse finden Sie oben im Impressum.
 
-##### #Verbraucherstreitbeilegung/Universalschlichtungsstelle
+##### Verbraucherstreitbeilegung/Universalschlichtungsstelle
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
 ##### Haftung für Inhalte

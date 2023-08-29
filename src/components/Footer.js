@@ -46,8 +46,8 @@ const Footer = props => {
           </div>
         </div>
 
-        <div className='text-lg-center mt-4'>
-          <small>2021 Copyright - Juhobi HR Tech GmbH</small>
+        <div className='text-lg-center mt-4 d-none'>
+          <small>Copyright</small>
         </div>
       </div>
     </footer>

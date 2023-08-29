@@ -16,7 +16,7 @@ const ThankYou = (props) => {
           name='robots'
           content='noindex'
         />
-        <title>Vielen Dank | sowirdheuteverpackt.de</title>
+        <title>Vielen Dank | greener.de</title>
       </Helmet>
       <section className='l-thank-you content content--roomy'>
         <div className='trimmed-2 text-xs-center'>

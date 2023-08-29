@@ -38,7 +38,7 @@ const Contact = ({ data, location }) => {
               </p>
               <p>
                 Ihr Team von<br/>
-                SoWirdHeuteVerpackt.de
+                Greener
               </p>
 
               <div className="contact-usp">
@@ -49,7 +49,7 @@ const Contact = ({ data, location }) => {
                 </ul>
               </div>
 
-              <small className="d-block mt-2">Durch Absenden der Anfrage stimme ich der Kontaktaufnahme durch SoWirdHeuteVerpackt.de zu. Ein Widerruf ist jederzeit möglich.</small>
+              <small className="d-block mt-2">Durch Absenden der Anfrage stimme ich der Kontaktaufnahme durch Greener zu. Ein Widerruf ist jederzeit möglich.</small>
             </div>
 
             <div className="group-images align-self-start mt-0">
