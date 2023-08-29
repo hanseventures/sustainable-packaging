@@ -1,5 +1,5 @@
 {
-  "title": "Gibt es eine konkrete Rohstoffpräferenz (z.B. Holz, Hanf, Mais, Gras, Glas)?",
+  "title": "Welche Faktoren sind beim Thema Nachhaltigkeit besonders wichtig?",
   "gaName": "rohstoff",
   "progressbar": 4,
   "btnPrevious": "Zurück",
@@ -7,32 +7,44 @@
   "nodes": [
     {
       "id": 1,
-      "imagePath": "/svg/step03/streamline-icon-alert-circle@46x46.svg",
-      "text": "Ja, sehr wichtiges Kriterium",
+      "imagePath": "/svg/recycling-sign.svg",
+      "text": "Recyclingfähigkeit",
       "iconClass": "material-icons"
     },
     {
       "id": 2,
-      "imagePath": "/svg/step03/streamline-icon-check@46x46.svg",
-      "text": "Ja, aber nicht zwingend",
+      "imagePath": "/svg/aquascaping-plant.svg",
+      "text": "Kompostierbarkeit",
       "iconClass": "material-icons"
     },
     {
       "id": 3,
-      "imagePath": "/svg/step03/streamline-icon-organic-plant-grow@46x46.svg",
-      "text": "Nein, solange mögl. nachhaltig",
+      "imagePath": "/svg/metal-sheet.svg",
+      "text": "Geringer Materialeinsatz",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/streamline-icon-delete@46x46.svg",
-      "text": "Nein",
+      "imagePath": "/svg/ecology-leaf.svg",
+      "text": "Monomaterialien",
       "iconClass": "material-icons"
     },
     {
       "id": 5,
-      "imagePath": "/svg/streamline-icon-question-circle@46x46.svg",
-      "text": "Noch unklar",
+      "imagePath": "/svg/air-pollution-co2-no.svg",
+      "text": "CO2 Fußabdruck",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 6,
+      "imagePath": "/svg/analytics-board-graph-line.svg",
+      "text": "Life Cycle Assessment (LCA) Nachweise",
+      "iconClass": "material-icons"
+    },
+    {
+      "id": 7,
+      "imagePath": "/svg/certified-ribbon.svg",
+      "text": "Zertifikate (z.B. Blauer Engel, FSC)",
       "iconClass": "material-icons"
     }
   ]

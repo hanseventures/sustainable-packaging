@@ -25,6 +25,8 @@ const Step01 = props => {
   }, [step]);
 
   useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+
     window.dataLayer.push({
       event: 'configurator-step',
       name: `configurator/${ configuratorJson.progressbar }-${ configuratorJson.gaName }`

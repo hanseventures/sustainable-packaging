@@ -19,26 +19,14 @@
     },
     {
       "id": 3,
-      "imagePath": "/svg/step07/Subtract.svg",
-      "text": "Grundfarbe Schwarz",
+      "imagePath": "/svg/step07/streamline-icon-color-brush-paint@46x46.svg",
+      "text": "Mit eigenem Design bedrucken",
       "iconClass": "material-icons"
     },
     {
       "id": 4,
-      "imagePath": "/svg/step07/streamline-icon-color-brush-paint@46x46.svg",
-      "text": "mit Logo bedruckt",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 5,
-      "imagePath": "/svg/step07/streamline-icon-color-palette-sample@46x46.svg",
-      "text": "individuell bedruckt",
-      "iconClass": "material-icons"
-    },
-    {
-      "id": 6,
-      "imagePath": "/svg/step07/streamline-icon-color-brush@46x46.svg",
-      "text": "Andere Grundfarbe",
+      "imagePath": "/svg/customer-relationship-management-online.svg",
+      "text": "Design erstellen lassen",
       "iconClass": "material-icons"
     },
     {

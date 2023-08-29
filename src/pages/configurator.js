@@ -42,7 +42,7 @@ const Configurator = props => {
 
       <Helmet>
         <meta name="robots" content="nofollow, noindex" />
-        <title>Konfiguration | sowirdheuteverpackt.de</title>
+        <title>Konfiguration | greener.de</title>
       </Helmet>
 
       <section className='content content--roomy py-3 py-md-5'>
@@ -52,9 +52,7 @@ const Configurator = props => {
           <Step09 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step03 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step07 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
-          <Step04 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step06 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
-          <Step08 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
           <Step10 {...{ form, selectedObjects, handleSelect, objects, dispatchForm }} />
         </Wizard>
       </section>
