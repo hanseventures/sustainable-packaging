@@ -55,7 +55,7 @@ const Contact = ({ data, location }) => {
             <div className="group-images align-self-start mt-0">
 
               <form
-                action='https://docs.google.com/forms/d/e/1FAIpQLSccTnG1uRaGZ9KgEWUpf7B1gh2gNrqPiJgdMdDYBGSiuvBdFQ/formResponse'
+                action='https://docs.google.com/forms/u/0/d/e/1FAIpQLSdsfpV3hi9tnB-BdrbyX3FAfiPG8gODdIZVfmCbzGJdg5TQRQ/formResponse'
                 method='post'
                 target='hidden_iframe'
                 onSubmit={handleSubmit}
@@ -64,7 +64,7 @@ const Contact = ({ data, location }) => {
                   <select
                     aria-label='Select salutation'
                     id='anrede'
-                    name='entry.447426616'
+                    name='entry.197449243'
                     defaultValue='Anrede'
                     required
                   >
@@ -80,7 +80,7 @@ const Contact = ({ data, location }) => {
                     type='text'
                     id='name'
                     name='name'
-                    name='entry.238740927'
+                    name='entry.2012448761'
                     required
                   />
                   <label htmlFor='name'>Name</label>
@@ -92,7 +92,7 @@ const Contact = ({ data, location }) => {
                     type='text'
                     id='company'
                     name='Firma'
-                    name='entry.759518630'
+                    name='entry.1888600506'
                   />
                   <label htmlFor='company'>Firma (optional)</label>
                 </div>
@@ -103,7 +103,7 @@ const Contact = ({ data, location }) => {
                     type='text'
                     id='telephone'
                     name='telefon'
-                    name='entry.261858826'
+                    name='entry.702431688'
                     required
                   />
                   <label htmlFor='telephone'>Telefon</label>
@@ -115,7 +115,7 @@ const Contact = ({ data, location }) => {
                     type='text'
                     id='email'
                     name='email'
-                    name='entry.1626642809'
+                    name='entry.1309460847'
                   />
                   <label htmlFor='email'>E-Mail (optional)</label>
                 </div>
@@ -125,7 +125,7 @@ const Contact = ({ data, location }) => {
                     type='hidden'
                     id='configuratorForm'
                     name='configuratorForm'
-                    name='entry.484512639'
+                    name='entry.317802981'
                     value="Konfigurator Formular"
                   />
                 </div>
@@ -135,7 +135,7 @@ const Contact = ({ data, location }) => {
                     type='hidden'
                     id='configuratorValues'
                     name='configuratorValues'
-                    name='entry.100454620'
+                    name='entry.855901066'
                     value={JSON.stringify(location.state ? location.state.data : {})}
                   />
                 </div>
