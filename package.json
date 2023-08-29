@@ -42,7 +42,6 @@
     "sass": "1.32.8"
   },
   "devDependencies": {
-    "@streamlinehq/streamlinehq": "^3.0.4",
     "prettier": "2.2.1"
   },
   "repository": {
