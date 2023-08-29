@@ -2,7 +2,7 @@ import React from "react"
 
 const CTA = props => {
   return (
-    <section className="l-cta container bg-primary">
+    <section className="l-cta container bg-secondary">
 
       <div className="content content--centered content--roomy trimmed-3 d-grid">
 

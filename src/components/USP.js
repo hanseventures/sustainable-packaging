@@ -2,7 +2,7 @@ import React from 'react'
 
 const USP = props => {
   return (
-    <section className='l-usp container bg-primary'>
+    <section className='l-usp container bg-secondary'>
 
       <div className='content content--roomy'>
 

@@ -22,7 +22,7 @@ const Footer = props => {
     }
   `)
   return (
-    <footer className="l-footer container bg-primary font-black">
+    <footer className="l-footer container bg-secondary font-black">
       <div className="content content--low">
         <div className="d-flex-lg column-gap-5 flex-space-between">
           <div>

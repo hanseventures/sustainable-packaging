@@ -2,15 +2,15 @@ import React from 'react';
 
 const Success = props => {
   return (
-    <section className="l-success container bg-grn-gradient">
+    <section className="l-success container bg-secondary">
 
       <div className="content content--roomy d-grid">
 
         <div className='trimmed-2 text-xs-center'>
-          <h3 className='font-wht mt-0'>
+          <h3 className='mt-0'>
             Unser Erfolg in Zahlen
           </h3>
-          <span className='mb-2 font-wht'>
+          <span className='mb-2'>
             Wir haben uns auf die Beratung zu und Umsetzung von nachhaltigen Verpackungsalternativen spezialisiert und damit bereits viele treue Kunden begeistern können.
           </span>
         </div>

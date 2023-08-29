@@ -23,9 +23,9 @@ const TestimonialsV2 = props => {
   `)
 
   return (
-    <section className='l-testimonials-v2 container bg-grn-gradient'>
+    <section className='l-testimonials-v2 container bg-secondary'>
       <div className='content content--roomy d-grid'>
-        <h3 className='font-wht text-xs-center'>Das sagen unsere Kunden</h3>
+        <h3 className='text-xs-center'>Das sagen unsere Kunden</h3>
 
         <div className='d-flex flex-column flex-md-row emulated-flex-gap trimmed-4 mt-5 text-xs-center'>
           {allTestimonialsJson.edges.map(({ node }) => (

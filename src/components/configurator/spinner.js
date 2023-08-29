@@ -12,7 +12,7 @@ function Spinner() {
   return (
     <div className="sweet-loading text-xs-center my-5">
       <span className="d-block mb-4">Unsere Datenbank wird durchsucht...</span>
-      <BeatLoader color="#95B743" css={override} size={16} margin={4} />
+      <BeatLoader color="#739F91" css={override} size={16} margin={4} />
     </div>
   );
 }
