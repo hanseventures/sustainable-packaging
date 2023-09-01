@@ -9,7 +9,8 @@ const config = require('./src/data/config/config.json')
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    siteUrl: process.env.SITEURL || 'https://suburbancoworking.gatsbyjs.io'
+    siteUrl: process.env.SITEURL || 'https://suburbancoworking.gatsbyjs.io',
+    title: 'greener.de'
   },
   flags: {
     PRESERVE_FILE_DOWNLOAD_CACHE: true,
