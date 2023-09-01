@@ -2,7 +2,7 @@
   "headline": "Smart Matching mit KI",
   "text": "<p>Durch den Einsatz von KI ermöglichen wir eine äußerst präzise Suche, die auf individuellen Anforderungen und zahlreichen Datenpunkten pro Lieferant basiert. So finden wir schnell die optimal passende nachhaltige Verpackungslösung für Ihre Bedürfnisse.</p>",
   "button": "Verpackungslösung finden",
-  "image": "images/2/ai.webp",
+  "image": "images/2/AI.webp",
   "image_position": "text-image--right",
   "content_spacing": "content--roomy",
   "configurator_link": "/configurator",
