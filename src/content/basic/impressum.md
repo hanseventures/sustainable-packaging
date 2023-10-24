@@ -5,7 +5,7 @@ date: 2018-02-22T17:01:34+07:00
 ---
 
 ##### Angaben gemäß § 5 TMG
-Juhobi HR Tech GmbH  
+Juhobi HR Tech GmbH.  
 Am Sandtorkai 72  
 20457 Hamburg  
 Handelsregister: HRB 162279  
